@@ -1,0 +1,28376 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : mongodb-arvino
+ Source Server Type    : MongoDB
+ Source Server Version : 80004 (8.0.4)
+ Source Host           : cluster-free.w75zq.mongodb.net:27017
+ Source Schema         : myTestDrDb
+
+ Target Server Type    : MongoDB
+ Target Server Version : 80004 (8.0.4)
+ File Encoding         : 65001
+
+ Date: 08/02/2025 20:54:20
+*/
+
+
+// ----------------------------
+// Collection structure for myTestDrCollection
+// ----------------------------
+db.getCollection("myTestDrCollection").drop();
+db.createCollection("myTestDrCollection");
+
+// ----------------------------
+// Documents of myTestDrCollection
+// ----------------------------
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a8fa83e3b436078cd65"),
+    client: "A",
+    timestamp: NumberLong("1738939023246")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a8f397ce4523de3c333"),
+    client: "B",
+    timestamp: NumberLong("1738939023430")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a92a83e3b436078cd66"),
+    client: "A",
+    timestamp: NumberLong("1738939026140")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a92397ce4523de3c334"),
+    client: "B",
+    timestamp: NumberLong("1738939026327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a92a83e3b436078cd67"),
+    client: "A",
+    timestamp: NumberLong("1738939026672")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a92397ce4523de3c335"),
+    client: "B",
+    timestamp: NumberLong("1738939026859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a93a83e3b436078cd68"),
+    client: "A",
+    timestamp: NumberLong("1738939027204")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a93397ce4523de3c336"),
+    client: "B",
+    timestamp: NumberLong("1738939027392")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a93a83e3b436078cd69"),
+    client: "A",
+    timestamp: NumberLong("1738939027731")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a93397ce4523de3c337"),
+    client: "B",
+    timestamp: NumberLong("1738939027932")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a94a83e3b436078cd6a"),
+    client: "A",
+    timestamp: NumberLong("1738939028261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a94397ce4523de3c338"),
+    client: "B",
+    timestamp: NumberLong("1738939028464")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a94a83e3b436078cd6b"),
+    client: "A",
+    timestamp: NumberLong("1738939028793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a95397ce4523de3c339"),
+    client: "B",
+    timestamp: NumberLong("1738939029011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a95a83e3b436078cd6c"),
+    client: "A",
+    timestamp: NumberLong("1738939029337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a95397ce4523de3c33a"),
+    client: "B",
+    timestamp: NumberLong("1738939029538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a95a83e3b436078cd6d"),
+    client: "A",
+    timestamp: NumberLong("1738939029866")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a96397ce4523de3c33b"),
+    client: "B",
+    timestamp: NumberLong("1738939030067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a96a83e3b436078cd6e"),
+    client: "A",
+    timestamp: NumberLong("1738939030408")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a96397ce4523de3c33c"),
+    client: "B",
+    timestamp: NumberLong("1738939030593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a96a83e3b436078cd6f"),
+    client: "A",
+    timestamp: NumberLong("1738939030934")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a97397ce4523de3c33d"),
+    client: "B",
+    timestamp: NumberLong("1738939031153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a97a83e3b436078cd70"),
+    client: "A",
+    timestamp: NumberLong("1738939031465")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a97397ce4523de3c33e"),
+    client: "B",
+    timestamp: NumberLong("1738939031697")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a97a83e3b436078cd71"),
+    client: "A",
+    timestamp: NumberLong("1738939031990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a98397ce4523de3c33f"),
+    client: "B",
+    timestamp: NumberLong("1738939032240")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a98a83e3b436078cd72"),
+    client: "A",
+    timestamp: NumberLong("1738939032522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a98397ce4523de3c340"),
+    client: "B",
+    timestamp: NumberLong("1738939032772")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a99a83e3b436078cd73"),
+    client: "A",
+    timestamp: NumberLong("1738939033055")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a99397ce4523de3c341"),
+    client: "B",
+    timestamp: NumberLong("1738939033308")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a99a83e3b436078cd74"),
+    client: "A",
+    timestamp: NumberLong("1738939033589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a99397ce4523de3c342"),
+    client: "B",
+    timestamp: NumberLong("1738939033838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9aa83e3b436078cd75"),
+    client: "A",
+    timestamp: NumberLong("1738939034118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9a397ce4523de3c343"),
+    client: "B",
+    timestamp: NumberLong("1738939034381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9aa83e3b436078cd76"),
+    client: "A",
+    timestamp: NumberLong("1738939034661")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9a397ce4523de3c344"),
+    client: "B",
+    timestamp: NumberLong("1738939034909")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9ba83e3b436078cd77"),
+    client: "A",
+    timestamp: NumberLong("1738939035191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9b397ce4523de3c345"),
+    client: "B",
+    timestamp: NumberLong("1738939035452")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9ba83e3b436078cd78"),
+    client: "A",
+    timestamp: NumberLong("1738939035731")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9b397ce4523de3c346"),
+    client: "B",
+    timestamp: NumberLong("1738939035978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9ca83e3b436078cd79"),
+    client: "A",
+    timestamp: NumberLong("1738939036259")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9c397ce4523de3c347"),
+    client: "B",
+    timestamp: NumberLong("1738939036505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9ca83e3b436078cd7a"),
+    client: "A",
+    timestamp: NumberLong("1738939036786")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9d397ce4523de3c348"),
+    client: "B",
+    timestamp: NumberLong("1738939037034")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9da83e3b436078cd7b"),
+    client: "A",
+    timestamp: NumberLong("1738939037332")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9d397ce4523de3c349"),
+    client: "B",
+    timestamp: NumberLong("1738939037567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9da83e3b436078cd7c"),
+    client: "A",
+    timestamp: NumberLong("1738939037849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9e397ce4523de3c34a"),
+    client: "B",
+    timestamp: NumberLong("1738939038096")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9ea83e3b436078cd7d"),
+    client: "A",
+    timestamp: NumberLong("1738939038379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9e397ce4523de3c34b"),
+    client: "B",
+    timestamp: NumberLong("1738939038631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9ea83e3b436078cd7e"),
+    client: "A",
+    timestamp: NumberLong("1738939038912")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9f397ce4523de3c34c"),
+    client: "B",
+    timestamp: NumberLong("1738939039162")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9fa83e3b436078cd7f"),
+    client: "A",
+    timestamp: NumberLong("1738939039444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9f397ce4523de3c34d"),
+    client: "B",
+    timestamp: NumberLong("1738939039694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61a9fa83e3b436078cd80"),
+    client: "A",
+    timestamp: NumberLong("1738939039976")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa0397ce4523de3c34e"),
+    client: "B",
+    timestamp: NumberLong("1738939040225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa0a83e3b436078cd81"),
+    client: "A",
+    timestamp: NumberLong("1738939040506")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa0397ce4523de3c34f"),
+    client: "B",
+    timestamp: NumberLong("1738939040750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa1a83e3b436078cd82"),
+    client: "A",
+    timestamp: NumberLong("1738939041030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa1397ce4523de3c350"),
+    client: "B",
+    timestamp: NumberLong("1738939041278")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa1a83e3b436078cd83"),
+    client: "A",
+    timestamp: NumberLong("1738939041556")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa1397ce4523de3c351"),
+    client: "B",
+    timestamp: NumberLong("1738939041803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa2a83e3b436078cd84"),
+    client: "A",
+    timestamp: NumberLong("1738939042083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa2397ce4523de3c352"),
+    client: "B",
+    timestamp: NumberLong("1738939042332")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa2a83e3b436078cd85"),
+    client: "A",
+    timestamp: NumberLong("1738939042611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa2397ce4523de3c353"),
+    client: "B",
+    timestamp: NumberLong("1738939042859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa3a83e3b436078cd86"),
+    client: "A",
+    timestamp: NumberLong("1738939043137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa3397ce4523de3c354"),
+    client: "B",
+    timestamp: NumberLong("1738939043386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa3a83e3b436078cd87"),
+    client: "A",
+    timestamp: NumberLong("1738939043667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa3397ce4523de3c355"),
+    client: "B",
+    timestamp: NumberLong("1738939043915")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa4a83e3b436078cd88"),
+    client: "A",
+    timestamp: NumberLong("1738939044200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa4397ce4523de3c356"),
+    client: "B",
+    timestamp: NumberLong("1738939044448")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa4a83e3b436078cd89"),
+    client: "A",
+    timestamp: NumberLong("1738939044729")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa4397ce4523de3c357"),
+    client: "B",
+    timestamp: NumberLong("1738939044992")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa5a83e3b436078cd8a"),
+    client: "A",
+    timestamp: NumberLong("1738939045256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa5397ce4523de3c358"),
+    client: "B",
+    timestamp: NumberLong("1738939045516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa5a83e3b436078cd8b"),
+    client: "A",
+    timestamp: NumberLong("1738939045779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa6397ce4523de3c359"),
+    client: "B",
+    timestamp: NumberLong("1738939046043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa6a83e3b436078cd8c"),
+    client: "A",
+    timestamp: NumberLong("1738939046307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa6397ce4523de3c35a"),
+    client: "B",
+    timestamp: NumberLong("1738939046573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa6a83e3b436078cd8d"),
+    client: "A",
+    timestamp: NumberLong("1738939046838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa7397ce4523de3c35b"),
+    client: "B",
+    timestamp: NumberLong("1738939047104")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa7a83e3b436078cd8e"),
+    client: "A",
+    timestamp: NumberLong("1738939047368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa7397ce4523de3c35c"),
+    client: "B",
+    timestamp: NumberLong("1738939047647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa7a83e3b436078cd8f"),
+    client: "A",
+    timestamp: NumberLong("1738939047897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa8397ce4523de3c35d"),
+    client: "B",
+    timestamp: NumberLong("1738939048177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa8a83e3b436078cd90"),
+    client: "A",
+    timestamp: NumberLong("1738939048427")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa8397ce4523de3c35e"),
+    client: "B",
+    timestamp: NumberLong("1738939048709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa8a83e3b436078cd91"),
+    client: "A",
+    timestamp: NumberLong("1738939048956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa9397ce4523de3c35f"),
+    client: "B",
+    timestamp: NumberLong("1738939049252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa9a83e3b436078cd92"),
+    client: "A",
+    timestamp: NumberLong("1738939049488")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aa9397ce4523de3c360"),
+    client: "B",
+    timestamp: NumberLong("1738939049782")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaaa83e3b436078cd93"),
+    client: "A",
+    timestamp: NumberLong("1738939050013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaa397ce4523de3c361"),
+    client: "B",
+    timestamp: NumberLong("1738939050312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaaa83e3b436078cd94"),
+    client: "A",
+    timestamp: NumberLong("1738939050544")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaa397ce4523de3c362"),
+    client: "B",
+    timestamp: NumberLong("1738939050840")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaba83e3b436078cd95"),
+    client: "A",
+    timestamp: NumberLong("1738939051073")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aab397ce4523de3c363"),
+    client: "B",
+    timestamp: NumberLong("1738939051368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaba83e3b436078cd96"),
+    client: "A",
+    timestamp: NumberLong("1738939051603")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aab397ce4523de3c364"),
+    client: "B",
+    timestamp: NumberLong("1738939051897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaca83e3b436078cd97"),
+    client: "A",
+    timestamp: NumberLong("1738939052127")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aac397ce4523de3c365"),
+    client: "B",
+    timestamp: NumberLong("1738939052422")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaca83e3b436078cd98"),
+    client: "A",
+    timestamp: NumberLong("1738939052655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aac397ce4523de3c366"),
+    client: "B",
+    timestamp: NumberLong("1738939052950")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aada83e3b436078cd99"),
+    client: "A",
+    timestamp: NumberLong("1738939053184")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aad397ce4523de3c367"),
+    client: "B",
+    timestamp: NumberLong("1738939053482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aada83e3b436078cd9a"),
+    client: "A",
+    timestamp: NumberLong("1738939053716")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aae397ce4523de3c368"),
+    client: "B",
+    timestamp: NumberLong("1738939054010")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaea83e3b436078cd9b"),
+    client: "A",
+    timestamp: NumberLong("1738939054243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aae397ce4523de3c369"),
+    client: "B",
+    timestamp: NumberLong("1738939054539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaea83e3b436078cd9c"),
+    client: "A",
+    timestamp: NumberLong("1738939054774")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaf397ce4523de3c36a"),
+    client: "B",
+    timestamp: NumberLong("1738939055070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aafa83e3b436078cd9d"),
+    client: "A",
+    timestamp: NumberLong("1738939055303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aaf397ce4523de3c36b"),
+    client: "B",
+    timestamp: NumberLong("1738939055594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aafa83e3b436078cd9e"),
+    client: "A",
+    timestamp: NumberLong("1738939055826")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab0397ce4523de3c36c"),
+    client: "B",
+    timestamp: NumberLong("1738939056120")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab0a83e3b436078cd9f"),
+    client: "A",
+    timestamp: NumberLong("1738939056354")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab0397ce4523de3c36d"),
+    client: "B",
+    timestamp: NumberLong("1738939056647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab0a83e3b436078cda0"),
+    client: "A",
+    timestamp: NumberLong("1738939056879")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab1397ce4523de3c36e"),
+    client: "B",
+    timestamp: NumberLong("1738939057173")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab1a83e3b436078cda1"),
+    client: "A",
+    timestamp: NumberLong("1738939057405")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab1397ce4523de3c36f"),
+    client: "B",
+    timestamp: NumberLong("1738939057698")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab1a83e3b436078cda2"),
+    client: "A",
+    timestamp: NumberLong("1738939057931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab2397ce4523de3c370"),
+    client: "B",
+    timestamp: NumberLong("1738939058226")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab2a83e3b436078cda3"),
+    client: "A",
+    timestamp: NumberLong("1738939058461")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab2397ce4523de3c371"),
+    client: "B",
+    timestamp: NumberLong("1738939058788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab3a83e3b436078cda4"),
+    client: "A",
+    timestamp: NumberLong("1738939059018")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab3397ce4523de3c372"),
+    client: "B",
+    timestamp: NumberLong("1738939059313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab3a83e3b436078cda5"),
+    client: "A",
+    timestamp: NumberLong("1738939059766")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab3397ce4523de3c373"),
+    client: "B",
+    timestamp: NumberLong("1738939059875")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab4a83e3b436078cda6"),
+    client: "A",
+    timestamp: NumberLong("1738939060322")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab4397ce4523de3c374"),
+    client: "B",
+    timestamp: NumberLong("1738939060399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab4397ce4523de3c375"),
+    client: "B",
+    timestamp: NumberLong("1738939060913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab4a83e3b436078cda7"),
+    client: "A",
+    timestamp: NumberLong("1738939060852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab5397ce4523de3c376"),
+    client: "B",
+    timestamp: NumberLong("1738939061473")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab5a83e3b436078cda8"),
+    client: "A",
+    timestamp: NumberLong("1738939061660")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab6397ce4523de3c377"),
+    client: "B",
+    timestamp: NumberLong("1738939062002")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab6a83e3b436078cda9"),
+    client: "A",
+    timestamp: NumberLong("1738939062189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab6397ce4523de3c378"),
+    client: "B",
+    timestamp: NumberLong("1738939062532")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab6a83e3b436078cdaa"),
+    client: "A",
+    timestamp: NumberLong("1738939062717")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab7397ce4523de3c379"),
+    client: "B",
+    timestamp: NumberLong("1738939063058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab7a83e3b436078cdab"),
+    client: "A",
+    timestamp: NumberLong("1738939063247")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab7397ce4523de3c37a"),
+    client: "B",
+    timestamp: NumberLong("1738939063587")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab7a83e3b436078cdac"),
+    client: "A",
+    timestamp: NumberLong("1738939063774")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab8397ce4523de3c37b"),
+    client: "B",
+    timestamp: NumberLong("1738939064118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab8a83e3b436078cdad"),
+    client: "A",
+    timestamp: NumberLong("1738939064304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab8397ce4523de3c37c"),
+    client: "B",
+    timestamp: NumberLong("1738939064644")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab8a83e3b436078cdae"),
+    client: "A",
+    timestamp: NumberLong("1738939064831")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab9397ce4523de3c37d"),
+    client: "B",
+    timestamp: NumberLong("1738939065174")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab9a83e3b436078cdaf"),
+    client: "A",
+    timestamp: NumberLong("1738939065358")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab9397ce4523de3c37e"),
+    client: "B",
+    timestamp: NumberLong("1738939065696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ab9a83e3b436078cdb0"),
+    client: "A",
+    timestamp: NumberLong("1738939065880")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aba397ce4523de3c37f"),
+    client: "B",
+    timestamp: NumberLong("1738939066264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abaa83e3b436078cdb1"),
+    client: "A",
+    timestamp: NumberLong("1738939066402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aba397ce4523de3c380"),
+    client: "B",
+    timestamp: NumberLong("1738939066796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abaa83e3b436078cdb2"),
+    client: "A",
+    timestamp: NumberLong("1738939066920")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abb397ce4523de3c381"),
+    client: "B",
+    timestamp: NumberLong("1738939067384")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abba83e3b436078cdb3"),
+    client: "A",
+    timestamp: NumberLong("1738939067555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abb397ce4523de3c382"),
+    client: "B",
+    timestamp: NumberLong("1738939067916")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abca83e3b436078cdb4"),
+    client: "A",
+    timestamp: NumberLong("1738939068210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abc397ce4523de3c383"),
+    client: "B",
+    timestamp: NumberLong("1738939068458")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abca83e3b436078cdb5"),
+    client: "A",
+    timestamp: NumberLong("1738939068738")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abc397ce4523de3c384"),
+    client: "B",
+    timestamp: NumberLong("1738939068988")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abda83e3b436078cdb6"),
+    client: "A",
+    timestamp: NumberLong("1738939069270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abd397ce4523de3c385"),
+    client: "B",
+    timestamp: NumberLong("1738939069503")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abda83e3b436078cdb7"),
+    client: "A",
+    timestamp: NumberLong("1738939069800")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abe397ce4523de3c386"),
+    client: "B",
+    timestamp: NumberLong("1738939070035")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abea83e3b436078cdb8"),
+    client: "A",
+    timestamp: NumberLong("1738939070410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abe397ce4523de3c387"),
+    client: "B",
+    timestamp: NumberLong("1738939070845")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abea83e3b436078cdb9"),
+    client: "A",
+    timestamp: NumberLong("1738939070940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abf397ce4523de3c388"),
+    client: "B",
+    timestamp: NumberLong("1738939071393")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abfa83e3b436078cdba"),
+    client: "A",
+    timestamp: NumberLong("1738939071471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61abf397ce4523de3c389"),
+    client: "B",
+    timestamp: NumberLong("1738939071922")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac0a83e3b436078cdbb"),
+    client: "A",
+    timestamp: NumberLong("1738939072001")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac0397ce4523de3c38a"),
+    client: "B",
+    timestamp: NumberLong("1738939072480")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac0a83e3b436078cdbc"),
+    client: "A",
+    timestamp: NumberLong("1738939072527")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac1397ce4523de3c38b"),
+    client: "B",
+    timestamp: NumberLong("1738939073022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac1a83e3b436078cdbd"),
+    client: "A",
+    timestamp: NumberLong("1738939073115")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac1397ce4523de3c38c"),
+    client: "B",
+    timestamp: NumberLong("1738939073615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac1a83e3b436078cdbe"),
+    client: "A",
+    timestamp: NumberLong("1738939073646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac2397ce4523de3c38d"),
+    client: "B",
+    timestamp: NumberLong("1738939074149")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac2a83e3b436078cdbf"),
+    client: "A",
+    timestamp: NumberLong("1738939074164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac2397ce4523de3c38e"),
+    client: "B",
+    timestamp: NumberLong("1738939074680")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac2a83e3b436078cdc0"),
+    client: "A",
+    timestamp: NumberLong("1738939074695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac3397ce4523de3c38f"),
+    client: "B",
+    timestamp: NumberLong("1738939075254")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac3a83e3b436078cdc1"),
+    client: "A",
+    timestamp: NumberLong("1738939075285")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac3397ce4523de3c390"),
+    client: "B",
+    timestamp: NumberLong("1738939075854")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac3a83e3b436078cdc2"),
+    client: "A",
+    timestamp: NumberLong("1738939075854")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac4397ce4523de3c391"),
+    client: "B",
+    timestamp: NumberLong("1738939076381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac4a83e3b436078cdc3"),
+    client: "A",
+    timestamp: NumberLong("1738939076381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac4397ce4523de3c392"),
+    client: "B",
+    timestamp: NumberLong("1738939076990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac4a83e3b436078cdc4"),
+    client: "A",
+    timestamp: NumberLong("1738939076990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac5397ce4523de3c393"),
+    client: "B",
+    timestamp: NumberLong("1738939077566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac5a83e3b436078cdc5"),
+    client: "A",
+    timestamp: NumberLong("1738939077582")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac6a83e3b436078cdc6"),
+    client: "A",
+    timestamp: NumberLong("1738939078141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac6397ce4523de3c394"),
+    client: "B",
+    timestamp: NumberLong("1738939078141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac6a83e3b436078cdc7"),
+    client: "A",
+    timestamp: NumberLong("1738939078702")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac6397ce4523de3c395"),
+    client: "B",
+    timestamp: NumberLong("1738939078718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac7397ce4523de3c396"),
+    client: "B",
+    timestamp: NumberLong("1738939079251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac7a83e3b436078cdc8"),
+    client: "A",
+    timestamp: NumberLong("1738939079251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac7397ce4523de3c397"),
+    client: "B",
+    timestamp: NumberLong("1738939079840")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac7a83e3b436078cdc9"),
+    client: "A",
+    timestamp: NumberLong("1738939079856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac8397ce4523de3c398"),
+    client: "B",
+    timestamp: NumberLong("1738939080378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac8a83e3b436078cdca"),
+    client: "A",
+    timestamp: NumberLong("1738939080394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac8397ce4523de3c399"),
+    client: "B",
+    timestamp: NumberLong("1738939080922")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac8a83e3b436078cdcb"),
+    client: "A",
+    timestamp: NumberLong("1738939080969")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac9397ce4523de3c39a"),
+    client: "B",
+    timestamp: NumberLong("1738939081484")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ac9a83e3b436078cdcc"),
+    client: "A",
+    timestamp: NumberLong("1738939081499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acaa83e3b436078cdcd"),
+    client: "A",
+    timestamp: NumberLong("1738939082043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aca397ce4523de3c39b"),
+    client: "B",
+    timestamp: NumberLong("1738939082043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acaa83e3b436078cdce"),
+    client: "A",
+    timestamp: NumberLong("1738939082565")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aca397ce4523de3c39c"),
+    client: "B",
+    timestamp: NumberLong("1738939082580")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acba83e3b436078cdcf"),
+    client: "A",
+    timestamp: NumberLong("1738939083194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acb397ce4523de3c39d"),
+    client: "B",
+    timestamp: NumberLong("1738939083194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acba83e3b436078cdd0"),
+    client: "A",
+    timestamp: NumberLong("1738939083724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acb397ce4523de3c39e"),
+    client: "B",
+    timestamp: NumberLong("1738939083740")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acca83e3b436078cdd1"),
+    client: "A",
+    timestamp: NumberLong("1738939084257")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acc397ce4523de3c39f"),
+    client: "B",
+    timestamp: NumberLong("1738939084304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acca83e3b436078cdd2"),
+    client: "A",
+    timestamp: NumberLong("1738939084787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acc397ce4523de3c3a0"),
+    client: "B",
+    timestamp: NumberLong("1738939084832")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acda83e3b436078cdd3"),
+    client: "A",
+    timestamp: NumberLong("1738939085316")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acd397ce4523de3c3a1"),
+    client: "B",
+    timestamp: NumberLong("1738939085347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acda83e3b436078cdd4"),
+    client: "A",
+    timestamp: NumberLong("1738939085838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acd397ce4523de3c3a2"),
+    client: "B",
+    timestamp: NumberLong("1738939085869")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acea83e3b436078cdd5"),
+    client: "A",
+    timestamp: NumberLong("1738939086372")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ace397ce4523de3c3a3"),
+    client: "B",
+    timestamp: NumberLong("1738939086388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acea83e3b436078cdd6"),
+    client: "A",
+    timestamp: NumberLong("1738939086903")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ace397ce4523de3c3a4"),
+    client: "B",
+    timestamp: NumberLong("1738939086919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acfa83e3b436078cdd7"),
+    client: "A",
+    timestamp: NumberLong("1738939087430")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acf397ce4523de3c3a5"),
+    client: "B",
+    timestamp: NumberLong("1738939087446")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acfa83e3b436078cdd8"),
+    client: "A",
+    timestamp: NumberLong("1738939087961")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61acf397ce4523de3c3a6"),
+    client: "B",
+    timestamp: NumberLong("1738939087976")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad0a83e3b436078cdd9"),
+    client: "A",
+    timestamp: NumberLong("1738939088573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad0397ce4523de3c3a7"),
+    client: "B",
+    timestamp: NumberLong("1738939088573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad1a83e3b436078cdda"),
+    client: "A",
+    timestamp: NumberLong("1738939089144")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad1397ce4523de3c3a8"),
+    client: "B",
+    timestamp: NumberLong("1738939089144")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad1397ce4523de3c3a9"),
+    client: "B",
+    timestamp: NumberLong("1738939089673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad1a83e3b436078cddb"),
+    client: "A",
+    timestamp: NumberLong("1738939089673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad2a83e3b436078cddc"),
+    client: "A",
+    timestamp: NumberLong("1738939090205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad2397ce4523de3c3aa"),
+    client: "B",
+    timestamp: NumberLong("1738939090205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad2a83e3b436078cddd"),
+    client: "A",
+    timestamp: NumberLong("1738939090736")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad2397ce4523de3c3ab"),
+    client: "B",
+    timestamp: NumberLong("1738939090736")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad3397ce4523de3c3ac"),
+    client: "B",
+    timestamp: NumberLong("1738939091261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad3a83e3b436078cdde"),
+    client: "A",
+    timestamp: NumberLong("1738939091261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad3a83e3b436078cddf"),
+    client: "A",
+    timestamp: NumberLong("1738939091806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad3397ce4523de3c3ad"),
+    client: "B",
+    timestamp: NumberLong("1738939091806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad4a83e3b436078cde0"),
+    client: "A",
+    timestamp: NumberLong("1738939092335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad4397ce4523de3c3ae"),
+    client: "B",
+    timestamp: NumberLong("1738939092335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad4a83e3b436078cde1"),
+    client: "A",
+    timestamp: NumberLong("1738939092865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad4397ce4523de3c3af"),
+    client: "B",
+    timestamp: NumberLong("1738939092865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad5a83e3b436078cde2"),
+    client: "A",
+    timestamp: NumberLong("1738939093405")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad5397ce4523de3c3b0"),
+    client: "B",
+    timestamp: NumberLong("1738939093405")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad5a83e3b436078cde3"),
+    client: "A",
+    timestamp: NumberLong("1738939093934")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad5397ce4523de3c3b1"),
+    client: "B",
+    timestamp: NumberLong("1738939093934")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad6397ce4523de3c3b2"),
+    client: "B",
+    timestamp: NumberLong("1738939094462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad6a83e3b436078cde4"),
+    client: "A",
+    timestamp: NumberLong("1738939094462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad6397ce4523de3c3b3"),
+    client: "B",
+    timestamp: NumberLong("1738939094996")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad6a83e3b436078cde5"),
+    client: "A",
+    timestamp: NumberLong("1738939094996")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad7397ce4523de3c3b4"),
+    client: "B",
+    timestamp: NumberLong("1738939095536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad7a83e3b436078cde6"),
+    client: "A",
+    timestamp: NumberLong("1738939095536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad8a83e3b436078cde7"),
+    client: "A",
+    timestamp: NumberLong("1738939096053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad8397ce4523de3c3b5"),
+    client: "B",
+    timestamp: NumberLong("1738939096053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad8a83e3b436078cde8"),
+    client: "A",
+    timestamp: NumberLong("1738939096582")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad8397ce4523de3c3b6"),
+    client: "B",
+    timestamp: NumberLong("1738939096582")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad9397ce4523de3c3b7"),
+    client: "B",
+    timestamp: NumberLong("1738939097112")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad9a83e3b436078cde9"),
+    client: "A",
+    timestamp: NumberLong("1738939097112")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad9a83e3b436078cdea"),
+    client: "A",
+    timestamp: NumberLong("1738939097655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ad9397ce4523de3c3b8"),
+    client: "B",
+    timestamp: NumberLong("1738939097655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adaa83e3b436078cdeb"),
+    client: "A",
+    timestamp: NumberLong("1738939098181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ada397ce4523de3c3b9"),
+    client: "B",
+    timestamp: NumberLong("1738939098181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adaa83e3b436078cdec"),
+    client: "A",
+    timestamp: NumberLong("1738939098706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ada397ce4523de3c3ba"),
+    client: "B",
+    timestamp: NumberLong("1738939098706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adb397ce4523de3c3bb"),
+    client: "B",
+    timestamp: NumberLong("1738939099233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adba83e3b436078cded"),
+    client: "A",
+    timestamp: NumberLong("1738939099233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adba83e3b436078cdee"),
+    client: "A",
+    timestamp: NumberLong("1738939099762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adb397ce4523de3c3bc"),
+    client: "B",
+    timestamp: NumberLong("1738939099762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adca83e3b436078cdef"),
+    client: "A",
+    timestamp: NumberLong("1738939100294")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adc397ce4523de3c3bd"),
+    client: "B",
+    timestamp: NumberLong("1738939100294")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adc397ce4523de3c3be"),
+    client: "B",
+    timestamp: NumberLong("1738939100816")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adca83e3b436078cdf0"),
+    client: "A",
+    timestamp: NumberLong("1738939100816")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61add397ce4523de3c3bf"),
+    client: "B",
+    timestamp: NumberLong("1738939101353")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adda83e3b436078cdf1"),
+    client: "A",
+    timestamp: NumberLong("1738939101419")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61add397ce4523de3c3c0"),
+    client: "B",
+    timestamp: NumberLong("1738939101914")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adea83e3b436078cdf2"),
+    client: "A",
+    timestamp: NumberLong("1738939102007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ade397ce4523de3c3c1"),
+    client: "B",
+    timestamp: NumberLong("1738939102448")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adea83e3b436078cdf3"),
+    client: "A",
+    timestamp: NumberLong("1738939102526")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ade397ce4523de3c3c2"),
+    client: "B",
+    timestamp: NumberLong("1738939102975")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adfa83e3b436078cdf4"),
+    client: "A",
+    timestamp: NumberLong("1738939103084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adf397ce4523de3c3c3"),
+    client: "B",
+    timestamp: NumberLong("1738939103566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61adfa83e3b436078cdf5"),
+    client: "A",
+    timestamp: NumberLong("1738939103641")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ae0397ce4523de3c3c4"),
+    client: "B",
+    timestamp: NumberLong("1738939104150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ae0a83e3b436078cdf6"),
+    client: "A",
+    timestamp: NumberLong("1738939104319")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ae1397ce4523de3c3c5"),
+    client: "B",
+    timestamp: NumberLong("1738939105071")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ae1a83e3b436078cdf7"),
+    client: "A",
+    timestamp: NumberLong("1738939105339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aed397ce4523de3c3c6"),
+    client: "B",
+    timestamp: NumberLong("1738939117839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61aeda83e3b436078cdf8"),
+    client: "A",
+    timestamp: NumberLong("1738939117839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af0a83e3b436078cdf9"),
+    client: "A",
+    timestamp: NumberLong("1738939120091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af0397ce4523de3c3c7"),
+    client: "B",
+    timestamp: NumberLong("1738939120091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af0a83e3b436078cdfa"),
+    client: "A",
+    timestamp: NumberLong("1738939120906")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af0397ce4523de3c3c8"),
+    client: "B",
+    timestamp: NumberLong("1738939120906")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af1a83e3b436078cdfb"),
+    client: "A",
+    timestamp: NumberLong("1738939121513")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af1397ce4523de3c3c9"),
+    client: "B",
+    timestamp: NumberLong("1738939121513")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af2a83e3b436078cdfc"),
+    client: "A",
+    timestamp: NumberLong("1738939122028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af2397ce4523de3c3ca"),
+    client: "B",
+    timestamp: NumberLong("1738939122028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af2397ce4523de3c3cb"),
+    client: "B",
+    timestamp: NumberLong("1738939122614")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af2a83e3b436078cdfd"),
+    client: "A",
+    timestamp: NumberLong("1738939122614")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af3a83e3b436078cdfe"),
+    client: "A",
+    timestamp: NumberLong("1738939123170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af3397ce4523de3c3cc"),
+    client: "B",
+    timestamp: NumberLong("1738939123170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af3397ce4523de3c3cd"),
+    client: "B",
+    timestamp: NumberLong("1738939123759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af3a83e3b436078cdff"),
+    client: "A",
+    timestamp: NumberLong("1738939123759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af4397ce4523de3c3ce"),
+    client: "B",
+    timestamp: NumberLong("1738939124998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af5a83e3b436078ce00"),
+    client: "A",
+    timestamp: NumberLong("1738939125000")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af7a83e3b436078ce01"),
+    client: "A",
+    timestamp: NumberLong("1738939127077")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af7397ce4523de3c3cf"),
+    client: "B",
+    timestamp: NumberLong("1738939127077")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af9397ce4523de3c3d0"),
+    client: "B",
+    timestamp: NumberLong("1738939129620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61af9a83e3b436078ce02"),
+    client: "A",
+    timestamp: NumberLong("1738939129620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afb397ce4523de3c3d1"),
+    client: "B",
+    timestamp: NumberLong("1738939131089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afba83e3b436078ce03"),
+    client: "A",
+    timestamp: NumberLong("1738939131104")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afb397ce4523de3c3d2"),
+    client: "B",
+    timestamp: NumberLong("1738939131656")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afba83e3b436078ce04"),
+    client: "A",
+    timestamp: NumberLong("1738939131671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afc397ce4523de3c3d3"),
+    client: "B",
+    timestamp: NumberLong("1738939132490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afca83e3b436078ce05"),
+    client: "A",
+    timestamp: NumberLong("1738939132505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afd397ce4523de3c3d4"),
+    client: "B",
+    timestamp: NumberLong("1738939133131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afda83e3b436078ce06"),
+    client: "A",
+    timestamp: NumberLong("1738939133131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afd397ce4523de3c3d5"),
+    client: "B",
+    timestamp: NumberLong("1738939133798")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61afda83e3b436078ce07"),
+    client: "A",
+    timestamp: NumberLong("1738939133798")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b00397ce4523de3c3d6"),
+    client: "B",
+    timestamp: NumberLong("1738939136399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b00a83e3b436078ce08"),
+    client: "A",
+    timestamp: NumberLong("1738939136399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b02a83e3b436078ce09"),
+    client: "A",
+    timestamp: NumberLong("1738939138791")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b02397ce4523de3c3d7"),
+    client: "B",
+    timestamp: NumberLong("1738939138791")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b05397ce4523de3c3d8"),
+    client: "B",
+    timestamp: NumberLong("1738939141024")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b05a83e3b436078ce0a"),
+    client: "A",
+    timestamp: NumberLong("1738939141024")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b09a83e3b436078ce0b"),
+    client: "A",
+    timestamp: NumberLong("1738939145546")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b09397ce4523de3c3d9"),
+    client: "B",
+    timestamp: NumberLong("1738939145546")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0aa83e3b436078ce0c"),
+    client: "A",
+    timestamp: NumberLong("1738939146769")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0a397ce4523de3c3da"),
+    client: "B",
+    timestamp: NumberLong("1738939146769")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0ba83e3b436078ce0d"),
+    client: "A",
+    timestamp: NumberLong("1738939147357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0b397ce4523de3c3db"),
+    client: "B",
+    timestamp: NumberLong("1738939147667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0ba83e3b436078ce0e"),
+    client: "A",
+    timestamp: NumberLong("1738939147897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0c397ce4523de3c3dc"),
+    client: "B",
+    timestamp: NumberLong("1738939148210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0ca83e3b436078ce0f"),
+    client: "A",
+    timestamp: NumberLong("1738939148538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0c397ce4523de3c3dd"),
+    client: "B",
+    timestamp: NumberLong("1738939148833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0da83e3b436078ce10"),
+    client: "A",
+    timestamp: NumberLong("1738939149082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0d397ce4523de3c3de"),
+    client: "B",
+    timestamp: NumberLong("1738939149358")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0da83e3b436078ce11"),
+    client: "A",
+    timestamp: NumberLong("1738939149607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0d397ce4523de3c3df"),
+    client: "B",
+    timestamp: NumberLong("1738939149870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0ea83e3b436078ce12"),
+    client: "A",
+    timestamp: NumberLong("1738939150136")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0e397ce4523de3c3e0"),
+    client: "B",
+    timestamp: NumberLong("1738939150400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0ea83e3b436078ce13"),
+    client: "A",
+    timestamp: NumberLong("1738939150665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0e397ce4523de3c3e1"),
+    client: "B",
+    timestamp: NumberLong("1738939150931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0fa83e3b436078ce14"),
+    client: "A",
+    timestamp: NumberLong("1738939151191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0f397ce4523de3c3e2"),
+    client: "B",
+    timestamp: NumberLong("1738939151455")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0fa83e3b436078ce15"),
+    client: "A",
+    timestamp: NumberLong("1738939151704")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b0f397ce4523de3c3e3"),
+    client: "B",
+    timestamp: NumberLong("1738939151985")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b10a83e3b436078ce16"),
+    client: "A",
+    timestamp: NumberLong("1738939152230")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b10397ce4523de3c3e4"),
+    client: "B",
+    timestamp: NumberLong("1738939152512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b10a83e3b436078ce17"),
+    client: "A",
+    timestamp: NumberLong("1738939152758")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b11397ce4523de3c3e5"),
+    client: "B",
+    timestamp: NumberLong("1738939153042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b11a83e3b436078ce18"),
+    client: "A",
+    timestamp: NumberLong("1738939153276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b11397ce4523de3c3e6"),
+    client: "B",
+    timestamp: NumberLong("1738939153572")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b11a83e3b436078ce19"),
+    client: "A",
+    timestamp: NumberLong("1738939153802")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b12397ce4523de3c3e7"),
+    client: "B",
+    timestamp: NumberLong("1738939154099")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b12a83e3b436078ce1a"),
+    client: "A",
+    timestamp: NumberLong("1738939154316")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b12397ce4523de3c3e8"),
+    client: "B",
+    timestamp: NumberLong("1738939154629")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b12a83e3b436078ce1b"),
+    client: "A",
+    timestamp: NumberLong("1738939154847")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b13397ce4523de3c3e9"),
+    client: "B",
+    timestamp: NumberLong("1738939155158")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b13a83e3b436078ce1c"),
+    client: "A",
+    timestamp: NumberLong("1738939155377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b13397ce4523de3c3ea"),
+    client: "B",
+    timestamp: NumberLong("1738939155684")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b13a83e3b436078ce1d"),
+    client: "A",
+    timestamp: NumberLong("1738939155904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b14397ce4523de3c3eb"),
+    client: "B",
+    timestamp: NumberLong("1738939156200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b14a83e3b436078ce1e"),
+    client: "A",
+    timestamp: NumberLong("1738939156433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b14397ce4523de3c3ec"),
+    client: "B",
+    timestamp: NumberLong("1738939156716")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b14a83e3b436078ce1f"),
+    client: "A",
+    timestamp: NumberLong("1738939156950")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b15397ce4523de3c3ed"),
+    client: "B",
+    timestamp: NumberLong("1738939157250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b15a83e3b436078ce20"),
+    client: "A",
+    timestamp: NumberLong("1738939157485")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b15397ce4523de3c3ee"),
+    client: "B",
+    timestamp: NumberLong("1738939157780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b16a83e3b436078ce21"),
+    client: "A",
+    timestamp: NumberLong("1738939158013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b16397ce4523de3c3ef"),
+    client: "B",
+    timestamp: NumberLong("1738939158311")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b16a83e3b436078ce22"),
+    client: "A",
+    timestamp: NumberLong("1738939158576")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b16397ce4523de3c3f0"),
+    client: "B",
+    timestamp: NumberLong("1738939158874")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b17a83e3b436078ce23"),
+    client: "A",
+    timestamp: NumberLong("1738939159107")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b17397ce4523de3c3f1"),
+    client: "B",
+    timestamp: NumberLong("1738939159400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b17a83e3b436078ce24"),
+    client: "A",
+    timestamp: NumberLong("1738939159630")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b17397ce4523de3c3f2"),
+    client: "B",
+    timestamp: NumberLong("1738939159927")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b18a83e3b436078ce25"),
+    client: "A",
+    timestamp: NumberLong("1738939160158")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b18397ce4523de3c3f3"),
+    client: "B",
+    timestamp: NumberLong("1738939160471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b18a83e3b436078ce26"),
+    client: "A",
+    timestamp: NumberLong("1738939160705")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b19397ce4523de3c3f4"),
+    client: "B",
+    timestamp: NumberLong("1738939161030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b19a83e3b436078ce27"),
+    client: "A",
+    timestamp: NumberLong("1738939161233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b19397ce4523de3c3f5"),
+    client: "B",
+    timestamp: NumberLong("1738939161544")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b19a83e3b436078ce28"),
+    client: "A",
+    timestamp: NumberLong("1738939161779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1a397ce4523de3c3f6"),
+    client: "B",
+    timestamp: NumberLong("1738939162105")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1aa83e3b436078ce29"),
+    client: "A",
+    timestamp: NumberLong("1738939162322")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1a397ce4523de3c3f7"),
+    client: "B",
+    timestamp: NumberLong("1738939162667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1aa83e3b436078ce2a"),
+    client: "A",
+    timestamp: NumberLong("1738939162837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1b397ce4523de3c3f8"),
+    client: "B",
+    timestamp: NumberLong("1738939163224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1ba83e3b436078ce2b"),
+    client: "A",
+    timestamp: NumberLong("1738939163363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1b397ce4523de3c3f9"),
+    client: "B",
+    timestamp: NumberLong("1738939163740")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1ba83e3b436078ce2c"),
+    client: "A",
+    timestamp: NumberLong("1738939163895")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1c397ce4523de3c3fa"),
+    client: "B",
+    timestamp: NumberLong("1738939164301")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1ca83e3b436078ce2d"),
+    client: "A",
+    timestamp: NumberLong("1738939164439")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1c397ce4523de3c3fb"),
+    client: "B",
+    timestamp: NumberLong("1738939164848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1ca83e3b436078ce2e"),
+    client: "A",
+    timestamp: NumberLong("1738939164958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1d397ce4523de3c3fc"),
+    client: "B",
+    timestamp: NumberLong("1738939165396")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1da83e3b436078ce2f"),
+    client: "A",
+    timestamp: NumberLong("1738939165520")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1d397ce4523de3c3fd"),
+    client: "B",
+    timestamp: NumberLong("1738939165941")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1ea83e3b436078ce30"),
+    client: "A",
+    timestamp: NumberLong("1738939166080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61b1e397ce4523de3c3fe"),
+    client: "B",
+    timestamp: NumberLong("1738939166453")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc014fac130d8babbe6"),
+    client: "A",
+    timestamp: NumberLong("1738939328642")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc214fac130d8babbe7"),
+    client: "A",
+    timestamp: NumberLong("1738939330403")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc214fac130d8babbe8"),
+    client: "A",
+    timestamp: NumberLong("1738939330931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc314fac130d8babbe9"),
+    client: "A",
+    timestamp: NumberLong("1738939331464")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc314fac130d8babbea"),
+    client: "A",
+    timestamp: NumberLong("1738939331990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc414fac130d8babbeb"),
+    client: "A",
+    timestamp: NumberLong("1738939332535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc514fac130d8babbec"),
+    client: "A",
+    timestamp: NumberLong("1738939333050")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc514fac130d8babbed"),
+    client: "A",
+    timestamp: NumberLong("1738939333580")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc614fac130d8babbee"),
+    client: "A",
+    timestamp: NumberLong("1738939334109")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc614fac130d8babbef"),
+    client: "A",
+    timestamp: NumberLong("1738939334657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc714fac130d8babbf0"),
+    client: "A",
+    timestamp: NumberLong("1738939335185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc714fac130d8babbf1"),
+    client: "A",
+    timestamp: NumberLong("1738939335718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc814fac130d8babbf2"),
+    client: "A",
+    timestamp: NumberLong("1738939336297")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc814fac130d8babbf3"),
+    client: "A",
+    timestamp: NumberLong("1738939336884")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc914fac130d8babbf4"),
+    client: "A",
+    timestamp: NumberLong("1738939337412")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bc914fac130d8babbf5"),
+    client: "A",
+    timestamp: NumberLong("1738939337938")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bca14fac130d8babbf6"),
+    client: "A",
+    timestamp: NumberLong("1738939338468")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcb14fac130d8babbf7"),
+    client: "A",
+    timestamp: NumberLong("1738939339003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcb14fac130d8babbf8"),
+    client: "A",
+    timestamp: NumberLong("1738939339535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcc14fac130d8babbf9"),
+    client: "A",
+    timestamp: NumberLong("1738939340061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcc14fac130d8babbfa"),
+    client: "A",
+    timestamp: NumberLong("1738939340581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcd14fac130d8babbfb"),
+    client: "A",
+    timestamp: NumberLong("1738939341110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcd14fac130d8babbfc"),
+    client: "A",
+    timestamp: NumberLong("1738939341641")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bce14fac130d8babbfd"),
+    client: "A",
+    timestamp: NumberLong("1738939342170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bce14fac130d8babbfe"),
+    client: "A",
+    timestamp: NumberLong("1738939342696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcf14fac130d8babbff"),
+    client: "A",
+    timestamp: NumberLong("1738939343220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bcf14fac130d8babc00"),
+    client: "A",
+    timestamp: NumberLong("1738939343750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd014fac130d8babc01"),
+    client: "A",
+    timestamp: NumberLong("1738939344266")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd014fac130d8babc02"),
+    client: "A",
+    timestamp: NumberLong("1738939344810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd114fac130d8babc03"),
+    client: "A",
+    timestamp: NumberLong("1738939345336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd114fac130d8babc04"),
+    client: "A",
+    timestamp: NumberLong("1738939345863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd214fac130d8babc05"),
+    client: "A",
+    timestamp: NumberLong("1738939346390")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd214fac130d8babc06"),
+    client: "A",
+    timestamp: NumberLong("1738939346933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd314fac130d8babc07"),
+    client: "A",
+    timestamp: NumberLong("1738939347466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd314fac130d8babc08"),
+    client: "A",
+    timestamp: NumberLong("1738939347995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd414fac130d8babc09"),
+    client: "A",
+    timestamp: NumberLong("1738939348539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd514fac130d8babc0a"),
+    client: "A",
+    timestamp: NumberLong("1738939349064")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd514fac130d8babc0b"),
+    client: "A",
+    timestamp: NumberLong("1738939349598")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd614fac130d8babc0c"),
+    client: "A",
+    timestamp: NumberLong("1738939350125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd614fac130d8babc0d"),
+    client: "A",
+    timestamp: NumberLong("1738939350657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd714fac130d8babc0e"),
+    client: "A",
+    timestamp: NumberLong("1738939351496")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd814fac130d8babc0f"),
+    client: "A",
+    timestamp: NumberLong("1738939352014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd814fac130d8babc10"),
+    client: "A",
+    timestamp: NumberLong("1738939352876")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd914fac130d8babc11"),
+    client: "A",
+    timestamp: NumberLong("1738939353404")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bd914fac130d8babc12"),
+    client: "A",
+    timestamp: NumberLong("1738939353930")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bda14fac130d8babc13"),
+    client: "A",
+    timestamp: NumberLong("1738939354457")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bda14fac130d8babc14"),
+    client: "A",
+    timestamp: NumberLong("1738939354990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdb14fac130d8babc15"),
+    client: "A",
+    timestamp: NumberLong("1738939355507")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdc14fac130d8babc16"),
+    client: "A",
+    timestamp: NumberLong("1738939356054")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdc14fac130d8babc17"),
+    client: "A",
+    timestamp: NumberLong("1738939356599")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdd14fac130d8babc18"),
+    client: "A",
+    timestamp: NumberLong("1738939357117")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdd14fac130d8babc19"),
+    client: "A",
+    timestamp: NumberLong("1738939357697")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bde14fac130d8babc1a"),
+    client: "A",
+    timestamp: NumberLong("1738939358229")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bde14fac130d8babc1b"),
+    client: "A",
+    timestamp: NumberLong("1738939358759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdf14fac130d8babc1c"),
+    client: "A",
+    timestamp: NumberLong("1738939359323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bdf14fac130d8babc1d"),
+    client: "A",
+    timestamp: NumberLong("1738939359853")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be014fac130d8babc1e"),
+    client: "A",
+    timestamp: NumberLong("1738939360387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be014fac130d8babc1f"),
+    client: "A",
+    timestamp: NumberLong("1738939360911")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be114fac130d8babc20"),
+    client: "A",
+    timestamp: NumberLong("1738939361454")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be114fac130d8babc21"),
+    client: "A",
+    timestamp: NumberLong("1738939361985")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be214fac130d8babc22"),
+    client: "A",
+    timestamp: NumberLong("1738939362512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be314fac130d8babc23"),
+    client: "A",
+    timestamp: NumberLong("1738939363039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be314fac130d8babc24"),
+    client: "A",
+    timestamp: NumberLong("1738939363554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be414fac130d8babc25"),
+    client: "A",
+    timestamp: NumberLong("1738939364143")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be414fac130d8babc26"),
+    client: "A",
+    timestamp: NumberLong("1738939364731")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be514fac130d8babc27"),
+    client: "A",
+    timestamp: NumberLong("1738939365256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be514fac130d8babc28"),
+    client: "A",
+    timestamp: NumberLong("1738939365780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be614fac130d8babc29"),
+    client: "A",
+    timestamp: NumberLong("1738939366341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be614fac130d8babc2a"),
+    client: "A",
+    timestamp: NumberLong("1738939366870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be714fac130d8babc2b"),
+    client: "A",
+    timestamp: NumberLong("1738939367397")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be714fac130d8babc2c"),
+    client: "A",
+    timestamp: NumberLong("1738939367925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be814fac130d8babc2d"),
+    client: "A",
+    timestamp: NumberLong("1738939368456")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be814fac130d8babc2e"),
+    client: "A",
+    timestamp: NumberLong("1738939368980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61be914fac130d8babc2f"),
+    client: "A",
+    timestamp: NumberLong("1738939369495")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bea14fac130d8babc30"),
+    client: "A",
+    timestamp: NumberLong("1738939370117")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bea14fac130d8babc31"),
+    client: "A",
+    timestamp: NumberLong("1738939370631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61beb14fac130d8babc32"),
+    client: "A",
+    timestamp: NumberLong("1738939371154")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61beb14fac130d8babc33"),
+    client: "A",
+    timestamp: NumberLong("1738939371805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bec14fac130d8babc34"),
+    client: "A",
+    timestamp: NumberLong("1738939372429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bed14fac130d8babc35"),
+    client: "A",
+    timestamp: NumberLong("1738939373048")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bed14fac130d8babc36"),
+    client: "A",
+    timestamp: NumberLong("1738939373612")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bee14fac130d8babc37"),
+    client: "A",
+    timestamp: NumberLong("1738939374145")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bee14fac130d8babc38"),
+    client: "A",
+    timestamp: NumberLong("1738939374657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bef14fac130d8babc39"),
+    client: "A",
+    timestamp: NumberLong("1738939375170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bef14fac130d8babc3a"),
+    client: "A",
+    timestamp: NumberLong("1738939375682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf014fac130d8babc3b"),
+    client: "A",
+    timestamp: NumberLong("1738939376225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf014fac130d8babc3c"),
+    client: "A",
+    timestamp: NumberLong("1738939376753")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf114fac130d8babc3d"),
+    client: "A",
+    timestamp: NumberLong("1738939377266")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf114fac130d8babc3e"),
+    client: "A",
+    timestamp: NumberLong("1738939377780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf214fac130d8babc3f"),
+    client: "A",
+    timestamp: NumberLong("1738939378293")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf214fac130d8babc40"),
+    client: "A",
+    timestamp: NumberLong("1738939378805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf314fac130d8babc41"),
+    client: "A",
+    timestamp: NumberLong("1738939379320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf314fac130d8babc42"),
+    client: "A",
+    timestamp: NumberLong("1738939379838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf414fac130d8babc43"),
+    client: "A",
+    timestamp: NumberLong("1738939380351")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf414fac130d8babc44"),
+    client: "A",
+    timestamp: NumberLong("1738939380927")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf514fac130d8babc45"),
+    client: "A",
+    timestamp: NumberLong("1738939381509")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf614fac130d8babc46"),
+    client: "A",
+    timestamp: NumberLong("1738939382035")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf614fac130d8babc47"),
+    client: "A",
+    timestamp: NumberLong("1738939382567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf714fac130d8babc48"),
+    client: "A",
+    timestamp: NumberLong("1738939383095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf714fac130d8babc49"),
+    client: "A",
+    timestamp: NumberLong("1738939383647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf814fac130d8babc4a"),
+    client: "A",
+    timestamp: NumberLong("1738939384166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf814fac130d8babc4b"),
+    client: "A",
+    timestamp: NumberLong("1738939384693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf914fac130d8babc4c"),
+    client: "A",
+    timestamp: NumberLong("1738939385240")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bf914fac130d8babc4d"),
+    client: "A",
+    timestamp: NumberLong("1738939385779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfa14fac130d8babc4e"),
+    client: "A",
+    timestamp: NumberLong("1738939386356")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfa14fac130d8babc4f"),
+    client: "A",
+    timestamp: NumberLong("1738939386880")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfb14fac130d8babc50"),
+    client: "A",
+    timestamp: NumberLong("1738939387688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfc14fac130d8babc51"),
+    client: "A",
+    timestamp: NumberLong("1738939388230")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfc14fac130d8babc52"),
+    client: "A",
+    timestamp: NumberLong("1738939388778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfd14fac130d8babc53"),
+    client: "A",
+    timestamp: NumberLong("1738939389400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfd14fac130d8babc54"),
+    client: "A",
+    timestamp: NumberLong("1738939389929")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bfe14fac130d8babc55"),
+    client: "A",
+    timestamp: NumberLong("1738939390494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bff14fac130d8babc56"),
+    client: "A",
+    timestamp: NumberLong("1738939391066")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61bff14fac130d8babc57"),
+    client: "A",
+    timestamp: NumberLong("1738939391653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0014fac130d8babc58"),
+    client: "A",
+    timestamp: NumberLong("1738939392185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0014fac130d8babc59"),
+    client: "A",
+    timestamp: NumberLong("1738939392715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0114fac130d8babc5a"),
+    client: "A",
+    timestamp: NumberLong("1738939393263")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0114fac130d8babc5b"),
+    client: "A",
+    timestamp: NumberLong("1738939393824")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0214fac130d8babc5c"),
+    client: "A",
+    timestamp: NumberLong("1738939394415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0214fac130d8babc5d"),
+    client: "A",
+    timestamp: NumberLong("1738939394964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0314fac130d8babc5e"),
+    client: "A",
+    timestamp: NumberLong("1738939395492")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0414fac130d8babc5f"),
+    client: "A",
+    timestamp: NumberLong("1738939396020")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0414fac130d8babc60"),
+    client: "A",
+    timestamp: NumberLong("1738939396548")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0514fac130d8babc61"),
+    client: "A",
+    timestamp: NumberLong("1738939397077")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0514fac130d8babc62"),
+    client: "A",
+    timestamp: NumberLong("1738939397640")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0614fac130d8babc63"),
+    client: "A",
+    timestamp: NumberLong("1738939398172")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0614fac130d8babc64"),
+    client: "A",
+    timestamp: NumberLong("1738939398720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0714fac130d8babc65"),
+    client: "A",
+    timestamp: NumberLong("1738939399253")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0714fac130d8babc66"),
+    client: "A",
+    timestamp: NumberLong("1738939399803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0814fac130d8babc67"),
+    client: "A",
+    timestamp: NumberLong("1738939400335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0814fac130d8babc68"),
+    client: "A",
+    timestamp: NumberLong("1738939400855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0914fac130d8babc69"),
+    client: "A",
+    timestamp: NumberLong("1738939401372")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0914fac130d8babc6a"),
+    client: "A",
+    timestamp: NumberLong("1738939401917")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0a14fac130d8babc6b"),
+    client: "A",
+    timestamp: NumberLong("1738939402526")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0b14fac130d8babc6c"),
+    client: "A",
+    timestamp: NumberLong("1738939403080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0b14fac130d8babc6d"),
+    client: "A",
+    timestamp: NumberLong("1738939403623")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0c14fac130d8babc6e"),
+    client: "A",
+    timestamp: NumberLong("1738939404172")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0c14fac130d8babc6f"),
+    client: "A",
+    timestamp: NumberLong("1738939404752")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0d14fac130d8babc70"),
+    client: "A",
+    timestamp: NumberLong("1738939405280")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0d14fac130d8babc71"),
+    client: "A",
+    timestamp: NumberLong("1738939405824")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0e14fac130d8babc72"),
+    client: "A",
+    timestamp: NumberLong("1738939406347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0e14fac130d8babc73"),
+    client: "A",
+    timestamp: NumberLong("1738939406906")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0f14fac130d8babc74"),
+    client: "A",
+    timestamp: NumberLong("1738939407451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c0f14fac130d8babc75"),
+    client: "A",
+    timestamp: NumberLong("1738939407981")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1014fac130d8babc76"),
+    client: "A",
+    timestamp: NumberLong("1738939408506")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1114fac130d8babc77"),
+    client: "A",
+    timestamp: NumberLong("1738939409032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1114fac130d8babc78"),
+    client: "A",
+    timestamp: NumberLong("1738939409547")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1214fac130d8babc79"),
+    client: "A",
+    timestamp: NumberLong("1738939410087")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1214fac130d8babc7a"),
+    client: "A",
+    timestamp: NumberLong("1738939410614")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1314fac130d8babc7b"),
+    client: "A",
+    timestamp: NumberLong("1738939411144")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1314fac130d8babc7c"),
+    client: "A",
+    timestamp: NumberLong("1738939411670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1414fac130d8babc7d"),
+    client: "A",
+    timestamp: NumberLong("1738939412201")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1414fac130d8babc7e"),
+    client: "A",
+    timestamp: NumberLong("1738939412725")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1514fac130d8babc7f"),
+    client: "A",
+    timestamp: NumberLong("1738939413256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1514fac130d8babc80"),
+    client: "A",
+    timestamp: NumberLong("1738939413776")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1614fac130d8babc81"),
+    client: "A",
+    timestamp: NumberLong("1738939414306")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1614fac130d8babc82"),
+    client: "A",
+    timestamp: NumberLong("1738939414863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1714fac130d8babc83"),
+    client: "A",
+    timestamp: NumberLong("1738939415402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1714fac130d8babc84"),
+    client: "A",
+    timestamp: NumberLong("1738939415956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1814fac130d8babc85"),
+    client: "A",
+    timestamp: NumberLong("1738939416482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1914fac130d8babc86"),
+    client: "A",
+    timestamp: NumberLong("1738939417041")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1914fac130d8babc87"),
+    client: "A",
+    timestamp: NumberLong("1738939417574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1a14fac130d8babc88"),
+    client: "A",
+    timestamp: NumberLong("1738939418088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1a14fac130d8babc89"),
+    client: "A",
+    timestamp: NumberLong("1738939418634")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1b14fac130d8babc8a"),
+    client: "A",
+    timestamp: NumberLong("1738939419224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1b14fac130d8babc8b"),
+    client: "A",
+    timestamp: NumberLong("1738939419756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1c14fac130d8babc8c"),
+    client: "A",
+    timestamp: NumberLong("1738939420272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1c14fac130d8babc8d"),
+    client: "A",
+    timestamp: NumberLong("1738939420862")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1d14fac130d8babc8e"),
+    client: "A",
+    timestamp: NumberLong("1738939421443")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1d14fac130d8babc8f"),
+    client: "A",
+    timestamp: NumberLong("1738939421970")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1e14fac130d8babc90"),
+    client: "A",
+    timestamp: NumberLong("1738939422580")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1f14fac130d8babc91"),
+    client: "A",
+    timestamp: NumberLong("1738939423140")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c1f14fac130d8babc92"),
+    client: "A",
+    timestamp: NumberLong("1738939423671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2014fac130d8babc93"),
+    client: "A",
+    timestamp: NumberLong("1738939424556")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2114fac130d8babc94"),
+    client: "A",
+    timestamp: NumberLong("1738939425113")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2114fac130d8babc95"),
+    client: "A",
+    timestamp: NumberLong("1738939425653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2214fac130d8babc96"),
+    client: "A",
+    timestamp: NumberLong("1738939426196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2214fac130d8babc97"),
+    client: "A",
+    timestamp: NumberLong("1738939426726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2314fac130d8babc98"),
+    client: "A",
+    timestamp: NumberLong("1738939427270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2314fac130d8babc99"),
+    client: "A",
+    timestamp: NumberLong("1738939427829")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2414fac130d8babc9a"),
+    client: "A",
+    timestamp: NumberLong("1738939428364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2414fac130d8babc9b"),
+    client: "A",
+    timestamp: NumberLong("1738939428914")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2514fac130d8babc9c"),
+    client: "A",
+    timestamp: NumberLong("1738939429447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2614fac130d8babc9d"),
+    client: "A",
+    timestamp: NumberLong("1738939430041")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2614fac130d8babc9e"),
+    client: "A",
+    timestamp: NumberLong("1738939430574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2714fac130d8babc9f"),
+    client: "A",
+    timestamp: NumberLong("1738939431136")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2714fac130d8babca0"),
+    client: "A",
+    timestamp: NumberLong("1738939431654")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2814fac130d8babca1"),
+    client: "A",
+    timestamp: NumberLong("1738939432241")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2814fac130d8babca2"),
+    client: "A",
+    timestamp: NumberLong("1738939432771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2914fac130d8babca3"),
+    client: "A",
+    timestamp: NumberLong("1738939433304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2914fac130d8babca4"),
+    client: "A",
+    timestamp: NumberLong("1738939433848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2a14fac130d8babca5"),
+    client: "A",
+    timestamp: NumberLong("1738939434382")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2a14fac130d8babca6"),
+    client: "A",
+    timestamp: NumberLong("1738939434897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2b14fac130d8babca7"),
+    client: "A",
+    timestamp: NumberLong("1738939435424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2b14fac130d8babca8"),
+    client: "A",
+    timestamp: NumberLong("1738939435945")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2c14fac130d8babca9"),
+    client: "A",
+    timestamp: NumberLong("1738939436479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2d14fac130d8babcaa"),
+    client: "A",
+    timestamp: NumberLong("1738939437020")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2d14fac130d8babcab"),
+    client: "A",
+    timestamp: NumberLong("1738939437565")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2e14fac130d8babcac"),
+    client: "A",
+    timestamp: NumberLong("1738939438095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2e14fac130d8babcad"),
+    client: "A",
+    timestamp: NumberLong("1738939438628")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2f14fac130d8babcae"),
+    client: "A",
+    timestamp: NumberLong("1738939439157")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c2f14fac130d8babcaf"),
+    client: "A",
+    timestamp: NumberLong("1738939439702")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3014fac130d8babcb0"),
+    client: "A",
+    timestamp: NumberLong("1738939440217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3014fac130d8babcb1"),
+    client: "A",
+    timestamp: NumberLong("1738939440732")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3114fac130d8babcb2"),
+    client: "A",
+    timestamp: NumberLong("1738939441264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3114fac130d8babcb3"),
+    client: "A",
+    timestamp: NumberLong("1738939441777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3214fac130d8babcb4"),
+    client: "A",
+    timestamp: NumberLong("1738939442579")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3314fac130d8babcb5"),
+    client: "A",
+    timestamp: NumberLong("1738939443097")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3314fac130d8babcb6"),
+    client: "A",
+    timestamp: NumberLong("1738939443611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3414fac130d8babcb7"),
+    client: "A",
+    timestamp: NumberLong("1738939444140")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3414fac130d8babcb8"),
+    client: "A",
+    timestamp: NumberLong("1738939444665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3514fac130d8babcb9"),
+    client: "A",
+    timestamp: NumberLong("1738939445200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3514fac130d8babcba"),
+    client: "A",
+    timestamp: NumberLong("1738939445734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3614fac130d8babcbb"),
+    client: "A",
+    timestamp: NumberLong("1738939446264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3614fac130d8babcbc"),
+    client: "A",
+    timestamp: NumberLong("1738939446794")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3714fac130d8babcbd"),
+    client: "A",
+    timestamp: NumberLong("1738939447324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3714fac130d8babcbe"),
+    client: "A",
+    timestamp: NumberLong("1738939447883")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3814fac130d8babcbf"),
+    client: "A",
+    timestamp: NumberLong("1738939448427")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3814fac130d8babcc0"),
+    client: "A",
+    timestamp: NumberLong("1738939448958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3914fac130d8babcc1"),
+    client: "A",
+    timestamp: NumberLong("1738939449519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3a14fac130d8babcc2"),
+    client: "A",
+    timestamp: NumberLong("1738939450051")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3a14fac130d8babcc3"),
+    client: "A",
+    timestamp: NumberLong("1738939450565")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3b14fac130d8babcc4"),
+    client: "A",
+    timestamp: NumberLong("1738939451093")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3b14fac130d8babcc5"),
+    client: "A",
+    timestamp: NumberLong("1738939451627")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3c14fac130d8babcc6"),
+    client: "A",
+    timestamp: NumberLong("1738939452158")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3c14fac130d8babcc7"),
+    client: "A",
+    timestamp: NumberLong("1738939452687")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3d14fac130d8babcc8"),
+    client: "A",
+    timestamp: NumberLong("1738939453231")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3d14fac130d8babcc9"),
+    client: "A",
+    timestamp: NumberLong("1738939453775")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3e14fac130d8babcca"),
+    client: "A",
+    timestamp: NumberLong("1738939454305")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3e14fac130d8babccb"),
+    client: "A",
+    timestamp: NumberLong("1738939454826")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3f14fac130d8babccc"),
+    client: "A",
+    timestamp: NumberLong("1738939455384")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c3f14fac130d8babccd"),
+    client: "A",
+    timestamp: NumberLong("1738939455976")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4014fac130d8babcce"),
+    client: "A",
+    timestamp: NumberLong("1738939456504")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4114fac130d8babccf"),
+    client: "A",
+    timestamp: NumberLong("1738939457034")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4114fac130d8babcd0"),
+    client: "A",
+    timestamp: NumberLong("1738939457598")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4214fac130d8babcd1"),
+    client: "A",
+    timestamp: NumberLong("1738939458149")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4214fac130d8babcd2"),
+    client: "A",
+    timestamp: NumberLong("1738939458667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4314fac130d8babcd3"),
+    client: "A",
+    timestamp: NumberLong("1738939459199")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4314fac130d8babcd4"),
+    client: "A",
+    timestamp: NumberLong("1738939459726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4414fac130d8babcd5"),
+    client: "A",
+    timestamp: NumberLong("1738939460271")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4414fac130d8babcd6"),
+    client: "A",
+    timestamp: NumberLong("1738939460799")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4514fac130d8babcd7"),
+    client: "A",
+    timestamp: NumberLong("1738939461374")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4514fac130d8babcd8"),
+    client: "A",
+    timestamp: NumberLong("1738939461938")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4614fac130d8babcd9"),
+    client: "A",
+    timestamp: NumberLong("1738939462545")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4714fac130d8babcda"),
+    client: "A",
+    timestamp: NumberLong("1738939463089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4714fac130d8babcdb"),
+    client: "A",
+    timestamp: NumberLong("1738939463650")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4814fac130d8babcdc"),
+    client: "A",
+    timestamp: NumberLong("1738939464184")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4814fac130d8babcdd"),
+    client: "A",
+    timestamp: NumberLong("1738939464751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4914fac130d8babcde"),
+    client: "A",
+    timestamp: NumberLong("1738939465265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4914fac130d8babcdf"),
+    client: "A",
+    timestamp: NumberLong("1738939465790")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4a14fac130d8babce0"),
+    client: "A",
+    timestamp: NumberLong("1738939466317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4a14fac130d8babce1"),
+    client: "A",
+    timestamp: NumberLong("1738939466830")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4b14fac130d8babce2"),
+    client: "A",
+    timestamp: NumberLong("1738939467345")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4b14fac130d8babce3"),
+    client: "A",
+    timestamp: NumberLong("1738939467871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4c14fac130d8babce4"),
+    client: "A",
+    timestamp: NumberLong("1738939468400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4c14fac130d8babce5"),
+    client: "A",
+    timestamp: NumberLong("1738939468926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4d14fac130d8babce6"),
+    client: "A",
+    timestamp: NumberLong("1738939469456")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4d14fac130d8babce7"),
+    client: "A",
+    timestamp: NumberLong("1738939469985")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4e14fac130d8babce8"),
+    client: "A",
+    timestamp: NumberLong("1738939470504")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4f14fac130d8babce9"),
+    client: "A",
+    timestamp: NumberLong("1738939471020")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c4f14fac130d8babcea"),
+    client: "A",
+    timestamp: NumberLong("1738939471549")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5014fac130d8babceb"),
+    client: "A",
+    timestamp: NumberLong("1738939472066")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5014fac130d8babcec"),
+    client: "A",
+    timestamp: NumberLong("1738939472606")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5114fac130d8babced"),
+    client: "A",
+    timestamp: NumberLong("1738939473135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5114fac130d8babcee"),
+    client: "A",
+    timestamp: NumberLong("1738939473913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5214fac130d8babcef"),
+    client: "A",
+    timestamp: NumberLong("1738939474437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5214fac130d8babcf0"),
+    client: "A",
+    timestamp: NumberLong("1738939474950")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5314fac130d8babcf1"),
+    client: "A",
+    timestamp: NumberLong("1738939475460")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5314fac130d8babcf2"),
+    client: "A",
+    timestamp: NumberLong("1738939475971")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5414fac130d8babcf3"),
+    client: "A",
+    timestamp: NumberLong("1738939476498")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5514fac130d8babcf4"),
+    client: "A",
+    timestamp: NumberLong("1738939477028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5514fac130d8babcf5"),
+    client: "A",
+    timestamp: NumberLong("1738939477558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5614fac130d8babcf6"),
+    client: "A",
+    timestamp: NumberLong("1738939478088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5614fac130d8babcf7"),
+    client: "A",
+    timestamp: NumberLong("1738939478623")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5714fac130d8babcf8"),
+    client: "A",
+    timestamp: NumberLong("1738939479150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5714fac130d8babcf9"),
+    client: "A",
+    timestamp: NumberLong("1738939479670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5814fac130d8babcfa"),
+    client: "A",
+    timestamp: NumberLong("1738939480181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5814fac130d8babcfb"),
+    client: "A",
+    timestamp: NumberLong("1738939480693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5914fac130d8babcfc"),
+    client: "A",
+    timestamp: NumberLong("1738939481220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5914fac130d8babcfd"),
+    client: "A",
+    timestamp: NumberLong("1738939481733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5a14fac130d8babcfe"),
+    client: "A",
+    timestamp: NumberLong("1738939482245")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5a14fac130d8babcff"),
+    client: "A",
+    timestamp: NumberLong("1738939482758")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5b14fac130d8babd00"),
+    client: "A",
+    timestamp: NumberLong("1738939483270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5b14fac130d8babd01"),
+    client: "A",
+    timestamp: NumberLong("1738939483792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5c14fac130d8babd02"),
+    client: "A",
+    timestamp: NumberLong("1738939484311")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5c14fac130d8babd03"),
+    client: "A",
+    timestamp: NumberLong("1738939484843")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5d14fac130d8babd04"),
+    client: "A",
+    timestamp: NumberLong("1738939485355")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5d14fac130d8babd05"),
+    client: "A",
+    timestamp: NumberLong("1738939485883")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5e14fac130d8babd06"),
+    client: "A",
+    timestamp: NumberLong("1738939486403")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5e14fac130d8babd07"),
+    client: "A",
+    timestamp: NumberLong("1738939486917")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5f14fac130d8babd08"),
+    client: "A",
+    timestamp: NumberLong("1738939487443")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c5f14fac130d8babd09"),
+    client: "A",
+    timestamp: NumberLong("1738939487958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6014fac130d8babd0a"),
+    client: "A",
+    timestamp: NumberLong("1738939488472")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6114fac130d8babd0b"),
+    client: "A",
+    timestamp: NumberLong("1738939489000")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6114fac130d8babd0c"),
+    client: "A",
+    timestamp: NumberLong("1738939489532")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6214fac130d8babd0d"),
+    client: "A",
+    timestamp: NumberLong("1738939490043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6214fac130d8babd0e"),
+    client: "A",
+    timestamp: NumberLong("1738939490562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6314fac130d8babd0f"),
+    client: "A",
+    timestamp: NumberLong("1738939491075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6314fac130d8babd10"),
+    client: "A",
+    timestamp: NumberLong("1738939491589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6414fac130d8babd11"),
+    client: "A",
+    timestamp: NumberLong("1738939492119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6414fac130d8babd12"),
+    client: "A",
+    timestamp: NumberLong("1738939492646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6514fac130d8babd13"),
+    client: "A",
+    timestamp: NumberLong("1738939493162")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6514fac130d8babd14"),
+    client: "A",
+    timestamp: NumberLong("1738939493972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6614fac130d8babd15"),
+    client: "A",
+    timestamp: NumberLong("1738939494500")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6714fac130d8babd16"),
+    client: "A",
+    timestamp: NumberLong("1738939495024")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6714fac130d8babd17"),
+    client: "A",
+    timestamp: NumberLong("1738939495610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6814fac130d8babd18"),
+    client: "A",
+    timestamp: NumberLong("1738939496203")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6814fac130d8babd19"),
+    client: "A",
+    timestamp: NumberLong("1738939496764")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6914fac130d8babd1a"),
+    client: "A",
+    timestamp: NumberLong("1738939497310")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6914fac130d8babd1b"),
+    client: "A",
+    timestamp: NumberLong("1738939497844")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6a14fac130d8babd1c"),
+    client: "A",
+    timestamp: NumberLong("1738939498422")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6b14fac130d8babd1d"),
+    client: "A",
+    timestamp: NumberLong("1738939499001")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6b14fac130d8babd1e"),
+    client: "A",
+    timestamp: NumberLong("1738939499515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6c14fac130d8babd1f"),
+    client: "A",
+    timestamp: NumberLong("1738939500061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6c14fac130d8babd20"),
+    client: "A",
+    timestamp: NumberLong("1738939500570")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6d14fac130d8babd21"),
+    client: "A",
+    timestamp: NumberLong("1738939501089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6d14fac130d8babd22"),
+    client: "A",
+    timestamp: NumberLong("1738939501601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6e14fac130d8babd23"),
+    client: "A",
+    timestamp: NumberLong("1738939502116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6e14fac130d8babd24"),
+    client: "A",
+    timestamp: NumberLong("1738939502633")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6f14fac130d8babd25"),
+    client: "A",
+    timestamp: NumberLong("1738939503145")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c6f14fac130d8babd26"),
+    client: "A",
+    timestamp: NumberLong("1738939503657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7014fac130d8babd27"),
+    client: "A",
+    timestamp: NumberLong("1738939504182")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7014fac130d8babd28"),
+    client: "A",
+    timestamp: NumberLong("1738939504700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7114fac130d8babd29"),
+    client: "A",
+    timestamp: NumberLong("1738939505223")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7114fac130d8babd2a"),
+    client: "A",
+    timestamp: NumberLong("1738939505734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7214fac130d8babd2b"),
+    client: "A",
+    timestamp: NumberLong("1738939506244")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7214fac130d8babd2c"),
+    client: "A",
+    timestamp: NumberLong("1738939506760")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7314fac130d8babd2d"),
+    client: "A",
+    timestamp: NumberLong("1738939507282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7314fac130d8babd2e"),
+    client: "A",
+    timestamp: NumberLong("1738939507797")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7414fac130d8babd2f"),
+    client: "A",
+    timestamp: NumberLong("1738939508319")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7414fac130d8babd30"),
+    client: "A",
+    timestamp: NumberLong("1738939508842")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7514fac130d8babd31"),
+    client: "A",
+    timestamp: NumberLong("1738939509390")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7514fac130d8babd32"),
+    client: "A",
+    timestamp: NumberLong("1738939509902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7614fac130d8babd33"),
+    client: "A",
+    timestamp: NumberLong("1738939510417")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7614fac130d8babd34"),
+    client: "A",
+    timestamp: NumberLong("1738939510933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7714fac130d8babd35"),
+    client: "A",
+    timestamp: NumberLong("1738939511457")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7714fac130d8babd36"),
+    client: "A",
+    timestamp: NumberLong("1738939511971")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7814fac130d8babd37"),
+    client: "A",
+    timestamp: NumberLong("1738939512487")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7814fac130d8babd38"),
+    client: "A",
+    timestamp: NumberLong("1738939512998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7914fac130d8babd39"),
+    client: "A",
+    timestamp: NumberLong("1738939513523")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7a14fac130d8babd3a"),
+    client: "A",
+    timestamp: NumberLong("1738939514039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7a14fac130d8babd3b"),
+    client: "A",
+    timestamp: NumberLong("1738939514563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7b14fac130d8babd3c"),
+    client: "A",
+    timestamp: NumberLong("1738939515078")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7b14fac130d8babd3d"),
+    client: "A",
+    timestamp: NumberLong("1738939515592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7c14fac130d8babd3e"),
+    client: "A",
+    timestamp: NumberLong("1738939516118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7c14fac130d8babd3f"),
+    client: "A",
+    timestamp: NumberLong("1738939516646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7d14fac130d8babd40"),
+    client: "A",
+    timestamp: NumberLong("1738939517189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7d14fac130d8babd41"),
+    client: "A",
+    timestamp: NumberLong("1738939517701")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7e14fac130d8babd42"),
+    client: "A",
+    timestamp: NumberLong("1738939518219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7e14fac130d8babd43"),
+    client: "A",
+    timestamp: NumberLong("1738939518731")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7f14fac130d8babd44"),
+    client: "A",
+    timestamp: NumberLong("1738939519281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c7f14fac130d8babd45"),
+    client: "A",
+    timestamp: NumberLong("1738939519810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8014fac130d8babd46"),
+    client: "A",
+    timestamp: NumberLong("1738939520336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8014fac130d8babd47"),
+    client: "A",
+    timestamp: NumberLong("1738939520898")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8114fac130d8babd48"),
+    client: "A",
+    timestamp: NumberLong("1738939521456")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8214fac130d8babd49"),
+    client: "A",
+    timestamp: NumberLong("1738939522124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8214fac130d8babd4a"),
+    client: "A",
+    timestamp: NumberLong("1738939522653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8314fac130d8babd4b"),
+    client: "A",
+    timestamp: NumberLong("1738939523184")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8314fac130d8babd4c"),
+    client: "A",
+    timestamp: NumberLong("1738939523715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8414fac130d8babd4d"),
+    client: "A",
+    timestamp: NumberLong("1738939524243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8414fac130d8babd4e"),
+    client: "A",
+    timestamp: NumberLong("1738939524772")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8514fac130d8babd4f"),
+    client: "A",
+    timestamp: NumberLong("1738939525318")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8514fac130d8babd50"),
+    client: "A",
+    timestamp: NumberLong("1738939525846")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8614fac130d8babd51"),
+    client: "A",
+    timestamp: NumberLong("1738939526404")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8714fac130d8babd52"),
+    client: "A",
+    timestamp: NumberLong("1738939527098")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8714fac130d8babd53"),
+    client: "A",
+    timestamp: NumberLong("1738939527715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8814fac130d8babd54"),
+    client: "A",
+    timestamp: NumberLong("1738939528288")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8814fac130d8babd55"),
+    client: "A",
+    timestamp: NumberLong("1738939528816")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8914fac130d8babd56"),
+    client: "A",
+    timestamp: NumberLong("1738939529394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8914fac130d8babd57"),
+    client: "A",
+    timestamp: NumberLong("1738939529931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8a14fac130d8babd58"),
+    client: "A",
+    timestamp: NumberLong("1738939530470")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8b14fac130d8babd59"),
+    client: "A",
+    timestamp: NumberLong("1738939531014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8b14fac130d8babd5a"),
+    client: "A",
+    timestamp: NumberLong("1738939531559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8c14fac130d8babd5b"),
+    client: "A",
+    timestamp: NumberLong("1738939532103")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8c14fac130d8babd5c"),
+    client: "A",
+    timestamp: NumberLong("1738939532665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8d14fac130d8babd5d"),
+    client: "A",
+    timestamp: NumberLong("1738939533210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8e14fac130d8babd5e"),
+    client: "A",
+    timestamp: NumberLong("1738939534008")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8e14fac130d8babd5f"),
+    client: "A",
+    timestamp: NumberLong("1738939534567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8f14fac130d8babd60"),
+    client: "A",
+    timestamp: NumberLong("1738939535139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c8f14fac130d8babd61"),
+    client: "A",
+    timestamp: NumberLong("1738939535763")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9014fac130d8babd62"),
+    client: "A",
+    timestamp: NumberLong("1738939536291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9014fac130d8babd63"),
+    client: "A",
+    timestamp: NumberLong("1738939536817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9114fac130d8babd64"),
+    client: "A",
+    timestamp: NumberLong("1738939537457")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9214fac130d8babd65"),
+    client: "A",
+    timestamp: NumberLong("1738939538175")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9214fac130d8babd66"),
+    client: "A",
+    timestamp: NumberLong("1738939538686")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9314fac130d8babd67"),
+    client: "A",
+    timestamp: NumberLong("1738939539196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9314fac130d8babd68"),
+    client: "A",
+    timestamp: NumberLong("1738939539756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9414fac130d8babd69"),
+    client: "A",
+    timestamp: NumberLong("1738939540303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9414fac130d8babd6a"),
+    client: "A",
+    timestamp: NumberLong("1738939540818")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9514fac130d8babd6b"),
+    client: "A",
+    timestamp: NumberLong("1738939541392")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9514fac130d8babd6c"),
+    client: "A",
+    timestamp: NumberLong("1738939541933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9614fac130d8babd6d"),
+    client: "A",
+    timestamp: NumberLong("1738939542462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9714fac130d8babd6e"),
+    client: "A",
+    timestamp: NumberLong("1738939543007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9714fac130d8babd6f"),
+    client: "A",
+    timestamp: NumberLong("1738939543537")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9814fac130d8babd70"),
+    client: "A",
+    timestamp: NumberLong("1738939544065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9814fac130d8babd71"),
+    client: "A",
+    timestamp: NumberLong("1738939544591")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9914fac130d8babd72"),
+    client: "A",
+    timestamp: NumberLong("1738939545107")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9a14fac130d8babd73"),
+    client: "A",
+    timestamp: NumberLong("1738939546225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9b14fac130d8babd74"),
+    client: "A",
+    timestamp: NumberLong("1738939547136")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9c14fac130d8babd75"),
+    client: "A",
+    timestamp: NumberLong("1738939548254")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9d14fac130d8babd76"),
+    client: "A",
+    timestamp: NumberLong("1738939549186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9d14fac130d8babd77"),
+    client: "A",
+    timestamp: NumberLong("1738939549796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9e14fac130d8babd78"),
+    client: "A",
+    timestamp: NumberLong("1738939550371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9f14fac130d8babd79"),
+    client: "A",
+    timestamp: NumberLong("1738939551197")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61c9f14fac130d8babd7a"),
+    client: "A",
+    timestamp: NumberLong("1738939551724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca014fac130d8babd7b"),
+    client: "A",
+    timestamp: NumberLong("1738939552240")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca014fac130d8babd7c"),
+    client: "A",
+    timestamp: NumberLong("1738939552755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca114fac130d8babd7d"),
+    client: "A",
+    timestamp: NumberLong("1738939553272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca114fac130d8babd7e"),
+    client: "A",
+    timestamp: NumberLong("1738939553799")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca214fac130d8babd7f"),
+    client: "A",
+    timestamp: NumberLong("1738939554313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca214fac130d8babd80"),
+    client: "A",
+    timestamp: NumberLong("1738939554841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca314fac130d8babd81"),
+    client: "A",
+    timestamp: NumberLong("1738939555368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca314fac130d8babd82"),
+    client: "A",
+    timestamp: NumberLong("1738939555899")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca414fac130d8babd83"),
+    client: "A",
+    timestamp: NumberLong("1738939556441")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca414fac130d8babd84"),
+    client: "A",
+    timestamp: NumberLong("1738939556969")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca514fac130d8babd85"),
+    client: "A",
+    timestamp: NumberLong("1738939557482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca614fac130d8babd86"),
+    client: "A",
+    timestamp: NumberLong("1738939558326")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca614fac130d8babd87"),
+    client: "A",
+    timestamp: NumberLong("1738939558855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca714fac130d8babd88"),
+    client: "A",
+    timestamp: NumberLong("1738939559379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca714fac130d8babd89"),
+    client: "A",
+    timestamp: NumberLong("1738939559922")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca814fac130d8babd8a"),
+    client: "A",
+    timestamp: NumberLong("1738939560463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca814fac130d8babd8b"),
+    client: "A",
+    timestamp: NumberLong("1738939560995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ca914fac130d8babd8c"),
+    client: "A",
+    timestamp: NumberLong("1738939561528")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61caa14fac130d8babd8d"),
+    client: "A",
+    timestamp: NumberLong("1738939562074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61caa14fac130d8babd8e"),
+    client: "A",
+    timestamp: NumberLong("1738939562620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cab14fac130d8babd8f"),
+    client: "A",
+    timestamp: NumberLong("1738939563215")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cab14fac130d8babd90"),
+    client: "A",
+    timestamp: NumberLong("1738939563747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cac14fac130d8babd91"),
+    client: "A",
+    timestamp: NumberLong("1738939564280")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cad14fac130d8babd92"),
+    client: "A",
+    timestamp: NumberLong("1738939565139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cad14fac130d8babd93"),
+    client: "A",
+    timestamp: NumberLong("1738939565711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cae14fac130d8babd94"),
+    client: "A",
+    timestamp: NumberLong("1738939566243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cae14fac130d8babd95"),
+    client: "A",
+    timestamp: NumberLong("1738939566802")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61caf14fac130d8babd96"),
+    client: "A",
+    timestamp: NumberLong("1738939567377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61caf14fac130d8babd97"),
+    client: "A",
+    timestamp: NumberLong("1738939567890")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb014fac130d8babd98"),
+    client: "A",
+    timestamp: NumberLong("1738939568410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb014fac130d8babd99"),
+    client: "A",
+    timestamp: NumberLong("1738939568937")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb114fac130d8babd9a"),
+    client: "A",
+    timestamp: NumberLong("1738939569465")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb114fac130d8babd9b"),
+    client: "A",
+    timestamp: NumberLong("1738939569984")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb214fac130d8babd9c"),
+    client: "A",
+    timestamp: NumberLong("1738939570548")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb314fac130d8babd9d"),
+    client: "A",
+    timestamp: NumberLong("1738939571080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb314fac130d8babd9e"),
+    client: "A",
+    timestamp: NumberLong("1738939571609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb414fac130d8babd9f"),
+    client: "A",
+    timestamp: NumberLong("1738939572155")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb414fac130d8babda0"),
+    client: "A",
+    timestamp: NumberLong("1738939572715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb514fac130d8babda1"),
+    client: "A",
+    timestamp: NumberLong("1738939573340")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb514fac130d8babda2"),
+    client: "A",
+    timestamp: NumberLong("1738939573868")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb614fac130d8babda3"),
+    client: "A",
+    timestamp: NumberLong("1738939574426")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb614fac130d8babda4"),
+    client: "A",
+    timestamp: NumberLong("1738939574968")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb714fac130d8babda5"),
+    client: "A",
+    timestamp: NumberLong("1738939575513")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb814fac130d8babda6"),
+    client: "A",
+    timestamp: NumberLong("1738939576033")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb814fac130d8babda7"),
+    client: "A",
+    timestamp: NumberLong("1738939576558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb914fac130d8babda8"),
+    client: "A",
+    timestamp: NumberLong("1738939577085")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cb914fac130d8babda9"),
+    client: "A",
+    timestamp: NumberLong("1738939577599")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cba14fac130d8babdaa"),
+    client: "A",
+    timestamp: NumberLong("1738939578114")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cba14fac130d8babdab"),
+    client: "A",
+    timestamp: NumberLong("1738939578629")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbb14fac130d8babdac"),
+    client: "A",
+    timestamp: NumberLong("1738939579144")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbb14fac130d8babdad"),
+    client: "A",
+    timestamp: NumberLong("1738939579666")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbc14fac130d8babdae"),
+    client: "A",
+    timestamp: NumberLong("1738939580210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbc14fac130d8babdaf"),
+    client: "A",
+    timestamp: NumberLong("1738939580724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbd14fac130d8babdb0"),
+    client: "A",
+    timestamp: NumberLong("1738939581238")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbd14fac130d8babdb1"),
+    client: "A",
+    timestamp: NumberLong("1738939581766")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbe14fac130d8babdb2"),
+    client: "A",
+    timestamp: NumberLong("1738939582324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbe14fac130d8babdb3"),
+    client: "A",
+    timestamp: NumberLong("1738939582855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cbf14fac130d8babdb4"),
+    client: "A",
+    timestamp: NumberLong("1738939583645")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc014fac130d8babdb5"),
+    client: "A",
+    timestamp: NumberLong("1738939584175")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc014fac130d8babdb6"),
+    client: "A",
+    timestamp: NumberLong("1738939584702")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc114fac130d8babdb7"),
+    client: "A",
+    timestamp: NumberLong("1738939585214")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc114fac130d8babdb8"),
+    client: "A",
+    timestamp: NumberLong("1738939585790")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc214fac130d8babdb9"),
+    client: "A",
+    timestamp: NumberLong("1738939586452")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc214fac130d8babdba"),
+    client: "A",
+    timestamp: NumberLong("1738939586998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc314fac130d8babdbb"),
+    client: "A",
+    timestamp: NumberLong("1738939587568")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc414fac130d8babdbc"),
+    client: "A",
+    timestamp: NumberLong("1738939588106")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc414fac130d8babdbd"),
+    client: "A",
+    timestamp: NumberLong("1738939588647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc514fac130d8babdbe"),
+    client: "A",
+    timestamp: NumberLong("1738939589207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc514fac130d8babdbf"),
+    client: "A",
+    timestamp: NumberLong("1738939589763")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc614fac130d8babdc0"),
+    client: "A",
+    timestamp: NumberLong("1738939590363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc614fac130d8babdc1"),
+    client: "A",
+    timestamp: NumberLong("1738939590925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc714fac130d8babdc2"),
+    client: "A",
+    timestamp: NumberLong("1738939591454")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc714fac130d8babdc3"),
+    client: "A",
+    timestamp: NumberLong("1738939591972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc814fac130d8babdc4"),
+    client: "A",
+    timestamp: NumberLong("1738939592497")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc914fac130d8babdc5"),
+    client: "A",
+    timestamp: NumberLong("1738939593066")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cc914fac130d8babdc6"),
+    client: "A",
+    timestamp: NumberLong("1738939593658")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61cca14fac130d8babdc7"),
+    client: "A",
+    timestamp: NumberLong("1738939594474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ccb14fac130d8babdc8"),
+    client: "A",
+    timestamp: NumberLong("1738939595031")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ccb14fac130d8babdc9"),
+    client: "A",
+    timestamp: NumberLong("1738939595561")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ccc14fac130d8babdca"),
+    client: "A",
+    timestamp: NumberLong("1738939596080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a61ccc14fac130d8babdcb"),
+    client: "A",
+    timestamp: NumberLong("1738939596609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62100c4fda7408b91c5bb"),
+    client: "B",
+    timestamp: NumberLong("1738940672514")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62102c4fda7408b91c5bc"),
+    client: "B",
+    timestamp: NumberLong("1738940674541")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62100d014356966eaf151"),
+    client: "A",
+    timestamp: NumberLong("1738940672761")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62103c4fda7408b91c5bd"),
+    client: "B",
+    timestamp: NumberLong("1738940675081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62103d014356966eaf152"),
+    client: "A",
+    timestamp: NumberLong("1738940675143")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62103c4fda7408b91c5be"),
+    client: "B",
+    timestamp: NumberLong("1738940675609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62103d014356966eaf153"),
+    client: "A",
+    timestamp: NumberLong("1738940675671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62104c4fda7408b91c5bf"),
+    client: "B",
+    timestamp: NumberLong("1738940676139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62104d014356966eaf154"),
+    client: "A",
+    timestamp: NumberLong("1738940676202")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62104c4fda7408b91c5c0"),
+    client: "B",
+    timestamp: NumberLong("1738940676667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62104d014356966eaf155"),
+    client: "A",
+    timestamp: NumberLong("1738940676730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62105c4fda7408b91c5c1"),
+    client: "B",
+    timestamp: NumberLong("1738940677196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62105d014356966eaf156"),
+    client: "A",
+    timestamp: NumberLong("1738940677243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62105c4fda7408b91c5c2"),
+    client: "B",
+    timestamp: NumberLong("1738940677725")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62105d014356966eaf157"),
+    client: "A",
+    timestamp: NumberLong("1738940677755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62106c4fda7408b91c5c3"),
+    client: "B",
+    timestamp: NumberLong("1738940678246")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62106d014356966eaf158"),
+    client: "A",
+    timestamp: NumberLong("1738940678277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62106c4fda7408b91c5c4"),
+    client: "B",
+    timestamp: NumberLong("1738940678770")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62106d014356966eaf159"),
+    client: "A",
+    timestamp: NumberLong("1738940678800")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62107c4fda7408b91c5c5"),
+    client: "B",
+    timestamp: NumberLong("1738940679297")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62107d014356966eaf15a"),
+    client: "A",
+    timestamp: NumberLong("1738940679313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62107c4fda7408b91c5c6"),
+    client: "B",
+    timestamp: NumberLong("1738940679815")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62107d014356966eaf15b"),
+    client: "A",
+    timestamp: NumberLong("1738940679845")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62108c4fda7408b91c5c7"),
+    client: "B",
+    timestamp: NumberLong("1738940680338")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62108d014356966eaf15c"),
+    client: "A",
+    timestamp: NumberLong("1738940680390")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62108c4fda7408b91c5c8"),
+    client: "B",
+    timestamp: NumberLong("1738940680882")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62108d014356966eaf15d"),
+    client: "A",
+    timestamp: NumberLong("1738940680914")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62109c4fda7408b91c5c9"),
+    client: "B",
+    timestamp: NumberLong("1738940681410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62109d014356966eaf15e"),
+    client: "A",
+    timestamp: NumberLong("1738940681441")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62109c4fda7408b91c5ca"),
+    client: "B",
+    timestamp: NumberLong("1738940681943")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62109d014356966eaf15f"),
+    client: "A",
+    timestamp: NumberLong("1738940681975")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210ac4fda7408b91c5cb"),
+    client: "B",
+    timestamp: NumberLong("1738940682475")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210ad014356966eaf160"),
+    client: "A",
+    timestamp: NumberLong("1738940682505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210bc4fda7408b91c5cc"),
+    client: "B",
+    timestamp: NumberLong("1738940683003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210bd014356966eaf161"),
+    client: "A",
+    timestamp: NumberLong("1738940683034")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210bc4fda7408b91c5cd"),
+    client: "B",
+    timestamp: NumberLong("1738940683532")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210bd014356966eaf162"),
+    client: "A",
+    timestamp: NumberLong("1738940683562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210cc4fda7408b91c5ce"),
+    client: "B",
+    timestamp: NumberLong("1738940684058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6210cd014356966eaf163"),
+    client: "A",
+    timestamp: NumberLong("1738940684089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242a6fbcee7300aa978b"),
+    client: "A",
+    timestamp: NumberLong("1738941482248")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242a093643071fb3fe45"),
+    client: "B",
+    timestamp: NumberLong("1738941482040")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242b6fbcee7300aa978c"),
+    client: "A",
+    timestamp: NumberLong("1738941483599")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242b093643071fb3fe46"),
+    client: "B",
+    timestamp: NumberLong("1738941483663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242c6fbcee7300aa978d"),
+    client: "A",
+    timestamp: NumberLong("1738941484129")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242c093643071fb3fe47"),
+    client: "B",
+    timestamp: NumberLong("1738941484207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242c6fbcee7300aa978e"),
+    client: "A",
+    timestamp: NumberLong("1738941484645")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242c093643071fb3fe48"),
+    client: "B",
+    timestamp: NumberLong("1738941484739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242d6fbcee7300aa978f"),
+    client: "A",
+    timestamp: NumberLong("1738941485174")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242d093643071fb3fe49"),
+    client: "B",
+    timestamp: NumberLong("1738941485283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242d6fbcee7300aa9790"),
+    client: "A",
+    timestamp: NumberLong("1738941485706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242d093643071fb3fe4a"),
+    client: "B",
+    timestamp: NumberLong("1738941485815")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242e6fbcee7300aa9791"),
+    client: "A",
+    timestamp: NumberLong("1738941486235")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242e093643071fb3fe4b"),
+    client: "B",
+    timestamp: NumberLong("1738941486344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242e6fbcee7300aa9792"),
+    client: "A",
+    timestamp: NumberLong("1738941486765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242e093643071fb3fe4c"),
+    client: "B",
+    timestamp: NumberLong("1738941486874")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242f6fbcee7300aa9793"),
+    client: "A",
+    timestamp: NumberLong("1738941487300")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242f093643071fb3fe4d"),
+    client: "B",
+    timestamp: NumberLong("1738941487393")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242f6fbcee7300aa9794"),
+    client: "A",
+    timestamp: NumberLong("1738941487845")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6242f093643071fb3fe4e"),
+    client: "B",
+    timestamp: NumberLong("1738941487937")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624306fbcee7300aa9795"),
+    client: "A",
+    timestamp: NumberLong("1738941488373")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62430093643071fb3fe4f"),
+    client: "B",
+    timestamp: NumberLong("1738941488466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624306fbcee7300aa9796"),
+    client: "A",
+    timestamp: NumberLong("1738941488905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62430093643071fb3fe50"),
+    client: "B",
+    timestamp: NumberLong("1738941488999")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624316fbcee7300aa9797"),
+    client: "A",
+    timestamp: NumberLong("1738941489435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62431093643071fb3fe51"),
+    client: "B",
+    timestamp: NumberLong("1738941489528")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624316fbcee7300aa9798"),
+    client: "A",
+    timestamp: NumberLong("1738941489965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62432093643071fb3fe52"),
+    client: "B",
+    timestamp: NumberLong("1738941490058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624326fbcee7300aa9799"),
+    client: "A",
+    timestamp: NumberLong("1738941490494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62432093643071fb3fe53"),
+    client: "B",
+    timestamp: NumberLong("1738941490589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624336fbcee7300aa979a"),
+    client: "A",
+    timestamp: NumberLong("1738941491027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62433093643071fb3fe54"),
+    client: "B",
+    timestamp: NumberLong("1738941491120")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624336fbcee7300aa979b"),
+    client: "A",
+    timestamp: NumberLong("1738941491558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62433093643071fb3fe55"),
+    client: "B",
+    timestamp: NumberLong("1738941491651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624346fbcee7300aa979c"),
+    client: "A",
+    timestamp: NumberLong("1738941492086")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62434093643071fb3fe56"),
+    client: "B",
+    timestamp: NumberLong("1738941492195")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624346fbcee7300aa979d"),
+    client: "A",
+    timestamp: NumberLong("1738941492616")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62434093643071fb3fe57"),
+    client: "B",
+    timestamp: NumberLong("1738941492724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624356fbcee7300aa979e"),
+    client: "A",
+    timestamp: NumberLong("1738941493137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62435093643071fb3fe58"),
+    client: "B",
+    timestamp: NumberLong("1738941493246")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624356fbcee7300aa979f"),
+    client: "A",
+    timestamp: NumberLong("1738941493663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62435093643071fb3fe59"),
+    client: "B",
+    timestamp: NumberLong("1738941493771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624366fbcee7300aa97a0"),
+    client: "A",
+    timestamp: NumberLong("1738941494194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62436093643071fb3fe5a"),
+    client: "B",
+    timestamp: NumberLong("1738941494303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624366fbcee7300aa97a1"),
+    client: "A",
+    timestamp: NumberLong("1738941494709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62436093643071fb3fe5b"),
+    client: "B",
+    timestamp: NumberLong("1738941494832")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624376fbcee7300aa97a2"),
+    client: "A",
+    timestamp: NumberLong("1738941495238")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62437093643071fb3fe5c"),
+    client: "B",
+    timestamp: NumberLong("1738941495359")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624376fbcee7300aa97a3"),
+    client: "A",
+    timestamp: NumberLong("1738941495764")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62437093643071fb3fe5d"),
+    client: "B",
+    timestamp: NumberLong("1738941495887")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624386fbcee7300aa97a4"),
+    client: "A",
+    timestamp: NumberLong("1738941496293")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62438093643071fb3fe5e"),
+    client: "B",
+    timestamp: NumberLong("1738941496418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624386fbcee7300aa97a5"),
+    client: "A",
+    timestamp: NumberLong("1738941496822")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62438093643071fb3fe5f"),
+    client: "B",
+    timestamp: NumberLong("1738941496945")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624396fbcee7300aa97a6"),
+    client: "A",
+    timestamp: NumberLong("1738941497352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62439093643071fb3fe60"),
+    client: "B",
+    timestamp: NumberLong("1738941497461")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a624396fbcee7300aa97a7"),
+    client: "A",
+    timestamp: NumberLong("1738941497881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62439093643071fb3fe61"),
+    client: "B",
+    timestamp: NumberLong("1738941497990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243a6fbcee7300aa97a8"),
+    client: "A",
+    timestamp: NumberLong("1738941498410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243a093643071fb3fe62"),
+    client: "B",
+    timestamp: NumberLong("1738941498519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243a6fbcee7300aa97a9"),
+    client: "A",
+    timestamp: NumberLong("1738941498943")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243b093643071fb3fe63"),
+    client: "B",
+    timestamp: NumberLong("1738941499053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243b6fbcee7300aa97aa"),
+    client: "A",
+    timestamp: NumberLong("1738941499462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243b093643071fb3fe64"),
+    client: "B",
+    timestamp: NumberLong("1738941499602")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243c093643071fb3fe65"),
+    client: "B",
+    timestamp: NumberLong("1738941500134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243c6fbcee7300aa97ab"),
+    client: "A",
+    timestamp: NumberLong("1738941500319")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243c093643071fb3fe66"),
+    client: "B",
+    timestamp: NumberLong("1738941500661")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243c6fbcee7300aa97ac"),
+    client: "A",
+    timestamp: NumberLong("1738941500846")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243d093643071fb3fe67"),
+    client: "B",
+    timestamp: NumberLong("1738941501190")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243d6fbcee7300aa97ad"),
+    client: "A",
+    timestamp: NumberLong("1738941501376")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243d093643071fb3fe68"),
+    client: "B",
+    timestamp: NumberLong("1738941501717")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243d6fbcee7300aa97ae"),
+    client: "A",
+    timestamp: NumberLong("1738941501903")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243e093643071fb3fe69"),
+    client: "B",
+    timestamp: NumberLong("1738941502232")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243e6fbcee7300aa97af"),
+    client: "A",
+    timestamp: NumberLong("1738941502419")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243e093643071fb3fe6a"),
+    client: "B",
+    timestamp: NumberLong("1738941502761")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243e6fbcee7300aa97b0"),
+    client: "A",
+    timestamp: NumberLong("1738941502946")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243f093643071fb3fe6b"),
+    client: "B",
+    timestamp: NumberLong("1738941503287")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6243f6fbcee7300aa97b1"),
+    client: "A",
+    timestamp: NumberLong("1738941503474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a23452547da849474c"),
+    client: "A",
+    timestamp: NumberLong("1738942114364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a2d7e7a44fc56ea37a"),
+    client: "B",
+    timestamp: NumberLong("1738942114398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a33452547da849474d"),
+    client: "A",
+    timestamp: NumberLong("1738942115980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a4d7e7a44fc56ea37b"),
+    client: "B",
+    timestamp: NumberLong("1738942116121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a43452547da849474e"),
+    client: "A",
+    timestamp: NumberLong("1738942116510")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a4d7e7a44fc56ea37c"),
+    client: "B",
+    timestamp: NumberLong("1738942116649")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a53452547da849474f"),
+    client: "A",
+    timestamp: NumberLong("1738942117056")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a5d7e7a44fc56ea37d"),
+    client: "B",
+    timestamp: NumberLong("1738942117179")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a53452547da8494750"),
+    client: "A",
+    timestamp: NumberLong("1738942117582")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a5d7e7a44fc56ea37e"),
+    client: "B",
+    timestamp: NumberLong("1738942117706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a63452547da8494751"),
+    client: "A",
+    timestamp: NumberLong("1738942118113")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626a6d7e7a44fc56ea37f"),
+    client: "B",
+    timestamp: NumberLong("1738942118236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626caca239c713d3b9136"),
+    client: "A",
+    timestamp: NumberLong("1738942154196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626ca7108937adad0e2ad"),
+    client: "B",
+    timestamp: NumberLong("1738942154215")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cbca239c713d3b9137"),
+    client: "A",
+    timestamp: NumberLong("1738942155678")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cb7108937adad0e2ae"),
+    client: "B",
+    timestamp: NumberLong("1738942155836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626ccca239c713d3b9138"),
+    client: "A",
+    timestamp: NumberLong("1738942156215")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cc7108937adad0e2af"),
+    client: "B",
+    timestamp: NumberLong("1738942156370")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626ccca239c713d3b9139"),
+    client: "A",
+    timestamp: NumberLong("1738942156749")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cc7108937adad0e2b0"),
+    client: "B",
+    timestamp: NumberLong("1738942156904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cdca239c713d3b913a"),
+    client: "A",
+    timestamp: NumberLong("1738942157279")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cd7108937adad0e2b1"),
+    client: "B",
+    timestamp: NumberLong("1738942157434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cdca239c713d3b913b"),
+    client: "A",
+    timestamp: NumberLong("1738942157808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626cd7108937adad0e2b2"),
+    client: "B",
+    timestamp: NumberLong("1738942157981")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626ceca239c713d3b913c"),
+    client: "A",
+    timestamp: NumberLong("1738942158339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626ce7108937adad0e2b3"),
+    client: "B",
+    timestamp: NumberLong("1738942158510")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a626ceca239c713d3b913d"),
+    client: "A",
+    timestamp: NumberLong("1738942158871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280ff26b0352b520692d"),
+    client: "A",
+    timestamp: NumberLong("1738942479839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280f5ce567060be7eedb"),
+    client: "A",
+    timestamp: NumberLong("1738942479859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280f50944b33726a91e8"),
+    client: "A",
+    timestamp: NumberLong("1738942479804")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280f0c4f7f682333db20"),
+    client: "A",
+    timestamp: NumberLong("1738942479835")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628108b950e3fae99f8ac"),
+    client: "A",
+    timestamp: NumberLong("1738942480018")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280f462d9a35f51df59b"),
+    client: "A",
+    timestamp: NumberLong("1738942479853")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280f9fbee642008721e2"),
+    client: "A",
+    timestamp: NumberLong("1738942479781")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628115ce567060be7eedc"),
+    client: "A",
+    timestamp: NumberLong("1738942481176")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6280f9fbbc0230cad0ac2"),
+    client: "B",
+    timestamp: NumberLong("1738942479150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281150944b33726a91e9"),
+    client: "A",
+    timestamp: NumberLong("1738942481314")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62811f26b0352b520692e"),
+    client: "A",
+    timestamp: NumberLong("1738942481345")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628118b950e3fae99f8ad"),
+    client: "A",
+    timestamp: NumberLong("1738942481577")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628110c4f7f682333db21"),
+    client: "A",
+    timestamp: NumberLong("1738942481608")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62811462d9a35f51df59c"),
+    client: "A",
+    timestamp: NumberLong("1738942481623")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628119fbee642008721e3"),
+    client: "A",
+    timestamp: NumberLong("1738942481685")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628115ce567060be7eedd"),
+    client: "A",
+    timestamp: NumberLong("1738942481700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628119fbbc0230cad0ac3"),
+    client: "B",
+    timestamp: NumberLong("1738942481761")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281150944b33726a91ea"),
+    client: "A",
+    timestamp: NumberLong("1738942481839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62811f26b0352b520692f"),
+    client: "A",
+    timestamp: NumberLong("1738942481870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628128b950e3fae99f8ae"),
+    client: "A",
+    timestamp: NumberLong("1738942482103")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628120c4f7f682333db22"),
+    client: "A",
+    timestamp: NumberLong("1738942482134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62812462d9a35f51df59d"),
+    client: "A",
+    timestamp: NumberLong("1738942482150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628129fbee642008721e4"),
+    client: "A",
+    timestamp: NumberLong("1738942482212")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628125ce567060be7eede"),
+    client: "A",
+    timestamp: NumberLong("1738942482228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628129fbbc0230cad0ac4"),
+    client: "B",
+    timestamp: NumberLong("1738942482306")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281250944b33726a91eb"),
+    client: "A",
+    timestamp: NumberLong("1738942482369")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62812f26b0352b5206930"),
+    client: "A",
+    timestamp: NumberLong("1738942482399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628128b950e3fae99f8af"),
+    client: "A",
+    timestamp: NumberLong("1738942482634")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628120c4f7f682333db23"),
+    client: "A",
+    timestamp: NumberLong("1738942482665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62812462d9a35f51df59e"),
+    client: "A",
+    timestamp: NumberLong("1738942482682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628129fbee642008721e5"),
+    client: "A",
+    timestamp: NumberLong("1738942482743")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628125ce567060be7eedf"),
+    client: "A",
+    timestamp: NumberLong("1738942482774")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628129fbbc0230cad0ac5"),
+    client: "B",
+    timestamp: NumberLong("1738942482836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281250944b33726a91ec"),
+    client: "A",
+    timestamp: NumberLong("1738942482914")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62812f26b0352b5206931"),
+    client: "A",
+    timestamp: NumberLong("1738942482930")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628138b950e3fae99f8b0"),
+    client: "A",
+    timestamp: NumberLong("1738942483164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628130c4f7f682333db24"),
+    client: "A",
+    timestamp: NumberLong("1738942483195")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62813462d9a35f51df59f"),
+    client: "A",
+    timestamp: NumberLong("1738942483211")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628139fbee642008721e6"),
+    client: "A",
+    timestamp: NumberLong("1738942483274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628135ce567060be7eee0"),
+    client: "A",
+    timestamp: NumberLong("1738942483305")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628139fbbc0230cad0ac6"),
+    client: "B",
+    timestamp: NumberLong("1738942483383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281350944b33726a91ed"),
+    client: "A",
+    timestamp: NumberLong("1738942483462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62813f26b0352b5206932"),
+    client: "A",
+    timestamp: NumberLong("1738942483462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628138b950e3fae99f8b1"),
+    client: "A",
+    timestamp: NumberLong("1738942483711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628130c4f7f682333db25"),
+    client: "A",
+    timestamp: NumberLong("1738942483727")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62813462d9a35f51df5a0"),
+    client: "A",
+    timestamp: NumberLong("1738942483757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628139fbee642008721e7"),
+    client: "A",
+    timestamp: NumberLong("1738942483804")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628135ce567060be7eee1"),
+    client: "A",
+    timestamp: NumberLong("1738942483836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628139fbbc0230cad0ac7"),
+    client: "B",
+    timestamp: NumberLong("1738942483912")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281350944b33726a91ee"),
+    client: "A",
+    timestamp: NumberLong("1738942483990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62813f26b0352b5206933"),
+    client: "A",
+    timestamp: NumberLong("1738942483990")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628148b950e3fae99f8b2"),
+    client: "A",
+    timestamp: NumberLong("1738942484241")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628140c4f7f682333db26"),
+    client: "A",
+    timestamp: NumberLong("1738942484255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62814462d9a35f51df5a1"),
+    client: "A",
+    timestamp: NumberLong("1738942484285")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628149fbee642008721e8"),
+    client: "A",
+    timestamp: NumberLong("1738942484332")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628145ce567060be7eee2"),
+    client: "A",
+    timestamp: NumberLong("1738942484363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628149fbbc0230cad0ac8"),
+    client: "B",
+    timestamp: NumberLong("1738942484439")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62814f26b0352b5206934"),
+    client: "A",
+    timestamp: NumberLong("1738942484516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281450944b33726a91ef"),
+    client: "A",
+    timestamp: NumberLong("1738942484516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628148b950e3fae99f8b3"),
+    client: "A",
+    timestamp: NumberLong("1738942484766")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628140c4f7f682333db27"),
+    client: "A",
+    timestamp: NumberLong("1738942484781")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62814462d9a35f51df5a2"),
+    client: "A",
+    timestamp: NumberLong("1738942484813")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628149fbee642008721e9"),
+    client: "A",
+    timestamp: NumberLong("1738942484859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628145ce567060be7eee3"),
+    client: "A",
+    timestamp: NumberLong("1738942484889")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628149fbbc0230cad0ac9"),
+    client: "B",
+    timestamp: NumberLong("1738942484966")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62815f26b0352b5206935"),
+    client: "A",
+    timestamp: NumberLong("1738942485042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281550944b33726a91f0"),
+    client: "A",
+    timestamp: NumberLong("1738942485042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628158b950e3fae99f8b4"),
+    client: "A",
+    timestamp: NumberLong("1738942485291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628150c4f7f682333db28"),
+    client: "A",
+    timestamp: NumberLong("1738942485307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62815462d9a35f51df5a3"),
+    client: "A",
+    timestamp: NumberLong("1738942485337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628159fbee642008721ea"),
+    client: "A",
+    timestamp: NumberLong("1738942485383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628155ce567060be7eee4"),
+    client: "A",
+    timestamp: NumberLong("1738942485414")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628159fbbc0230cad0aca"),
+    client: "B",
+    timestamp: NumberLong("1738942485493")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281550944b33726a91f1"),
+    client: "A",
+    timestamp: NumberLong("1738942485586")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62815f26b0352b5206936"),
+    client: "A",
+    timestamp: NumberLong("1738942485586")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628158b950e3fae99f8b5"),
+    client: "A",
+    timestamp: NumberLong("1738942485832")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628150c4f7f682333db29"),
+    client: "A",
+    timestamp: NumberLong("1738942485848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62815462d9a35f51df5a4"),
+    client: "A",
+    timestamp: NumberLong("1738942485893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628159fbee642008721eb"),
+    client: "A",
+    timestamp: NumberLong("1738942485909")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628155ce567060be7eee5"),
+    client: "A",
+    timestamp: NumberLong("1738942485938")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628169fbbc0230cad0acb"),
+    client: "B",
+    timestamp: NumberLong("1738942486014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62816f26b0352b5206937"),
+    client: "A",
+    timestamp: NumberLong("1738942486124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281650944b33726a91f2"),
+    client: "A",
+    timestamp: NumberLong("1738942486124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628168b950e3fae99f8b6"),
+    client: "A",
+    timestamp: NumberLong("1738942486374")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628160c4f7f682333db2a"),
+    client: "A",
+    timestamp: NumberLong("1738942486374")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62816462d9a35f51df5a5"),
+    client: "A",
+    timestamp: NumberLong("1738942486436")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628169fbee642008721ec"),
+    client: "A",
+    timestamp: NumberLong("1738942486451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628165ce567060be7eee6"),
+    client: "A",
+    timestamp: NumberLong("1738942486467")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628169fbbc0230cad0acc"),
+    client: "B",
+    timestamp: NumberLong("1738942486544")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281650944b33726a91f3"),
+    client: "A",
+    timestamp: NumberLong("1738942486655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62816f26b0352b5206938"),
+    client: "A",
+    timestamp: NumberLong("1738942486655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628168b950e3fae99f8b7"),
+    client: "A",
+    timestamp: NumberLong("1738942486904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628160c4f7f682333db2b"),
+    client: "A",
+    timestamp: NumberLong("1738942486904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62816462d9a35f51df5a6"),
+    client: "A",
+    timestamp: NumberLong("1738942486958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628165ce567060be7eee7"),
+    client: "A",
+    timestamp: NumberLong("1738942486997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628179fbbc0230cad0acd"),
+    client: "B",
+    timestamp: NumberLong("1738942487073")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281750944b33726a91f4"),
+    client: "A",
+    timestamp: NumberLong("1738942487180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62817f26b0352b5206939"),
+    client: "A",
+    timestamp: NumberLong("1738942487180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628179fbee642008721ed"),
+    client: "A",
+    timestamp: NumberLong("1738942487228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628178b950e3fae99f8b8"),
+    client: "A",
+    timestamp: NumberLong("1738942487461")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628170c4f7f682333db2c"),
+    client: "A",
+    timestamp: NumberLong("1738942487476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62817462d9a35f51df5a7"),
+    client: "A",
+    timestamp: NumberLong("1738942487491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628175ce567060be7eee8"),
+    client: "A",
+    timestamp: NumberLong("1738942487522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628179fbbc0230cad0ace"),
+    client: "B",
+    timestamp: NumberLong("1738942487599")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62817f26b0352b520693a"),
+    client: "A",
+    timestamp: NumberLong("1738942487706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281750944b33726a91f5"),
+    client: "A",
+    timestamp: NumberLong("1738942487722")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628179fbee642008721ee"),
+    client: "A",
+    timestamp: NumberLong("1738942487753")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628178b950e3fae99f8b9"),
+    client: "A",
+    timestamp: NumberLong("1738942487987")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628180c4f7f682333db2d"),
+    client: "A",
+    timestamp: NumberLong("1738942488003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62818462d9a35f51df5a8"),
+    client: "A",
+    timestamp: NumberLong("1738942488019")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628185ce567060be7eee9"),
+    client: "A",
+    timestamp: NumberLong("1738942488064")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628189fbbc0230cad0acf"),
+    client: "B",
+    timestamp: NumberLong("1738942488126")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62818f26b0352b520693b"),
+    client: "A",
+    timestamp: NumberLong("1738942488236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281850944b33726a91f6"),
+    client: "A",
+    timestamp: NumberLong("1738942488252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628189fbee642008721ef"),
+    client: "A",
+    timestamp: NumberLong("1738942488283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628188b950e3fae99f8ba"),
+    client: "A",
+    timestamp: NumberLong("1738942488517")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628180c4f7f682333db2e"),
+    client: "A",
+    timestamp: NumberLong("1738942488533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62818462d9a35f51df5a9"),
+    client: "A",
+    timestamp: NumberLong("1738942488533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628185ce567060be7eeea"),
+    client: "A",
+    timestamp: NumberLong("1738942488579")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628189fbbc0230cad0ad0"),
+    client: "B",
+    timestamp: NumberLong("1738942488641")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62818f26b0352b520693c"),
+    client: "A",
+    timestamp: NumberLong("1738942488763")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281850944b33726a91f7"),
+    client: "A",
+    timestamp: NumberLong("1738942488778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628189fbee642008721f0"),
+    client: "A",
+    timestamp: NumberLong("1738942488809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628198b950e3fae99f8bb"),
+    client: "A",
+    timestamp: NumberLong("1738942489029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62819462d9a35f51df5aa"),
+    client: "A",
+    timestamp: NumberLong("1738942489060")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628190c4f7f682333db2f"),
+    client: "A",
+    timestamp: NumberLong("1738942489060")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628195ce567060be7eeeb"),
+    client: "A",
+    timestamp: NumberLong("1738942489106")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628199fbbc0230cad0ad1"),
+    client: "B",
+    timestamp: NumberLong("1738942489167")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62819f26b0352b520693d"),
+    client: "A",
+    timestamp: NumberLong("1738942489290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281950944b33726a91f8"),
+    client: "A",
+    timestamp: NumberLong("1738942489306")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628199fbee642008721f1"),
+    client: "A",
+    timestamp: NumberLong("1738942489338")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628198b950e3fae99f8bc"),
+    client: "A",
+    timestamp: NumberLong("1738942489556")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628190c4f7f682333db30"),
+    client: "A",
+    timestamp: NumberLong("1738942489587")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62819462d9a35f51df5ab"),
+    client: "A",
+    timestamp: NumberLong("1738942489587")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628195ce567060be7eeec"),
+    client: "A",
+    timestamp: NumberLong("1738942489632")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628199fbbc0230cad0ad2"),
+    client: "B",
+    timestamp: NumberLong("1738942489694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62819f26b0352b520693e"),
+    client: "A",
+    timestamp: NumberLong("1738942489817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281950944b33726a91f9"),
+    client: "A",
+    timestamp: NumberLong("1738942489832")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628199fbee642008721f2"),
+    client: "A",
+    timestamp: NumberLong("1738942489864")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a8b950e3fae99f8bd"),
+    client: "A",
+    timestamp: NumberLong("1738942490078")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a462d9a35f51df5ac"),
+    client: "A",
+    timestamp: NumberLong("1738942490124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a0c4f7f682333db31"),
+    client: "A",
+    timestamp: NumberLong("1738942490124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a5ce567060be7eeed"),
+    client: "A",
+    timestamp: NumberLong("1738942490154")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a9fbbc0230cad0ad3"),
+    client: "B",
+    timestamp: NumberLong("1738942490216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281af26b0352b520693f"),
+    client: "A",
+    timestamp: NumberLong("1738942490342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a50944b33726a91fa"),
+    client: "A",
+    timestamp: NumberLong("1738942490357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a9fbee642008721f3"),
+    client: "A",
+    timestamp: NumberLong("1738942490388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a8b950e3fae99f8be"),
+    client: "A",
+    timestamp: NumberLong("1738942490589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a462d9a35f51df5ad"),
+    client: "A",
+    timestamp: NumberLong("1738942490652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a0c4f7f682333db32"),
+    client: "A",
+    timestamp: NumberLong("1738942490652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a5ce567060be7eeee"),
+    client: "A",
+    timestamp: NumberLong("1738942490683")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a9fbbc0230cad0ad4"),
+    client: "B",
+    timestamp: NumberLong("1738942490745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281af26b0352b5206940"),
+    client: "A",
+    timestamp: NumberLong("1738942490869")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a50944b33726a91fb"),
+    client: "A",
+    timestamp: NumberLong("1738942490884")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281a9fbee642008721f4"),
+    client: "A",
+    timestamp: NumberLong("1738942490916")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b8b950e3fae99f8bf"),
+    client: "A",
+    timestamp: NumberLong("1738942491117")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b462d9a35f51df5ae"),
+    client: "A",
+    timestamp: NumberLong("1738942491178")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b0c4f7f682333db33"),
+    client: "A",
+    timestamp: NumberLong("1738942491178")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b5ce567060be7eeef"),
+    client: "A",
+    timestamp: NumberLong("1738942491209")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b9fbbc0230cad0ad5"),
+    client: "B",
+    timestamp: NumberLong("1738942491272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281bf26b0352b5206941"),
+    client: "A",
+    timestamp: NumberLong("1738942491396")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b50944b33726a91fc"),
+    client: "A",
+    timestamp: NumberLong("1738942491411")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b9fbee642008721f5"),
+    client: "A",
+    timestamp: NumberLong("1738942491442")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b8b950e3fae99f8c0"),
+    client: "A",
+    timestamp: NumberLong("1738942491644")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b0c4f7f682333db34"),
+    client: "A",
+    timestamp: NumberLong("1738942491707")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b462d9a35f51df5af"),
+    client: "A",
+    timestamp: NumberLong("1738942491707")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b5ce567060be7eef0"),
+    client: "A",
+    timestamp: NumberLong("1738942491738")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b9fbbc0230cad0ad6"),
+    client: "B",
+    timestamp: NumberLong("1738942491800")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281bf26b0352b5206942"),
+    client: "A",
+    timestamp: NumberLong("1738942491926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b50944b33726a91fd"),
+    client: "A",
+    timestamp: NumberLong("1738942491941")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281b9fbee642008721f6"),
+    client: "A",
+    timestamp: NumberLong("1738942491971")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c8b950e3fae99f8c1"),
+    client: "A",
+    timestamp: NumberLong("1738942492174")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c0c4f7f682333db35"),
+    client: "A",
+    timestamp: NumberLong("1738942492237")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c462d9a35f51df5b0"),
+    client: "A",
+    timestamp: NumberLong("1738942492237")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c5ce567060be7eef1"),
+    client: "A",
+    timestamp: NumberLong("1738942492268")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c9fbbc0230cad0ad7"),
+    client: "B",
+    timestamp: NumberLong("1738942492330")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281cf26b0352b5206943"),
+    client: "A",
+    timestamp: NumberLong("1738942492454")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c50944b33726a91fe"),
+    client: "A",
+    timestamp: NumberLong("1738942492470")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c9fbee642008721f7"),
+    client: "A",
+    timestamp: NumberLong("1738942492502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c8b950e3fae99f8c2"),
+    client: "A",
+    timestamp: NumberLong("1738942492703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c0c4f7f682333db36"),
+    client: "A",
+    timestamp: NumberLong("1738942492765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c462d9a35f51df5b1"),
+    client: "A",
+    timestamp: NumberLong("1738942492765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c5ce567060be7eef2"),
+    client: "A",
+    timestamp: NumberLong("1738942492796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c9fbbc0230cad0ad8"),
+    client: "B",
+    timestamp: NumberLong("1738942492858")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281cf26b0352b5206944"),
+    client: "A",
+    timestamp: NumberLong("1738942492984")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281c50944b33726a91ff"),
+    client: "A",
+    timestamp: NumberLong("1738942492999")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d9fbee642008721f8"),
+    client: "A",
+    timestamp: NumberLong("1738942493030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d8b950e3fae99f8c3"),
+    client: "A",
+    timestamp: NumberLong("1738942493229")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d0c4f7f682333db37"),
+    client: "A",
+    timestamp: NumberLong("1738942493292")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d462d9a35f51df5b2"),
+    client: "A",
+    timestamp: NumberLong("1738942493292")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d5ce567060be7eef3"),
+    client: "A",
+    timestamp: NumberLong("1738942493323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d9fbbc0230cad0ad9"),
+    client: "B",
+    timestamp: NumberLong("1738942493384")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281df26b0352b5206945"),
+    client: "A",
+    timestamp: NumberLong("1738942493508")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d50944b33726a9200"),
+    client: "A",
+    timestamp: NumberLong("1738942493523")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d9fbee642008721f9"),
+    client: "A",
+    timestamp: NumberLong("1738942493555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d8b950e3fae99f8c4"),
+    client: "A",
+    timestamp: NumberLong("1738942493758")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d0c4f7f682333db38"),
+    client: "A",
+    timestamp: NumberLong("1738942493819")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d462d9a35f51df5b3"),
+    client: "A",
+    timestamp: NumberLong("1738942493819")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d5ce567060be7eef4"),
+    client: "A",
+    timestamp: NumberLong("1738942493850")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281d9fbbc0230cad0ada"),
+    client: "B",
+    timestamp: NumberLong("1738942493912")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281ef26b0352b5206946"),
+    client: "A",
+    timestamp: NumberLong("1738942494021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e50944b33726a9201"),
+    client: "A",
+    timestamp: NumberLong("1738942494037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e9fbee642008721fa"),
+    client: "A",
+    timestamp: NumberLong("1738942494067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e8b950e3fae99f8c5"),
+    client: "A",
+    timestamp: NumberLong("1738942494282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e462d9a35f51df5b4"),
+    client: "A",
+    timestamp: NumberLong("1738942494344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e0c4f7f682333db39"),
+    client: "A",
+    timestamp: NumberLong("1738942494344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e5ce567060be7eef5"),
+    client: "A",
+    timestamp: NumberLong("1738942494375")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e9fbbc0230cad0adb"),
+    client: "B",
+    timestamp: NumberLong("1738942494435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281ef26b0352b5206947"),
+    client: "A",
+    timestamp: NumberLong("1738942494543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e50944b33726a9202"),
+    client: "A",
+    timestamp: NumberLong("1738942494559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e9fbee642008721fb"),
+    client: "A",
+    timestamp: NumberLong("1738942494591")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e8b950e3fae99f8c6"),
+    client: "A",
+    timestamp: NumberLong("1738942494808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e462d9a35f51df5b5"),
+    client: "A",
+    timestamp: NumberLong("1738942494870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e0c4f7f682333db3a"),
+    client: "A",
+    timestamp: NumberLong("1738942494870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e5ce567060be7eef6"),
+    client: "A",
+    timestamp: NumberLong("1738942494901")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281e9fbbc0230cad0adc"),
+    client: "B",
+    timestamp: NumberLong("1738942494962")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281ff26b0352b5206948"),
+    client: "A",
+    timestamp: NumberLong("1738942495071")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f50944b33726a9203"),
+    client: "A",
+    timestamp: NumberLong("1738942495086")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f9fbee642008721fc"),
+    client: "A",
+    timestamp: NumberLong("1738942495118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f8b950e3fae99f8c7"),
+    client: "A",
+    timestamp: NumberLong("1738942495336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f462d9a35f51df5b6"),
+    client: "A",
+    timestamp: NumberLong("1738942495398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f0c4f7f682333db3b"),
+    client: "A",
+    timestamp: NumberLong("1738942495398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f5ce567060be7eef7"),
+    client: "A",
+    timestamp: NumberLong("1738942495429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f9fbbc0230cad0add"),
+    client: "B",
+    timestamp: NumberLong("1738942495493")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281ff26b0352b5206949"),
+    client: "A",
+    timestamp: NumberLong("1738942495601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f50944b33726a9204"),
+    client: "A",
+    timestamp: NumberLong("1738942495616")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f9fbee642008721fd"),
+    client: "A",
+    timestamp: NumberLong("1738942495647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f8b950e3fae99f8c8"),
+    client: "A",
+    timestamp: NumberLong("1738942495864")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f0c4f7f682333db3c"),
+    client: "A",
+    timestamp: NumberLong("1738942495926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f462d9a35f51df5b7"),
+    client: "A",
+    timestamp: NumberLong("1738942495926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6281f5ce567060be7eef8"),
+    client: "A",
+    timestamp: NumberLong("1738942495956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628209fbbc0230cad0ade"),
+    client: "B",
+    timestamp: NumberLong("1738942496018")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62820f26b0352b520694a"),
+    client: "A",
+    timestamp: NumberLong("1738942496128")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282050944b33726a9205"),
+    client: "A",
+    timestamp: NumberLong("1738942496143")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628209fbee642008721fe"),
+    client: "A",
+    timestamp: NumberLong("1738942496159")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628208b950e3fae99f8c9"),
+    client: "A",
+    timestamp: NumberLong("1738942496393")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628200c4f7f682333db3d"),
+    client: "A",
+    timestamp: NumberLong("1738942496455")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62820462d9a35f51df5b8"),
+    client: "A",
+    timestamp: NumberLong("1738942496455")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628205ce567060be7eef9"),
+    client: "A",
+    timestamp: NumberLong("1738942496486")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628209fbbc0230cad0adf"),
+    client: "B",
+    timestamp: NumberLong("1738942496548")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62820f26b0352b520694b"),
+    client: "A",
+    timestamp: NumberLong("1738942496656")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282050944b33726a9206"),
+    client: "A",
+    timestamp: NumberLong("1738942496671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628209fbee642008721ff"),
+    client: "A",
+    timestamp: NumberLong("1738942496686")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628208b950e3fae99f8ca"),
+    client: "A",
+    timestamp: NumberLong("1738942496920")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62820462d9a35f51df5b9"),
+    client: "A",
+    timestamp: NumberLong("1738942496998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628205ce567060be7eefa"),
+    client: "A",
+    timestamp: NumberLong("1738942496998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628200c4f7f682333db3e"),
+    client: "A",
+    timestamp: NumberLong("1738942496998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628219fbbc0230cad0ae0"),
+    client: "B",
+    timestamp: NumberLong("1738942497075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62821f26b0352b520694c"),
+    client: "A",
+    timestamp: NumberLong("1738942497185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282150944b33726a9207"),
+    client: "A",
+    timestamp: NumberLong("1738942497200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628219fbee64200872200"),
+    client: "A",
+    timestamp: NumberLong("1738942497216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628218b950e3fae99f8cb"),
+    client: "A",
+    timestamp: NumberLong("1738942497448")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62821462d9a35f51df5ba"),
+    client: "A",
+    timestamp: NumberLong("1738942497527")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628210c4f7f682333db3f"),
+    client: "A",
+    timestamp: NumberLong("1738942497542")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628215ce567060be7eefb"),
+    client: "A",
+    timestamp: NumberLong("1738942497542")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628219fbbc0230cad0ae1"),
+    client: "B",
+    timestamp: NumberLong("1738942497605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62821f26b0352b520694d"),
+    client: "A",
+    timestamp: NumberLong("1738942497714")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282150944b33726a9208"),
+    client: "A",
+    timestamp: NumberLong("1738942497729")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628219fbee64200872201"),
+    client: "A",
+    timestamp: NumberLong("1738942497745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628218b950e3fae99f8cc"),
+    client: "A",
+    timestamp: NumberLong("1738942497975")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62822462d9a35f51df5bb"),
+    client: "A",
+    timestamp: NumberLong("1738942498052")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628220c4f7f682333db40"),
+    client: "A",
+    timestamp: NumberLong("1738942498068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628225ce567060be7eefc"),
+    client: "A",
+    timestamp: NumberLong("1738942498068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628229fbbc0230cad0ae2"),
+    client: "B",
+    timestamp: NumberLong("1738942498129")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62822f26b0352b520694e"),
+    client: "A",
+    timestamp: NumberLong("1738942498237")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282250944b33726a9209"),
+    client: "A",
+    timestamp: NumberLong("1738942498252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628229fbee64200872202"),
+    client: "A",
+    timestamp: NumberLong("1738942498268")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628228b950e3fae99f8cd"),
+    client: "A",
+    timestamp: NumberLong("1738942498501")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62822462d9a35f51df5bc"),
+    client: "A",
+    timestamp: NumberLong("1738942498577")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628225ce567060be7eefd"),
+    client: "A",
+    timestamp: NumberLong("1738942498592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628220c4f7f682333db41"),
+    client: "A",
+    timestamp: NumberLong("1738942498593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628229fbbc0230cad0ae3"),
+    client: "B",
+    timestamp: NumberLong("1738942498654")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62822f26b0352b520694f"),
+    client: "A",
+    timestamp: NumberLong("1738942498762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282250944b33726a920a"),
+    client: "A",
+    timestamp: NumberLong("1738942498778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628229fbee64200872203"),
+    client: "A",
+    timestamp: NumberLong("1738942498794")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628238b950e3fae99f8ce"),
+    client: "A",
+    timestamp: NumberLong("1738942499026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62823462d9a35f51df5bd"),
+    client: "A",
+    timestamp: NumberLong("1738942499103")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628230c4f7f682333db42"),
+    client: "A",
+    timestamp: NumberLong("1738942499119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628235ce567060be7eefe"),
+    client: "A",
+    timestamp: NumberLong("1738942499119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628239fbbc0230cad0ae4"),
+    client: "B",
+    timestamp: NumberLong("1738942499166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62823f26b0352b5206950"),
+    client: "A",
+    timestamp: NumberLong("1738942499289")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282350944b33726a920b"),
+    client: "A",
+    timestamp: NumberLong("1738942499304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628239fbee64200872204"),
+    client: "A",
+    timestamp: NumberLong("1738942499320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628238b950e3fae99f8cf"),
+    client: "A",
+    timestamp: NumberLong("1738942499550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62823462d9a35f51df5be"),
+    client: "A",
+    timestamp: NumberLong("1738942499626")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628230c4f7f682333db43"),
+    client: "A",
+    timestamp: NumberLong("1738942499642")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628235ce567060be7eeff"),
+    client: "A",
+    timestamp: NumberLong("1738942499657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628239fbbc0230cad0ae5"),
+    client: "B",
+    timestamp: NumberLong("1738942499688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282350944b33726a920c"),
+    client: "A",
+    timestamp: NumberLong("1738942499827")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62823f26b0352b5206951"),
+    client: "A",
+    timestamp: NumberLong("1738942499827")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628239fbee64200872205"),
+    client: "A",
+    timestamp: NumberLong("1738942499842")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628248b950e3fae99f8d0"),
+    client: "A",
+    timestamp: NumberLong("1738942500071")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62824462d9a35f51df5bf"),
+    client: "A",
+    timestamp: NumberLong("1738942500162")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628240c4f7f682333db44"),
+    client: "A",
+    timestamp: NumberLong("1738942500177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628245ce567060be7ef00"),
+    client: "A",
+    timestamp: NumberLong("1738942500192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628249fbbc0230cad0ae6"),
+    client: "B",
+    timestamp: NumberLong("1738942500223")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62824f26b0352b5206952"),
+    client: "A",
+    timestamp: NumberLong("1738942500346")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282450944b33726a920d"),
+    client: "A",
+    timestamp: NumberLong("1738942500361")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628249fbee64200872206"),
+    client: "A",
+    timestamp: NumberLong("1738942500377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628248b950e3fae99f8d1"),
+    client: "A",
+    timestamp: NumberLong("1738942500593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62824462d9a35f51df5c0"),
+    client: "A",
+    timestamp: NumberLong("1738942500688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628240c4f7f682333db45"),
+    client: "A",
+    timestamp: NumberLong("1738942500703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628245ce567060be7ef01"),
+    client: "A",
+    timestamp: NumberLong("1738942500718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628249fbbc0230cad0ae7"),
+    client: "B",
+    timestamp: NumberLong("1738942500749")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62824f26b0352b5206953"),
+    client: "A",
+    timestamp: NumberLong("1738942500873")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282450944b33726a920e"),
+    client: "A",
+    timestamp: NumberLong("1738942500888")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628249fbee64200872207"),
+    client: "A",
+    timestamp: NumberLong("1738942500904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628258b950e3fae99f8d2"),
+    client: "A",
+    timestamp: NumberLong("1738942501118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62825462d9a35f51df5c1"),
+    client: "A",
+    timestamp: NumberLong("1738942501211")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628250c4f7f682333db46"),
+    client: "A",
+    timestamp: NumberLong("1738942501227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628255ce567060be7ef02"),
+    client: "A",
+    timestamp: NumberLong("1738942501243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628259fbbc0230cad0ae8"),
+    client: "B",
+    timestamp: NumberLong("1738942501274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62825f26b0352b5206954"),
+    client: "A",
+    timestamp: NumberLong("1738942501400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282550944b33726a920f"),
+    client: "A",
+    timestamp: NumberLong("1738942501416")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628259fbee64200872208"),
+    client: "A",
+    timestamp: NumberLong("1738942501431")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628258b950e3fae99f8d3"),
+    client: "A",
+    timestamp: NumberLong("1738942501647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62825462d9a35f51df5c2"),
+    client: "A",
+    timestamp: NumberLong("1738942501740")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628255ce567060be7ef03"),
+    client: "A",
+    timestamp: NumberLong("1738942501755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628250c4f7f682333db47"),
+    client: "A",
+    timestamp: NumberLong("1738942501755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628259fbbc0230cad0ae9"),
+    client: "B",
+    timestamp: NumberLong("1738942501803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62825f26b0352b5206955"),
+    client: "A",
+    timestamp: NumberLong("1738942501928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282550944b33726a9210"),
+    client: "A",
+    timestamp: NumberLong("1738942501944")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628259fbee64200872209"),
+    client: "A",
+    timestamp: NumberLong("1738942501959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628268b950e3fae99f8d4"),
+    client: "A",
+    timestamp: NumberLong("1738942502177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62826462d9a35f51df5c3"),
+    client: "A",
+    timestamp: NumberLong("1738942502269")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628265ce567060be7ef04"),
+    client: "A",
+    timestamp: NumberLong("1738942502284")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628260c4f7f682333db48"),
+    client: "A",
+    timestamp: NumberLong("1738942502284")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628269fbbc0230cad0aea"),
+    client: "B",
+    timestamp: NumberLong("1738942502331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62826f26b0352b5206956"),
+    client: "A",
+    timestamp: NumberLong("1738942502456")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282650944b33726a9211"),
+    client: "A",
+    timestamp: NumberLong("1738942502471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628269fbee6420087220a"),
+    client: "A",
+    timestamp: NumberLong("1738942502487")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628268b950e3fae99f8d5"),
+    client: "A",
+    timestamp: NumberLong("1738942502703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62826462d9a35f51df5c4"),
+    client: "A",
+    timestamp: NumberLong("1738942502795")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628260c4f7f682333db49"),
+    client: "A",
+    timestamp: NumberLong("1738942502810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628265ce567060be7ef05"),
+    client: "A",
+    timestamp: NumberLong("1738942502810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628269fbbc0230cad0aeb"),
+    client: "B",
+    timestamp: NumberLong("1738942502856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62826f26b0352b5206957"),
+    client: "A",
+    timestamp: NumberLong("1738942502980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282650944b33726a9212"),
+    client: "A",
+    timestamp: NumberLong("1738942502996")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628279fbee6420087220b"),
+    client: "A",
+    timestamp: NumberLong("1738942503011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628278b950e3fae99f8d6"),
+    client: "A",
+    timestamp: NumberLong("1738942503228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62827462d9a35f51df5c5"),
+    client: "A",
+    timestamp: NumberLong("1738942503321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628275ce567060be7ef06"),
+    client: "A",
+    timestamp: NumberLong("1738942503336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628270c4f7f682333db4a"),
+    client: "A",
+    timestamp: NumberLong("1738942503336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628279fbbc0230cad0aec"),
+    client: "B",
+    timestamp: NumberLong("1738942503382")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62827f26b0352b5206958"),
+    client: "A",
+    timestamp: NumberLong("1738942503508")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282750944b33726a9213"),
+    client: "A",
+    timestamp: NumberLong("1738942503523")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628279fbee6420087220c"),
+    client: "A",
+    timestamp: NumberLong("1738942503539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628278b950e3fae99f8d7"),
+    client: "A",
+    timestamp: NumberLong("1738942503757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62827462d9a35f51df5c6"),
+    client: "A",
+    timestamp: NumberLong("1738942503852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628270c4f7f682333db4b"),
+    client: "A",
+    timestamp: NumberLong("1738942503868")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628275ce567060be7ef07"),
+    client: "A",
+    timestamp: NumberLong("1738942503868")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628279fbbc0230cad0aed"),
+    client: "B",
+    timestamp: NumberLong("1738942503915")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62828f26b0352b5206959"),
+    client: "A",
+    timestamp: NumberLong("1738942504037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282850944b33726a9214"),
+    client: "A",
+    timestamp: NumberLong("1738942504053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628289fbee6420087220d"),
+    client: "A",
+    timestamp: NumberLong("1738942504068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628288b950e3fae99f8d8"),
+    client: "A",
+    timestamp: NumberLong("1738942504273")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62828462d9a35f51df5c7"),
+    client: "A",
+    timestamp: NumberLong("1738942504381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628280c4f7f682333db4c"),
+    client: "A",
+    timestamp: NumberLong("1738942504396")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628285ce567060be7ef08"),
+    client: "A",
+    timestamp: NumberLong("1738942504396")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628289fbbc0230cad0aee"),
+    client: "B",
+    timestamp: NumberLong("1738942504443")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62828f26b0352b520695a"),
+    client: "A",
+    timestamp: NumberLong("1738942504567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282850944b33726a9215"),
+    client: "A",
+    timestamp: NumberLong("1738942504583")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628289fbee6420087220e"),
+    client: "A",
+    timestamp: NumberLong("1738942504598")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628288b950e3fae99f8d9"),
+    client: "A",
+    timestamp: NumberLong("1738942504801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62828462d9a35f51df5c8"),
+    client: "A",
+    timestamp: NumberLong("1738942504910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628285ce567060be7ef09"),
+    client: "A",
+    timestamp: NumberLong("1738942504925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628280c4f7f682333db4d"),
+    client: "A",
+    timestamp: NumberLong("1738942504925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628289fbbc0230cad0aef"),
+    client: "B",
+    timestamp: NumberLong("1738942504972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62829f26b0352b520695b"),
+    client: "A",
+    timestamp: NumberLong("1738942505095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282950944b33726a9216"),
+    client: "A",
+    timestamp: NumberLong("1738942505110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628299fbee6420087220f"),
+    client: "A",
+    timestamp: NumberLong("1738942505126")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628298b950e3fae99f8da"),
+    client: "A",
+    timestamp: NumberLong("1738942505328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62829462d9a35f51df5c9"),
+    client: "A",
+    timestamp: NumberLong("1738942505436")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628290c4f7f682333db4e"),
+    client: "A",
+    timestamp: NumberLong("1738942505451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628295ce567060be7ef0a"),
+    client: "A",
+    timestamp: NumberLong("1738942505451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628299fbbc0230cad0af0"),
+    client: "B",
+    timestamp: NumberLong("1738942505496")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62829f26b0352b520695c"),
+    client: "A",
+    timestamp: NumberLong("1738942505622")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282950944b33726a9217"),
+    client: "A",
+    timestamp: NumberLong("1738942505637")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628299fbee64200872210"),
+    client: "A",
+    timestamp: NumberLong("1738942505652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628298b950e3fae99f8db"),
+    client: "A",
+    timestamp: NumberLong("1738942505852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62829462d9a35f51df5ca"),
+    client: "A",
+    timestamp: NumberLong("1738942505960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628295ce567060be7ef0b"),
+    client: "A",
+    timestamp: NumberLong("1738942505975")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628290c4f7f682333db4f"),
+    client: "A",
+    timestamp: NumberLong("1738942505975")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a9fbbc0230cad0af1"),
+    client: "B",
+    timestamp: NumberLong("1738942506021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282af26b0352b520695d"),
+    client: "A",
+    timestamp: NumberLong("1738942506146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a50944b33726a9218"),
+    client: "A",
+    timestamp: NumberLong("1738942506162")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a9fbee64200872211"),
+    client: "A",
+    timestamp: NumberLong("1738942506177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a8b950e3fae99f8dc"),
+    client: "A",
+    timestamp: NumberLong("1738942506378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a462d9a35f51df5cb"),
+    client: "A",
+    timestamp: NumberLong("1738942506488")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a5ce567060be7ef0c"),
+    client: "A",
+    timestamp: NumberLong("1738942506503")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a0c4f7f682333db50"),
+    client: "A",
+    timestamp: NumberLong("1738942506503")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a9fbbc0230cad0af2"),
+    client: "B",
+    timestamp: NumberLong("1738942506550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282af26b0352b520695e"),
+    client: "A",
+    timestamp: NumberLong("1738942506674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a50944b33726a9219"),
+    client: "A",
+    timestamp: NumberLong("1738942506690")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a9fbee64200872212"),
+    client: "A",
+    timestamp: NumberLong("1738942506705")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282a8b950e3fae99f8dd"),
+    client: "A",
+    timestamp: NumberLong("1738942506908")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b462d9a35f51df5cc"),
+    client: "A",
+    timestamp: NumberLong("1738942507013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b5ce567060be7ef0d"),
+    client: "A",
+    timestamp: NumberLong("1738942507028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b0c4f7f682333db51"),
+    client: "A",
+    timestamp: NumberLong("1738942507043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b9fbbc0230cad0af3"),
+    client: "B",
+    timestamp: NumberLong("1738942507073")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282bf26b0352b520695f"),
+    client: "A",
+    timestamp: NumberLong("1738942507197")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b50944b33726a921a"),
+    client: "A",
+    timestamp: NumberLong("1738942507212")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b9fbee64200872213"),
+    client: "A",
+    timestamp: NumberLong("1738942507228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b8b950e3fae99f8de"),
+    client: "A",
+    timestamp: NumberLong("1738942507428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b462d9a35f51df5cd"),
+    client: "A",
+    timestamp: NumberLong("1738942507537")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b5ce567060be7ef0e"),
+    client: "A",
+    timestamp: NumberLong("1738942507553")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b0c4f7f682333db52"),
+    client: "A",
+    timestamp: NumberLong("1738942507569")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b9fbbc0230cad0af4"),
+    client: "B",
+    timestamp: NumberLong("1738942507600")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282bf26b0352b5206960"),
+    client: "A",
+    timestamp: NumberLong("1738942507724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b50944b33726a921b"),
+    client: "A",
+    timestamp: NumberLong("1738942507740")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b9fbee64200872214"),
+    client: "A",
+    timestamp: NumberLong("1738942507755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282b8b950e3fae99f8df"),
+    client: "A",
+    timestamp: NumberLong("1738942507957")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c462d9a35f51df5ce"),
+    client: "A",
+    timestamp: NumberLong("1738942508067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c5ce567060be7ef0f"),
+    client: "A",
+    timestamp: NumberLong("1738942508083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c0c4f7f682333db53"),
+    client: "A",
+    timestamp: NumberLong("1738942508099")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c9fbbc0230cad0af5"),
+    client: "B",
+    timestamp: NumberLong("1738942508129")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282cf26b0352b5206961"),
+    client: "A",
+    timestamp: NumberLong("1738942508252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c50944b33726a921c"),
+    client: "A",
+    timestamp: NumberLong("1738942508267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c9fbee64200872215"),
+    client: "A",
+    timestamp: NumberLong("1738942508282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c8b950e3fae99f8e0"),
+    client: "A",
+    timestamp: NumberLong("1738942508482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c462d9a35f51df5cf"),
+    client: "A",
+    timestamp: NumberLong("1738942508588")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c5ce567060be7ef10"),
+    client: "A",
+    timestamp: NumberLong("1738942508603")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c0c4f7f682333db54"),
+    client: "A",
+    timestamp: NumberLong("1738942508619")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c9fbbc0230cad0af6"),
+    client: "B",
+    timestamp: NumberLong("1738942508650")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282cf26b0352b5206962"),
+    client: "A",
+    timestamp: NumberLong("1738942508788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c50944b33726a921d"),
+    client: "A",
+    timestamp: NumberLong("1738942508788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282c9fbee64200872216"),
+    client: "A",
+    timestamp: NumberLong("1738942508804")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d8b950e3fae99f8e1"),
+    client: "A",
+    timestamp: NumberLong("1738942509008")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d462d9a35f51df5d0"),
+    client: "A",
+    timestamp: NumberLong("1738942509101")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d5ce567060be7ef11"),
+    client: "A",
+    timestamp: NumberLong("1738942509116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d0c4f7f682333db55"),
+    client: "A",
+    timestamp: NumberLong("1738942509131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d9fbbc0230cad0af7"),
+    client: "B",
+    timestamp: NumberLong("1738942509163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282df26b0352b5206963"),
+    client: "A",
+    timestamp: NumberLong("1738942509318")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d50944b33726a921e"),
+    client: "A",
+    timestamp: NumberLong("1738942509318")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d9fbee64200872217"),
+    client: "A",
+    timestamp: NumberLong("1738942509334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d8b950e3fae99f8e2"),
+    client: "A",
+    timestamp: NumberLong("1738942509536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d462d9a35f51df5d1"),
+    client: "A",
+    timestamp: NumberLong("1738942509615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d5ce567060be7ef12"),
+    client: "A",
+    timestamp: NumberLong("1738942509631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d0c4f7f682333db56"),
+    client: "A",
+    timestamp: NumberLong("1738942509647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d9fbbc0230cad0af8"),
+    client: "B",
+    timestamp: NumberLong("1738942509678")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282df26b0352b5206964"),
+    client: "A",
+    timestamp: NumberLong("1738942509848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d50944b33726a921f"),
+    client: "A",
+    timestamp: NumberLong("1738942509848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282d9fbee64200872218"),
+    client: "A",
+    timestamp: NumberLong("1738942509863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e8b950e3fae99f8e3"),
+    client: "A",
+    timestamp: NumberLong("1738942510063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e462d9a35f51df5d2"),
+    client: "A",
+    timestamp: NumberLong("1738942510139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e5ce567060be7ef13"),
+    client: "A",
+    timestamp: NumberLong("1738942510154")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e0c4f7f682333db57"),
+    client: "A",
+    timestamp: NumberLong("1738942510170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e9fbbc0230cad0af9"),
+    client: "B",
+    timestamp: NumberLong("1738942510200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282ef26b0352b5206965"),
+    client: "A",
+    timestamp: NumberLong("1738942510373")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e50944b33726a9220"),
+    client: "A",
+    timestamp: NumberLong("1738942510373")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e9fbee64200872219"),
+    client: "A",
+    timestamp: NumberLong("1738942510389")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e8b950e3fae99f8e4"),
+    client: "A",
+    timestamp: NumberLong("1738942510590")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e5ce567060be7ef14"),
+    client: "A",
+    timestamp: NumberLong("1738942510683")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e462d9a35f51df5d3"),
+    client: "A",
+    timestamp: NumberLong("1738942510683")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e0c4f7f682333db58"),
+    client: "A",
+    timestamp: NumberLong("1738942510699")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e9fbbc0230cad0afa"),
+    client: "B",
+    timestamp: NumberLong("1738942510729")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e50944b33726a9221"),
+    client: "A",
+    timestamp: NumberLong("1738942510901")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282ef26b0352b5206966"),
+    client: "A",
+    timestamp: NumberLong("1738942510901")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282e9fbee6420087221a"),
+    client: "A",
+    timestamp: NumberLong("1738942510916")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f8b950e3fae99f8e5"),
+    client: "A",
+    timestamp: NumberLong("1738942511116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f462d9a35f51df5d4"),
+    client: "A",
+    timestamp: NumberLong("1738942511209")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f5ce567060be7ef15"),
+    client: "A",
+    timestamp: NumberLong("1738942511209")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f0c4f7f682333db59"),
+    client: "A",
+    timestamp: NumberLong("1738942511225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f9fbbc0230cad0afb"),
+    client: "B",
+    timestamp: NumberLong("1738942511256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282ff26b0352b5206967"),
+    client: "A",
+    timestamp: NumberLong("1738942511428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f50944b33726a9222"),
+    client: "A",
+    timestamp: NumberLong("1738942511428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f9fbee6420087221b"),
+    client: "A",
+    timestamp: NumberLong("1738942511444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f8b950e3fae99f8e6"),
+    client: "A",
+    timestamp: NumberLong("1738942511634")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f5ce567060be7ef16"),
+    client: "A",
+    timestamp: NumberLong("1738942511742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f0c4f7f682333db5a"),
+    client: "A",
+    timestamp: NumberLong("1738942511742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f462d9a35f51df5d5"),
+    client: "A",
+    timestamp: NumberLong("1738942511742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f9fbbc0230cad0afc"),
+    client: "B",
+    timestamp: NumberLong("1738942511788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f9fbee6420087221c"),
+    client: "A",
+    timestamp: NumberLong("1738942511960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282ff26b0352b5206968"),
+    client: "A",
+    timestamp: NumberLong("1738942511960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6282f50944b33726a9223"),
+    client: "A",
+    timestamp: NumberLong("1738942511960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628308b950e3fae99f8e7"),
+    client: "A",
+    timestamp: NumberLong("1738942512163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628305ce567060be7ef17"),
+    client: "A",
+    timestamp: NumberLong("1738942512272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62830462d9a35f51df5d6"),
+    client: "A",
+    timestamp: NumberLong("1738942512272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628300c4f7f682333db5b"),
+    client: "A",
+    timestamp: NumberLong("1738942512272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628309fbbc0230cad0afd"),
+    client: "B",
+    timestamp: NumberLong("1738942512319")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628309fbee6420087221d"),
+    client: "A",
+    timestamp: NumberLong("1738942512491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283050944b33726a9224"),
+    client: "A",
+    timestamp: NumberLong("1738942512491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62830f26b0352b5206969"),
+    client: "A",
+    timestamp: NumberLong("1738942512491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628308b950e3fae99f8e8"),
+    client: "A",
+    timestamp: NumberLong("1738942512697")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62830462d9a35f51df5d7"),
+    client: "A",
+    timestamp: NumberLong("1738942512806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628300c4f7f682333db5c"),
+    client: "A",
+    timestamp: NumberLong("1738942512806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628305ce567060be7ef18"),
+    client: "A",
+    timestamp: NumberLong("1738942512806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628309fbbc0230cad0afe"),
+    client: "B",
+    timestamp: NumberLong("1738942512837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628319fbee6420087221e"),
+    client: "A",
+    timestamp: NumberLong("1738942513025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283150944b33726a9225"),
+    client: "A",
+    timestamp: NumberLong("1738942513025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62831f26b0352b520696a"),
+    client: "A",
+    timestamp: NumberLong("1738942513025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628318b950e3fae99f8e9"),
+    client: "A",
+    timestamp: NumberLong("1738942513227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628315ce567060be7ef19"),
+    client: "A",
+    timestamp: NumberLong("1738942513336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628310c4f7f682333db5d"),
+    client: "A",
+    timestamp: NumberLong("1738942513336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62831462d9a35f51df5d8"),
+    client: "A",
+    timestamp: NumberLong("1738942513336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628319fbbc0230cad0aff"),
+    client: "B",
+    timestamp: NumberLong("1738942513367")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628319fbee6420087221f"),
+    client: "A",
+    timestamp: NumberLong("1738942513553")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283150944b33726a9226"),
+    client: "A",
+    timestamp: NumberLong("1738942513553")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62831f26b0352b520696b"),
+    client: "A",
+    timestamp: NumberLong("1738942513553")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628318b950e3fae99f8ea"),
+    client: "A",
+    timestamp: NumberLong("1738942513757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62831462d9a35f51df5d9"),
+    client: "A",
+    timestamp: NumberLong("1738942513866")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628310c4f7f682333db5e"),
+    client: "A",
+    timestamp: NumberLong("1738942513866")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628315ce567060be7ef1a"),
+    client: "A",
+    timestamp: NumberLong("1738942513866")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628319fbbc0230cad0b00"),
+    client: "B",
+    timestamp: NumberLong("1738942513896")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628329fbee64200872220"),
+    client: "A",
+    timestamp: NumberLong("1738942514083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62832f26b0352b520696c"),
+    client: "A",
+    timestamp: NumberLong("1738942514083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283250944b33726a9227"),
+    client: "A",
+    timestamp: NumberLong("1738942514083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628328b950e3fae99f8eb"),
+    client: "A",
+    timestamp: NumberLong("1738942514285")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628325ce567060be7ef1b"),
+    client: "A",
+    timestamp: NumberLong("1738942514393")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62832462d9a35f51df5da"),
+    client: "A",
+    timestamp: NumberLong("1738942514393")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628320c4f7f682333db5f"),
+    client: "A",
+    timestamp: NumberLong("1738942514393")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628329fbbc0230cad0b01"),
+    client: "B",
+    timestamp: NumberLong("1738942514424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628329fbee64200872221"),
+    client: "A",
+    timestamp: NumberLong("1738942514608")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283250944b33726a9228"),
+    client: "A",
+    timestamp: NumberLong("1738942514608")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62832f26b0352b520696d"),
+    client: "A",
+    timestamp: NumberLong("1738942514608")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628328b950e3fae99f8ec"),
+    client: "A",
+    timestamp: NumberLong("1738942514809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62832462d9a35f51df5db"),
+    client: "A",
+    timestamp: NumberLong("1738942514918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628325ce567060be7ef1c"),
+    client: "A",
+    timestamp: NumberLong("1738942514918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628320c4f7f682333db60"),
+    client: "A",
+    timestamp: NumberLong("1738942514918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628329fbbc0230cad0b02"),
+    client: "B",
+    timestamp: NumberLong("1738942514948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62833f26b0352b520696e"),
+    client: "A",
+    timestamp: NumberLong("1738942515134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283350944b33726a9229"),
+    client: "A",
+    timestamp: NumberLong("1738942515134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628339fbee64200872222"),
+    client: "A",
+    timestamp: NumberLong("1738942515149")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628338b950e3fae99f8ed"),
+    client: "A",
+    timestamp: NumberLong("1738942515337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62833462d9a35f51df5dc"),
+    client: "A",
+    timestamp: NumberLong("1738942515447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628330c4f7f682333db61"),
+    client: "A",
+    timestamp: NumberLong("1738942515447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628335ce567060be7ef1d"),
+    client: "A",
+    timestamp: NumberLong("1738942515447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628339fbbc0230cad0b03"),
+    client: "B",
+    timestamp: NumberLong("1738942515478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62833f26b0352b520696f"),
+    client: "A",
+    timestamp: NumberLong("1738942515665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283350944b33726a922a"),
+    client: "A",
+    timestamp: NumberLong("1738942515665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628339fbee64200872223"),
+    client: "A",
+    timestamp: NumberLong("1738942515681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628338b950e3fae99f8ee"),
+    client: "A",
+    timestamp: NumberLong("1738942515866")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628330c4f7f682333db62"),
+    client: "A",
+    timestamp: NumberLong("1738942515972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62833462d9a35f51df5dd"),
+    client: "A",
+    timestamp: NumberLong("1738942515972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628335ce567060be7ef1e"),
+    client: "A",
+    timestamp: NumberLong("1738942515972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628349fbbc0230cad0b04"),
+    client: "B",
+    timestamp: NumberLong("1738942516005")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62834f26b0352b5206970"),
+    client: "A",
+    timestamp: NumberLong("1738942516190")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283450944b33726a922b"),
+    client: "A",
+    timestamp: NumberLong("1738942516190")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628349fbee64200872224"),
+    client: "A",
+    timestamp: NumberLong("1738942516206")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628348b950e3fae99f8ef"),
+    client: "A",
+    timestamp: NumberLong("1738942516392")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628345ce567060be7ef1f"),
+    client: "A",
+    timestamp: NumberLong("1738942516499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628340c4f7f682333db63"),
+    client: "A",
+    timestamp: NumberLong("1738942516499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62834462d9a35f51df5de"),
+    client: "A",
+    timestamp: NumberLong("1738942516499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628349fbbc0230cad0b05"),
+    client: "B",
+    timestamp: NumberLong("1738942516529")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283450944b33726a922c"),
+    client: "A",
+    timestamp: NumberLong("1738942516717")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62834f26b0352b5206971"),
+    client: "A",
+    timestamp: NumberLong("1738942516717")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628349fbee64200872225"),
+    client: "A",
+    timestamp: NumberLong("1738942516733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628348b950e3fae99f8f0"),
+    client: "A",
+    timestamp: NumberLong("1738942516918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628355ce567060be7ef20"),
+    client: "A",
+    timestamp: NumberLong("1738942517025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628350c4f7f682333db64"),
+    client: "A",
+    timestamp: NumberLong("1738942517025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62835462d9a35f51df5df"),
+    client: "A",
+    timestamp: NumberLong("1738942517025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628359fbbc0230cad0b06"),
+    client: "B",
+    timestamp: NumberLong("1738942517056")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62835f26b0352b5206972"),
+    client: "A",
+    timestamp: NumberLong("1738942517259")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628359fbee64200872226"),
+    client: "A",
+    timestamp: NumberLong("1738942517259")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283550944b33726a922d"),
+    client: "A",
+    timestamp: NumberLong("1738942517259")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628358b950e3fae99f8f1"),
+    client: "A",
+    timestamp: NumberLong("1738942517447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628355ce567060be7ef21"),
+    client: "A",
+    timestamp: NumberLong("1738942517555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62835462d9a35f51df5e0"),
+    client: "A",
+    timestamp: NumberLong("1738942517555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628350c4f7f682333db65"),
+    client: "A",
+    timestamp: NumberLong("1738942517555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628359fbbc0230cad0b07"),
+    client: "B",
+    timestamp: NumberLong("1738942517585")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628359fbee64200872227"),
+    client: "A",
+    timestamp: NumberLong("1738942517788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62835f26b0352b5206973"),
+    client: "A",
+    timestamp: NumberLong("1738942517788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283550944b33726a922e"),
+    client: "A",
+    timestamp: NumberLong("1738942517788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628358b950e3fae99f8f2"),
+    client: "A",
+    timestamp: NumberLong("1738942517972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628360c4f7f682333db66"),
+    client: "A",
+    timestamp: NumberLong("1738942518080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628365ce567060be7ef22"),
+    client: "A",
+    timestamp: NumberLong("1738942518080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62836462d9a35f51df5e1"),
+    client: "A",
+    timestamp: NumberLong("1738942518080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628369fbbc0230cad0b08"),
+    client: "B",
+    timestamp: NumberLong("1738942518111")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628369fbee64200872228"),
+    client: "A",
+    timestamp: NumberLong("1738942518312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283650944b33726a922f"),
+    client: "A",
+    timestamp: NumberLong("1738942518312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62836f26b0352b5206974"),
+    client: "A",
+    timestamp: NumberLong("1738942518312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628368b950e3fae99f8f3"),
+    client: "A",
+    timestamp: NumberLong("1738942518498")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628360c4f7f682333db67"),
+    client: "A",
+    timestamp: NumberLong("1738942518605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62836462d9a35f51df5e2"),
+    client: "A",
+    timestamp: NumberLong("1738942518605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628365ce567060be7ef23"),
+    client: "A",
+    timestamp: NumberLong("1738942518605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628369fbbc0230cad0b09"),
+    client: "B",
+    timestamp: NumberLong("1738942518636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628369fbee64200872229"),
+    client: "A",
+    timestamp: NumberLong("1738942518837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283650944b33726a9230"),
+    client: "A",
+    timestamp: NumberLong("1738942518837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62836f26b0352b5206975"),
+    client: "A",
+    timestamp: NumberLong("1738942518837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628378b950e3fae99f8f4"),
+    client: "A",
+    timestamp: NumberLong("1738942519023")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62837462d9a35f51df5e3"),
+    client: "A",
+    timestamp: NumberLong("1738942519132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628375ce567060be7ef24"),
+    client: "A",
+    timestamp: NumberLong("1738942519132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628370c4f7f682333db68"),
+    client: "A",
+    timestamp: NumberLong("1738942519132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628379fbbc0230cad0b0a"),
+    client: "B",
+    timestamp: NumberLong("1738942519163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628379fbee6420087222a"),
+    client: "A",
+    timestamp: NumberLong("1738942519364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62837f26b0352b5206976"),
+    client: "A",
+    timestamp: NumberLong("1738942519364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283750944b33726a9231"),
+    client: "A",
+    timestamp: NumberLong("1738942519364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628378b950e3fae99f8f5"),
+    client: "A",
+    timestamp: NumberLong("1738942519552")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628370c4f7f682333db69"),
+    client: "A",
+    timestamp: NumberLong("1738942519661")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628375ce567060be7ef25"),
+    client: "A",
+    timestamp: NumberLong("1738942519661")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62837462d9a35f51df5e4"),
+    client: "A",
+    timestamp: NumberLong("1738942519661")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628379fbbc0230cad0b0b"),
+    client: "B",
+    timestamp: NumberLong("1738942519691")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628379fbee6420087222b"),
+    client: "A",
+    timestamp: NumberLong("1738942519892")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62837f26b0352b5206977"),
+    client: "A",
+    timestamp: NumberLong("1738942519892")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283750944b33726a9232"),
+    client: "A",
+    timestamp: NumberLong("1738942519908")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628388b950e3fae99f8f6"),
+    client: "A",
+    timestamp: NumberLong("1738942520074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62838462d9a35f51df5e5"),
+    client: "A",
+    timestamp: NumberLong("1738942520196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628380c4f7f682333db6a"),
+    client: "A",
+    timestamp: NumberLong("1738942520196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628385ce567060be7ef26"),
+    client: "A",
+    timestamp: NumberLong("1738942520196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628389fbbc0230cad0b0c"),
+    client: "B",
+    timestamp: NumberLong("1738942520227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628389fbee6420087222c"),
+    client: "A",
+    timestamp: NumberLong("1738942520416")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62838f26b0352b5206978"),
+    client: "A",
+    timestamp: NumberLong("1738942520416")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283850944b33726a9233"),
+    client: "A",
+    timestamp: NumberLong("1738942520432")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628388b950e3fae99f8f7"),
+    client: "A",
+    timestamp: NumberLong("1738942520588")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628385ce567060be7ef27"),
+    client: "A",
+    timestamp: NumberLong("1738942520726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62838462d9a35f51df5e6"),
+    client: "A",
+    timestamp: NumberLong("1738942520726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628380c4f7f682333db6b"),
+    client: "A",
+    timestamp: NumberLong("1738942520726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628389fbbc0230cad0b0d"),
+    client: "B",
+    timestamp: NumberLong("1738942520757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628389fbee6420087222d"),
+    client: "A",
+    timestamp: NumberLong("1738942520944")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62838f26b0352b5206979"),
+    client: "A",
+    timestamp: NumberLong("1738942520944")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283850944b33726a9234"),
+    client: "A",
+    timestamp: NumberLong("1738942520959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628398b950e3fae99f8f8"),
+    client: "A",
+    timestamp: NumberLong("1738942521113")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628395ce567060be7ef28"),
+    client: "A",
+    timestamp: NumberLong("1738942521254")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628390c4f7f682333db6c"),
+    client: "A",
+    timestamp: NumberLong("1738942521254")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62839462d9a35f51df5e7"),
+    client: "A",
+    timestamp: NumberLong("1738942521254")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628399fbbc0230cad0b0e"),
+    client: "B",
+    timestamp: NumberLong("1738942521285")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628399fbee6420087222e"),
+    client: "A",
+    timestamp: NumberLong("1738942521474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62839f26b0352b520697a"),
+    client: "A",
+    timestamp: NumberLong("1738942521474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283950944b33726a9235"),
+    client: "A",
+    timestamp: NumberLong("1738942521489")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628398b950e3fae99f8f9"),
+    client: "A",
+    timestamp: NumberLong("1738942521644")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62839462d9a35f51df5e8"),
+    client: "A",
+    timestamp: NumberLong("1738942521784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628390c4f7f682333db6d"),
+    client: "A",
+    timestamp: NumberLong("1738942521784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628395ce567060be7ef29"),
+    client: "A",
+    timestamp: NumberLong("1738942521784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628399fbbc0230cad0b0f"),
+    client: "B",
+    timestamp: NumberLong("1738942521815")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283af26b0352b520697b"),
+    client: "A",
+    timestamp: NumberLong("1738942522002")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a9fbee6420087222f"),
+    client: "A",
+    timestamp: NumberLong("1738942522002")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a50944b33726a9236"),
+    client: "A",
+    timestamp: NumberLong("1738942522018")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a8b950e3fae99f8fa"),
+    client: "A",
+    timestamp: NumberLong("1738942522174")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a5ce567060be7ef2a"),
+    client: "A",
+    timestamp: NumberLong("1738942522313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a462d9a35f51df5e9"),
+    client: "A",
+    timestamp: NumberLong("1738942522313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a0c4f7f682333db6e"),
+    client: "A",
+    timestamp: NumberLong("1738942522313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a9fbbc0230cad0b10"),
+    client: "B",
+    timestamp: NumberLong("1738942522344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a9fbee64200872230"),
+    client: "A",
+    timestamp: NumberLong("1738942522530")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283af26b0352b520697c"),
+    client: "A",
+    timestamp: NumberLong("1738942522530")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a50944b33726a9237"),
+    client: "A",
+    timestamp: NumberLong("1738942522546")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a8b950e3fae99f8fb"),
+    client: "A",
+    timestamp: NumberLong("1738942522699")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a462d9a35f51df5ea"),
+    client: "A",
+    timestamp: NumberLong("1738942522840")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a0c4f7f682333db6f"),
+    client: "A",
+    timestamp: NumberLong("1738942522840")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a5ce567060be7ef2b"),
+    client: "A",
+    timestamp: NumberLong("1738942522840")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283a9fbbc0230cad0b11"),
+    client: "B",
+    timestamp: NumberLong("1738942522871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b9fbee64200872231"),
+    client: "A",
+    timestamp: NumberLong("1738942523042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283bf26b0352b520697d"),
+    client: "A",
+    timestamp: NumberLong("1738942523058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b50944b33726a9238"),
+    client: "A",
+    timestamp: NumberLong("1738942523058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b8b950e3fae99f8fc"),
+    client: "A",
+    timestamp: NumberLong("1738942523228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b0c4f7f682333db70"),
+    client: "A",
+    timestamp: NumberLong("1738942523368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b462d9a35f51df5eb"),
+    client: "A",
+    timestamp: NumberLong("1738942523368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b5ce567060be7ef2c"),
+    client: "A",
+    timestamp: NumberLong("1738942523368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b9fbbc0230cad0b12"),
+    client: "B",
+    timestamp: NumberLong("1738942523398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b9fbee64200872232"),
+    client: "A",
+    timestamp: NumberLong("1738942523566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b50944b33726a9239"),
+    client: "A",
+    timestamp: NumberLong("1738942523581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283bf26b0352b520697e"),
+    client: "A",
+    timestamp: NumberLong("1738942523581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b8b950e3fae99f8fd"),
+    client: "A",
+    timestamp: NumberLong("1738942523752")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b5ce567060be7ef2d"),
+    client: "A",
+    timestamp: NumberLong("1738942523891")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b462d9a35f51df5ec"),
+    client: "A",
+    timestamp: NumberLong("1738942523891")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b0c4f7f682333db71"),
+    client: "A",
+    timestamp: NumberLong("1738942523891")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283b9fbbc0230cad0b13"),
+    client: "B",
+    timestamp: NumberLong("1738942523922")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c9fbee64200872233"),
+    client: "A",
+    timestamp: NumberLong("1738942524079")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283cf26b0352b520697f"),
+    client: "A",
+    timestamp: NumberLong("1738942524095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c50944b33726a923a"),
+    client: "A",
+    timestamp: NumberLong("1738942524095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c8b950e3fae99f8fe"),
+    client: "A",
+    timestamp: NumberLong("1738942524278")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c0c4f7f682333db72"),
+    client: "A",
+    timestamp: NumberLong("1738942524420")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c462d9a35f51df5ed"),
+    client: "A",
+    timestamp: NumberLong("1738942524420")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c5ce567060be7ef2e"),
+    client: "A",
+    timestamp: NumberLong("1738942524437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c9fbbc0230cad0b14"),
+    client: "B",
+    timestamp: NumberLong("1738942524452")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c9fbee64200872234"),
+    client: "A",
+    timestamp: NumberLong("1738942524606")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283cf26b0352b5206980"),
+    client: "A",
+    timestamp: NumberLong("1738942524621")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c50944b33726a923b"),
+    client: "A",
+    timestamp: NumberLong("1738942524621")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c8b950e3fae99f8ff"),
+    client: "A",
+    timestamp: NumberLong("1738942524809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c462d9a35f51df5ee"),
+    client: "A",
+    timestamp: NumberLong("1738942524947")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c0c4f7f682333db73"),
+    client: "A",
+    timestamp: NumberLong("1738942524963")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c9fbbc0230cad0b15"),
+    client: "B",
+    timestamp: NumberLong("1738942524978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283c5ce567060be7ef2f"),
+    client: "A",
+    timestamp: NumberLong("1738942524978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d9fbee64200872235"),
+    client: "A",
+    timestamp: NumberLong("1738942525132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283df26b0352b5206981"),
+    client: "A",
+    timestamp: NumberLong("1738942525147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d50944b33726a923c"),
+    client: "A",
+    timestamp: NumberLong("1738942525147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d8b950e3fae99f900"),
+    client: "A",
+    timestamp: NumberLong("1738942525331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d462d9a35f51df5ef"),
+    client: "A",
+    timestamp: NumberLong("1738942525471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d0c4f7f682333db74"),
+    client: "A",
+    timestamp: NumberLong("1738942525487")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d5ce567060be7ef30"),
+    client: "A",
+    timestamp: NumberLong("1738942525503")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d9fbbc0230cad0b16"),
+    client: "B",
+    timestamp: NumberLong("1738942525503")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d9fbee64200872236"),
+    client: "A",
+    timestamp: NumberLong("1738942525656")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283df26b0352b5206982"),
+    client: "A",
+    timestamp: NumberLong("1738942525672")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d50944b33726a923d"),
+    client: "A",
+    timestamp: NumberLong("1738942525672")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d8b950e3fae99f901"),
+    client: "A",
+    timestamp: NumberLong("1738942525857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283d462d9a35f51df5f0"),
+    client: "A",
+    timestamp: NumberLong("1738942525996")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e0c4f7f682333db75"),
+    client: "A",
+    timestamp: NumberLong("1738942526011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e5ce567060be7ef31"),
+    client: "A",
+    timestamp: NumberLong("1738942526027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e9fbbc0230cad0b17"),
+    client: "B",
+    timestamp: NumberLong("1738942526027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e9fbee64200872237"),
+    client: "A",
+    timestamp: NumberLong("1738942526181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283ef26b0352b5206983"),
+    client: "A",
+    timestamp: NumberLong("1738942526196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e50944b33726a923e"),
+    client: "A",
+    timestamp: NumberLong("1738942526196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e8b950e3fae99f902"),
+    client: "A",
+    timestamp: NumberLong("1738942526383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e462d9a35f51df5f1"),
+    client: "A",
+    timestamp: NumberLong("1738942526521")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e0c4f7f682333db76"),
+    client: "A",
+    timestamp: NumberLong("1738942526538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e5ce567060be7ef32"),
+    client: "A",
+    timestamp: NumberLong("1738942526552")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e9fbbc0230cad0b18"),
+    client: "B",
+    timestamp: NumberLong("1738942526552")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e9fbee64200872238"),
+    client: "A",
+    timestamp: NumberLong("1738942526706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e50944b33726a923f"),
+    client: "A",
+    timestamp: NumberLong("1738942526723")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283ef26b0352b5206984"),
+    client: "A",
+    timestamp: NumberLong("1738942526723")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283e8b950e3fae99f903"),
+    client: "A",
+    timestamp: NumberLong("1738942526909")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f462d9a35f51df5f2"),
+    client: "A",
+    timestamp: NumberLong("1738942527049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f0c4f7f682333db77"),
+    client: "A",
+    timestamp: NumberLong("1738942527065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f9fbbc0230cad0b19"),
+    client: "B",
+    timestamp: NumberLong("1738942527081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f5ce567060be7ef33"),
+    client: "A",
+    timestamp: NumberLong("1738942527081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f9fbee64200872239"),
+    client: "A",
+    timestamp: NumberLong("1738942527221")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283ff26b0352b5206985"),
+    client: "A",
+    timestamp: NumberLong("1738942527251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f50944b33726a9240"),
+    client: "A",
+    timestamp: NumberLong("1738942527251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f8b950e3fae99f904"),
+    client: "A",
+    timestamp: NumberLong("1738942527437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f462d9a35f51df5f3"),
+    client: "A",
+    timestamp: NumberLong("1738942527576")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f0c4f7f682333db78"),
+    client: "A",
+    timestamp: NumberLong("1738942527592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f9fbbc0230cad0b1a"),
+    client: "B",
+    timestamp: NumberLong("1738942527607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f5ce567060be7ef34"),
+    client: "A",
+    timestamp: NumberLong("1738942527607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f9fbee6420087223a"),
+    client: "A",
+    timestamp: NumberLong("1738942527746")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283ff26b0352b5206986"),
+    client: "A",
+    timestamp: NumberLong("1738942527777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f50944b33726a9241"),
+    client: "A",
+    timestamp: NumberLong("1738942527777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6283f8b950e3fae99f905"),
+    client: "A",
+    timestamp: NumberLong("1738942527962")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62840462d9a35f51df5f4"),
+    client: "A",
+    timestamp: NumberLong("1738942528101")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628400c4f7f682333db79"),
+    client: "A",
+    timestamp: NumberLong("1738942528118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628405ce567060be7ef35"),
+    client: "A",
+    timestamp: NumberLong("1738942528133")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628409fbbc0230cad0b1b"),
+    client: "B",
+    timestamp: NumberLong("1738942528133")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628409fbee6420087223b"),
+    client: "A",
+    timestamp: NumberLong("1738942528273")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284050944b33726a9242"),
+    client: "A",
+    timestamp: NumberLong("1738942528304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62840f26b0352b5206987"),
+    client: "A",
+    timestamp: NumberLong("1738942528304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628408b950e3fae99f906"),
+    client: "A",
+    timestamp: NumberLong("1738942528490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62840462d9a35f51df5f5"),
+    client: "A",
+    timestamp: NumberLong("1738942528630")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628400c4f7f682333db7a"),
+    client: "A",
+    timestamp: NumberLong("1738942528645")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628405ce567060be7ef36"),
+    client: "A",
+    timestamp: NumberLong("1738942528660")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628409fbbc0230cad0b1c"),
+    client: "B",
+    timestamp: NumberLong("1738942528660")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628409fbee6420087223c"),
+    client: "A",
+    timestamp: NumberLong("1738942528799")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284050944b33726a9243"),
+    client: "A",
+    timestamp: NumberLong("1738942528830")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62840f26b0352b5206988"),
+    client: "A",
+    timestamp: NumberLong("1738942528830")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628418b950e3fae99f907"),
+    client: "A",
+    timestamp: NumberLong("1738942529016")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62841462d9a35f51df5f6"),
+    client: "A",
+    timestamp: NumberLong("1738942529141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628410c4f7f682333db7b"),
+    client: "A",
+    timestamp: NumberLong("1738942529156")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628415ce567060be7ef37"),
+    client: "A",
+    timestamp: NumberLong("1738942529187")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628419fbbc0230cad0b1d"),
+    client: "B",
+    timestamp: NumberLong("1738942529187")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628419fbee6420087223d"),
+    client: "A",
+    timestamp: NumberLong("1738942529326")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62841f26b0352b5206989"),
+    client: "A",
+    timestamp: NumberLong("1738942529357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284150944b33726a9244"),
+    client: "A",
+    timestamp: NumberLong("1738942529357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628418b950e3fae99f908"),
+    client: "A",
+    timestamp: NumberLong("1738942529543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62841462d9a35f51df5f7"),
+    client: "A",
+    timestamp: NumberLong("1738942529667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628410c4f7f682333db7c"),
+    client: "A",
+    timestamp: NumberLong("1738942529681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628415ce567060be7ef38"),
+    client: "A",
+    timestamp: NumberLong("1738942529713")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628419fbbc0230cad0b1e"),
+    client: "B",
+    timestamp: NumberLong("1738942529713")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628419fbee6420087223e"),
+    client: "A",
+    timestamp: NumberLong("1738942529852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284150944b33726a9245"),
+    client: "A",
+    timestamp: NumberLong("1738942529882")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62841f26b0352b520698a"),
+    client: "A",
+    timestamp: NumberLong("1738942529882")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628428b950e3fae99f909"),
+    client: "A",
+    timestamp: NumberLong("1738942530068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62842462d9a35f51df5f8"),
+    client: "A",
+    timestamp: NumberLong("1738942530189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628420c4f7f682333db7d"),
+    client: "A",
+    timestamp: NumberLong("1738942530204")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628425ce567060be7ef39"),
+    client: "A",
+    timestamp: NumberLong("1738942530235")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628429fbbc0230cad0b1f"),
+    client: "B",
+    timestamp: NumberLong("1738942530235")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628429fbee6420087223f"),
+    client: "A",
+    timestamp: NumberLong("1738942530374")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284250944b33726a9246"),
+    client: "A",
+    timestamp: NumberLong("1738942530406")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62842f26b0352b520698b"),
+    client: "A",
+    timestamp: NumberLong("1738942530406")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628428b950e3fae99f90a"),
+    client: "A",
+    timestamp: NumberLong("1738942530591")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62842462d9a35f51df5f9"),
+    client: "A",
+    timestamp: NumberLong("1738942530715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628420c4f7f682333db7e"),
+    client: "A",
+    timestamp: NumberLong("1738942530730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628429fbbc0230cad0b20"),
+    client: "B",
+    timestamp: NumberLong("1738942530761")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628425ce567060be7ef3a"),
+    client: "A",
+    timestamp: NumberLong("1738942530761")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628429fbee64200872240"),
+    client: "A",
+    timestamp: NumberLong("1738942530898")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284250944b33726a9247"),
+    client: "A",
+    timestamp: NumberLong("1738942530928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62842f26b0352b520698c"),
+    client: "A",
+    timestamp: NumberLong("1738942530928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628438b950e3fae99f90b"),
+    client: "A",
+    timestamp: NumberLong("1738942531115")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62843462d9a35f51df5fa"),
+    client: "A",
+    timestamp: NumberLong("1738942531236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628430c4f7f682333db7f"),
+    client: "A",
+    timestamp: NumberLong("1738942531251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628435ce567060be7ef3b"),
+    client: "A",
+    timestamp: NumberLong("1738942531282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628439fbbc0230cad0b21"),
+    client: "B",
+    timestamp: NumberLong("1738942531282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628439fbee64200872241"),
+    client: "A",
+    timestamp: NumberLong("1738942531421")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284350944b33726a9248"),
+    client: "A",
+    timestamp: NumberLong("1738942531453")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62843f26b0352b520698d"),
+    client: "A",
+    timestamp: NumberLong("1738942531453")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628438b950e3fae99f90c"),
+    client: "A",
+    timestamp: NumberLong("1738942531637")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62843462d9a35f51df5fb"),
+    client: "A",
+    timestamp: NumberLong("1738942531761")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628430c4f7f682333db80"),
+    client: "A",
+    timestamp: NumberLong("1738942531777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628435ce567060be7ef3c"),
+    client: "A",
+    timestamp: NumberLong("1738942531808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628439fbbc0230cad0b22"),
+    client: "B",
+    timestamp: NumberLong("1738942531808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628439fbee64200872242"),
+    client: "A",
+    timestamp: NumberLong("1738942531950")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62843f26b0352b520698e"),
+    client: "A",
+    timestamp: NumberLong("1738942531965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284350944b33726a9249"),
+    client: "A",
+    timestamp: NumberLong("1738942531980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628448b950e3fae99f90d"),
+    client: "A",
+    timestamp: NumberLong("1738942532165")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62844462d9a35f51df5fc"),
+    client: "A",
+    timestamp: NumberLong("1738942532273")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628440c4f7f682333db81"),
+    client: "A",
+    timestamp: NumberLong("1738942532304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628445ce567060be7ef3d"),
+    client: "A",
+    timestamp: NumberLong("1738942532334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628449fbbc0230cad0b23"),
+    client: "B",
+    timestamp: NumberLong("1738942532334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628449fbee64200872243"),
+    client: "A",
+    timestamp: NumberLong("1738942532474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62844f26b0352b520698f"),
+    client: "A",
+    timestamp: NumberLong("1738942532490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284450944b33726a924a"),
+    client: "A",
+    timestamp: NumberLong("1738942532505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628448b950e3fae99f90e"),
+    client: "A",
+    timestamp: NumberLong("1738942532693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62844462d9a35f51df5fd"),
+    client: "A",
+    timestamp: NumberLong("1738942532802")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628440c4f7f682333db82"),
+    client: "A",
+    timestamp: NumberLong("1738942532834")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628445ce567060be7ef3e"),
+    client: "A",
+    timestamp: NumberLong("1738942532865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628449fbbc0230cad0b24"),
+    client: "B",
+    timestamp: NumberLong("1738942532865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628459fbee64200872244"),
+    client: "A",
+    timestamp: NumberLong("1738942533005")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62845f26b0352b5206990"),
+    client: "A",
+    timestamp: NumberLong("1738942533020")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284550944b33726a924b"),
+    client: "A",
+    timestamp: NumberLong("1738942533036")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628458b950e3fae99f90f"),
+    client: "A",
+    timestamp: NumberLong("1738942533223")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62845462d9a35f51df5fe"),
+    client: "A",
+    timestamp: NumberLong("1738942533332")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628450c4f7f682333db83"),
+    client: "A",
+    timestamp: NumberLong("1738942533364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628455ce567060be7ef3f"),
+    client: "A",
+    timestamp: NumberLong("1738942533395")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628459fbbc0230cad0b25"),
+    client: "B",
+    timestamp: NumberLong("1738942533395")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628459fbee64200872245"),
+    client: "A",
+    timestamp: NumberLong("1738942533533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62845f26b0352b5206991"),
+    client: "A",
+    timestamp: NumberLong("1738942533549")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284550944b33726a924c"),
+    client: "A",
+    timestamp: NumberLong("1738942533565")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628458b950e3fae99f910"),
+    client: "A",
+    timestamp: NumberLong("1738942533750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62845462d9a35f51df5ff"),
+    client: "A",
+    timestamp: NumberLong("1738942533860")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628450c4f7f682333db84"),
+    client: "A",
+    timestamp: NumberLong("1738942533892")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628455ce567060be7ef40"),
+    client: "A",
+    timestamp: NumberLong("1738942533923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628459fbbc0230cad0b26"),
+    client: "B",
+    timestamp: NumberLong("1738942533923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628469fbee64200872246"),
+    client: "A",
+    timestamp: NumberLong("1738942534048")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62846f26b0352b5206992"),
+    client: "A",
+    timestamp: NumberLong("1738942534063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284650944b33726a924d"),
+    client: "A",
+    timestamp: NumberLong("1738942534079")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628468b950e3fae99f911"),
+    client: "A",
+    timestamp: NumberLong("1738942534264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62846462d9a35f51df600"),
+    client: "A",
+    timestamp: NumberLong("1738942534391")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628460c4f7f682333db85"),
+    client: "A",
+    timestamp: NumberLong("1738942534423")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628465ce567060be7ef41"),
+    client: "A",
+    timestamp: NumberLong("1738942534454")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628469fbbc0230cad0b27"),
+    client: "B",
+    timestamp: NumberLong("1738942534454")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628469fbee64200872247"),
+    client: "A",
+    timestamp: NumberLong("1738942534565")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62846f26b0352b5206993"),
+    client: "A",
+    timestamp: NumberLong("1738942534581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284650944b33726a924e"),
+    client: "A",
+    timestamp: NumberLong("1738942534596")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628468b950e3fae99f912"),
+    client: "A",
+    timestamp: NumberLong("1738942534784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62846462d9a35f51df601"),
+    client: "A",
+    timestamp: NumberLong("1738942534908")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628460c4f7f682333db86"),
+    client: "A",
+    timestamp: NumberLong("1738942534940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628465ce567060be7ef42"),
+    client: "A",
+    timestamp: NumberLong("1738942534971")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628469fbbc0230cad0b28"),
+    client: "B",
+    timestamp: NumberLong("1738942534971")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628479fbee64200872248"),
+    client: "A",
+    timestamp: NumberLong("1738942535094")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62847f26b0352b5206994"),
+    client: "A",
+    timestamp: NumberLong("1738942535109")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284750944b33726a924f"),
+    client: "A",
+    timestamp: NumberLong("1738942535125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628478b950e3fae99f913"),
+    client: "A",
+    timestamp: NumberLong("1738942535311")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62847462d9a35f51df602"),
+    client: "A",
+    timestamp: NumberLong("1738942535436")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628470c4f7f682333db87"),
+    client: "A",
+    timestamp: NumberLong("1738942535467")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628475ce567060be7ef43"),
+    client: "A",
+    timestamp: NumberLong("1738942535497")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628479fbbc0230cad0b29"),
+    client: "B",
+    timestamp: NumberLong("1738942535497")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628479fbee64200872249"),
+    client: "A",
+    timestamp: NumberLong("1738942535621")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62847f26b0352b5206995"),
+    client: "A",
+    timestamp: NumberLong("1738942535636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284750944b33726a9250"),
+    client: "A",
+    timestamp: NumberLong("1738942535651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628478b950e3fae99f914"),
+    client: "A",
+    timestamp: NumberLong("1738942535839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62847462d9a35f51df603"),
+    client: "A",
+    timestamp: NumberLong("1738942535963")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628470c4f7f682333db88"),
+    client: "A",
+    timestamp: NumberLong("1738942535993")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628485ce567060be7ef44"),
+    client: "A",
+    timestamp: NumberLong("1738942536023")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628489fbbc0230cad0b2a"),
+    client: "B",
+    timestamp: NumberLong("1738942536023")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628489fbee6420087224a"),
+    client: "A",
+    timestamp: NumberLong("1738942536147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62848f26b0352b5206996"),
+    client: "A",
+    timestamp: NumberLong("1738942536162")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284850944b33726a9251"),
+    client: "A",
+    timestamp: NumberLong("1738942536177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628488b950e3fae99f915"),
+    client: "A",
+    timestamp: NumberLong("1738942536363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62848462d9a35f51df604"),
+    client: "A",
+    timestamp: NumberLong("1738942536486")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628480c4f7f682333db89"),
+    client: "A",
+    timestamp: NumberLong("1738942536518")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628485ce567060be7ef45"),
+    client: "A",
+    timestamp: NumberLong("1738942536550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628489fbbc0230cad0b2b"),
+    client: "B",
+    timestamp: NumberLong("1738942536550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628489fbee6420087224b"),
+    client: "A",
+    timestamp: NumberLong("1738942536676")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62848f26b0352b5206997"),
+    client: "A",
+    timestamp: NumberLong("1738942536691")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284850944b33726a9252"),
+    client: "A",
+    timestamp: NumberLong("1738942536707")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628488b950e3fae99f916"),
+    client: "A",
+    timestamp: NumberLong("1738942536878")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62849462d9a35f51df605"),
+    client: "A",
+    timestamp: NumberLong("1738942537019")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628490c4f7f682333db8a"),
+    client: "A",
+    timestamp: NumberLong("1738942537036")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628499fbbc0230cad0b2c"),
+    client: "B",
+    timestamp: NumberLong("1738942537083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628495ce567060be7ef46"),
+    client: "A",
+    timestamp: NumberLong("1738942537083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628499fbee6420087224c"),
+    client: "A",
+    timestamp: NumberLong("1738942537208")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62849f26b0352b5206998"),
+    client: "A",
+    timestamp: NumberLong("1738942537224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284950944b33726a9253"),
+    client: "A",
+    timestamp: NumberLong("1738942537224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628498b950e3fae99f917"),
+    client: "A",
+    timestamp: NumberLong("1738942537398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62849462d9a35f51df606"),
+    client: "A",
+    timestamp: NumberLong("1738942537536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628490c4f7f682333db8b"),
+    client: "A",
+    timestamp: NumberLong("1738942537552")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628495ce567060be7ef47"),
+    client: "A",
+    timestamp: NumberLong("1738942537615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628499fbbc0230cad0b2d"),
+    client: "B",
+    timestamp: NumberLong("1738942537615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628499fbee6420087224d"),
+    client: "A",
+    timestamp: NumberLong("1738942537738")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62849f26b0352b5206999"),
+    client: "A",
+    timestamp: NumberLong("1738942537754")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284950944b33726a9254"),
+    client: "A",
+    timestamp: NumberLong("1738942537754")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628498b950e3fae99f918"),
+    client: "A",
+    timestamp: NumberLong("1738942537923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a462d9a35f51df607"),
+    client: "A",
+    timestamp: NumberLong("1738942538064")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a0c4f7f682333db8c"),
+    client: "A",
+    timestamp: NumberLong("1738942538080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a5ce567060be7ef48"),
+    client: "A",
+    timestamp: NumberLong("1738942538141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a9fbbc0230cad0b2e"),
+    client: "B",
+    timestamp: NumberLong("1738942538141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a9fbee6420087224e"),
+    client: "A",
+    timestamp: NumberLong("1738942538250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284af26b0352b520699a"),
+    client: "A",
+    timestamp: NumberLong("1738942538281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a50944b33726a9255"),
+    client: "A",
+    timestamp: NumberLong("1738942538281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a8b950e3fae99f919"),
+    client: "A",
+    timestamp: NumberLong("1738942538451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a462d9a35f51df608"),
+    client: "A",
+    timestamp: NumberLong("1738942538590")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a0c4f7f682333db8d"),
+    client: "A",
+    timestamp: NumberLong("1738942538606")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a9fbbc0230cad0b2f"),
+    client: "B",
+    timestamp: NumberLong("1738942538651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a5ce567060be7ef49"),
+    client: "A",
+    timestamp: NumberLong("1738942538667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a9fbee6420087224f"),
+    client: "A",
+    timestamp: NumberLong("1738942538777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a50944b33726a9256"),
+    client: "A",
+    timestamp: NumberLong("1738942538808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284af26b0352b520699b"),
+    client: "A",
+    timestamp: NumberLong("1738942538808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284a8b950e3fae99f91a"),
+    client: "A",
+    timestamp: NumberLong("1738942538979")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b462d9a35f51df609"),
+    client: "A",
+    timestamp: NumberLong("1738942539101")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b0c4f7f682333db8e"),
+    client: "A",
+    timestamp: NumberLong("1738942539117")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b9fbbc0230cad0b30"),
+    client: "B",
+    timestamp: NumberLong("1738942539164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b5ce567060be7ef4a"),
+    client: "A",
+    timestamp: NumberLong("1738942539179")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b9fbee64200872250"),
+    client: "A",
+    timestamp: NumberLong("1738942539303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b50944b33726a9257"),
+    client: "A",
+    timestamp: NumberLong("1738942539333")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284bf26b0352b520699c"),
+    client: "A",
+    timestamp: NumberLong("1738942539333")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b8b950e3fae99f91b"),
+    client: "A",
+    timestamp: NumberLong("1738942539504")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b462d9a35f51df60a"),
+    client: "A",
+    timestamp: NumberLong("1738942539628")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b0c4f7f682333db8f"),
+    client: "A",
+    timestamp: NumberLong("1738942539644")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b9fbbc0230cad0b31"),
+    client: "B",
+    timestamp: NumberLong("1738942539690")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b5ce567060be7ef4b"),
+    client: "A",
+    timestamp: NumberLong("1738942539706")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b9fbee64200872251"),
+    client: "A",
+    timestamp: NumberLong("1738942539830")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284b50944b33726a9258"),
+    client: "A",
+    timestamp: NumberLong("1738942539861")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284bf26b0352b520699d"),
+    client: "A",
+    timestamp: NumberLong("1738942539861")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c8b950e3fae99f91c"),
+    client: "A",
+    timestamp: NumberLong("1738942540033")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c462d9a35f51df60b"),
+    client: "A",
+    timestamp: NumberLong("1738942540155")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c0c4f7f682333db90"),
+    client: "A",
+    timestamp: NumberLong("1738942540170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c9fbbc0230cad0b32"),
+    client: "B",
+    timestamp: NumberLong("1738942540215")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c5ce567060be7ef4c"),
+    client: "A",
+    timestamp: NumberLong("1738942540231")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c9fbee64200872252"),
+    client: "A",
+    timestamp: NumberLong("1738942540355")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c50944b33726a9259"),
+    client: "A",
+    timestamp: NumberLong("1738942540387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284cf26b0352b520699e"),
+    client: "A",
+    timestamp: NumberLong("1738942540387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c8b950e3fae99f91d"),
+    client: "A",
+    timestamp: NumberLong("1738942540557")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c462d9a35f51df60c"),
+    client: "A",
+    timestamp: NumberLong("1738942540679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c0c4f7f682333db91"),
+    client: "A",
+    timestamp: NumberLong("1738942540695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c9fbbc0230cad0b33"),
+    client: "B",
+    timestamp: NumberLong("1738942540742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c5ce567060be7ef4d"),
+    client: "A",
+    timestamp: NumberLong("1738942540757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c9fbee64200872253"),
+    client: "A",
+    timestamp: NumberLong("1738942540881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284c50944b33726a925a"),
+    client: "A",
+    timestamp: NumberLong("1738942540912")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284cf26b0352b520699f"),
+    client: "A",
+    timestamp: NumberLong("1738942540912")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d8b950e3fae99f91e"),
+    client: "A",
+    timestamp: NumberLong("1738942541084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d462d9a35f51df60d"),
+    client: "A",
+    timestamp: NumberLong("1738942541192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d0c4f7f682333db92"),
+    client: "A",
+    timestamp: NumberLong("1738942541208")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d9fbbc0230cad0b34"),
+    client: "B",
+    timestamp: NumberLong("1738942541255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d5ce567060be7ef4e"),
+    client: "A",
+    timestamp: NumberLong("1738942541271")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d9fbee64200872254"),
+    client: "A",
+    timestamp: NumberLong("1738942541410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d50944b33726a925b"),
+    client: "A",
+    timestamp: NumberLong("1738942541441")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284df26b0352b52069a0"),
+    client: "A",
+    timestamp: NumberLong("1738942541441")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d8b950e3fae99f91f"),
+    client: "A",
+    timestamp: NumberLong("1738942541612")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d462d9a35f51df60e"),
+    client: "A",
+    timestamp: NumberLong("1738942541719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d0c4f7f682333db93"),
+    client: "A",
+    timestamp: NumberLong("1738942541735")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d9fbbc0230cad0b35"),
+    client: "B",
+    timestamp: NumberLong("1738942541783")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d5ce567060be7ef4f"),
+    client: "A",
+    timestamp: NumberLong("1738942541799")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d9fbee64200872255"),
+    client: "A",
+    timestamp: NumberLong("1738942541938")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284d50944b33726a925c"),
+    client: "A",
+    timestamp: NumberLong("1738942541970")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284df26b0352b52069a1"),
+    client: "A",
+    timestamp: NumberLong("1738942541970")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e8b950e3fae99f920"),
+    client: "A",
+    timestamp: NumberLong("1738942542141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e462d9a35f51df60f"),
+    client: "A",
+    timestamp: NumberLong("1738942542249")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e0c4f7f682333db94"),
+    client: "A",
+    timestamp: NumberLong("1738942542265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e9fbbc0230cad0b36"),
+    client: "B",
+    timestamp: NumberLong("1738942542312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e5ce567060be7ef50"),
+    client: "A",
+    timestamp: NumberLong("1738942542327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e9fbee64200872256"),
+    client: "A",
+    timestamp: NumberLong("1738942542468")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e50944b33726a925d"),
+    client: "A",
+    timestamp: NumberLong("1738942542498")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284ef26b0352b52069a2"),
+    client: "A",
+    timestamp: NumberLong("1738942542498")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e8b950e3fae99f921"),
+    client: "A",
+    timestamp: NumberLong("1738942542671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e462d9a35f51df610"),
+    client: "A",
+    timestamp: NumberLong("1738942542779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e0c4f7f682333db95"),
+    client: "A",
+    timestamp: NumberLong("1738942542794")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e9fbbc0230cad0b37"),
+    client: "B",
+    timestamp: NumberLong("1738942542840")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e5ce567060be7ef51"),
+    client: "A",
+    timestamp: NumberLong("1738942542856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284e9fbee64200872257"),
+    client: "A",
+    timestamp: NumberLong("1738942542995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f50944b33726a925e"),
+    client: "A",
+    timestamp: NumberLong("1738942543025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284ff26b0352b52069a3"),
+    client: "A",
+    timestamp: NumberLong("1738942543025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f8b950e3fae99f922"),
+    client: "A",
+    timestamp: NumberLong("1738942543225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f462d9a35f51df611"),
+    client: "A",
+    timestamp: NumberLong("1738942543303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f0c4f7f682333db96"),
+    client: "A",
+    timestamp: NumberLong("1738942543319")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f5ce567060be7ef52"),
+    client: "A",
+    timestamp: NumberLong("1738942543380")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f9fbbc0230cad0b38"),
+    client: "B",
+    timestamp: NumberLong("1738942543365")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284ff26b0352b52069a4"),
+    client: "A",
+    timestamp: NumberLong("1738942543550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f9fbee64200872258"),
+    client: "A",
+    timestamp: NumberLong("1738942543550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f50944b33726a925f"),
+    client: "A",
+    timestamp: NumberLong("1738942543550")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f8b950e3fae99f923"),
+    client: "A",
+    timestamp: NumberLong("1738942543768")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f0c4f7f682333db97"),
+    client: "A",
+    timestamp: NumberLong("1738942543844")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f462d9a35f51df612"),
+    client: "A",
+    timestamp: NumberLong("1738942543829")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f5ce567060be7ef53"),
+    client: "A",
+    timestamp: NumberLong("1738942543923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6284f9fbbc0230cad0b39"),
+    client: "B",
+    timestamp: NumberLong("1738942543923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628509fbee64200872259"),
+    client: "A",
+    timestamp: NumberLong("1738942544125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285050944b33726a9260"),
+    client: "A",
+    timestamp: NumberLong("1738942544125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62850f26b0352b52069a5"),
+    client: "A",
+    timestamp: NumberLong("1738942544125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628508b950e3fae99f924"),
+    client: "A",
+    timestamp: NumberLong("1738942544308")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62850462d9a35f51df613"),
+    client: "A",
+    timestamp: NumberLong("1738942544370")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628500c4f7f682333db98"),
+    client: "A",
+    timestamp: NumberLong("1738942544370")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628505ce567060be7ef54"),
+    client: "A",
+    timestamp: NumberLong("1738942544510")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628509fbbc0230cad0b3a"),
+    client: "B",
+    timestamp: NumberLong("1738942544510")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628509fbee6420087225a"),
+    client: "A",
+    timestamp: NumberLong("1738942544650")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285050944b33726a9261"),
+    client: "A",
+    timestamp: NumberLong("1738942544650")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62850f26b0352b52069a6"),
+    client: "A",
+    timestamp: NumberLong("1738942544650")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628508b950e3fae99f925"),
+    client: "A",
+    timestamp: NumberLong("1738942544837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628500c4f7f682333db99"),
+    client: "A",
+    timestamp: NumberLong("1738942544898")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62850462d9a35f51df614"),
+    client: "A",
+    timestamp: NumberLong("1738942544898")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628515ce567060be7ef55"),
+    client: "A",
+    timestamp: NumberLong("1738942545037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628519fbbc0230cad0b3b"),
+    client: "B",
+    timestamp: NumberLong("1738942545037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628519fbee6420087225b"),
+    client: "A",
+    timestamp: NumberLong("1738942545177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285150944b33726a9262"),
+    client: "A",
+    timestamp: NumberLong("1738942545177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62851f26b0352b52069a7"),
+    client: "A",
+    timestamp: NumberLong("1738942545177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628518b950e3fae99f926"),
+    client: "A",
+    timestamp: NumberLong("1738942545411")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62851462d9a35f51df615"),
+    client: "A",
+    timestamp: NumberLong("1738942545426")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628510c4f7f682333db9a"),
+    client: "A",
+    timestamp: NumberLong("1738942545426")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628515ce567060be7ef56"),
+    client: "A",
+    timestamp: NumberLong("1738942545567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628519fbbc0230cad0b3c"),
+    client: "B",
+    timestamp: NumberLong("1738942545567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628519fbee6420087225c"),
+    client: "A",
+    timestamp: NumberLong("1738942545708")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62851f26b0352b52069a8"),
+    client: "A",
+    timestamp: NumberLong("1738942545708")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285150944b33726a9263"),
+    client: "A",
+    timestamp: NumberLong("1738942545708")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628518b950e3fae99f927"),
+    client: "A",
+    timestamp: NumberLong("1738942545925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62851462d9a35f51df616"),
+    client: "A",
+    timestamp: NumberLong("1738942545940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628510c4f7f682333db9b"),
+    client: "A",
+    timestamp: NumberLong("1738942545955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628525ce567060be7ef57"),
+    client: "A",
+    timestamp: NumberLong("1738942546094")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628529fbbc0230cad0b3d"),
+    client: "B",
+    timestamp: NumberLong("1738942546094")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628529fbee6420087225d"),
+    client: "A",
+    timestamp: NumberLong("1738942546233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285250944b33726a9264"),
+    client: "A",
+    timestamp: NumberLong("1738942546233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62852f26b0352b52069a9"),
+    client: "A",
+    timestamp: NumberLong("1738942546233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628528b950e3fae99f928"),
+    client: "A",
+    timestamp: NumberLong("1738942546449")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62852462d9a35f51df617"),
+    client: "A",
+    timestamp: NumberLong("1738942546464")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628520c4f7f682333db9c"),
+    client: "A",
+    timestamp: NumberLong("1738942546479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628525ce567060be7ef58"),
+    client: "A",
+    timestamp: NumberLong("1738942546619")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628529fbbc0230cad0b3e"),
+    client: "B",
+    timestamp: NumberLong("1738942546619")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62852f26b0352b52069aa"),
+    client: "A",
+    timestamp: NumberLong("1738942546758")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628529fbee6420087225e"),
+    client: "A",
+    timestamp: NumberLong("1738942546758")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285250944b33726a9265"),
+    client: "A",
+    timestamp: NumberLong("1738942546758")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628528b950e3fae99f929"),
+    client: "A",
+    timestamp: NumberLong("1738942546976")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62852462d9a35f51df618"),
+    client: "A",
+    timestamp: NumberLong("1738942546992")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628530c4f7f682333db9d"),
+    client: "A",
+    timestamp: NumberLong("1738942547007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628535ce567060be7ef59"),
+    client: "A",
+    timestamp: NumberLong("1738942547147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628539fbbc0230cad0b3f"),
+    client: "B",
+    timestamp: NumberLong("1738942547147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628539fbee6420087225f"),
+    client: "A",
+    timestamp: NumberLong("1738942547288")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285350944b33726a9266"),
+    client: "A",
+    timestamp: NumberLong("1738942547288")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62853f26b0352b52069ab"),
+    client: "A",
+    timestamp: NumberLong("1738942547288")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628538b950e3fae99f92a"),
+    client: "A",
+    timestamp: NumberLong("1738942547506")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62853462d9a35f51df619"),
+    client: "A",
+    timestamp: NumberLong("1738942547522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628530c4f7f682333db9e"),
+    client: "A",
+    timestamp: NumberLong("1738942547538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628535ce567060be7ef5a"),
+    client: "A",
+    timestamp: NumberLong("1738942547676")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628539fbbc0230cad0b40"),
+    client: "B",
+    timestamp: NumberLong("1738942547676")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628539fbee64200872260"),
+    client: "A",
+    timestamp: NumberLong("1738942547816")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285350944b33726a9267"),
+    client: "A",
+    timestamp: NumberLong("1738942547816")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62853f26b0352b52069ac"),
+    client: "A",
+    timestamp: NumberLong("1738942547816")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628548b950e3fae99f92b"),
+    client: "A",
+    timestamp: NumberLong("1738942548034")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62854462d9a35f51df61a"),
+    client: "A",
+    timestamp: NumberLong("1738942548049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628540c4f7f682333db9f"),
+    client: "A",
+    timestamp: NumberLong("1738942548065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628545ce567060be7ef5b"),
+    client: "A",
+    timestamp: NumberLong("1738942548206")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628549fbbc0230cad0b41"),
+    client: "B",
+    timestamp: NumberLong("1738942548206")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62854f26b0352b52069ad"),
+    client: "A",
+    timestamp: NumberLong("1738942548347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285450944b33726a9268"),
+    client: "A",
+    timestamp: NumberLong("1738942548347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628549fbee64200872261"),
+    client: "A",
+    timestamp: NumberLong("1738942548347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628548b950e3fae99f92c"),
+    client: "A",
+    timestamp: NumberLong("1738942548579")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628540c4f7f682333dba0"),
+    client: "A",
+    timestamp: NumberLong("1738942548626")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628545ce567060be7ef5c"),
+    client: "A",
+    timestamp: NumberLong("1738942548747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628549fbbc0230cad0b42"),
+    client: "B",
+    timestamp: NumberLong("1738942548762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62854462d9a35f51df61b"),
+    client: "A",
+    timestamp: NumberLong("1738942548856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285450944b33726a9269"),
+    client: "A",
+    timestamp: NumberLong("1738942548871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62854f26b0352b52069ae"),
+    client: "A",
+    timestamp: NumberLong("1738942548871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628549fbee64200872262"),
+    client: "A",
+    timestamp: NumberLong("1738942548886")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628558b950e3fae99f92d"),
+    client: "A",
+    timestamp: NumberLong("1738942549105")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628550c4f7f682333dba1"),
+    client: "A",
+    timestamp: NumberLong("1738942549136")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628555ce567060be7ef5d"),
+    client: "A",
+    timestamp: NumberLong("1738942549261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628559fbbc0230cad0b43"),
+    client: "B",
+    timestamp: NumberLong("1738942549292")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62855462d9a35f51df61c"),
+    client: "A",
+    timestamp: NumberLong("1738942549385")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285550944b33726a926a"),
+    client: "A",
+    timestamp: NumberLong("1738942549401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62855f26b0352b52069af"),
+    client: "A",
+    timestamp: NumberLong("1738942549401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628559fbee64200872263"),
+    client: "A",
+    timestamp: NumberLong("1738942549417")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628558b950e3fae99f92e"),
+    client: "A",
+    timestamp: NumberLong("1738942549638")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628550c4f7f682333dba2"),
+    client: "A",
+    timestamp: NumberLong("1738942549654")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628555ce567060be7ef5e"),
+    client: "A",
+    timestamp: NumberLong("1738942549795")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628559fbbc0230cad0b44"),
+    client: "B",
+    timestamp: NumberLong("1738942549810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62855462d9a35f51df61d"),
+    client: "A",
+    timestamp: NumberLong("1738942549902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285550944b33726a926b"),
+    client: "A",
+    timestamp: NumberLong("1738942549917")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62855f26b0352b52069b0"),
+    client: "A",
+    timestamp: NumberLong("1738942549917")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628559fbee64200872264"),
+    client: "A",
+    timestamp: NumberLong("1738942549933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628568b950e3fae99f92f"),
+    client: "A",
+    timestamp: NumberLong("1738942550163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628560c4f7f682333dba3"),
+    client: "A",
+    timestamp: NumberLong("1738942550178")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628565ce567060be7ef5f"),
+    client: "A",
+    timestamp: NumberLong("1738942550317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628569fbbc0230cad0b45"),
+    client: "B",
+    timestamp: NumberLong("1738942550333")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62856462d9a35f51df61e"),
+    client: "A",
+    timestamp: NumberLong("1738942550425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62856f26b0352b52069b1"),
+    client: "A",
+    timestamp: NumberLong("1738942550440")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285650944b33726a926c"),
+    client: "A",
+    timestamp: NumberLong("1738942550440")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628569fbee64200872265"),
+    client: "A",
+    timestamp: NumberLong("1738942550455")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628560c4f7f682333dba4"),
+    client: "A",
+    timestamp: NumberLong("1738942550688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628568b950e3fae99f930"),
+    client: "A",
+    timestamp: NumberLong("1738942550688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628565ce567060be7ef60"),
+    client: "A",
+    timestamp: NumberLong("1738942550844")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628569fbbc0230cad0b46"),
+    client: "B",
+    timestamp: NumberLong("1738942550860")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62856462d9a35f51df61f"),
+    client: "A",
+    timestamp: NumberLong("1738942550954")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285650944b33726a926d"),
+    client: "A",
+    timestamp: NumberLong("1738942550969")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62856f26b0352b52069b2"),
+    client: "A",
+    timestamp: NumberLong("1738942550969")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628569fbee64200872266"),
+    client: "A",
+    timestamp: NumberLong("1738942550984")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628570c4f7f682333dba5"),
+    client: "A",
+    timestamp: NumberLong("1738942551217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628578b950e3fae99f931"),
+    client: "A",
+    timestamp: NumberLong("1738942551232")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628575ce567060be7ef61"),
+    client: "A",
+    timestamp: NumberLong("1738942551371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628579fbbc0230cad0b47"),
+    client: "B",
+    timestamp: NumberLong("1738942551387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62857462d9a35f51df620"),
+    client: "A",
+    timestamp: NumberLong("1738942551481")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62857f26b0352b52069b3"),
+    client: "A",
+    timestamp: NumberLong("1738942551497")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285750944b33726a926e"),
+    client: "A",
+    timestamp: NumberLong("1738942551497")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628579fbee64200872267"),
+    client: "A",
+    timestamp: NumberLong("1738942551513")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628570c4f7f682333dba6"),
+    client: "A",
+    timestamp: NumberLong("1738942551733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628578b950e3fae99f932"),
+    client: "A",
+    timestamp: NumberLong("1738942551748")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628575ce567060be7ef62"),
+    client: "A",
+    timestamp: NumberLong("1738942551918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628579fbbc0230cad0b48"),
+    client: "B",
+    timestamp: NumberLong("1738942551918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62858462d9a35f51df621"),
+    client: "A",
+    timestamp: NumberLong("1738942552011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285850944b33726a926f"),
+    client: "A",
+    timestamp: NumberLong("1738942552026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62858f26b0352b52069b4"),
+    client: "A",
+    timestamp: NumberLong("1738942552026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628589fbee64200872268"),
+    client: "A",
+    timestamp: NumberLong("1738942552041")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628580c4f7f682333dba7"),
+    client: "A",
+    timestamp: NumberLong("1738942552258")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628588b950e3fae99f933"),
+    client: "A",
+    timestamp: NumberLong("1738942552274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628585ce567060be7ef63"),
+    client: "A",
+    timestamp: NumberLong("1738942552447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628589fbbc0230cad0b49"),
+    client: "B",
+    timestamp: NumberLong("1738942552447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62858462d9a35f51df622"),
+    client: "A",
+    timestamp: NumberLong("1738942552540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62858f26b0352b52069b5"),
+    client: "A",
+    timestamp: NumberLong("1738942552555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285850944b33726a9270"),
+    client: "A",
+    timestamp: NumberLong("1738942552555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628589fbee64200872269"),
+    client: "A",
+    timestamp: NumberLong("1738942552570")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628580c4f7f682333dba8"),
+    client: "A",
+    timestamp: NumberLong("1738942552788")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628588b950e3fae99f934"),
+    client: "A",
+    timestamp: NumberLong("1738942552803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628585ce567060be7ef64"),
+    client: "A",
+    timestamp: NumberLong("1738942552974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628589fbbc0230cad0b4a"),
+    client: "B",
+    timestamp: NumberLong("1738942552974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62859462d9a35f51df623"),
+    client: "A",
+    timestamp: NumberLong("1738942553068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62859f26b0352b52069b6"),
+    client: "A",
+    timestamp: NumberLong("1738942553082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285950944b33726a9271"),
+    client: "A",
+    timestamp: NumberLong("1738942553082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628599fbee6420087226a"),
+    client: "A",
+    timestamp: NumberLong("1738942553098")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628590c4f7f682333dba9"),
+    client: "A",
+    timestamp: NumberLong("1738942553314")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628598b950e3fae99f935"),
+    client: "A",
+    timestamp: NumberLong("1738942553329")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628599fbbc0230cad0b4b"),
+    client: "B",
+    timestamp: NumberLong("1738942553502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628595ce567060be7ef65"),
+    client: "A",
+    timestamp: NumberLong("1738942553502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62859462d9a35f51df624"),
+    client: "A",
+    timestamp: NumberLong("1738942553594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62859f26b0352b52069b7"),
+    client: "A",
+    timestamp: NumberLong("1738942553611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285950944b33726a9272"),
+    client: "A",
+    timestamp: NumberLong("1738942553611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628599fbee6420087226b"),
+    client: "A",
+    timestamp: NumberLong("1738942553626")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628590c4f7f682333dbaa"),
+    client: "A",
+    timestamp: NumberLong("1738942553843")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628598b950e3fae99f936"),
+    client: "A",
+    timestamp: NumberLong("1738942553859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a5ce567060be7ef66"),
+    client: "A",
+    timestamp: NumberLong("1738942554030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a9fbbc0230cad0b4c"),
+    client: "B",
+    timestamp: NumberLong("1738942554030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a462d9a35f51df625"),
+    client: "A",
+    timestamp: NumberLong("1738942554108")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285af26b0352b52069b8"),
+    client: "A",
+    timestamp: NumberLong("1738942554124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a50944b33726a9273"),
+    client: "A",
+    timestamp: NumberLong("1738942554124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a9fbee6420087226c"),
+    client: "A",
+    timestamp: NumberLong("1738942554139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a0c4f7f682333dbab"),
+    client: "A",
+    timestamp: NumberLong("1738942554370")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a8b950e3fae99f937"),
+    client: "A",
+    timestamp: NumberLong("1738942554385")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a9fbbc0230cad0b4d"),
+    client: "B",
+    timestamp: NumberLong("1738942554556")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a5ce567060be7ef67"),
+    client: "A",
+    timestamp: NumberLong("1738942554556")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a462d9a35f51df626"),
+    client: "A",
+    timestamp: NumberLong("1738942554636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a50944b33726a9274"),
+    client: "A",
+    timestamp: NumberLong("1738942554651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285af26b0352b52069b9"),
+    client: "A",
+    timestamp: NumberLong("1738942554651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a9fbee6420087226d"),
+    client: "A",
+    timestamp: NumberLong("1738942554667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a0c4f7f682333dbac"),
+    client: "A",
+    timestamp: NumberLong("1738942554887")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285a8b950e3fae99f938"),
+    client: "A",
+    timestamp: NumberLong("1738942554903")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b5ce567060be7ef68"),
+    client: "A",
+    timestamp: NumberLong("1738942555074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b9fbbc0230cad0b4e"),
+    client: "B",
+    timestamp: NumberLong("1738942555074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b462d9a35f51df627"),
+    client: "A",
+    timestamp: NumberLong("1738942555152")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b9fbee6420087226e"),
+    client: "A",
+    timestamp: NumberLong("1738942555182")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b50944b33726a9275"),
+    client: "A",
+    timestamp: NumberLong("1738942555182")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285bf26b0352b52069ba"),
+    client: "A",
+    timestamp: NumberLong("1738942555182")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b0c4f7f682333dbad"),
+    client: "A",
+    timestamp: NumberLong("1738942555416")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b8b950e3fae99f939"),
+    client: "A",
+    timestamp: NumberLong("1738942555416")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b9fbbc0230cad0b4f"),
+    client: "B",
+    timestamp: NumberLong("1738942555604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b5ce567060be7ef69"),
+    client: "A",
+    timestamp: NumberLong("1738942555604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b462d9a35f51df628"),
+    client: "A",
+    timestamp: NumberLong("1738942555683")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b9fbee6420087226f"),
+    client: "A",
+    timestamp: NumberLong("1738942555698")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b50944b33726a9276"),
+    client: "A",
+    timestamp: NumberLong("1738942555698")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285bf26b0352b52069bb"),
+    client: "A",
+    timestamp: NumberLong("1738942555713")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b8b950e3fae99f93a"),
+    client: "A",
+    timestamp: NumberLong("1738942555946")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285b0c4f7f682333dbae"),
+    client: "A",
+    timestamp: NumberLong("1738942555946")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c5ce567060be7ef6a"),
+    client: "A",
+    timestamp: NumberLong("1738942556134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c9fbbc0230cad0b50"),
+    client: "B",
+    timestamp: NumberLong("1738942556134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c462d9a35f51df629"),
+    client: "A",
+    timestamp: NumberLong("1738942556212")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c9fbee64200872270"),
+    client: "A",
+    timestamp: NumberLong("1738942556228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c50944b33726a9277"),
+    client: "A",
+    timestamp: NumberLong("1738942556228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285cf26b0352b52069bc"),
+    client: "A",
+    timestamp: NumberLong("1738942556243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c0c4f7f682333dbaf"),
+    client: "A",
+    timestamp: NumberLong("1738942556476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c8b950e3fae99f93b"),
+    client: "A",
+    timestamp: NumberLong("1738942556476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c5ce567060be7ef6b"),
+    client: "A",
+    timestamp: NumberLong("1738942556662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c9fbbc0230cad0b51"),
+    client: "B",
+    timestamp: NumberLong("1738942556662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c462d9a35f51df62a"),
+    client: "A",
+    timestamp: NumberLong("1738942556741")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c9fbee64200872271"),
+    client: "A",
+    timestamp: NumberLong("1738942556757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285c50944b33726a9278"),
+    client: "A",
+    timestamp: NumberLong("1738942556757")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285cf26b0352b52069bd"),
+    client: "A",
+    timestamp: NumberLong("1738942556778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d0c4f7f682333dbb0"),
+    client: "A",
+    timestamp: NumberLong("1738942557008")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d8b950e3fae99f93c"),
+    client: "A",
+    timestamp: NumberLong("1738942557008")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d5ce567060be7ef6c"),
+    client: "A",
+    timestamp: NumberLong("1738942557198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d9fbbc0230cad0b52"),
+    client: "B",
+    timestamp: NumberLong("1738942557198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d9fbee64200872272"),
+    client: "A",
+    timestamp: NumberLong("1738942557277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d462d9a35f51df62b"),
+    client: "A",
+    timestamp: NumberLong("1738942557260")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d50944b33726a9279"),
+    client: "A",
+    timestamp: NumberLong("1738942557291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285df26b0352b52069be"),
+    client: "A",
+    timestamp: NumberLong("1738942557321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d8b950e3fae99f93d"),
+    client: "A",
+    timestamp: NumberLong("1738942557538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d0c4f7f682333dbb1"),
+    client: "A",
+    timestamp: NumberLong("1738942557538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d5ce567060be7ef6d"),
+    client: "A",
+    timestamp: NumberLong("1738942557724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d9fbbc0230cad0b53"),
+    client: "B",
+    timestamp: NumberLong("1738942557739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d9fbee64200872273"),
+    client: "A",
+    timestamp: NumberLong("1738942557802")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d462d9a35f51df62c"),
+    client: "A",
+    timestamp: NumberLong("1738942557802")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285d50944b33726a927a"),
+    client: "A",
+    timestamp: NumberLong("1738942557817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285df26b0352b52069bf"),
+    client: "A",
+    timestamp: NumberLong("1738942557848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e8b950e3fae99f93e"),
+    client: "A",
+    timestamp: NumberLong("1738942558068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e0c4f7f682333dbb2"),
+    client: "A",
+    timestamp: NumberLong("1738942558068")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e5ce567060be7ef6e"),
+    client: "A",
+    timestamp: NumberLong("1738942558256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e9fbbc0230cad0b54"),
+    client: "B",
+    timestamp: NumberLong("1738942558256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e462d9a35f51df62d"),
+    client: "A",
+    timestamp: NumberLong("1738942558318")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e9fbee64200872274"),
+    client: "A",
+    timestamp: NumberLong("1738942558318")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e50944b33726a927b"),
+    client: "A",
+    timestamp: NumberLong("1738942558334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285ef26b0352b52069c0"),
+    client: "A",
+    timestamp: NumberLong("1738942558365")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e8b950e3fae99f93f"),
+    client: "A",
+    timestamp: NumberLong("1738942558599")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e0c4f7f682333dbb3"),
+    client: "A",
+    timestamp: NumberLong("1738942558599")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e5ce567060be7ef6f"),
+    client: "A",
+    timestamp: NumberLong("1738942558784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e9fbbc0230cad0b55"),
+    client: "B",
+    timestamp: NumberLong("1738942558784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e462d9a35f51df62e"),
+    client: "A",
+    timestamp: NumberLong("1738942558846")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e9fbee64200872275"),
+    client: "A",
+    timestamp: NumberLong("1738942558846")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285e50944b33726a927c"),
+    client: "A",
+    timestamp: NumberLong("1738942558862")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285ef26b0352b52069c1"),
+    client: "A",
+    timestamp: NumberLong("1738942558893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f8b950e3fae99f940"),
+    client: "A",
+    timestamp: NumberLong("1738942559112")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f0c4f7f682333dbb4"),
+    client: "A",
+    timestamp: NumberLong("1738942559127")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f5ce567060be7ef70"),
+    client: "A",
+    timestamp: NumberLong("1738942559299")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f9fbbc0230cad0b56"),
+    client: "B",
+    timestamp: NumberLong("1738942559315")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f9fbee64200872276"),
+    client: "A",
+    timestamp: NumberLong("1738942559377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f462d9a35f51df62f"),
+    client: "A",
+    timestamp: NumberLong("1738942559377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f50944b33726a927d"),
+    client: "A",
+    timestamp: NumberLong("1738942559391")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285ff26b0352b52069c2"),
+    client: "A",
+    timestamp: NumberLong("1738942559422")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f8b950e3fae99f941"),
+    client: "A",
+    timestamp: NumberLong("1738942559640")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f0c4f7f682333dbb5"),
+    client: "A",
+    timestamp: NumberLong("1738942559655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f5ce567060be7ef71"),
+    client: "A",
+    timestamp: NumberLong("1738942559825")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f9fbbc0230cad0b57"),
+    client: "B",
+    timestamp: NumberLong("1738942559841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f462d9a35f51df630"),
+    client: "A",
+    timestamp: NumberLong("1738942559904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f9fbee64200872277"),
+    client: "A",
+    timestamp: NumberLong("1738942559904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285f50944b33726a927e"),
+    client: "A",
+    timestamp: NumberLong("1738942559919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6285ff26b0352b52069c3"),
+    client: "A",
+    timestamp: NumberLong("1738942559950")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628608b950e3fae99f942"),
+    client: "A",
+    timestamp: NumberLong("1738942560167")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628600c4f7f682333dbb6"),
+    client: "A",
+    timestamp: NumberLong("1738942560182")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628605ce567060be7ef72"),
+    client: "A",
+    timestamp: NumberLong("1738942560353")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628609fbbc0230cad0b58"),
+    client: "B",
+    timestamp: NumberLong("1738942560369")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286050944b33726a927f"),
+    client: "A",
+    timestamp: NumberLong("1738942560447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62860462d9a35f51df631"),
+    client: "A",
+    timestamp: NumberLong("1738942560447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628609fbee64200872278"),
+    client: "A",
+    timestamp: NumberLong("1738942560447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62860f26b0352b52069c4"),
+    client: "A",
+    timestamp: NumberLong("1738942560478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628608b950e3fae99f943"),
+    client: "A",
+    timestamp: NumberLong("1738942560681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628600c4f7f682333dbb7"),
+    client: "A",
+    timestamp: NumberLong("1738942560697")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628605ce567060be7ef73"),
+    client: "A",
+    timestamp: NumberLong("1738942560883")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628609fbee64200872279"),
+    client: "A",
+    timestamp: NumberLong("1738942560977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62860462d9a35f51df632"),
+    client: "A",
+    timestamp: NumberLong("1738942560977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286050944b33726a9280"),
+    client: "A",
+    timestamp: NumberLong("1738942560977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62861f26b0352b52069c5"),
+    client: "A",
+    timestamp: NumberLong("1738942561008")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628619fbbc0230cad0b59"),
+    client: "B",
+    timestamp: NumberLong("1738942561164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628618b950e3fae99f944"),
+    client: "A",
+    timestamp: NumberLong("1738942561210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628610c4f7f682333dbb8"),
+    client: "A",
+    timestamp: NumberLong("1738942561227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628615ce567060be7ef74"),
+    client: "A",
+    timestamp: NumberLong("1738942561413")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286150944b33726a9281"),
+    client: "A",
+    timestamp: NumberLong("1738942561505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62861462d9a35f51df633"),
+    client: "A",
+    timestamp: NumberLong("1738942561505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628619fbee6420087227a"),
+    client: "A",
+    timestamp: NumberLong("1738942561505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62861f26b0352b52069c6"),
+    client: "A",
+    timestamp: NumberLong("1738942561535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628619fbbc0230cad0b5a"),
+    client: "B",
+    timestamp: NumberLong("1738942561691")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628618b950e3fae99f945"),
+    client: "A",
+    timestamp: NumberLong("1738942561737")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628610c4f7f682333dbb9"),
+    client: "A",
+    timestamp: NumberLong("1738942561752")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628615ce567060be7ef75"),
+    client: "A",
+    timestamp: NumberLong("1738942561939")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62862462d9a35f51df634"),
+    client: "A",
+    timestamp: NumberLong("1738942562032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286250944b33726a9282"),
+    client: "A",
+    timestamp: NumberLong("1738942562032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628629fbee6420087227b"),
+    client: "A",
+    timestamp: NumberLong("1738942562032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62862f26b0352b52069c7"),
+    client: "A",
+    timestamp: NumberLong("1738942562063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628629fbbc0230cad0b5b"),
+    client: "B",
+    timestamp: NumberLong("1738942562220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628628b950e3fae99f946"),
+    client: "A",
+    timestamp: NumberLong("1738942562267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628620c4f7f682333dbba"),
+    client: "A",
+    timestamp: NumberLong("1738942562283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628625ce567060be7ef76"),
+    client: "A",
+    timestamp: NumberLong("1738942562471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62862462d9a35f51df635"),
+    client: "A",
+    timestamp: NumberLong("1738942562563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628629fbee6420087227c"),
+    client: "A",
+    timestamp: NumberLong("1738942562563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286250944b33726a9283"),
+    client: "A",
+    timestamp: NumberLong("1738942562563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62862f26b0352b52069c8"),
+    client: "A",
+    timestamp: NumberLong("1738942562579")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628629fbbc0230cad0b5c"),
+    client: "B",
+    timestamp: NumberLong("1738942562750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628628b950e3fae99f947"),
+    client: "A",
+    timestamp: NumberLong("1738942562796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628620c4f7f682333dbbb"),
+    client: "A",
+    timestamp: NumberLong("1738942562796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628625ce567060be7ef77"),
+    client: "A",
+    timestamp: NumberLong("1738942562998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628639fbee6420087227d"),
+    client: "A",
+    timestamp: NumberLong("1738942563092")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286350944b33726a9284"),
+    client: "A",
+    timestamp: NumberLong("1738942563092")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62863462d9a35f51df636"),
+    client: "A",
+    timestamp: NumberLong("1738942563092")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62863f26b0352b52069c9"),
+    client: "A",
+    timestamp: NumberLong("1738942563108")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628639fbbc0230cad0b5d"),
+    client: "B",
+    timestamp: NumberLong("1738942563279")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628638b950e3fae99f948"),
+    client: "A",
+    timestamp: NumberLong("1738942563326")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628630c4f7f682333dbbc"),
+    client: "A",
+    timestamp: NumberLong("1738942563326")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628635ce567060be7ef78"),
+    client: "A",
+    timestamp: NumberLong("1738942563529")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62863462d9a35f51df637"),
+    client: "A",
+    timestamp: NumberLong("1738942563622")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286350944b33726a9285"),
+    client: "A",
+    timestamp: NumberLong("1738942563622")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628639fbee6420087227e"),
+    client: "A",
+    timestamp: NumberLong("1738942563638")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62863f26b0352b52069ca"),
+    client: "A",
+    timestamp: NumberLong("1738942563638")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628639fbbc0230cad0b5e"),
+    client: "B",
+    timestamp: NumberLong("1738942563808")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628630c4f7f682333dbbd"),
+    client: "A",
+    timestamp: NumberLong("1738942563857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628638b950e3fae99f949"),
+    client: "A",
+    timestamp: NumberLong("1738942563857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628645ce567060be7ef79"),
+    client: "A",
+    timestamp: NumberLong("1738942564044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62864462d9a35f51df638"),
+    client: "A",
+    timestamp: NumberLong("1738942564137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286450944b33726a9286"),
+    client: "A",
+    timestamp: NumberLong("1738942564137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628649fbee6420087227f"),
+    client: "A",
+    timestamp: NumberLong("1738942564153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62864f26b0352b52069cb"),
+    client: "A",
+    timestamp: NumberLong("1738942564153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628649fbbc0230cad0b5f"),
+    client: "B",
+    timestamp: NumberLong("1738942564324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628648b950e3fae99f94a"),
+    client: "A",
+    timestamp: NumberLong("1738942564387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628640c4f7f682333dbbe"),
+    client: "A",
+    timestamp: NumberLong("1738942564387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628645ce567060be7ef7a"),
+    client: "A",
+    timestamp: NumberLong("1738942564559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286450944b33726a9287"),
+    client: "A",
+    timestamp: NumberLong("1738942564653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62864462d9a35f51df639"),
+    client: "A",
+    timestamp: NumberLong("1738942564653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628649fbee64200872280"),
+    client: "A",
+    timestamp: NumberLong("1738942564668")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62864f26b0352b52069cc"),
+    client: "A",
+    timestamp: NumberLong("1738942564668")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628649fbbc0230cad0b60"),
+    client: "B",
+    timestamp: NumberLong("1738942564839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628648b950e3fae99f94b"),
+    client: "A",
+    timestamp: NumberLong("1738942564902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628640c4f7f682333dbbf"),
+    client: "A",
+    timestamp: NumberLong("1738942564902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628655ce567060be7ef7b"),
+    client: "A",
+    timestamp: NumberLong("1738942565087")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62865462d9a35f51df63a"),
+    client: "A",
+    timestamp: NumberLong("1738942565166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286550944b33726a9288"),
+    client: "A",
+    timestamp: NumberLong("1738942565166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628659fbee64200872281"),
+    client: "A",
+    timestamp: NumberLong("1738942565181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62865f26b0352b52069cd"),
+    client: "A",
+    timestamp: NumberLong("1738942565181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628659fbbc0230cad0b61"),
+    client: "B",
+    timestamp: NumberLong("1738942565367")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628658b950e3fae99f94c"),
+    client: "A",
+    timestamp: NumberLong("1738942565429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628650c4f7f682333dbc0"),
+    client: "A",
+    timestamp: NumberLong("1738942565429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628655ce567060be7ef7c"),
+    client: "A",
+    timestamp: NumberLong("1738942565600")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62865462d9a35f51df63b"),
+    client: "A",
+    timestamp: NumberLong("1738942565678")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628659fbee64200872282"),
+    client: "A",
+    timestamp: NumberLong("1738942565693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286550944b33726a9289"),
+    client: "A",
+    timestamp: NumberLong("1738942565693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62865f26b0352b52069ce"),
+    client: "A",
+    timestamp: NumberLong("1738942565709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628659fbbc0230cad0b62"),
+    client: "B",
+    timestamp: NumberLong("1738942565896")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628650c4f7f682333dbc1"),
+    client: "A",
+    timestamp: NumberLong("1738942565958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628658b950e3fae99f94d"),
+    client: "A",
+    timestamp: NumberLong("1738942565958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628665ce567060be7ef7d"),
+    client: "A",
+    timestamp: NumberLong("1738942566129")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62866462d9a35f51df63c"),
+    client: "A",
+    timestamp: NumberLong("1738942566193")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286650944b33726a928a"),
+    client: "A",
+    timestamp: NumberLong("1738942566223")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628669fbee64200872283"),
+    client: "A",
+    timestamp: NumberLong("1738942566223")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62866f26b0352b52069cf"),
+    client: "A",
+    timestamp: NumberLong("1738942566239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628669fbbc0230cad0b63"),
+    client: "B",
+    timestamp: NumberLong("1738942566425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628668b950e3fae99f94e"),
+    client: "A",
+    timestamp: NumberLong("1738942566488")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628660c4f7f682333dbc2"),
+    client: "A",
+    timestamp: NumberLong("1738942566488")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628665ce567060be7ef7e"),
+    client: "A",
+    timestamp: NumberLong("1738942566658")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62866462d9a35f51df63d"),
+    client: "A",
+    timestamp: NumberLong("1738942566720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628669fbee64200872284"),
+    client: "A",
+    timestamp: NumberLong("1738942566751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286650944b33726a928b"),
+    client: "A",
+    timestamp: NumberLong("1738942566751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62866f26b0352b52069d0"),
+    client: "A",
+    timestamp: NumberLong("1738942566766")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628669fbbc0230cad0b64"),
+    client: "B",
+    timestamp: NumberLong("1738942566952")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628670c4f7f682333dbc3"),
+    client: "A",
+    timestamp: NumberLong("1738942567014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628678b950e3fae99f94f"),
+    client: "A",
+    timestamp: NumberLong("1738942567014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628675ce567060be7ef7f"),
+    client: "A",
+    timestamp: NumberLong("1738942567184")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62867462d9a35f51df63e"),
+    client: "A",
+    timestamp: NumberLong("1738942567245")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628679fbee64200872285"),
+    client: "A",
+    timestamp: NumberLong("1738942567277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286750944b33726a928c"),
+    client: "A",
+    timestamp: NumberLong("1738942567277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62867f26b0352b52069d1"),
+    client: "A",
+    timestamp: NumberLong("1738942567292")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628679fbbc0230cad0b65"),
+    client: "B",
+    timestamp: NumberLong("1738942567481")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628670c4f7f682333dbc4"),
+    client: "A",
+    timestamp: NumberLong("1738942567545")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628678b950e3fae99f950"),
+    client: "A",
+    timestamp: NumberLong("1738942567545")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628675ce567060be7ef80"),
+    client: "A",
+    timestamp: NumberLong("1738942567703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62867462d9a35f51df63f"),
+    client: "A",
+    timestamp: NumberLong("1738942567767")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628679fbee64200872286"),
+    client: "A",
+    timestamp: NumberLong("1738942567797")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286750944b33726a928d"),
+    client: "A",
+    timestamp: NumberLong("1738942567797")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62867f26b0352b52069d2"),
+    client: "A",
+    timestamp: NumberLong("1738942567812")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628689fbbc0230cad0b66"),
+    client: "B",
+    timestamp: NumberLong("1738942568000")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628680c4f7f682333dbc5"),
+    client: "A",
+    timestamp: NumberLong("1738942568077")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628688b950e3fae99f951"),
+    client: "A",
+    timestamp: NumberLong("1738942568077")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628685ce567060be7ef81"),
+    client: "A",
+    timestamp: NumberLong("1738942568219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62868462d9a35f51df640"),
+    client: "A",
+    timestamp: NumberLong("1738942568281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628689fbee64200872287"),
+    client: "A",
+    timestamp: NumberLong("1738942568313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286850944b33726a928e"),
+    client: "A",
+    timestamp: NumberLong("1738942568313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62868f26b0352b52069d3"),
+    client: "A",
+    timestamp: NumberLong("1738942568329")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628689fbbc0230cad0b67"),
+    client: "B",
+    timestamp: NumberLong("1738942568514")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628680c4f7f682333dbc6"),
+    client: "A",
+    timestamp: NumberLong("1738942568590")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628688b950e3fae99f952"),
+    client: "A",
+    timestamp: NumberLong("1738942568590")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628685ce567060be7ef82"),
+    client: "A",
+    timestamp: NumberLong("1738942568744")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62868462d9a35f51df641"),
+    client: "A",
+    timestamp: NumberLong("1738942568806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628689fbee64200872288"),
+    client: "A",
+    timestamp: NumberLong("1738942568836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286850944b33726a928f"),
+    client: "A",
+    timestamp: NumberLong("1738942568836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62868f26b0352b52069d4"),
+    client: "A",
+    timestamp: NumberLong("1738942568852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628699fbbc0230cad0b68"),
+    client: "B",
+    timestamp: NumberLong("1738942569038")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628690c4f7f682333dbc7"),
+    client: "A",
+    timestamp: NumberLong("1738942569116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628698b950e3fae99f953"),
+    client: "A",
+    timestamp: NumberLong("1738942569116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628695ce567060be7ef83"),
+    client: "A",
+    timestamp: NumberLong("1738942569271")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62869462d9a35f51df642"),
+    client: "A",
+    timestamp: NumberLong("1738942569333")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628699fbee64200872289"),
+    client: "A",
+    timestamp: NumberLong("1738942569349")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286950944b33726a9290"),
+    client: "A",
+    timestamp: NumberLong("1738942569349")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62869f26b0352b52069d5"),
+    client: "A",
+    timestamp: NumberLong("1738942569365")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628699fbbc0230cad0b69"),
+    client: "B",
+    timestamp: NumberLong("1738942569570")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628698b950e3fae99f954"),
+    client: "A",
+    timestamp: NumberLong("1738942569648")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628690c4f7f682333dbc8"),
+    client: "A",
+    timestamp: NumberLong("1738942569648")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628695ce567060be7ef84"),
+    client: "A",
+    timestamp: NumberLong("1738942569787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62869462d9a35f51df643"),
+    client: "A",
+    timestamp: NumberLong("1738942569849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628699fbee6420087228a"),
+    client: "A",
+    timestamp: NumberLong("1738942569864")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286950944b33726a9291"),
+    client: "A",
+    timestamp: NumberLong("1738942569864")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62869f26b0352b52069d6"),
+    client: "A",
+    timestamp: NumberLong("1738942569879")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a9fbbc0230cad0b6a"),
+    client: "B",
+    timestamp: NumberLong("1738942570092")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a8b950e3fae99f955"),
+    client: "A",
+    timestamp: NumberLong("1738942570169")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a0c4f7f682333dbc9"),
+    client: "A",
+    timestamp: NumberLong("1738942570169")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a5ce567060be7ef85"),
+    client: "A",
+    timestamp: NumberLong("1738942570307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a462d9a35f51df644"),
+    client: "A",
+    timestamp: NumberLong("1738942570369")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a9fbee6420087228b"),
+    client: "A",
+    timestamp: NumberLong("1738942570385")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a50944b33726a9292"),
+    client: "A",
+    timestamp: NumberLong("1738942570385")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286af26b0352b52069d7"),
+    client: "A",
+    timestamp: NumberLong("1738942570401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a9fbbc0230cad0b6b"),
+    client: "B",
+    timestamp: NumberLong("1738942570618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a0c4f7f682333dbca"),
+    client: "A",
+    timestamp: NumberLong("1738942570696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a8b950e3fae99f956"),
+    client: "A",
+    timestamp: NumberLong("1738942570696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a5ce567060be7ef86"),
+    client: "A",
+    timestamp: NumberLong("1738942570836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a462d9a35f51df645"),
+    client: "A",
+    timestamp: NumberLong("1738942570883")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a9fbee6420087228c"),
+    client: "A",
+    timestamp: NumberLong("1738942570913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286a50944b33726a9293"),
+    client: "A",
+    timestamp: NumberLong("1738942570913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286af26b0352b52069d8"),
+    client: "A",
+    timestamp: NumberLong("1738942570928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b9fbbc0230cad0b6c"),
+    client: "B",
+    timestamp: NumberLong("1738942571144")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b8b950e3fae99f957"),
+    client: "A",
+    timestamp: NumberLong("1738942571222")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b0c4f7f682333dbcb"),
+    client: "A",
+    timestamp: NumberLong("1738942571222")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b5ce567060be7ef87"),
+    client: "A",
+    timestamp: NumberLong("1738942571360")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b462d9a35f51df646"),
+    client: "A",
+    timestamp: NumberLong("1738942571406")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b9fbee6420087228d"),
+    client: "A",
+    timestamp: NumberLong("1738942571437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b50944b33726a9294"),
+    client: "A",
+    timestamp: NumberLong("1738942571437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286bf26b0352b52069d9"),
+    client: "A",
+    timestamp: NumberLong("1738942571452")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b9fbbc0230cad0b6d"),
+    client: "B",
+    timestamp: NumberLong("1738942571671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b0c4f7f682333dbcc"),
+    client: "A",
+    timestamp: NumberLong("1738942571747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b8b950e3fae99f958"),
+    client: "A",
+    timestamp: NumberLong("1738942571747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b5ce567060be7ef88"),
+    client: "A",
+    timestamp: NumberLong("1738942571872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b462d9a35f51df647"),
+    client: "A",
+    timestamp: NumberLong("1738942571919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b9fbee6420087228e"),
+    client: "A",
+    timestamp: NumberLong("1738942571949")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286bf26b0352b52069da"),
+    client: "A",
+    timestamp: NumberLong("1738942571965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286b50944b33726a9295"),
+    client: "A",
+    timestamp: NumberLong("1738942571965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c9fbbc0230cad0b6e"),
+    client: "B",
+    timestamp: NumberLong("1738942572198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c0c4f7f682333dbcd"),
+    client: "A",
+    timestamp: NumberLong("1738942572275")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c8b950e3fae99f959"),
+    client: "A",
+    timestamp: NumberLong("1738942572275")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c5ce567060be7ef89"),
+    client: "A",
+    timestamp: NumberLong("1738942572399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c462d9a35f51df648"),
+    client: "A",
+    timestamp: NumberLong("1738942572446")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c9fbee6420087228f"),
+    client: "A",
+    timestamp: NumberLong("1738942572478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286cf26b0352b52069db"),
+    client: "A",
+    timestamp: NumberLong("1738942572493")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c50944b33726a9296"),
+    client: "A",
+    timestamp: NumberLong("1738942572493")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c9fbbc0230cad0b6f"),
+    client: "B",
+    timestamp: NumberLong("1738942572726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c0c4f7f682333dbce"),
+    client: "A",
+    timestamp: NumberLong("1738942572806")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c8b950e3fae99f95a"),
+    client: "A",
+    timestamp: NumberLong("1738942572821")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c5ce567060be7ef8a"),
+    client: "A",
+    timestamp: NumberLong("1738942572931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286c462d9a35f51df649"),
+    client: "A",
+    timestamp: NumberLong("1738942572977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d9fbee64200872290"),
+    client: "A",
+    timestamp: NumberLong("1738942573007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d50944b33726a9297"),
+    client: "A",
+    timestamp: NumberLong("1738942573023")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286df26b0352b52069dc"),
+    client: "A",
+    timestamp: NumberLong("1738942573023")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d9fbbc0230cad0b70"),
+    client: "B",
+    timestamp: NumberLong("1738942573258")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d0c4f7f682333dbcf"),
+    client: "A",
+    timestamp: NumberLong("1738942573321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d8b950e3fae99f95b"),
+    client: "A",
+    timestamp: NumberLong("1738942573337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d5ce567060be7ef8b"),
+    client: "A",
+    timestamp: NumberLong("1738942573447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d462d9a35f51df64a"),
+    client: "A",
+    timestamp: NumberLong("1738942573494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d9fbee64200872291"),
+    client: "A",
+    timestamp: NumberLong("1738942573525")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286df26b0352b52069dd"),
+    client: "A",
+    timestamp: NumberLong("1738942573540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d50944b33726a9298"),
+    client: "A",
+    timestamp: NumberLong("1738942573540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d9fbbc0230cad0b71"),
+    client: "B",
+    timestamp: NumberLong("1738942573787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d0c4f7f682333dbd0"),
+    client: "A",
+    timestamp: NumberLong("1738942573834")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d8b950e3fae99f95c"),
+    client: "A",
+    timestamp: NumberLong("1738942573850")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286d5ce567060be7ef8c"),
+    client: "A",
+    timestamp: NumberLong("1738942573958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e462d9a35f51df64b"),
+    client: "A",
+    timestamp: NumberLong("1738942574021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e9fbee64200872292"),
+    client: "A",
+    timestamp: NumberLong("1738942574053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286ef26b0352b52069de"),
+    client: "A",
+    timestamp: NumberLong("1738942574053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e50944b33726a9299"),
+    client: "A",
+    timestamp: NumberLong("1738942574053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e9fbbc0230cad0b72"),
+    client: "B",
+    timestamp: NumberLong("1738942574316")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e0c4f7f682333dbd1"),
+    client: "A",
+    timestamp: NumberLong("1738942574364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e8b950e3fae99f95d"),
+    client: "A",
+    timestamp: NumberLong("1738942574379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e5ce567060be7ef8d"),
+    client: "A",
+    timestamp: NumberLong("1738942574472")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e462d9a35f51df64c"),
+    client: "A",
+    timestamp: NumberLong("1738942574535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e9fbee64200872293"),
+    client: "A",
+    timestamp: NumberLong("1738942574566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e50944b33726a929a"),
+    client: "A",
+    timestamp: NumberLong("1738942574566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286ef26b0352b52069df"),
+    client: "A",
+    timestamp: NumberLong("1738942574566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e9fbbc0230cad0b73"),
+    client: "B",
+    timestamp: NumberLong("1738942574847")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e0c4f7f682333dbd2"),
+    client: "A",
+    timestamp: NumberLong("1738942574878")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e8b950e3fae99f95e"),
+    client: "A",
+    timestamp: NumberLong("1738942574895")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286e5ce567060be7ef8e"),
+    client: "A",
+    timestamp: NumberLong("1738942574986")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f462d9a35f51df64d"),
+    client: "A",
+    timestamp: NumberLong("1738942575049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f50944b33726a929b"),
+    client: "A",
+    timestamp: NumberLong("1738942575095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f9fbee64200872294"),
+    client: "A",
+    timestamp: NumberLong("1738942575095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286ff26b0352b52069e0"),
+    client: "A",
+    timestamp: NumberLong("1738942575095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f9fbbc0230cad0b74"),
+    client: "B",
+    timestamp: NumberLong("1738942575377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f0c4f7f682333dbd3"),
+    client: "A",
+    timestamp: NumberLong("1738942575392")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f8b950e3fae99f95f"),
+    client: "A",
+    timestamp: NumberLong("1738942575424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f5ce567060be7ef8f"),
+    client: "A",
+    timestamp: NumberLong("1738942575500")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f462d9a35f51df64e"),
+    client: "A",
+    timestamp: NumberLong("1738942575564")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f9fbee64200872295"),
+    client: "A",
+    timestamp: NumberLong("1738942575625")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286ff26b0352b52069e1"),
+    client: "A",
+    timestamp: NumberLong("1738942575625")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f50944b33726a929c"),
+    client: "A",
+    timestamp: NumberLong("1738942575625")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f9fbbc0230cad0b75"),
+    client: "B",
+    timestamp: NumberLong("1738942575906")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f0c4f7f682333dbd4"),
+    client: "A",
+    timestamp: NumberLong("1738942575921")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6286f8b950e3fae99f960"),
+    client: "A",
+    timestamp: NumberLong("1738942575953")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628705ce567060be7ef90"),
+    client: "A",
+    timestamp: NumberLong("1738942576014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62870462d9a35f51df64f"),
+    client: "A",
+    timestamp: NumberLong("1738942576091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287050944b33726a929d"),
+    client: "A",
+    timestamp: NumberLong("1738942576153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628709fbee64200872296"),
+    client: "A",
+    timestamp: NumberLong("1738942576153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62870f26b0352b52069e2"),
+    client: "A",
+    timestamp: NumberLong("1738942576153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628709fbbc0230cad0b76"),
+    client: "B",
+    timestamp: NumberLong("1738942576434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628700c4f7f682333dbd5"),
+    client: "A",
+    timestamp: NumberLong("1738942576450")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628708b950e3fae99f961"),
+    client: "A",
+    timestamp: NumberLong("1738942576482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628705ce567060be7ef91"),
+    client: "A",
+    timestamp: NumberLong("1738942576543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62870462d9a35f51df650"),
+    client: "A",
+    timestamp: NumberLong("1738942576605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628709fbee64200872297"),
+    client: "A",
+    timestamp: NumberLong("1738942576682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62870f26b0352b52069e3"),
+    client: "A",
+    timestamp: NumberLong("1738942576682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287050944b33726a929e"),
+    client: "A",
+    timestamp: NumberLong("1738942576682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628709fbbc0230cad0b77"),
+    client: "B",
+    timestamp: NumberLong("1738942576963")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628700c4f7f682333dbd6"),
+    client: "A",
+    timestamp: NumberLong("1738942576978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628718b950e3fae99f962"),
+    client: "A",
+    timestamp: NumberLong("1738942577009")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628715ce567060be7ef92"),
+    client: "A",
+    timestamp: NumberLong("1738942577070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62871462d9a35f51df651"),
+    client: "A",
+    timestamp: NumberLong("1738942577132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628719fbee64200872298"),
+    client: "A",
+    timestamp: NumberLong("1738942577211")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287150944b33726a929f"),
+    client: "A",
+    timestamp: NumberLong("1738942577211")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62871f26b0352b52069e4"),
+    client: "A",
+    timestamp: NumberLong("1738942577211")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628719fbbc0230cad0b78"),
+    client: "B",
+    timestamp: NumberLong("1738942577494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628710c4f7f682333dbd7"),
+    client: "A",
+    timestamp: NumberLong("1738942577494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628718b950e3fae99f963"),
+    client: "A",
+    timestamp: NumberLong("1738942577526")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628715ce567060be7ef93"),
+    client: "A",
+    timestamp: NumberLong("1738942577588")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62871462d9a35f51df652"),
+    client: "A",
+    timestamp: NumberLong("1738942577652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628719fbee64200872299"),
+    client: "A",
+    timestamp: NumberLong("1738942577730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62871f26b0352b52069e5"),
+    client: "A",
+    timestamp: NumberLong("1738942577730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287150944b33726a92a0"),
+    client: "A",
+    timestamp: NumberLong("1738942577730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628720c4f7f682333dbd8"),
+    client: "A",
+    timestamp: NumberLong("1738942578026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628729fbbc0230cad0b79"),
+    client: "B",
+    timestamp: NumberLong("1738942578026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628728b950e3fae99f964"),
+    client: "A",
+    timestamp: NumberLong("1738942578042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628725ce567060be7ef94"),
+    client: "A",
+    timestamp: NumberLong("1738942578106")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62872462d9a35f51df653"),
+    client: "A",
+    timestamp: NumberLong("1738942578168")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628729fbee6420087229a"),
+    client: "A",
+    timestamp: NumberLong("1738942578245")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62872f26b0352b52069e6"),
+    client: "A",
+    timestamp: NumberLong("1738942578261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287250944b33726a92a1"),
+    client: "A",
+    timestamp: NumberLong("1738942578261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628728b950e3fae99f965"),
+    client: "A",
+    timestamp: NumberLong("1738942578555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628720c4f7f682333dbd9"),
+    client: "A",
+    timestamp: NumberLong("1738942578555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628729fbbc0230cad0b7a"),
+    client: "B",
+    timestamp: NumberLong("1738942578555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628725ce567060be7ef95"),
+    client: "A",
+    timestamp: NumberLong("1738942578618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62872462d9a35f51df654"),
+    client: "A",
+    timestamp: NumberLong("1738942578695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628729fbee6420087229b"),
+    client: "A",
+    timestamp: NumberLong("1738942578772")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287250944b33726a92a2"),
+    client: "A",
+    timestamp: NumberLong("1738942578787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62872f26b0352b52069e7"),
+    client: "A",
+    timestamp: NumberLong("1738942578787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628738b950e3fae99f966"),
+    client: "A",
+    timestamp: NumberLong("1738942579084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628730c4f7f682333dbda"),
+    client: "A",
+    timestamp: NumberLong("1738942579084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628739fbbc0230cad0b7b"),
+    client: "B",
+    timestamp: NumberLong("1738942579084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628735ce567060be7ef96"),
+    client: "A",
+    timestamp: NumberLong("1738942579131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62873462d9a35f51df655"),
+    client: "A",
+    timestamp: NumberLong("1738942579208")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628739fbee6420087229c"),
+    client: "A",
+    timestamp: NumberLong("1738942579285")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62873f26b0352b52069e8"),
+    client: "A",
+    timestamp: NumberLong("1738942579317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287350944b33726a92a3"),
+    client: "A",
+    timestamp: NumberLong("1738942579317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628730c4f7f682333dbdb"),
+    client: "A",
+    timestamp: NumberLong("1738942579611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628739fbbc0230cad0b7c"),
+    client: "B",
+    timestamp: NumberLong("1738942579611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628738b950e3fae99f967"),
+    client: "A",
+    timestamp: NumberLong("1738942579611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628735ce567060be7ef97"),
+    client: "A",
+    timestamp: NumberLong("1738942579657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62873462d9a35f51df656"),
+    client: "A",
+    timestamp: NumberLong("1738942579735")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628739fbee6420087229d"),
+    client: "A",
+    timestamp: NumberLong("1738942579814")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287350944b33726a92a4"),
+    client: "A",
+    timestamp: NumberLong("1738942579846")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62873f26b0352b52069e9"),
+    client: "A",
+    timestamp: NumberLong("1738942579846")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628748b950e3fae99f968"),
+    client: "A",
+    timestamp: NumberLong("1738942580139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628740c4f7f682333dbdc"),
+    client: "A",
+    timestamp: NumberLong("1738942580139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628749fbbc0230cad0b7d"),
+    client: "B",
+    timestamp: NumberLong("1738942580139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628745ce567060be7ef98"),
+    client: "A",
+    timestamp: NumberLong("1738942580185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62874462d9a35f51df657"),
+    client: "A",
+    timestamp: NumberLong("1738942580262")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628749fbee6420087229e"),
+    client: "A",
+    timestamp: NumberLong("1738942580339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62874f26b0352b52069ea"),
+    client: "A",
+    timestamp: NumberLong("1738942580371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287450944b33726a92a5"),
+    client: "A",
+    timestamp: NumberLong("1738942580371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628749fbbc0230cad0b7e"),
+    client: "B",
+    timestamp: NumberLong("1738942580670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628748b950e3fae99f969"),
+    client: "A",
+    timestamp: NumberLong("1738942580670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628740c4f7f682333dbdd"),
+    client: "A",
+    timestamp: NumberLong("1738942580670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628745ce567060be7ef99"),
+    client: "A",
+    timestamp: NumberLong("1738942580701")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62874462d9a35f51df658"),
+    client: "A",
+    timestamp: NumberLong("1738942580779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628749fbee6420087229f"),
+    client: "A",
+    timestamp: NumberLong("1738942580855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62874f26b0352b52069eb"),
+    client: "A",
+    timestamp: NumberLong("1738942580902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287450944b33726a92a6"),
+    client: "A",
+    timestamp: NumberLong("1738942580902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628759fbbc0230cad0b7f"),
+    client: "B",
+    timestamp: NumberLong("1738942581197")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628758b950e3fae99f96a"),
+    client: "A",
+    timestamp: NumberLong("1738942581212")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628750c4f7f682333dbde"),
+    client: "A",
+    timestamp: NumberLong("1738942581212")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628755ce567060be7ef9a"),
+    client: "A",
+    timestamp: NumberLong("1738942581228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62875462d9a35f51df659"),
+    client: "A",
+    timestamp: NumberLong("1738942581290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628759fbee642008722a0"),
+    client: "A",
+    timestamp: NumberLong("1738942581367")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62875f26b0352b52069ec"),
+    client: "A",
+    timestamp: NumberLong("1738942581429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287550944b33726a92a7"),
+    client: "A",
+    timestamp: NumberLong("1738942581429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628759fbbc0230cad0b80"),
+    client: "B",
+    timestamp: NumberLong("1738942581723")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628750c4f7f682333dbdf"),
+    client: "A",
+    timestamp: NumberLong("1738942581739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628758b950e3fae99f96b"),
+    client: "A",
+    timestamp: NumberLong("1738942581739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628755ce567060be7ef9b"),
+    client: "A",
+    timestamp: NumberLong("1738942581754")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62875462d9a35f51df65a"),
+    client: "A",
+    timestamp: NumberLong("1738942581815")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628759fbee642008722a1"),
+    client: "A",
+    timestamp: NumberLong("1738942581893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62875f26b0352b52069ed"),
+    client: "A",
+    timestamp: NumberLong("1738942581955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287550944b33726a92a8"),
+    client: "A",
+    timestamp: NumberLong("1738942581955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628768b950e3fae99f96c"),
+    client: "A",
+    timestamp: NumberLong("1738942582251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628760c4f7f682333dbe0"),
+    client: "A",
+    timestamp: NumberLong("1738942582251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628769fbbc0230cad0b81"),
+    client: "B",
+    timestamp: NumberLong("1738942582251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628765ce567060be7ef9c"),
+    client: "A",
+    timestamp: NumberLong("1738942582267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62876462d9a35f51df65b"),
+    client: "A",
+    timestamp: NumberLong("1738942582344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628769fbee642008722a2"),
+    client: "A",
+    timestamp: NumberLong("1738942582423")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287650944b33726a92a9"),
+    client: "A",
+    timestamp: NumberLong("1738942582485")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62876f26b0352b52069ee"),
+    client: "A",
+    timestamp: NumberLong("1738942582485")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628760c4f7f682333dbe1"),
+    client: "A",
+    timestamp: NumberLong("1738942582780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628768b950e3fae99f96d"),
+    client: "A",
+    timestamp: NumberLong("1738942582780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628769fbbc0230cad0b82"),
+    client: "B",
+    timestamp: NumberLong("1738942582780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628765ce567060be7ef9d"),
+    client: "A",
+    timestamp: NumberLong("1738942582796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62876462d9a35f51df65c"),
+    client: "A",
+    timestamp: NumberLong("1738942582873")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628769fbee642008722a3"),
+    client: "A",
+    timestamp: NumberLong("1738942582951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62877f26b0352b52069ef"),
+    client: "A",
+    timestamp: NumberLong("1738942583013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287750944b33726a92aa"),
+    client: "A",
+    timestamp: NumberLong("1738942583013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628778b950e3fae99f96e"),
+    client: "A",
+    timestamp: NumberLong("1738942583308")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628779fbbc0230cad0b83"),
+    client: "B",
+    timestamp: NumberLong("1738942583308")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628770c4f7f682333dbe2"),
+    client: "A",
+    timestamp: NumberLong("1738942583323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628775ce567060be7ef9e"),
+    client: "A",
+    timestamp: NumberLong("1738942583323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62877462d9a35f51df65d"),
+    client: "A",
+    timestamp: NumberLong("1738942583401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628779fbee642008722a4"),
+    client: "A",
+    timestamp: NumberLong("1738942583479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287750944b33726a92ab"),
+    client: "A",
+    timestamp: NumberLong("1738942583540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62877f26b0352b52069f0"),
+    client: "A",
+    timestamp: NumberLong("1738942583540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628778b950e3fae99f96f"),
+    client: "A",
+    timestamp: NumberLong("1738942583833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628779fbbc0230cad0b84"),
+    client: "B",
+    timestamp: NumberLong("1738942583848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628789fbee642008722a5"),
+    client: "A",
+    timestamp: NumberLong("1738942584004")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62878f26b0352b52069f1"),
+    client: "A",
+    timestamp: NumberLong("1738942584066")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287850944b33726a92ac"),
+    client: "A",
+    timestamp: NumberLong("1738942584066")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628785ce567060be7ef9f"),
+    client: "A",
+    timestamp: NumberLong("1738942584113")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628780c4f7f682333dbe3"),
+    client: "A",
+    timestamp: NumberLong("1738942584113")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62878462d9a35f51df65e"),
+    client: "A",
+    timestamp: NumberLong("1738942584192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628788b950e3fae99f970"),
+    client: "A",
+    timestamp: NumberLong("1738942584350")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628789fbbc0230cad0b85"),
+    client: "B",
+    timestamp: NumberLong("1738942584366")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628789fbee642008722a6"),
+    client: "A",
+    timestamp: NumberLong("1738942584522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287850944b33726a92ad"),
+    client: "A",
+    timestamp: NumberLong("1738942584584")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62878f26b0352b52069f2"),
+    client: "A",
+    timestamp: NumberLong("1738942584584")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628780c4f7f682333dbe4"),
+    client: "A",
+    timestamp: NumberLong("1738942584631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628785ce567060be7efa0"),
+    client: "A",
+    timestamp: NumberLong("1738942584631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62878462d9a35f51df65f"),
+    client: "A",
+    timestamp: NumberLong("1738942584709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628788b950e3fae99f971"),
+    client: "A",
+    timestamp: NumberLong("1738942584881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628789fbbc0230cad0b86"),
+    client: "B",
+    timestamp: NumberLong("1738942584896")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628799fbee642008722a7"),
+    client: "A",
+    timestamp: NumberLong("1738942585048")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62879f26b0352b52069f3"),
+    client: "A",
+    timestamp: NumberLong("1738942585110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287950944b33726a92ae"),
+    client: "A",
+    timestamp: NumberLong("1738942585110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628790c4f7f682333dbe5"),
+    client: "A",
+    timestamp: NumberLong("1738942585157")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628795ce567060be7efa1"),
+    client: "A",
+    timestamp: NumberLong("1738942585173")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62879462d9a35f51df660"),
+    client: "A",
+    timestamp: NumberLong("1738942585235")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628798b950e3fae99f972"),
+    client: "A",
+    timestamp: NumberLong("1738942585409")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628799fbbc0230cad0b87"),
+    client: "B",
+    timestamp: NumberLong("1738942585425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628799fbee642008722a8"),
+    client: "A",
+    timestamp: NumberLong("1738942585566")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62879f26b0352b52069f4"),
+    client: "A",
+    timestamp: NumberLong("1738942585628")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287950944b33726a92af"),
+    client: "A",
+    timestamp: NumberLong("1738942585628")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628790c4f7f682333dbe6"),
+    client: "A",
+    timestamp: NumberLong("1738942585676")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628795ce567060be7efa2"),
+    client: "A",
+    timestamp: NumberLong("1738942585692")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62879462d9a35f51df661"),
+    client: "A",
+    timestamp: NumberLong("1738942585753")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628798b950e3fae99f973"),
+    client: "A",
+    timestamp: NumberLong("1738942585940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628799fbbc0230cad0b88"),
+    client: "B",
+    timestamp: NumberLong("1738942585955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a9fbee642008722a9"),
+    client: "A",
+    timestamp: NumberLong("1738942586096")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a50944b33726a92b0"),
+    client: "A",
+    timestamp: NumberLong("1738942586143")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287af26b0352b52069f5"),
+    client: "A",
+    timestamp: NumberLong("1738942586143")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a0c4f7f682333dbe7"),
+    client: "A",
+    timestamp: NumberLong("1738942586205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a5ce567060be7efa3"),
+    client: "A",
+    timestamp: NumberLong("1738942586205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a462d9a35f51df662"),
+    client: "A",
+    timestamp: NumberLong("1738942586266")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a8b950e3fae99f974"),
+    client: "A",
+    timestamp: NumberLong("1738942586468")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a9fbbc0230cad0b89"),
+    client: "B",
+    timestamp: NumberLong("1738942586484")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a9fbee642008722aa"),
+    client: "A",
+    timestamp: NumberLong("1738942586625")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287af26b0352b52069f6"),
+    client: "A",
+    timestamp: NumberLong("1738942586671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a50944b33726a92b1"),
+    client: "A",
+    timestamp: NumberLong("1738942586671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a0c4f7f682333dbe8"),
+    client: "A",
+    timestamp: NumberLong("1738942586733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a5ce567060be7efa4"),
+    client: "A",
+    timestamp: NumberLong("1738942586733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a462d9a35f51df663"),
+    client: "A",
+    timestamp: NumberLong("1738942586795")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287a8b950e3fae99f975"),
+    client: "A",
+    timestamp: NumberLong("1738942586985")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b9fbbc0230cad0b8a"),
+    client: "B",
+    timestamp: NumberLong("1738942587001")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b9fbee642008722ab"),
+    client: "A",
+    timestamp: NumberLong("1738942587143")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b50944b33726a92b2"),
+    client: "A",
+    timestamp: NumberLong("1738942587190")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287bf26b0352b52069f7"),
+    client: "A",
+    timestamp: NumberLong("1738942587190")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b0c4f7f682333dbe9"),
+    client: "A",
+    timestamp: NumberLong("1738942587265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b5ce567060be7efa5"),
+    client: "A",
+    timestamp: NumberLong("1738942587265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b462d9a35f51df664"),
+    client: "A",
+    timestamp: NumberLong("1738942587313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b8b950e3fae99f976"),
+    client: "A",
+    timestamp: NumberLong("1738942587502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b9fbbc0230cad0b8b"),
+    client: "B",
+    timestamp: NumberLong("1738942587534")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b9fbee642008722ac"),
+    client: "A",
+    timestamp: NumberLong("1738942587673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287bf26b0352b52069f8"),
+    client: "A",
+    timestamp: NumberLong("1738942587719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b50944b33726a92b3"),
+    client: "A",
+    timestamp: NumberLong("1738942587719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b5ce567060be7efa6"),
+    client: "A",
+    timestamp: NumberLong("1738942587796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b0c4f7f682333dbea"),
+    client: "A",
+    timestamp: NumberLong("1738942587796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c8b950e3fae99f977"),
+    client: "A",
+    timestamp: NumberLong("1738942588030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287b462d9a35f51df665"),
+    client: "A",
+    timestamp: NumberLong("1738942587827")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c9fbbc0230cad0b8c"),
+    client: "B",
+    timestamp: NumberLong("1738942588061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c9fbee642008722ad"),
+    client: "A",
+    timestamp: NumberLong("1738942588187")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287cf26b0352b52069f9"),
+    client: "A",
+    timestamp: NumberLong("1738942588263")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c50944b33726a92b4"),
+    client: "A",
+    timestamp: NumberLong("1738942588263")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c0c4f7f682333dbeb"),
+    client: "A",
+    timestamp: NumberLong("1738942588342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c5ce567060be7efa7"),
+    client: "A",
+    timestamp: NumberLong("1738942588373")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c8b950e3fae99f978"),
+    client: "A",
+    timestamp: NumberLong("1738942588544")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c462d9a35f51df666"),
+    client: "A",
+    timestamp: NumberLong("1738942588559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c9fbbc0230cad0b8d"),
+    client: "B",
+    timestamp: NumberLong("1738942588589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c9fbee642008722ae"),
+    client: "A",
+    timestamp: NumberLong("1738942588715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287cf26b0352b52069fa"),
+    client: "A",
+    timestamp: NumberLong("1738942588793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c50944b33726a92b5"),
+    client: "A",
+    timestamp: NumberLong("1738942588793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c0c4f7f682333dbec"),
+    client: "A",
+    timestamp: NumberLong("1738942588871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287c5ce567060be7efa8"),
+    client: "A",
+    timestamp: NumberLong("1738942588901")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d8b950e3fae99f979"),
+    client: "A",
+    timestamp: NumberLong("1738942589072")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d462d9a35f51df667"),
+    client: "A",
+    timestamp: NumberLong("1738942589088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d9fbbc0230cad0b8e"),
+    client: "B",
+    timestamp: NumberLong("1738942589118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d9fbee642008722af"),
+    client: "A",
+    timestamp: NumberLong("1738942589287")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d50944b33726a92b6"),
+    client: "A",
+    timestamp: NumberLong("1738942589347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287df26b0352b52069fb"),
+    client: "A",
+    timestamp: NumberLong("1738942589347")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d0c4f7f682333dbed"),
+    client: "A",
+    timestamp: NumberLong("1738942589425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d5ce567060be7efa9"),
+    client: "A",
+    timestamp: NumberLong("1738942589457")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d8b950e3fae99f97a"),
+    client: "A",
+    timestamp: NumberLong("1738942589596")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d462d9a35f51df668"),
+    client: "A",
+    timestamp: NumberLong("1738942589627")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d9fbbc0230cad0b8f"),
+    client: "B",
+    timestamp: NumberLong("1738942589642")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d9fbee642008722b0"),
+    client: "A",
+    timestamp: NumberLong("1738942589813")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287df26b0352b52069fc"),
+    client: "A",
+    timestamp: NumberLong("1738942589875")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d50944b33726a92b7"),
+    client: "A",
+    timestamp: NumberLong("1738942589875")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d0c4f7f682333dbee"),
+    client: "A",
+    timestamp: NumberLong("1738942589951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287d5ce567060be7efaa"),
+    client: "A",
+    timestamp: NumberLong("1738942589982")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e8b950e3fae99f97b"),
+    client: "A",
+    timestamp: NumberLong("1738942590122")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e462d9a35f51df669"),
+    client: "A",
+    timestamp: NumberLong("1738942590152")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e9fbbc0230cad0b90"),
+    client: "B",
+    timestamp: NumberLong("1738942590168")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e9fbee642008722b1"),
+    client: "A",
+    timestamp: NumberLong("1738942590337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287ef26b0352b52069fd"),
+    client: "A",
+    timestamp: NumberLong("1738942590398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e50944b33726a92b8"),
+    client: "A",
+    timestamp: NumberLong("1738942590398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e0c4f7f682333dbef"),
+    client: "A",
+    timestamp: NumberLong("1738942590476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e5ce567060be7efab"),
+    client: "A",
+    timestamp: NumberLong("1738942590507")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e8b950e3fae99f97c"),
+    client: "A",
+    timestamp: NumberLong("1738942590646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e462d9a35f51df66a"),
+    client: "A",
+    timestamp: NumberLong("1738942590693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e9fbbc0230cad0b91"),
+    client: "B",
+    timestamp: NumberLong("1738942590725")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e9fbee642008722b2"),
+    client: "A",
+    timestamp: NumberLong("1738942590880")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287ef26b0352b52069fe"),
+    client: "A",
+    timestamp: NumberLong("1738942590926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287e50944b33726a92b9"),
+    client: "A",
+    timestamp: NumberLong("1738942590926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f0c4f7f682333dbf0"),
+    client: "A",
+    timestamp: NumberLong("1738942591003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f5ce567060be7efac"),
+    client: "A",
+    timestamp: NumberLong("1738942591034")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f8b950e3fae99f97d"),
+    client: "A",
+    timestamp: NumberLong("1738942591171")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f462d9a35f51df66b"),
+    client: "A",
+    timestamp: NumberLong("1738942591218")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f9fbbc0230cad0b92"),
+    client: "B",
+    timestamp: NumberLong("1738942591249")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f9fbee642008722b3"),
+    client: "A",
+    timestamp: NumberLong("1738942591405")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f50944b33726a92ba"),
+    client: "A",
+    timestamp: NumberLong("1738942591451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287ff26b0352b52069ff"),
+    client: "A",
+    timestamp: NumberLong("1738942591451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f0c4f7f682333dbf1"),
+    client: "A",
+    timestamp: NumberLong("1738942591528")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f5ce567060be7efad"),
+    client: "A",
+    timestamp: NumberLong("1738942591559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f8b950e3fae99f97e"),
+    client: "A",
+    timestamp: NumberLong("1738942591698")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f462d9a35f51df66c"),
+    client: "A",
+    timestamp: NumberLong("1738942591745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f9fbbc0230cad0b93"),
+    client: "B",
+    timestamp: NumberLong("1738942591776")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f9fbee642008722b4"),
+    client: "A",
+    timestamp: NumberLong("1738942591918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287f50944b33726a92bb"),
+    client: "A",
+    timestamp: NumberLong("1738942591980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6287ff26b0352b5206a00"),
+    client: "A",
+    timestamp: NumberLong("1738942591980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628800c4f7f682333dbf2"),
+    client: "A",
+    timestamp: NumberLong("1738942592056")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628805ce567060be7efae"),
+    client: "A",
+    timestamp: NumberLong("1738942592072")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628808b950e3fae99f97f"),
+    client: "A",
+    timestamp: NumberLong("1738942592227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62880462d9a35f51df66d"),
+    client: "A",
+    timestamp: NumberLong("1738942592274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628809fbbc0230cad0b94"),
+    client: "B",
+    timestamp: NumberLong("1738942592304")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628809fbee642008722b5"),
+    client: "A",
+    timestamp: NumberLong("1738942592459")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288050944b33726a92bc"),
+    client: "A",
+    timestamp: NumberLong("1738942592505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62880f26b0352b5206a01"),
+    client: "A",
+    timestamp: NumberLong("1738942592505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628800c4f7f682333dbf3"),
+    client: "A",
+    timestamp: NumberLong("1738942592582")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628805ce567060be7efaf"),
+    client: "A",
+    timestamp: NumberLong("1738942592597")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628808b950e3fae99f980"),
+    client: "A",
+    timestamp: NumberLong("1738942592754")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62880462d9a35f51df66e"),
+    client: "A",
+    timestamp: NumberLong("1738942592801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628809fbbc0230cad0b95"),
+    client: "B",
+    timestamp: NumberLong("1738942592831")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628809fbee642008722b6"),
+    client: "A",
+    timestamp: NumberLong("1738942592985")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62881f26b0352b5206a02"),
+    client: "A",
+    timestamp: NumberLong("1738942593032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288150944b33726a92bd"),
+    client: "A",
+    timestamp: NumberLong("1738942593032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628810c4f7f682333dbf4"),
+    client: "A",
+    timestamp: NumberLong("1738942593108")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628815ce567060be7efb0"),
+    client: "A",
+    timestamp: NumberLong("1738942593124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628818b950e3fae99f981"),
+    client: "A",
+    timestamp: NumberLong("1738942593280")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62881462d9a35f51df66f"),
+    client: "A",
+    timestamp: NumberLong("1738942593325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628819fbbc0230cad0b96"),
+    client: "B",
+    timestamp: NumberLong("1738942593356")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628819fbee642008722b7"),
+    client: "A",
+    timestamp: NumberLong("1738942593512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288150944b33726a92be"),
+    client: "A",
+    timestamp: NumberLong("1738942593559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62881f26b0352b5206a03"),
+    client: "A",
+    timestamp: NumberLong("1738942593559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628810c4f7f682333dbf5"),
+    client: "A",
+    timestamp: NumberLong("1738942593635")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628815ce567060be7efb1"),
+    client: "A",
+    timestamp: NumberLong("1738942593651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628818b950e3fae99f982"),
+    client: "A",
+    timestamp: NumberLong("1738942593807")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62881462d9a35f51df670"),
+    client: "A",
+    timestamp: NumberLong("1738942593839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628819fbbc0230cad0b97"),
+    client: "B",
+    timestamp: NumberLong("1738942593871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628829fbee642008722b8"),
+    client: "A",
+    timestamp: NumberLong("1738942594075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62882f26b0352b5206a04"),
+    client: "A",
+    timestamp: NumberLong("1738942594075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288250944b33726a92bf"),
+    client: "A",
+    timestamp: NumberLong("1738942594075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628820c4f7f682333dbf6"),
+    client: "A",
+    timestamp: NumberLong("1738942594153")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628825ce567060be7efb2"),
+    client: "A",
+    timestamp: NumberLong("1738942594169")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628828b950e3fae99f983"),
+    client: "A",
+    timestamp: NumberLong("1738942594325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62882462d9a35f51df671"),
+    client: "A",
+    timestamp: NumberLong("1738942594356")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628829fbbc0230cad0b98"),
+    client: "B",
+    timestamp: NumberLong("1738942594387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628829fbee642008722b9"),
+    client: "A",
+    timestamp: NumberLong("1738942594604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62882f26b0352b5206a05"),
+    client: "A",
+    timestamp: NumberLong("1738942594604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288250944b33726a92c0"),
+    client: "A",
+    timestamp: NumberLong("1738942594604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628820c4f7f682333dbf7"),
+    client: "A",
+    timestamp: NumberLong("1738942594680")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628825ce567060be7efb3"),
+    client: "A",
+    timestamp: NumberLong("1738942594696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628828b950e3fae99f984"),
+    client: "A",
+    timestamp: NumberLong("1738942594853")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62882462d9a35f51df672"),
+    client: "A",
+    timestamp: NumberLong("1738942594884")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628829fbbc0230cad0b99"),
+    client: "B",
+    timestamp: NumberLong("1738942594915")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628839fbee642008722ba"),
+    client: "A",
+    timestamp: NumberLong("1738942595135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62883f26b0352b5206a06"),
+    client: "A",
+    timestamp: NumberLong("1738942595135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288350944b33726a92c1"),
+    client: "A",
+    timestamp: NumberLong("1738942595135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628830c4f7f682333dbf8"),
+    client: "A",
+    timestamp: NumberLong("1738942595198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628835ce567060be7efb4"),
+    client: "A",
+    timestamp: NumberLong("1738942595213")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628838b950e3fae99f985"),
+    client: "A",
+    timestamp: NumberLong("1738942595370")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62883462d9a35f51df673"),
+    client: "A",
+    timestamp: NumberLong("1738942595401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628839fbbc0230cad0b9a"),
+    client: "B",
+    timestamp: NumberLong("1738942595447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628839fbee642008722bb"),
+    client: "A",
+    timestamp: NumberLong("1738942595664")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288350944b33726a92c2"),
+    client: "A",
+    timestamp: NumberLong("1738942595664")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62883f26b0352b5206a07"),
+    client: "A",
+    timestamp: NumberLong("1738942595664")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628835ce567060be7efb5"),
+    client: "A",
+    timestamp: NumberLong("1738942595742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628830c4f7f682333dbf9"),
+    client: "A",
+    timestamp: NumberLong("1738942595742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628838b950e3fae99f986"),
+    client: "A",
+    timestamp: NumberLong("1738942595884")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62883462d9a35f51df674"),
+    client: "A",
+    timestamp: NumberLong("1738942595930")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628839fbbc0230cad0b9b"),
+    client: "B",
+    timestamp: NumberLong("1738942595976")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628849fbee642008722bc"),
+    client: "A",
+    timestamp: NumberLong("1738942596192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62884f26b0352b5206a08"),
+    client: "A",
+    timestamp: NumberLong("1738942596192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288450944b33726a92c3"),
+    client: "A",
+    timestamp: NumberLong("1738942596192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628840c4f7f682333dbfa"),
+    client: "A",
+    timestamp: NumberLong("1738942596270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628845ce567060be7efb6"),
+    client: "A",
+    timestamp: NumberLong("1738942596270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628848b950e3fae99f987"),
+    client: "A",
+    timestamp: NumberLong("1738942596411")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62884462d9a35f51df675"),
+    client: "A",
+    timestamp: NumberLong("1738942596456")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628849fbbc0230cad0b9c"),
+    client: "B",
+    timestamp: NumberLong("1738942596503")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628849fbee642008722bd"),
+    client: "A",
+    timestamp: NumberLong("1738942596719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62884f26b0352b5206a09"),
+    client: "A",
+    timestamp: NumberLong("1738942596719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288450944b33726a92c4"),
+    client: "A",
+    timestamp: NumberLong("1738942596719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628840c4f7f682333dbfb"),
+    client: "A",
+    timestamp: NumberLong("1738942596797")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628845ce567060be7efb7"),
+    client: "A",
+    timestamp: NumberLong("1738942596797")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628848b950e3fae99f988"),
+    client: "A",
+    timestamp: NumberLong("1738942596938")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62884462d9a35f51df676"),
+    client: "A",
+    timestamp: NumberLong("1738942596969")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628859fbbc0230cad0b9d"),
+    client: "B",
+    timestamp: NumberLong("1738942597031")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628859fbee642008722be"),
+    client: "A",
+    timestamp: NumberLong("1738942597250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62885f26b0352b5206a0a"),
+    client: "A",
+    timestamp: NumberLong("1738942597250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288550944b33726a92c5"),
+    client: "A",
+    timestamp: NumberLong("1738942597250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628850c4f7f682333dbfc"),
+    client: "A",
+    timestamp: NumberLong("1738942597328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628855ce567060be7efb8"),
+    client: "A",
+    timestamp: NumberLong("1738942597328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628858b950e3fae99f989"),
+    client: "A",
+    timestamp: NumberLong("1738942597470")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62885462d9a35f51df677"),
+    client: "A",
+    timestamp: NumberLong("1738942597485")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628859fbbc0230cad0b9e"),
+    client: "B",
+    timestamp: NumberLong("1738942597549")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628859fbee642008722bf"),
+    client: "A",
+    timestamp: NumberLong("1738942597782")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288550944b33726a92c6"),
+    client: "A",
+    timestamp: NumberLong("1738942597782")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62885f26b0352b5206a0b"),
+    client: "A",
+    timestamp: NumberLong("1738942597782")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628855ce567060be7efb9"),
+    client: "A",
+    timestamp: NumberLong("1738942597859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628850c4f7f682333dbfd"),
+    client: "A",
+    timestamp: NumberLong("1738942597859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628858b950e3fae99f98a"),
+    client: "A",
+    timestamp: NumberLong("1738942597998")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62886462d9a35f51df678"),
+    client: "A",
+    timestamp: NumberLong("1738942598014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628869fbbc0230cad0b9f"),
+    client: "B",
+    timestamp: NumberLong("1738942598075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628869fbee642008722c0"),
+    client: "A",
+    timestamp: NumberLong("1738942598307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62886f26b0352b5206a0c"),
+    client: "A",
+    timestamp: NumberLong("1738942598307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288650944b33726a92c7"),
+    client: "A",
+    timestamp: NumberLong("1738942598307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628860c4f7f682333dbfe"),
+    client: "A",
+    timestamp: NumberLong("1738942598383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628865ce567060be7efba"),
+    client: "A",
+    timestamp: NumberLong("1738942598383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628868b950e3fae99f98b"),
+    client: "A",
+    timestamp: NumberLong("1738942598525")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62886462d9a35f51df679"),
+    client: "A",
+    timestamp: NumberLong("1738942598540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628869fbbc0230cad0ba0"),
+    client: "B",
+    timestamp: NumberLong("1738942598601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628869fbee642008722c1"),
+    client: "A",
+    timestamp: NumberLong("1738942598831")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288650944b33726a92c8"),
+    client: "A",
+    timestamp: NumberLong("1738942598831")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62886f26b0352b5206a0d"),
+    client: "A",
+    timestamp: NumberLong("1738942598831")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628860c4f7f682333dbff"),
+    client: "A",
+    timestamp: NumberLong("1738942598910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628865ce567060be7efbb"),
+    client: "A",
+    timestamp: NumberLong("1738942598910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628878b950e3fae99f98c"),
+    client: "A",
+    timestamp: NumberLong("1738942599050")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62887462d9a35f51df67a"),
+    client: "A",
+    timestamp: NumberLong("1738942599065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628879fbbc0230cad0ba1"),
+    client: "B",
+    timestamp: NumberLong("1738942599126")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628879fbee642008722c2"),
+    client: "A",
+    timestamp: NumberLong("1738942599344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62887f26b0352b5206a0e"),
+    client: "A",
+    timestamp: NumberLong("1738942599344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288750944b33726a92c9"),
+    client: "A",
+    timestamp: NumberLong("1738942599344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628875ce567060be7efbc"),
+    client: "A",
+    timestamp: NumberLong("1738942599438")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628870c4f7f682333dc00"),
+    client: "A",
+    timestamp: NumberLong("1738942599438")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628878b950e3fae99f98d"),
+    client: "A",
+    timestamp: NumberLong("1738942599563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62887462d9a35f51df67b"),
+    client: "A",
+    timestamp: NumberLong("1738942599594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628879fbbc0230cad0ba2"),
+    client: "B",
+    timestamp: NumberLong("1738942599641")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628879fbee642008722c3"),
+    client: "A",
+    timestamp: NumberLong("1738942599863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288750944b33726a92ca"),
+    client: "A",
+    timestamp: NumberLong("1738942599863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62887f26b0352b5206a0f"),
+    client: "A",
+    timestamp: NumberLong("1738942599863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628870c4f7f682333dc01"),
+    client: "A",
+    timestamp: NumberLong("1738942599958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628875ce567060be7efbd"),
+    client: "A",
+    timestamp: NumberLong("1738942599958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628888b950e3fae99f98e"),
+    client: "A",
+    timestamp: NumberLong("1738942600080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62888462d9a35f51df67c"),
+    client: "A",
+    timestamp: NumberLong("1738942600110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628889fbbc0230cad0ba3"),
+    client: "B",
+    timestamp: NumberLong("1738942600171")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62888f26b0352b5206a10"),
+    client: "A",
+    timestamp: NumberLong("1738942600386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628889fbee642008722c4"),
+    client: "A",
+    timestamp: NumberLong("1738942600386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288850944b33726a92cb"),
+    client: "A",
+    timestamp: NumberLong("1738942600386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628885ce567060be7efbe"),
+    client: "A",
+    timestamp: NumberLong("1738942600481")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628880c4f7f682333dc02"),
+    client: "A",
+    timestamp: NumberLong("1738942600481")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628888b950e3fae99f98f"),
+    client: "A",
+    timestamp: NumberLong("1738942600605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62888462d9a35f51df67d"),
+    client: "A",
+    timestamp: NumberLong("1738942600636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628889fbbc0230cad0ba4"),
+    client: "B",
+    timestamp: NumberLong("1738942600698")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62888f26b0352b5206a11"),
+    client: "A",
+    timestamp: NumberLong("1738942600910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288850944b33726a92cc"),
+    client: "A",
+    timestamp: NumberLong("1738942600910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628889fbee642008722c5"),
+    client: "A",
+    timestamp: NumberLong("1738942600910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628895ce567060be7efbf"),
+    client: "A",
+    timestamp: NumberLong("1738942601003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628890c4f7f682333dc03"),
+    client: "A",
+    timestamp: NumberLong("1738942601003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628898b950e3fae99f990"),
+    client: "A",
+    timestamp: NumberLong("1738942601127")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62889462d9a35f51df67e"),
+    client: "A",
+    timestamp: NumberLong("1738942601157")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628899fbbc0230cad0ba5"),
+    client: "B",
+    timestamp: NumberLong("1738942601219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288950944b33726a92cd"),
+    client: "A",
+    timestamp: NumberLong("1738942601437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628899fbee642008722c6"),
+    client: "A",
+    timestamp: NumberLong("1738942601437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62889f26b0352b5206a12"),
+    client: "A",
+    timestamp: NumberLong("1738942601437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628895ce567060be7efc0"),
+    client: "A",
+    timestamp: NumberLong("1738942601530")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628890c4f7f682333dc04"),
+    client: "A",
+    timestamp: NumberLong("1738942601530")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628898b950e3fae99f991"),
+    client: "A",
+    timestamp: NumberLong("1738942601653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62889462d9a35f51df67f"),
+    client: "A",
+    timestamp: NumberLong("1738942601684")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628899fbbc0230cad0ba6"),
+    client: "B",
+    timestamp: NumberLong("1738942601746")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628899fbee642008722c7"),
+    client: "A",
+    timestamp: NumberLong("1738942601966")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62889f26b0352b5206a13"),
+    client: "A",
+    timestamp: NumberLong("1738942601966")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288950944b33726a92ce"),
+    client: "A",
+    timestamp: NumberLong("1738942601966")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a5ce567060be7efc1"),
+    client: "A",
+    timestamp: NumberLong("1738942602058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a0c4f7f682333dc05"),
+    client: "A",
+    timestamp: NumberLong("1738942602058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a8b950e3fae99f992"),
+    client: "A",
+    timestamp: NumberLong("1738942602182")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a462d9a35f51df680"),
+    client: "A",
+    timestamp: NumberLong("1738942602198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a9fbbc0230cad0ba7"),
+    client: "B",
+    timestamp: NumberLong("1738942602275")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a9fbee642008722c8"),
+    client: "A",
+    timestamp: NumberLong("1738942602496")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288af26b0352b5206a14"),
+    client: "A",
+    timestamp: NumberLong("1738942602496")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a50944b33726a92cf"),
+    client: "A",
+    timestamp: NumberLong("1738942602496")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a5ce567060be7efc2"),
+    client: "A",
+    timestamp: NumberLong("1738942602573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a0c4f7f682333dc06"),
+    client: "A",
+    timestamp: NumberLong("1738942602573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a462d9a35f51df681"),
+    client: "A",
+    timestamp: NumberLong("1738942602711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a8b950e3fae99f993"),
+    client: "A",
+    timestamp: NumberLong("1738942602711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288a9fbbc0230cad0ba8"),
+    client: "B",
+    timestamp: NumberLong("1738942602804")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b9fbee642008722c9"),
+    client: "A",
+    timestamp: NumberLong("1738942603024")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288bf26b0352b5206a15"),
+    client: "A",
+    timestamp: NumberLong("1738942603024")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b50944b33726a92d0"),
+    client: "A",
+    timestamp: NumberLong("1738942603024")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b0c4f7f682333dc07"),
+    client: "A",
+    timestamp: NumberLong("1738942603101")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b5ce567060be7efc3"),
+    client: "A",
+    timestamp: NumberLong("1738942603101")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b462d9a35f51df682"),
+    client: "A",
+    timestamp: NumberLong("1738942603227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b8b950e3fae99f994"),
+    client: "A",
+    timestamp: NumberLong("1738942603243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b9fbbc0230cad0ba9"),
+    client: "B",
+    timestamp: NumberLong("1738942603336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b9fbee642008722ca"),
+    client: "A",
+    timestamp: NumberLong("1738942603554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b50944b33726a92d1"),
+    client: "A",
+    timestamp: NumberLong("1738942603554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288bf26b0352b5206a16"),
+    client: "A",
+    timestamp: NumberLong("1738942603554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b0c4f7f682333dc08"),
+    client: "A",
+    timestamp: NumberLong("1738942603618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b5ce567060be7efc4"),
+    client: "A",
+    timestamp: NumberLong("1738942603618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b462d9a35f51df683"),
+    client: "A",
+    timestamp: NumberLong("1738942603756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b8b950e3fae99f995"),
+    client: "A",
+    timestamp: NumberLong("1738942603771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288b9fbbc0230cad0baa"),
+    client: "B",
+    timestamp: NumberLong("1738942603863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c9fbee642008722cb"),
+    client: "A",
+    timestamp: NumberLong("1738942604081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288cf26b0352b5206a17"),
+    client: "A",
+    timestamp: NumberLong("1738942604081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c50944b33726a92d2"),
+    client: "A",
+    timestamp: NumberLong("1738942604081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c5ce567060be7efc5"),
+    client: "A",
+    timestamp: NumberLong("1738942604142")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c0c4f7f682333dc09"),
+    client: "A",
+    timestamp: NumberLong("1738942604142")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c462d9a35f51df684"),
+    client: "A",
+    timestamp: NumberLong("1738942604267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c8b950e3fae99f996"),
+    client: "A",
+    timestamp: NumberLong("1738942604282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c9fbbc0230cad0bab"),
+    client: "B",
+    timestamp: NumberLong("1738942604391")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c9fbee642008722cc"),
+    client: "A",
+    timestamp: NumberLong("1738942604610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288cf26b0352b5206a18"),
+    client: "A",
+    timestamp: NumberLong("1738942604610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c50944b33726a92d3"),
+    client: "A",
+    timestamp: NumberLong("1738942604610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c5ce567060be7efc6"),
+    client: "A",
+    timestamp: NumberLong("1738942604671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c0c4f7f682333dc0a"),
+    client: "A",
+    timestamp: NumberLong("1738942604671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c462d9a35f51df685"),
+    client: "A",
+    timestamp: NumberLong("1738942604796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c8b950e3fae99f997"),
+    client: "A",
+    timestamp: NumberLong("1738942604811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288c9fbbc0230cad0bac"),
+    client: "B",
+    timestamp: NumberLong("1738942604919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d9fbee642008722cd"),
+    client: "A",
+    timestamp: NumberLong("1738942605139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288df26b0352b5206a19"),
+    client: "A",
+    timestamp: NumberLong("1738942605139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d50944b33726a92d4"),
+    client: "A",
+    timestamp: NumberLong("1738942605139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d0c4f7f682333dc0b"),
+    client: "A",
+    timestamp: NumberLong("1738942605185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d5ce567060be7efc7"),
+    client: "A",
+    timestamp: NumberLong("1738942605202")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d462d9a35f51df686"),
+    client: "A",
+    timestamp: NumberLong("1738942605312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d8b950e3fae99f998"),
+    client: "A",
+    timestamp: NumberLong("1738942605328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d9fbbc0230cad0bad"),
+    client: "B",
+    timestamp: NumberLong("1738942605437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d9fbee642008722ce"),
+    client: "A",
+    timestamp: NumberLong("1738942605670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d50944b33726a92d5"),
+    client: "A",
+    timestamp: NumberLong("1738942605670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288df26b0352b5206a1a"),
+    client: "A",
+    timestamp: NumberLong("1738942605670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d0c4f7f682333dc0c"),
+    client: "A",
+    timestamp: NumberLong("1738942605701")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d5ce567060be7efc8"),
+    client: "A",
+    timestamp: NumberLong("1738942605717")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d462d9a35f51df687"),
+    client: "A",
+    timestamp: NumberLong("1738942605841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d8b950e3fae99f999"),
+    client: "A",
+    timestamp: NumberLong("1738942605857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288d9fbbc0230cad0bae"),
+    client: "B",
+    timestamp: NumberLong("1738942605964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e9fbee642008722cf"),
+    client: "A",
+    timestamp: NumberLong("1738942606196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288ef26b0352b5206a1b"),
+    client: "A",
+    timestamp: NumberLong("1738942606196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e50944b33726a92d6"),
+    client: "A",
+    timestamp: NumberLong("1738942606196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e0c4f7f682333dc0d"),
+    client: "A",
+    timestamp: NumberLong("1738942606227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e5ce567060be7efc9"),
+    client: "A",
+    timestamp: NumberLong("1738942606243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e462d9a35f51df688"),
+    client: "A",
+    timestamp: NumberLong("1738942606368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e8b950e3fae99f99a"),
+    client: "A",
+    timestamp: NumberLong("1738942606383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e9fbbc0230cad0baf"),
+    client: "B",
+    timestamp: NumberLong("1738942606490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e9fbee642008722d0"),
+    client: "A",
+    timestamp: NumberLong("1738942606724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e50944b33726a92d7"),
+    client: "A",
+    timestamp: NumberLong("1738942606724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288ef26b0352b5206a1c"),
+    client: "A",
+    timestamp: NumberLong("1738942606724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e0c4f7f682333dc0e"),
+    client: "A",
+    timestamp: NumberLong("1738942606755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e5ce567060be7efca"),
+    client: "A",
+    timestamp: NumberLong("1738942606755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e462d9a35f51df689"),
+    client: "A",
+    timestamp: NumberLong("1738942606895")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288e8b950e3fae99f99b"),
+    client: "A",
+    timestamp: NumberLong("1738942606911")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f9fbbc0230cad0bb0"),
+    client: "B",
+    timestamp: NumberLong("1738942607019")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f9fbee642008722d1"),
+    client: "A",
+    timestamp: NumberLong("1738942607252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288ff26b0352b5206a1d"),
+    client: "A",
+    timestamp: NumberLong("1738942607252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f50944b33726a92d8"),
+    client: "A",
+    timestamp: NumberLong("1738942607252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f0c4f7f682333dc0f"),
+    client: "A",
+    timestamp: NumberLong("1738942607283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f5ce567060be7efcb"),
+    client: "A",
+    timestamp: NumberLong("1738942607283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f462d9a35f51df68a"),
+    client: "A",
+    timestamp: NumberLong("1738942607422")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f8b950e3fae99f99c"),
+    client: "A",
+    timestamp: NumberLong("1738942607438")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f9fbbc0230cad0bb1"),
+    client: "B",
+    timestamp: NumberLong("1738942607546")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f9fbee642008722d2"),
+    client: "A",
+    timestamp: NumberLong("1738942607779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288ff26b0352b5206a1e"),
+    client: "A",
+    timestamp: NumberLong("1738942607779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f50944b33726a92d9"),
+    client: "A",
+    timestamp: NumberLong("1738942607779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f0c4f7f682333dc10"),
+    client: "A",
+    timestamp: NumberLong("1738942607809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f5ce567060be7efcc"),
+    client: "A",
+    timestamp: NumberLong("1738942607809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f462d9a35f51df68b"),
+    client: "A",
+    timestamp: NumberLong("1738942607948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6288f8b950e3fae99f99d"),
+    client: "A",
+    timestamp: NumberLong("1738942607963")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628909fbbc0230cad0bb2"),
+    client: "B",
+    timestamp: NumberLong("1738942608071")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628909fbee642008722d3"),
+    client: "A",
+    timestamp: NumberLong("1738942608305")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289050944b33726a92da"),
+    client: "A",
+    timestamp: NumberLong("1738942608305")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62890f26b0352b5206a1f"),
+    client: "A",
+    timestamp: NumberLong("1738942608305")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628900c4f7f682333dc11"),
+    client: "A",
+    timestamp: NumberLong("1738942608352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628905ce567060be7efcd"),
+    client: "A",
+    timestamp: NumberLong("1738942608352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628908b950e3fae99f99e"),
+    client: "A",
+    timestamp: NumberLong("1738942608475")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62890462d9a35f51df68c"),
+    client: "A",
+    timestamp: NumberLong("1738942608475")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628909fbbc0230cad0bb3"),
+    client: "B",
+    timestamp: NumberLong("1738942608600")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628909fbee642008722d4"),
+    client: "A",
+    timestamp: NumberLong("1738942608833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62890f26b0352b5206a20"),
+    client: "A",
+    timestamp: NumberLong("1738942608833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289050944b33726a92db"),
+    client: "A",
+    timestamp: NumberLong("1738942608833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628900c4f7f682333dc12"),
+    client: "A",
+    timestamp: NumberLong("1738942608879")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628905ce567060be7efce"),
+    client: "A",
+    timestamp: NumberLong("1738942608879")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628918b950e3fae99f99f"),
+    client: "A",
+    timestamp: NumberLong("1738942609003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62891462d9a35f51df68d"),
+    client: "A",
+    timestamp: NumberLong("1738942609003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628919fbbc0230cad0bb4"),
+    client: "B",
+    timestamp: NumberLong("1738942609128")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62891f26b0352b5206a21"),
+    client: "A",
+    timestamp: NumberLong("1738942609346")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628919fbee642008722d5"),
+    client: "A",
+    timestamp: NumberLong("1738942609362")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289150944b33726a92dc"),
+    client: "A",
+    timestamp: NumberLong("1738942609362")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628915ce567060be7efcf"),
+    client: "A",
+    timestamp: NumberLong("1738942609408")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628910c4f7f682333dc13"),
+    client: "A",
+    timestamp: NumberLong("1738942609408")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62891462d9a35f51df68e"),
+    client: "A",
+    timestamp: NumberLong("1738942609533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628918b950e3fae99f9a0"),
+    client: "A",
+    timestamp: NumberLong("1738942609533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628919fbbc0230cad0bb5"),
+    client: "B",
+    timestamp: NumberLong("1738942609658")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289150944b33726a92dd"),
+    client: "A",
+    timestamp: NumberLong("1738942609878")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62891f26b0352b5206a22"),
+    client: "A",
+    timestamp: NumberLong("1738942609878")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628919fbee642008722d6"),
+    client: "A",
+    timestamp: NumberLong("1738942609878")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628910c4f7f682333dc14"),
+    client: "A",
+    timestamp: NumberLong("1738942609925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628915ce567060be7efd0"),
+    client: "A",
+    timestamp: NumberLong("1738942609925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62892462d9a35f51df68f"),
+    client: "A",
+    timestamp: NumberLong("1738942610063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628928b950e3fae99f9a1"),
+    client: "A",
+    timestamp: NumberLong("1738942610063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628929fbbc0230cad0bb6"),
+    client: "B",
+    timestamp: NumberLong("1738942610185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62892f26b0352b5206a23"),
+    client: "A",
+    timestamp: NumberLong("1738942610402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628929fbee642008722d7"),
+    client: "A",
+    timestamp: NumberLong("1738942610402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289250944b33726a92de"),
+    client: "A",
+    timestamp: NumberLong("1738942610402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628920c4f7f682333dc15"),
+    client: "A",
+    timestamp: NumberLong("1738942610449")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628925ce567060be7efd1"),
+    client: "A",
+    timestamp: NumberLong("1738942610449")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62892462d9a35f51df690"),
+    client: "A",
+    timestamp: NumberLong("1738942610575")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628928b950e3fae99f9a2"),
+    client: "A",
+    timestamp: NumberLong("1738942610589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628929fbbc0230cad0bb7"),
+    client: "B",
+    timestamp: NumberLong("1738942610714")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289250944b33726a92df"),
+    client: "A",
+    timestamp: NumberLong("1738942610948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628929fbee642008722d8"),
+    client: "A",
+    timestamp: NumberLong("1738942610948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62892f26b0352b5206a24"),
+    client: "A",
+    timestamp: NumberLong("1738942610948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628925ce567060be7efd2"),
+    client: "A",
+    timestamp: NumberLong("1738942610964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628920c4f7f682333dc16"),
+    client: "A",
+    timestamp: NumberLong("1738942610964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62893462d9a35f51df691"),
+    client: "A",
+    timestamp: NumberLong("1738942611105")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628938b950e3fae99f9a3"),
+    client: "A",
+    timestamp: NumberLong("1738942611120")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628939fbbc0230cad0bb8"),
+    client: "B",
+    timestamp: NumberLong("1738942611229")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628939fbee642008722d9"),
+    client: "A",
+    timestamp: NumberLong("1738942611479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289350944b33726a92e0"),
+    client: "A",
+    timestamp: NumberLong("1738942611479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62893f26b0352b5206a25"),
+    client: "A",
+    timestamp: NumberLong("1738942611479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628935ce567060be7efd3"),
+    client: "A",
+    timestamp: NumberLong("1738942611495")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628930c4f7f682333dc17"),
+    client: "A",
+    timestamp: NumberLong("1738942611495")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62893462d9a35f51df692"),
+    client: "A",
+    timestamp: NumberLong("1738942611618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628938b950e3fae99f9a4"),
+    client: "A",
+    timestamp: NumberLong("1738942611649")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628939fbbc0230cad0bb9"),
+    client: "B",
+    timestamp: NumberLong("1738942611759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628949fbee642008722da"),
+    client: "A",
+    timestamp: NumberLong("1738942612006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289450944b33726a92e1"),
+    client: "A",
+    timestamp: NumberLong("1738942612006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62894f26b0352b5206a26"),
+    client: "A",
+    timestamp: NumberLong("1738942612006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628945ce567060be7efd4"),
+    client: "A",
+    timestamp: NumberLong("1738942612022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628940c4f7f682333dc18"),
+    client: "A",
+    timestamp: NumberLong("1738942612022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62894462d9a35f51df693"),
+    client: "A",
+    timestamp: NumberLong("1738942612148")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628948b950e3fae99f9a5"),
+    client: "A",
+    timestamp: NumberLong("1738942612179")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628949fbbc0230cad0bba"),
+    client: "B",
+    timestamp: NumberLong("1738942612290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628945ce567060be7efd5"),
+    client: "A",
+    timestamp: NumberLong("1738942612538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628949fbee642008722db"),
+    client: "A",
+    timestamp: NumberLong("1738942612538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289450944b33726a92e2"),
+    client: "A",
+    timestamp: NumberLong("1738942612538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62894f26b0352b5206a27"),
+    client: "A",
+    timestamp: NumberLong("1738942612538")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628940c4f7f682333dc19"),
+    client: "A",
+    timestamp: NumberLong("1738942612553")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62894462d9a35f51df694"),
+    client: "A",
+    timestamp: NumberLong("1738942612677")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628948b950e3fae99f9a6"),
+    client: "A",
+    timestamp: NumberLong("1738942612709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628949fbbc0230cad0bbb"),
+    client: "B",
+    timestamp: NumberLong("1738942612817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628955ce567060be7efd6"),
+    client: "A",
+    timestamp: NumberLong("1738942613067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628959fbee642008722dc"),
+    client: "A",
+    timestamp: NumberLong("1738942613067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62895f26b0352b5206a28"),
+    client: "A",
+    timestamp: NumberLong("1738942613067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289550944b33726a92e3"),
+    client: "A",
+    timestamp: NumberLong("1738942613067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628950c4f7f682333dc1a"),
+    client: "A",
+    timestamp: NumberLong("1738942613083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62895462d9a35f51df695"),
+    client: "A",
+    timestamp: NumberLong("1738942613192")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628958b950e3fae99f9a7"),
+    client: "A",
+    timestamp: NumberLong("1738942613238")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628959fbbc0230cad0bbc"),
+    client: "B",
+    timestamp: NumberLong("1738942613330")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628955ce567060be7efd7"),
+    client: "A",
+    timestamp: NumberLong("1738942613593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628959fbee642008722dd"),
+    client: "A",
+    timestamp: NumberLong("1738942613593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62895f26b0352b5206a29"),
+    client: "A",
+    timestamp: NumberLong("1738942613593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289550944b33726a92e4"),
+    client: "A",
+    timestamp: NumberLong("1738942613593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628950c4f7f682333dc1b"),
+    client: "A",
+    timestamp: NumberLong("1738942613609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62895462d9a35f51df696"),
+    client: "A",
+    timestamp: NumberLong("1738942613716")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628958b950e3fae99f9a8"),
+    client: "A",
+    timestamp: NumberLong("1738942613763")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628959fbbc0230cad0bbd"),
+    client: "B",
+    timestamp: NumberLong("1738942613856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628960c4f7f682333dc1c"),
+    client: "A",
+    timestamp: NumberLong("1738942614121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628969fbee642008722de"),
+    client: "A",
+    timestamp: NumberLong("1738942614121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628965ce567060be7efd8"),
+    client: "A",
+    timestamp: NumberLong("1738942614121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62896f26b0352b5206a2a"),
+    client: "A",
+    timestamp: NumberLong("1738942614121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289650944b33726a92e5"),
+    client: "A",
+    timestamp: NumberLong("1738942614121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62896462d9a35f51df697"),
+    client: "A",
+    timestamp: NumberLong("1738942614231")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628968b950e3fae99f9a9"),
+    client: "A",
+    timestamp: NumberLong("1738942614277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628969fbbc0230cad0bbe"),
+    client: "B",
+    timestamp: NumberLong("1738942614370")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628969fbee642008722df"),
+    client: "A",
+    timestamp: NumberLong("1738942614652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628965ce567060be7efd9"),
+    client: "A",
+    timestamp: NumberLong("1738942614652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628960c4f7f682333dc1d"),
+    client: "A",
+    timestamp: NumberLong("1738942614652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62896f26b0352b5206a2b"),
+    client: "A",
+    timestamp: NumberLong("1738942614652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289650944b33726a92e6"),
+    client: "A",
+    timestamp: NumberLong("1738942614652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62896462d9a35f51df698"),
+    client: "A",
+    timestamp: NumberLong("1738942614760")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628968b950e3fae99f9aa"),
+    client: "A",
+    timestamp: NumberLong("1738942614807")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628969fbbc0230cad0bbf"),
+    client: "B",
+    timestamp: NumberLong("1738942614899")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628970c4f7f682333dc1e"),
+    client: "A",
+    timestamp: NumberLong("1738942615180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628979fbee642008722e0"),
+    client: "A",
+    timestamp: NumberLong("1738942615180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62897f26b0352b5206a2c"),
+    client: "A",
+    timestamp: NumberLong("1738942615180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628975ce567060be7efda"),
+    client: "A",
+    timestamp: NumberLong("1738942615180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289750944b33726a92e7"),
+    client: "A",
+    timestamp: NumberLong("1738942615180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62897462d9a35f51df699"),
+    client: "A",
+    timestamp: NumberLong("1738942615288")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628978b950e3fae99f9ab"),
+    client: "A",
+    timestamp: NumberLong("1738942615334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628979fbbc0230cad0bc0"),
+    client: "B",
+    timestamp: NumberLong("1738942615428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628970c4f7f682333dc1f"),
+    client: "A",
+    timestamp: NumberLong("1738942615709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628979fbee642008722e1"),
+    client: "A",
+    timestamp: NumberLong("1738942615709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62897f26b0352b5206a2d"),
+    client: "A",
+    timestamp: NumberLong("1738942615709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628975ce567060be7efdb"),
+    client: "A",
+    timestamp: NumberLong("1738942615724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289750944b33726a92e8"),
+    client: "A",
+    timestamp: NumberLong("1738942615724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62897462d9a35f51df69a"),
+    client: "A",
+    timestamp: NumberLong("1738942615815")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628978b950e3fae99f9ac"),
+    client: "A",
+    timestamp: NumberLong("1738942615862")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628979fbbc0230cad0bc1"),
+    client: "B",
+    timestamp: NumberLong("1738942615954")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628980c4f7f682333dc20"),
+    client: "A",
+    timestamp: NumberLong("1738942616232")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628989fbee642008722e2"),
+    client: "A",
+    timestamp: NumberLong("1738942616232")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62898f26b0352b5206a2e"),
+    client: "A",
+    timestamp: NumberLong("1738942616232")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289850944b33726a92e9"),
+    client: "A",
+    timestamp: NumberLong("1738942616248")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628985ce567060be7efdc"),
+    client: "A",
+    timestamp: NumberLong("1738942616249")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62898462d9a35f51df69b"),
+    client: "A",
+    timestamp: NumberLong("1738942616342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628988b950e3fae99f9ad"),
+    client: "A",
+    timestamp: NumberLong("1738942616388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628989fbbc0230cad0bc2"),
+    client: "B",
+    timestamp: NumberLong("1738942616482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628989fbee642008722e3"),
+    client: "A",
+    timestamp: NumberLong("1738942616759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62898f26b0352b5206a2f"),
+    client: "A",
+    timestamp: NumberLong("1738942616759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628980c4f7f682333dc21"),
+    client: "A",
+    timestamp: NumberLong("1738942616759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628985ce567060be7efdd"),
+    client: "A",
+    timestamp: NumberLong("1738942616774")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289850944b33726a92ea"),
+    client: "A",
+    timestamp: NumberLong("1738942616774")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62898462d9a35f51df69c"),
+    client: "A",
+    timestamp: NumberLong("1738942616867")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628988b950e3fae99f9ae"),
+    client: "A",
+    timestamp: NumberLong("1738942616913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628999fbbc0230cad0bc3"),
+    client: "B",
+    timestamp: NumberLong("1738942617005")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628999fbee642008722e4"),
+    client: "A",
+    timestamp: NumberLong("1738942617283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628990c4f7f682333dc22"),
+    client: "A",
+    timestamp: NumberLong("1738942617283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62899f26b0352b5206a30"),
+    client: "A",
+    timestamp: NumberLong("1738942617283")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628995ce567060be7efde"),
+    client: "A",
+    timestamp: NumberLong("1738942617299")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289950944b33726a92eb"),
+    client: "A",
+    timestamp: NumberLong("1738942617299")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62899462d9a35f51df69d"),
+    client: "A",
+    timestamp: NumberLong("1738942617378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628998b950e3fae99f9af"),
+    client: "A",
+    timestamp: NumberLong("1738942617440")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628999fbbc0230cad0bc4"),
+    client: "B",
+    timestamp: NumberLong("1738942617532")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628999fbee642008722e5"),
+    client: "A",
+    timestamp: NumberLong("1738942617811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628990c4f7f682333dc23"),
+    client: "A",
+    timestamp: NumberLong("1738942617811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62899f26b0352b5206a31"),
+    client: "A",
+    timestamp: NumberLong("1738942617811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628995ce567060be7efdf"),
+    client: "A",
+    timestamp: NumberLong("1738942617827")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289950944b33726a92ec"),
+    client: "A",
+    timestamp: NumberLong("1738942617827")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62899462d9a35f51df69e"),
+    client: "A",
+    timestamp: NumberLong("1738942617905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628998b950e3fae99f9b0"),
+    client: "A",
+    timestamp: NumberLong("1738942617952")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a9fbbc0230cad0bc5"),
+    client: "B",
+    timestamp: NumberLong("1738942618060")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a0c4f7f682333dc24"),
+    client: "A",
+    timestamp: NumberLong("1738942618341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a9fbee642008722e6"),
+    client: "A",
+    timestamp: NumberLong("1738942618341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289af26b0352b5206a32"),
+    client: "A",
+    timestamp: NumberLong("1738942618341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a5ce567060be7efe0"),
+    client: "A",
+    timestamp: NumberLong("1738942618357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a50944b33726a92ed"),
+    client: "A",
+    timestamp: NumberLong("1738942618357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a462d9a35f51df69f"),
+    client: "A",
+    timestamp: NumberLong("1738942618434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a8b950e3fae99f9b1"),
+    client: "A",
+    timestamp: NumberLong("1738942618481")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a9fbbc0230cad0bc6"),
+    client: "B",
+    timestamp: NumberLong("1738942618574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a9fbee642008722e7"),
+    client: "A",
+    timestamp: NumberLong("1738942618868")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a0c4f7f682333dc25"),
+    client: "A",
+    timestamp: NumberLong("1738942618868")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289af26b0352b5206a33"),
+    client: "A",
+    timestamp: NumberLong("1738942618868")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a5ce567060be7efe1"),
+    client: "A",
+    timestamp: NumberLong("1738942618883")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a50944b33726a92ee"),
+    client: "A",
+    timestamp: NumberLong("1738942618883")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289a462d9a35f51df6a0"),
+    client: "A",
+    timestamp: NumberLong("1738942618960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b8b950e3fae99f9b2"),
+    client: "A",
+    timestamp: NumberLong("1738942619007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b9fbbc0230cad0bc7"),
+    client: "B",
+    timestamp: NumberLong("1738942619100")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b9fbee642008722e8"),
+    client: "A",
+    timestamp: NumberLong("1738942619383")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b0c4f7f682333dc26"),
+    client: "A",
+    timestamp: NumberLong("1738942619399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b5ce567060be7efe2"),
+    client: "A",
+    timestamp: NumberLong("1738942619399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289bf26b0352b5206a34"),
+    client: "A",
+    timestamp: NumberLong("1738942619399")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b50944b33726a92ef"),
+    client: "A",
+    timestamp: NumberLong("1738942619415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b462d9a35f51df6a1"),
+    client: "A",
+    timestamp: NumberLong("1738942619477")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b8b950e3fae99f9b3"),
+    client: "A",
+    timestamp: NumberLong("1738942619523")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b9fbbc0230cad0bc8"),
+    client: "B",
+    timestamp: NumberLong("1738942619616")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b9fbee642008722e9"),
+    client: "A",
+    timestamp: NumberLong("1738942619909")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b0c4f7f682333dc27"),
+    client: "A",
+    timestamp: NumberLong("1738942619925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b5ce567060be7efe3"),
+    client: "A",
+    timestamp: NumberLong("1738942619925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289bf26b0352b5206a35"),
+    client: "A",
+    timestamp: NumberLong("1738942619925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289b50944b33726a92f0"),
+    client: "A",
+    timestamp: NumberLong("1738942619941")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c462d9a35f51df6a2"),
+    client: "A",
+    timestamp: NumberLong("1738942620003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c8b950e3fae99f9b4"),
+    client: "A",
+    timestamp: NumberLong("1738942620049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c9fbbc0230cad0bc9"),
+    client: "B",
+    timestamp: NumberLong("1738942620141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c9fbee642008722ea"),
+    client: "A",
+    timestamp: NumberLong("1738942620432")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c5ce567060be7efe4"),
+    client: "A",
+    timestamp: NumberLong("1738942620447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c0c4f7f682333dc28"),
+    client: "A",
+    timestamp: NumberLong("1738942620447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289cf26b0352b5206a36"),
+    client: "A",
+    timestamp: NumberLong("1738942620447")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c50944b33726a92f1"),
+    client: "A",
+    timestamp: NumberLong("1738942620464")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c462d9a35f51df6a3"),
+    client: "A",
+    timestamp: NumberLong("1738942620539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c8b950e3fae99f9b5"),
+    client: "A",
+    timestamp: NumberLong("1738942620569")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c9fbbc0230cad0bca"),
+    client: "B",
+    timestamp: NumberLong("1738942620661")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c9fbee642008722eb"),
+    client: "A",
+    timestamp: NumberLong("1738942620959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c0c4f7f682333dc29"),
+    client: "A",
+    timestamp: NumberLong("1738942620974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289c5ce567060be7efe5"),
+    client: "A",
+    timestamp: NumberLong("1738942620974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289cf26b0352b5206a37"),
+    client: "A",
+    timestamp: NumberLong("1738942620974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d50944b33726a92f2"),
+    client: "A",
+    timestamp: NumberLong("1738942621006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d462d9a35f51df6a4"),
+    client: "A",
+    timestamp: NumberLong("1738942621067")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d8b950e3fae99f9b6"),
+    client: "A",
+    timestamp: NumberLong("1738942621098")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d9fbbc0230cad0bcb"),
+    client: "B",
+    timestamp: NumberLong("1738942621189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d9fbee642008722ec"),
+    client: "A",
+    timestamp: NumberLong("1738942621486")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d0c4f7f682333dc2a"),
+    client: "A",
+    timestamp: NumberLong("1738942621502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d5ce567060be7efe6"),
+    client: "A",
+    timestamp: NumberLong("1738942621502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289df26b0352b5206a38"),
+    client: "A",
+    timestamp: NumberLong("1738942621502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d50944b33726a92f3"),
+    client: "A",
+    timestamp: NumberLong("1738942621532")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d462d9a35f51df6a5"),
+    client: "A",
+    timestamp: NumberLong("1738942621594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d8b950e3fae99f9b7"),
+    client: "A",
+    timestamp: NumberLong("1738942621624")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289d9fbbc0230cad0bcc"),
+    client: "B",
+    timestamp: NumberLong("1738942621718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e9fbee642008722ed"),
+    client: "A",
+    timestamp: NumberLong("1738942622015")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e5ce567060be7efe7"),
+    client: "A",
+    timestamp: NumberLong("1738942622030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e0c4f7f682333dc2b"),
+    client: "A",
+    timestamp: NumberLong("1738942622030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289ef26b0352b5206a39"),
+    client: "A",
+    timestamp: NumberLong("1738942622030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e50944b33726a92f4"),
+    client: "A",
+    timestamp: NumberLong("1738942622046")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e462d9a35f51df6a6"),
+    client: "A",
+    timestamp: NumberLong("1738942622108")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e8b950e3fae99f9b8"),
+    client: "A",
+    timestamp: NumberLong("1738942622139")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e9fbbc0230cad0bcd"),
+    client: "B",
+    timestamp: NumberLong("1738942622247")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e9fbee642008722ee"),
+    client: "A",
+    timestamp: NumberLong("1738942622543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e0c4f7f682333dc2c"),
+    client: "A",
+    timestamp: NumberLong("1738942622558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e5ce567060be7efe8"),
+    client: "A",
+    timestamp: NumberLong("1738942622558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289ef26b0352b5206a3a"),
+    client: "A",
+    timestamp: NumberLong("1738942622558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e50944b33726a92f5"),
+    client: "A",
+    timestamp: NumberLong("1738942622558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e462d9a35f51df6a7"),
+    client: "A",
+    timestamp: NumberLong("1738942622634")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e8b950e3fae99f9b9"),
+    client: "A",
+    timestamp: NumberLong("1738942622666")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289e9fbbc0230cad0bce"),
+    client: "B",
+    timestamp: NumberLong("1738942622775")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f9fbee642008722ef"),
+    client: "A",
+    timestamp: NumberLong("1738942623076")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f5ce567060be7efe9"),
+    client: "A",
+    timestamp: NumberLong("1738942623091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f0c4f7f682333dc2d"),
+    client: "A",
+    timestamp: NumberLong("1738942623091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289ff26b0352b5206a3b"),
+    client: "A",
+    timestamp: NumberLong("1738942623091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f50944b33726a92f6"),
+    client: "A",
+    timestamp: NumberLong("1738942623091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f462d9a35f51df6a8"),
+    client: "A",
+    timestamp: NumberLong("1738942623169")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f8b950e3fae99f9ba"),
+    client: "A",
+    timestamp: NumberLong("1738942623184")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f9fbbc0230cad0bcf"),
+    client: "B",
+    timestamp: NumberLong("1738942623309")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f9fbee642008722f0"),
+    client: "A",
+    timestamp: NumberLong("1738942623604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289ff26b0352b5206a3c"),
+    client: "A",
+    timestamp: NumberLong("1738942623635")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f5ce567060be7efea"),
+    client: "A",
+    timestamp: NumberLong("1738942623651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f0c4f7f682333dc2e"),
+    client: "A",
+    timestamp: NumberLong("1738942623651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f50944b33726a92f7"),
+    client: "A",
+    timestamp: NumberLong("1738942623651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f462d9a35f51df6a9"),
+    client: "A",
+    timestamp: NumberLong("1738942623696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f8b950e3fae99f9bb"),
+    client: "A",
+    timestamp: NumberLong("1738942623711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6289f9fbbc0230cad0bd0"),
+    client: "B",
+    timestamp: NumberLong("1738942623835")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a09fbee642008722f1"),
+    client: "A",
+    timestamp: NumberLong("1738942624132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a0f26b0352b5206a3d"),
+    client: "A",
+    timestamp: NumberLong("1738942624148")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a05ce567060be7efeb"),
+    client: "A",
+    timestamp: NumberLong("1738942624164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a00c4f7f682333dc2f"),
+    client: "A",
+    timestamp: NumberLong("1738942624164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a050944b33726a92f8"),
+    client: "A",
+    timestamp: NumberLong("1738942624164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a0462d9a35f51df6aa"),
+    client: "A",
+    timestamp: NumberLong("1738942624210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a08b950e3fae99f9bc"),
+    client: "A",
+    timestamp: NumberLong("1738942624226")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a09fbbc0230cad0bd1"),
+    client: "B",
+    timestamp: NumberLong("1738942624349")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a09fbee642008722f2"),
+    client: "A",
+    timestamp: NumberLong("1738942624663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a00c4f7f682333dc30"),
+    client: "A",
+    timestamp: NumberLong("1738942624695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a05ce567060be7efec"),
+    client: "A",
+    timestamp: NumberLong("1738942624695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a050944b33726a92f9"),
+    client: "A",
+    timestamp: NumberLong("1738942624695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a0f26b0352b5206a3e"),
+    client: "A",
+    timestamp: NumberLong("1738942624695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a0462d9a35f51df6ab"),
+    client: "A",
+    timestamp: NumberLong("1738942624726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a08b950e3fae99f9bd"),
+    client: "A",
+    timestamp: NumberLong("1738942624742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a09fbbc0230cad0bd2"),
+    client: "B",
+    timestamp: NumberLong("1738942624867")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a19fbee642008722f3"),
+    client: "A",
+    timestamp: NumberLong("1738942625179")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a10c4f7f682333dc31"),
+    client: "A",
+    timestamp: NumberLong("1738942625210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a150944b33726a92fa"),
+    client: "A",
+    timestamp: NumberLong("1738942625210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a15ce567060be7efed"),
+    client: "A",
+    timestamp: NumberLong("1738942625210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a1f26b0352b5206a3f"),
+    client: "A",
+    timestamp: NumberLong("1738942625210")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a1462d9a35f51df6ac"),
+    client: "A",
+    timestamp: NumberLong("1738942625242")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a18b950e3fae99f9be"),
+    client: "A",
+    timestamp: NumberLong("1738942625258")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a19fbbc0230cad0bd3"),
+    client: "B",
+    timestamp: NumberLong("1738942625382")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a19fbee642008722f4"),
+    client: "A",
+    timestamp: NumberLong("1738942625705")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a10c4f7f682333dc32"),
+    client: "A",
+    timestamp: NumberLong("1738942625720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a15ce567060be7efee"),
+    client: "A",
+    timestamp: NumberLong("1738942625735")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a1f26b0352b5206a40"),
+    client: "A",
+    timestamp: NumberLong("1738942625735")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a150944b33726a92fb"),
+    client: "A",
+    timestamp: NumberLong("1738942625735")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a1462d9a35f51df6ad"),
+    client: "A",
+    timestamp: NumberLong("1738942625765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a18b950e3fae99f9bf"),
+    client: "A",
+    timestamp: NumberLong("1738942625780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a19fbbc0230cad0bd4"),
+    client: "B",
+    timestamp: NumberLong("1738942625904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a29fbee642008722f5"),
+    client: "A",
+    timestamp: NumberLong("1738942626230")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a20c4f7f682333dc33"),
+    client: "A",
+    timestamp: NumberLong("1738942626245")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a250944b33726a92fc"),
+    client: "A",
+    timestamp: NumberLong("1738942626260")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a25ce567060be7efef"),
+    client: "A",
+    timestamp: NumberLong("1738942626260")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a2f26b0352b5206a41"),
+    client: "A",
+    timestamp: NumberLong("1738942626260")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a2462d9a35f51df6ae"),
+    client: "A",
+    timestamp: NumberLong("1738942626291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a28b950e3fae99f9c0"),
+    client: "A",
+    timestamp: NumberLong("1738942626291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a29fbbc0230cad0bd5"),
+    client: "B",
+    timestamp: NumberLong("1738942626431")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a29fbee642008722f6"),
+    client: "A",
+    timestamp: NumberLong("1738942626756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a20c4f7f682333dc34"),
+    client: "A",
+    timestamp: NumberLong("1738942626756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a250944b33726a92fd"),
+    client: "A",
+    timestamp: NumberLong("1738942626771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a25ce567060be7eff0"),
+    client: "A",
+    timestamp: NumberLong("1738942626787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a2f26b0352b5206a42"),
+    client: "A",
+    timestamp: NumberLong("1738942626787")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a28b950e3fae99f9c1"),
+    client: "A",
+    timestamp: NumberLong("1738942626817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a2462d9a35f51df6af"),
+    client: "A",
+    timestamp: NumberLong("1738942626817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a29fbbc0230cad0bd6"),
+    client: "B",
+    timestamp: NumberLong("1738942626956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a39fbee642008722f7"),
+    client: "A",
+    timestamp: NumberLong("1738942627282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a30c4f7f682333dc35"),
+    client: "A",
+    timestamp: NumberLong("1738942627282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a350944b33726a92fe"),
+    client: "A",
+    timestamp: NumberLong("1738942627298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a35ce567060be7eff1"),
+    client: "A",
+    timestamp: NumberLong("1738942627313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a3f26b0352b5206a43"),
+    client: "A",
+    timestamp: NumberLong("1738942627313")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a3462d9a35f51df6b0"),
+    client: "A",
+    timestamp: NumberLong("1738942627344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a38b950e3fae99f9c2"),
+    client: "A",
+    timestamp: NumberLong("1738942627344")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a39fbbc0230cad0bd7"),
+    client: "B",
+    timestamp: NumberLong("1738942627482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a30c4f7f682333dc36"),
+    client: "A",
+    timestamp: NumberLong("1738942627810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a39fbee642008722f8"),
+    client: "A",
+    timestamp: NumberLong("1738942627810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a350944b33726a92ff"),
+    client: "A",
+    timestamp: NumberLong("1738942627826")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a35ce567060be7eff2"),
+    client: "A",
+    timestamp: NumberLong("1738942627842")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a3f26b0352b5206a44"),
+    client: "A",
+    timestamp: NumberLong("1738942627842")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a3462d9a35f51df6b1"),
+    client: "A",
+    timestamp: NumberLong("1738942627872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a38b950e3fae99f9c3"),
+    client: "A",
+    timestamp: NumberLong("1738942627872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a49fbbc0230cad0bd8"),
+    client: "B",
+    timestamp: NumberLong("1738942628009")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a40c4f7f682333dc37"),
+    client: "A",
+    timestamp: NumberLong("1738942628335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a49fbee642008722f9"),
+    client: "A",
+    timestamp: NumberLong("1738942628335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a450944b33726a9300"),
+    client: "A",
+    timestamp: NumberLong("1738942628350")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a45ce567060be7eff3"),
+    client: "A",
+    timestamp: NumberLong("1738942628366")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a4f26b0352b5206a45"),
+    client: "A",
+    timestamp: NumberLong("1738942628366")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a4462d9a35f51df6b2"),
+    client: "A",
+    timestamp: NumberLong("1738942628397")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a48b950e3fae99f9c4"),
+    client: "A",
+    timestamp: NumberLong("1738942628397")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a49fbbc0230cad0bd9"),
+    client: "B",
+    timestamp: NumberLong("1738942628536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a40c4f7f682333dc38"),
+    client: "A",
+    timestamp: NumberLong("1738942628860")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a49fbee642008722fa"),
+    client: "A",
+    timestamp: NumberLong("1738942628860")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a450944b33726a9301"),
+    client: "A",
+    timestamp: NumberLong("1738942628876")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a45ce567060be7eff4"),
+    client: "A",
+    timestamp: NumberLong("1738942628892")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a4f26b0352b5206a46"),
+    client: "A",
+    timestamp: NumberLong("1738942628892")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a48b950e3fae99f9c5"),
+    client: "A",
+    timestamp: NumberLong("1738942628923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a4462d9a35f51df6b3"),
+    client: "A",
+    timestamp: NumberLong("1738942628923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a59fbbc0230cad0bda"),
+    client: "B",
+    timestamp: NumberLong("1738942629060")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a50c4f7f682333dc39"),
+    client: "A",
+    timestamp: NumberLong("1738942629384")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a59fbee642008722fb"),
+    client: "A",
+    timestamp: NumberLong("1738942629384")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a550944b33726a9302"),
+    client: "A",
+    timestamp: NumberLong("1738942629400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a55ce567060be7eff5"),
+    client: "A",
+    timestamp: NumberLong("1738942629415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a5f26b0352b5206a47"),
+    client: "A",
+    timestamp: NumberLong("1738942629415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a5462d9a35f51df6b4"),
+    client: "A",
+    timestamp: NumberLong("1738942629446")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a58b950e3fae99f9c6"),
+    client: "A",
+    timestamp: NumberLong("1738942629446")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a59fbbc0230cad0bdb"),
+    client: "B",
+    timestamp: NumberLong("1738942629585")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a50c4f7f682333dc3a"),
+    client: "A",
+    timestamp: NumberLong("1738942629911")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a59fbee642008722fc"),
+    client: "A",
+    timestamp: NumberLong("1738942629911")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a550944b33726a9303"),
+    client: "A",
+    timestamp: NumberLong("1738942629926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a55ce567060be7eff6"),
+    client: "A",
+    timestamp: NumberLong("1738942629942")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a5f26b0352b5206a48"),
+    client: "A",
+    timestamp: NumberLong("1738942629942")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a5462d9a35f51df6b5"),
+    client: "A",
+    timestamp: NumberLong("1738942629988")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a58b950e3fae99f9c7"),
+    client: "A",
+    timestamp: NumberLong("1738942629988")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a69fbbc0230cad0bdc"),
+    client: "B",
+    timestamp: NumberLong("1738942630112")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a69fbee642008722fd"),
+    client: "A",
+    timestamp: NumberLong("1738942630435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a60c4f7f682333dc3b"),
+    client: "A",
+    timestamp: NumberLong("1738942630435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a650944b33726a9304"),
+    client: "A",
+    timestamp: NumberLong("1738942630450")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a65ce567060be7eff7"),
+    client: "A",
+    timestamp: NumberLong("1738942630466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a6f26b0352b5206a49"),
+    client: "A",
+    timestamp: NumberLong("1738942630466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a68b950e3fae99f9c8"),
+    client: "A",
+    timestamp: NumberLong("1738942630512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a6462d9a35f51df6b6"),
+    client: "A",
+    timestamp: NumberLong("1738942630512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a69fbbc0230cad0bdd"),
+    client: "B",
+    timestamp: NumberLong("1738942630635")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a69fbee642008722fe"),
+    client: "A",
+    timestamp: NumberLong("1738942630961")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a60c4f7f682333dc3c"),
+    client: "A",
+    timestamp: NumberLong("1738942630961")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a650944b33726a9305"),
+    client: "A",
+    timestamp: NumberLong("1738942630977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a65ce567060be7eff8"),
+    client: "A",
+    timestamp: NumberLong("1738942630992")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a6f26b0352b5206a4a"),
+    client: "A",
+    timestamp: NumberLong("1738942630992")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a78b950e3fae99f9c9"),
+    client: "A",
+    timestamp: NumberLong("1738942631039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a7462d9a35f51df6b7"),
+    client: "A",
+    timestamp: NumberLong("1738942631039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a79fbbc0230cad0bde"),
+    client: "B",
+    timestamp: NumberLong("1738942631163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a79fbee642008722ff"),
+    client: "A",
+    timestamp: NumberLong("1738942631489")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a70c4f7f682333dc3d"),
+    client: "A",
+    timestamp: NumberLong("1738942631489")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a750944b33726a9306"),
+    client: "A",
+    timestamp: NumberLong("1738942631504")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a7f26b0352b5206a4b"),
+    client: "A",
+    timestamp: NumberLong("1738942631520")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a75ce567060be7eff9"),
+    client: "A",
+    timestamp: NumberLong("1738942631520")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a7462d9a35f51df6b8"),
+    client: "A",
+    timestamp: NumberLong("1738942631551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a78b950e3fae99f9ca"),
+    client: "A",
+    timestamp: NumberLong("1738942631567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a79fbbc0230cad0bdf"),
+    client: "B",
+    timestamp: NumberLong("1738942631690")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a89fbee64200872300"),
+    client: "A",
+    timestamp: NumberLong("1738942632013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a80c4f7f682333dc3e"),
+    client: "A",
+    timestamp: NumberLong("1738942632013")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a850944b33726a9307"),
+    client: "A",
+    timestamp: NumberLong("1738942632029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a85ce567060be7effa"),
+    client: "A",
+    timestamp: NumberLong("1738942632044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a8f26b0352b5206a4c"),
+    client: "A",
+    timestamp: NumberLong("1738942632044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a8462d9a35f51df6b9"),
+    client: "A",
+    timestamp: NumberLong("1738942632074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a88b950e3fae99f9cb"),
+    client: "A",
+    timestamp: NumberLong("1738942632089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a89fbbc0230cad0be0"),
+    client: "B",
+    timestamp: NumberLong("1738942632214")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a80c4f7f682333dc3f"),
+    client: "A",
+    timestamp: NumberLong("1738942632542")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a89fbee64200872301"),
+    client: "A",
+    timestamp: NumberLong("1738942632542")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a850944b33726a9308"),
+    client: "A",
+    timestamp: NumberLong("1738942632558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a85ce567060be7effb"),
+    client: "A",
+    timestamp: NumberLong("1738942632574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a8f26b0352b5206a4d"),
+    client: "A",
+    timestamp: NumberLong("1738942632574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a8462d9a35f51df6ba"),
+    client: "A",
+    timestamp: NumberLong("1738942632589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a88b950e3fae99f9cc"),
+    client: "A",
+    timestamp: NumberLong("1738942632604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a89fbbc0230cad0be1"),
+    client: "B",
+    timestamp: NumberLong("1738942632729")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a90c4f7f682333dc40"),
+    client: "A",
+    timestamp: NumberLong("1738942633070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a99fbee64200872302"),
+    client: "A",
+    timestamp: NumberLong("1738942633070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a950944b33726a9309"),
+    client: "A",
+    timestamp: NumberLong("1738942633085")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a95ce567060be7effc"),
+    client: "A",
+    timestamp: NumberLong("1738942633100")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a9f26b0352b5206a4e"),
+    client: "A",
+    timestamp: NumberLong("1738942633100")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a9462d9a35f51df6bb"),
+    client: "A",
+    timestamp: NumberLong("1738942633116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a98b950e3fae99f9cd"),
+    client: "A",
+    timestamp: NumberLong("1738942633131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a99fbbc0230cad0be2"),
+    client: "B",
+    timestamp: NumberLong("1738942633254")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a99fbee64200872303"),
+    client: "A",
+    timestamp: NumberLong("1738942633593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a90c4f7f682333dc41"),
+    client: "A",
+    timestamp: NumberLong("1738942633593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a950944b33726a930a"),
+    client: "A",
+    timestamp: NumberLong("1738942633609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a95ce567060be7effd"),
+    client: "A",
+    timestamp: NumberLong("1738942633624")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a9f26b0352b5206a4f"),
+    client: "A",
+    timestamp: NumberLong("1738942633624")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a9462d9a35f51df6bc"),
+    client: "A",
+    timestamp: NumberLong("1738942633639")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a98b950e3fae99f9ce"),
+    client: "A",
+    timestamp: NumberLong("1738942633655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628a99fbbc0230cad0be3"),
+    client: "B",
+    timestamp: NumberLong("1738942633778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa9fbee64200872304"),
+    client: "A",
+    timestamp: NumberLong("1738942634104")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa0c4f7f682333dc42"),
+    client: "A",
+    timestamp: NumberLong("1738942634120")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa50944b33726a930b"),
+    client: "A",
+    timestamp: NumberLong("1738942634135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aaf26b0352b5206a50"),
+    client: "A",
+    timestamp: NumberLong("1738942634151")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa5ce567060be7effe"),
+    client: "A",
+    timestamp: NumberLong("1738942634151")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa462d9a35f51df6bd"),
+    client: "A",
+    timestamp: NumberLong("1738942634151")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa8b950e3fae99f9cf"),
+    client: "A",
+    timestamp: NumberLong("1738942634166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa9fbbc0230cad0be4"),
+    client: "B",
+    timestamp: NumberLong("1738942634290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa9fbee64200872305"),
+    client: "A",
+    timestamp: NumberLong("1738942634633")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa0c4f7f682333dc43"),
+    client: "A",
+    timestamp: NumberLong("1738942634648")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa50944b33726a930c"),
+    client: "A",
+    timestamp: NumberLong("1738942634664")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa5ce567060be7efff"),
+    client: "A",
+    timestamp: NumberLong("1738942634679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aaf26b0352b5206a51"),
+    client: "A",
+    timestamp: NumberLong("1738942634679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa462d9a35f51df6be"),
+    client: "A",
+    timestamp: NumberLong("1738942634679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa8b950e3fae99f9d0"),
+    client: "A",
+    timestamp: NumberLong("1738942634695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aa9fbbc0230cad0be5"),
+    client: "B",
+    timestamp: NumberLong("1738942634802")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab9fbee64200872306"),
+    client: "A",
+    timestamp: NumberLong("1738942635158")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab0c4f7f682333dc44"),
+    client: "A",
+    timestamp: NumberLong("1738942635174")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab50944b33726a930d"),
+    client: "A",
+    timestamp: NumberLong("1738942635189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab5ce567060be7f000"),
+    client: "A",
+    timestamp: NumberLong("1738942635205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab462d9a35f51df6bf"),
+    client: "A",
+    timestamp: NumberLong("1738942635205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628abf26b0352b5206a52"),
+    client: "A",
+    timestamp: NumberLong("1738942635205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab8b950e3fae99f9d1"),
+    client: "A",
+    timestamp: NumberLong("1738942635220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab9fbbc0230cad0be6"),
+    client: "B",
+    timestamp: NumberLong("1738942635326")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab9fbee64200872307"),
+    client: "A",
+    timestamp: NumberLong("1738942635679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab0c4f7f682333dc45"),
+    client: "A",
+    timestamp: NumberLong("1738942635694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab50944b33726a930e"),
+    client: "A",
+    timestamp: NumberLong("1738942635710")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab462d9a35f51df6c0"),
+    client: "A",
+    timestamp: NumberLong("1738942635726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628abf26b0352b5206a53"),
+    client: "A",
+    timestamp: NumberLong("1738942635726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab5ce567060be7f001"),
+    client: "A",
+    timestamp: NumberLong("1738942635726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab8b950e3fae99f9d2"),
+    client: "A",
+    timestamp: NumberLong("1738942635742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ab9fbbc0230cad0be7"),
+    client: "B",
+    timestamp: NumberLong("1738942635849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac9fbee64200872308"),
+    client: "A",
+    timestamp: NumberLong("1738942636205")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac0c4f7f682333dc46"),
+    client: "A",
+    timestamp: NumberLong("1738942636220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac50944b33726a930f"),
+    client: "A",
+    timestamp: NumberLong("1738942636236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac5ce567060be7f002"),
+    client: "A",
+    timestamp: NumberLong("1738942636252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac462d9a35f51df6c1"),
+    client: "A",
+    timestamp: NumberLong("1738942636252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628acf26b0352b5206a54"),
+    client: "A",
+    timestamp: NumberLong("1738942636252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac8b950e3fae99f9d3"),
+    client: "A",
+    timestamp: NumberLong("1738942636267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac9fbbc0230cad0be8"),
+    client: "B",
+    timestamp: NumberLong("1738942636376")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac0c4f7f682333dc47"),
+    client: "A",
+    timestamp: NumberLong("1738942636734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac9fbee64200872309"),
+    client: "A",
+    timestamp: NumberLong("1738942636734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac50944b33726a9310"),
+    client: "A",
+    timestamp: NumberLong("1738942636765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac462d9a35f51df6c2"),
+    client: "A",
+    timestamp: NumberLong("1738942636765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628acf26b0352b5206a55"),
+    client: "A",
+    timestamp: NumberLong("1738942636765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac8b950e3fae99f9d4"),
+    client: "A",
+    timestamp: NumberLong("1738942636781")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac5ce567060be7f003"),
+    client: "A",
+    timestamp: NumberLong("1738942636781")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ac9fbbc0230cad0be9"),
+    client: "B",
+    timestamp: NumberLong("1738942636889")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad0c4f7f682333dc48"),
+    client: "A",
+    timestamp: NumberLong("1738942637264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad9fbee6420087230a"),
+    client: "A",
+    timestamp: NumberLong("1738942637264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628adf26b0352b5206a56"),
+    client: "A",
+    timestamp: NumberLong("1738942637295")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad462d9a35f51df6c3"),
+    client: "A",
+    timestamp: NumberLong("1738942637295")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad50944b33726a9311"),
+    client: "A",
+    timestamp: NumberLong("1738942637295")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad5ce567060be7f004"),
+    client: "A",
+    timestamp: NumberLong("1738942637310")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad8b950e3fae99f9d5"),
+    client: "A",
+    timestamp: NumberLong("1738942637310")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad9fbbc0230cad0bea"),
+    client: "B",
+    timestamp: NumberLong("1738942637418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad0c4f7f682333dc49"),
+    client: "A",
+    timestamp: NumberLong("1738942637789")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad9fbee6420087230b"),
+    client: "A",
+    timestamp: NumberLong("1738942637789")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad462d9a35f51df6c4"),
+    client: "A",
+    timestamp: NumberLong("1738942637822")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad50944b33726a9312"),
+    client: "A",
+    timestamp: NumberLong("1738942637822")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628adf26b0352b5206a57"),
+    client: "A",
+    timestamp: NumberLong("1738942637822")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad8b950e3fae99f9d6"),
+    client: "A",
+    timestamp: NumberLong("1738942637837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad5ce567060be7f005"),
+    client: "A",
+    timestamp: NumberLong("1738942637837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ad9fbbc0230cad0beb"),
+    client: "B",
+    timestamp: NumberLong("1738942637944")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae0c4f7f682333dc4a"),
+    client: "A",
+    timestamp: NumberLong("1738942638317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae9fbee6420087230c"),
+    client: "A",
+    timestamp: NumberLong("1738942638317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae462d9a35f51df6c5"),
+    client: "A",
+    timestamp: NumberLong("1738942638348")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae50944b33726a9313"),
+    client: "A",
+    timestamp: NumberLong("1738942638348")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aef26b0352b5206a58"),
+    client: "A",
+    timestamp: NumberLong("1738942638348")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae5ce567060be7f006"),
+    client: "A",
+    timestamp: NumberLong("1738942638363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae8b950e3fae99f9d7"),
+    client: "A",
+    timestamp: NumberLong("1738942638363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae9fbbc0230cad0bec"),
+    client: "B",
+    timestamp: NumberLong("1738942638471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae9fbee6420087230d"),
+    client: "A",
+    timestamp: NumberLong("1738942638843")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae0c4f7f682333dc4b"),
+    client: "A",
+    timestamp: NumberLong("1738942638843")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae5ce567060be7f007"),
+    client: "A",
+    timestamp: NumberLong("1738942638890")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae8b950e3fae99f9d8"),
+    client: "A",
+    timestamp: NumberLong("1738942638890")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae462d9a35f51df6c6"),
+    client: "A",
+    timestamp: NumberLong("1738942638890")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae50944b33726a9314"),
+    client: "A",
+    timestamp: NumberLong("1738942638890")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aef26b0352b5206a59"),
+    client: "A",
+    timestamp: NumberLong("1738942638890")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ae9fbbc0230cad0bed"),
+    client: "B",
+    timestamp: NumberLong("1738942638995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af0c4f7f682333dc4c"),
+    client: "A",
+    timestamp: NumberLong("1738942639369")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af9fbee6420087230e"),
+    client: "A",
+    timestamp: NumberLong("1738942639369")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aff26b0352b5206a5a"),
+    client: "A",
+    timestamp: NumberLong("1738942639415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af5ce567060be7f008"),
+    client: "A",
+    timestamp: NumberLong("1738942639415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af462d9a35f51df6c7"),
+    client: "A",
+    timestamp: NumberLong("1738942639415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af8b950e3fae99f9d9"),
+    client: "A",
+    timestamp: NumberLong("1738942639415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af50944b33726a9315"),
+    client: "A",
+    timestamp: NumberLong("1738942639415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af9fbbc0230cad0bee"),
+    client: "B",
+    timestamp: NumberLong("1738942639523")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af0c4f7f682333dc4d"),
+    client: "A",
+    timestamp: NumberLong("1738942639893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af9fbee6420087230f"),
+    client: "A",
+    timestamp: NumberLong("1738942639893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af5ce567060be7f009"),
+    client: "A",
+    timestamp: NumberLong("1738942639940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af8b950e3fae99f9da"),
+    client: "A",
+    timestamp: NumberLong("1738942639940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628aff26b0352b5206a5b"),
+    client: "A",
+    timestamp: NumberLong("1738942639940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af50944b33726a9316"),
+    client: "A",
+    timestamp: NumberLong("1738942639940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628af462d9a35f51df6c8"),
+    client: "A",
+    timestamp: NumberLong("1738942639940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b09fbbc0230cad0bef"),
+    client: "B",
+    timestamp: NumberLong("1738942640047")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b09fbee64200872310"),
+    client: "A",
+    timestamp: NumberLong("1738942640409")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b00c4f7f682333dc4e"),
+    client: "A",
+    timestamp: NumberLong("1738942640409")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b050944b33726a9317"),
+    client: "A",
+    timestamp: NumberLong("1738942640471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b0462d9a35f51df6c9"),
+    client: "A",
+    timestamp: NumberLong("1738942640472")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b05ce567060be7f00a"),
+    client: "A",
+    timestamp: NumberLong("1738942640474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b08b950e3fae99f9db"),
+    client: "A",
+    timestamp: NumberLong("1738942640475")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b0f26b0352b5206a5c"),
+    client: "A",
+    timestamp: NumberLong("1738942640475")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b09fbbc0230cad0bf0"),
+    client: "B",
+    timestamp: NumberLong("1738942640563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b09fbee64200872311"),
+    client: "A",
+    timestamp: NumberLong("1738942640919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b00c4f7f682333dc4f"),
+    client: "A",
+    timestamp: NumberLong("1738942640934")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b0462d9a35f51df6ca"),
+    client: "A",
+    timestamp: NumberLong("1738942640997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b08b950e3fae99f9dc"),
+    client: "A",
+    timestamp: NumberLong("1738942640997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b050944b33726a9318"),
+    client: "A",
+    timestamp: NumberLong("1738942640997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b0f26b0352b5206a5d"),
+    client: "A",
+    timestamp: NumberLong("1738942640997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b05ce567060be7f00b"),
+    client: "A",
+    timestamp: NumberLong("1738942640997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b19fbbc0230cad0bf1"),
+    client: "B",
+    timestamp: NumberLong("1738942641075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b19fbee64200872312"),
+    client: "A",
+    timestamp: NumberLong("1738942641433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b10c4f7f682333dc50"),
+    client: "A",
+    timestamp: NumberLong("1738942641448")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b15ce567060be7f00c"),
+    client: "A",
+    timestamp: NumberLong("1738942641511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b18b950e3fae99f9dd"),
+    client: "A",
+    timestamp: NumberLong("1738942641511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b1462d9a35f51df6cb"),
+    client: "A",
+    timestamp: NumberLong("1738942641511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b1f26b0352b5206a5e"),
+    client: "A",
+    timestamp: NumberLong("1738942641511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b150944b33726a9319"),
+    client: "A",
+    timestamp: NumberLong("1738942641511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b19fbbc0230cad0bf2"),
+    client: "B",
+    timestamp: NumberLong("1738942641588")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b19fbee64200872313"),
+    client: "A",
+    timestamp: NumberLong("1738942641960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b10c4f7f682333dc51"),
+    client: "A",
+    timestamp: NumberLong("1738942641975")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b2462d9a35f51df6cc"),
+    client: "A",
+    timestamp: NumberLong("1738942642039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b25ce567060be7f00d"),
+    client: "A",
+    timestamp: NumberLong("1738942642039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b2f26b0352b5206a5f"),
+    client: "A",
+    timestamp: NumberLong("1738942642039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b250944b33726a931a"),
+    client: "A",
+    timestamp: NumberLong("1738942642039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b28b950e3fae99f9de"),
+    client: "A",
+    timestamp: NumberLong("1738942642039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b29fbbc0230cad0bf3"),
+    client: "B",
+    timestamp: NumberLong("1738942642103")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b29fbee64200872314"),
+    client: "A",
+    timestamp: NumberLong("1738942642476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b20c4f7f682333dc52"),
+    client: "A",
+    timestamp: NumberLong("1738942642492")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b25ce567060be7f00e"),
+    client: "A",
+    timestamp: NumberLong("1738942642555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b2462d9a35f51df6cd"),
+    client: "A",
+    timestamp: NumberLong("1738942642555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b28b950e3fae99f9df"),
+    client: "A",
+    timestamp: NumberLong("1738942642555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b250944b33726a931b"),
+    client: "A",
+    timestamp: NumberLong("1738942642555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b2f26b0352b5206a60"),
+    client: "A",
+    timestamp: NumberLong("1738942642555")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b29fbbc0230cad0bf4"),
+    client: "B",
+    timestamp: NumberLong("1738942642617")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b39fbee64200872315"),
+    client: "A",
+    timestamp: NumberLong("1738942643007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b30c4f7f682333dc53"),
+    client: "A",
+    timestamp: NumberLong("1738942643007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b35ce567060be7f00f"),
+    client: "A",
+    timestamp: NumberLong("1738942643084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b3462d9a35f51df6ce"),
+    client: "A",
+    timestamp: NumberLong("1738942643084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b3f26b0352b5206a61"),
+    client: "A",
+    timestamp: NumberLong("1738942643084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b38b950e3fae99f9e0"),
+    client: "A",
+    timestamp: NumberLong("1738942643084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b350944b33726a931c"),
+    client: "A",
+    timestamp: NumberLong("1738942643084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b39fbbc0230cad0bf5"),
+    client: "B",
+    timestamp: NumberLong("1738942643147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b39fbee64200872316"),
+    client: "A",
+    timestamp: NumberLong("1738942643522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b30c4f7f682333dc54"),
+    client: "A",
+    timestamp: NumberLong("1738942643522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b3f26b0352b5206a62"),
+    client: "A",
+    timestamp: NumberLong("1738942643601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b350944b33726a931d"),
+    client: "A",
+    timestamp: NumberLong("1738942643601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b38b950e3fae99f9e1"),
+    client: "A",
+    timestamp: NumberLong("1738942643601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b3462d9a35f51df6cf"),
+    client: "A",
+    timestamp: NumberLong("1738942643601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b35ce567060be7f010"),
+    client: "A",
+    timestamp: NumberLong("1738942643601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b39fbbc0230cad0bf6"),
+    client: "B",
+    timestamp: NumberLong("1738942643663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b40c4f7f682333dc55"),
+    client: "A",
+    timestamp: NumberLong("1738942644053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b49fbee64200872317"),
+    client: "A",
+    timestamp: NumberLong("1738942644053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b45ce567060be7f011"),
+    client: "A",
+    timestamp: NumberLong("1738942644130")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b48b950e3fae99f9e2"),
+    client: "A",
+    timestamp: NumberLong("1738942644130")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b4462d9a35f51df6d0"),
+    client: "A",
+    timestamp: NumberLong("1738942644130")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b4f26b0352b5206a63"),
+    client: "A",
+    timestamp: NumberLong("1738942644130")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b450944b33726a931e"),
+    client: "A",
+    timestamp: NumberLong("1738942644130")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b49fbbc0230cad0bf7"),
+    client: "B",
+    timestamp: NumberLong("1738942644191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b49fbee64200872318"),
+    client: "A",
+    timestamp: NumberLong("1738942644581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b40c4f7f682333dc56"),
+    client: "A",
+    timestamp: NumberLong("1738942644581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b48b950e3fae99f9e3"),
+    client: "A",
+    timestamp: NumberLong("1738942644674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b4f26b0352b5206a64"),
+    client: "A",
+    timestamp: NumberLong("1738942644674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b45ce567060be7f012"),
+    client: "A",
+    timestamp: NumberLong("1738942644674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b4462d9a35f51df6d1"),
+    client: "A",
+    timestamp: NumberLong("1738942644674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b450944b33726a931f"),
+    client: "A",
+    timestamp: NumberLong("1738942644674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b49fbbc0230cad0bf8"),
+    client: "B",
+    timestamp: NumberLong("1738942644720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b59fbee64200872319"),
+    client: "A",
+    timestamp: NumberLong("1738942645097")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b50c4f7f682333dc57"),
+    client: "A",
+    timestamp: NumberLong("1738942645097")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b5462d9a35f51df6d2"),
+    client: "A",
+    timestamp: NumberLong("1738942645191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b5f26b0352b5206a65"),
+    client: "A",
+    timestamp: NumberLong("1738942645191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b550944b33726a9320"),
+    client: "A",
+    timestamp: NumberLong("1738942645207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b58b950e3fae99f9e4"),
+    client: "A",
+    timestamp: NumberLong("1738942645207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b55ce567060be7f013"),
+    client: "A",
+    timestamp: NumberLong("1738942645207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b59fbbc0230cad0bf9"),
+    client: "B",
+    timestamp: NumberLong("1738942645237")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b50c4f7f682333dc58"),
+    client: "A",
+    timestamp: NumberLong("1738942645628")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b59fbee6420087231a"),
+    client: "A",
+    timestamp: NumberLong("1738942645628")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b5462d9a35f51df6d3"),
+    client: "A",
+    timestamp: NumberLong("1738942645722")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b5f26b0352b5206a66"),
+    client: "A",
+    timestamp: NumberLong("1738942645722")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b58b950e3fae99f9e5"),
+    client: "A",
+    timestamp: NumberLong("1738942645737")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b55ce567060be7f014"),
+    client: "A",
+    timestamp: NumberLong("1738942645737")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b550944b33726a9321"),
+    client: "A",
+    timestamp: NumberLong("1738942645737")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b59fbbc0230cad0bfa"),
+    client: "B",
+    timestamp: NumberLong("1738942645753")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b69fbee6420087231b"),
+    client: "A",
+    timestamp: NumberLong("1738942646146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b60c4f7f682333dc59"),
+    client: "A",
+    timestamp: NumberLong("1738942646146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b6462d9a35f51df6d4"),
+    client: "A",
+    timestamp: NumberLong("1738942646239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b6f26b0352b5206a67"),
+    client: "A",
+    timestamp: NumberLong("1738942646239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b68b950e3fae99f9e6"),
+    client: "A",
+    timestamp: NumberLong("1738942646255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b650944b33726a9322"),
+    client: "A",
+    timestamp: NumberLong("1738942646255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b65ce567060be7f015"),
+    client: "A",
+    timestamp: NumberLong("1738942646255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b69fbbc0230cad0bfb"),
+    client: "B",
+    timestamp: NumberLong("1738942646271")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b69fbee6420087231c"),
+    client: "A",
+    timestamp: NumberLong("1738942646674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b60c4f7f682333dc5a"),
+    client: "A",
+    timestamp: NumberLong("1738942646674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b6462d9a35f51df6d5"),
+    client: "A",
+    timestamp: NumberLong("1738942646754")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b6f26b0352b5206a68"),
+    client: "A",
+    timestamp: NumberLong("1738942646769")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b68b950e3fae99f9e7"),
+    client: "A",
+    timestamp: NumberLong("1738942646784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b65ce567060be7f016"),
+    client: "A",
+    timestamp: NumberLong("1738942646784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b650944b33726a9323"),
+    client: "A",
+    timestamp: NumberLong("1738942646784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b69fbbc0230cad0bfc"),
+    client: "B",
+    timestamp: NumberLong("1738942646799")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b70c4f7f682333dc5b"),
+    client: "A",
+    timestamp: NumberLong("1738942647202")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b79fbee6420087231d"),
+    client: "A",
+    timestamp: NumberLong("1738942647202")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b7462d9a35f51df6d6"),
+    client: "A",
+    timestamp: NumberLong("1738942647281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b7f26b0352b5206a69"),
+    client: "A",
+    timestamp: NumberLong("1738942647296")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b78b950e3fae99f9e8"),
+    client: "A",
+    timestamp: NumberLong("1738942647312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b750944b33726a9324"),
+    client: "A",
+    timestamp: NumberLong("1738942647312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b79fbbc0230cad0bfd"),
+    client: "B",
+    timestamp: NumberLong("1738942647312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b75ce567060be7f017"),
+    client: "A",
+    timestamp: NumberLong("1738942647312")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b79fbee6420087231e"),
+    client: "A",
+    timestamp: NumberLong("1738942647734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b70c4f7f682333dc5c"),
+    client: "A",
+    timestamp: NumberLong("1738942647734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b7462d9a35f51df6d7"),
+    client: "A",
+    timestamp: NumberLong("1738942647810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b7f26b0352b5206a6a"),
+    client: "A",
+    timestamp: NumberLong("1738942647810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b79fbbc0230cad0bfe"),
+    client: "B",
+    timestamp: NumberLong("1738942647841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b78b950e3fae99f9e9"),
+    client: "A",
+    timestamp: NumberLong("1738942647841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b75ce567060be7f018"),
+    client: "A",
+    timestamp: NumberLong("1738942647841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b750944b33726a9325"),
+    client: "A",
+    timestamp: NumberLong("1738942647841")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b80c4f7f682333dc5d"),
+    client: "A",
+    timestamp: NumberLong("1738942648261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b89fbee6420087231f"),
+    client: "A",
+    timestamp: NumberLong("1738942648261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b8462d9a35f51df6d8"),
+    client: "A",
+    timestamp: NumberLong("1738942648339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b8f26b0352b5206a6b"),
+    client: "A",
+    timestamp: NumberLong("1738942648339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b88b950e3fae99f9ea"),
+    client: "A",
+    timestamp: NumberLong("1738942648371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b89fbbc0230cad0bff"),
+    client: "B",
+    timestamp: NumberLong("1738942648371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b85ce567060be7f019"),
+    client: "A",
+    timestamp: NumberLong("1738942648371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b850944b33726a9326"),
+    client: "A",
+    timestamp: NumberLong("1738942648371")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b89fbee64200872320"),
+    client: "A",
+    timestamp: NumberLong("1738942648790")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b80c4f7f682333dc5e"),
+    client: "A",
+    timestamp: NumberLong("1738942648790")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b8462d9a35f51df6d9"),
+    client: "A",
+    timestamp: NumberLong("1738942648867")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b8f26b0352b5206a6c"),
+    client: "A",
+    timestamp: NumberLong("1738942648867")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b88b950e3fae99f9eb"),
+    client: "A",
+    timestamp: NumberLong("1738942648897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b89fbbc0230cad0c00"),
+    client: "B",
+    timestamp: NumberLong("1738942648897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b850944b33726a9327"),
+    client: "A",
+    timestamp: NumberLong("1738942648897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b85ce567060be7f01a"),
+    client: "A",
+    timestamp: NumberLong("1738942648897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b90c4f7f682333dc5f"),
+    client: "A",
+    timestamp: NumberLong("1738942649302")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b99fbee64200872321"),
+    client: "A",
+    timestamp: NumberLong("1738942649302")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b9f26b0352b5206a6d"),
+    client: "A",
+    timestamp: NumberLong("1738942649394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b9462d9a35f51df6da"),
+    client: "A",
+    timestamp: NumberLong("1738942649394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b98b950e3fae99f9ec"),
+    client: "A",
+    timestamp: NumberLong("1738942649424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b99fbbc0230cad0c01"),
+    client: "B",
+    timestamp: NumberLong("1738942649424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b95ce567060be7f01b"),
+    client: "A",
+    timestamp: NumberLong("1738942649424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b950944b33726a9328"),
+    client: "A",
+    timestamp: NumberLong("1738942649424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b99fbee64200872322"),
+    client: "A",
+    timestamp: NumberLong("1738942649829")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b90c4f7f682333dc60"),
+    client: "A",
+    timestamp: NumberLong("1738942649829")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b9f26b0352b5206a6e"),
+    client: "A",
+    timestamp: NumberLong("1738942649923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b9462d9a35f51df6db"),
+    client: "A",
+    timestamp: NumberLong("1738942649923")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b99fbbc0230cad0c02"),
+    client: "B",
+    timestamp: NumberLong("1738942649953")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b95ce567060be7f01c"),
+    client: "A",
+    timestamp: NumberLong("1738942649953")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b98b950e3fae99f9ed"),
+    client: "A",
+    timestamp: NumberLong("1738942649953")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628b950944b33726a9329"),
+    client: "A",
+    timestamp: NumberLong("1738942649953")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba0c4f7f682333dc61"),
+    client: "A",
+    timestamp: NumberLong("1738942650354")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba9fbee64200872323"),
+    client: "A",
+    timestamp: NumberLong("1738942650354")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba462d9a35f51df6dc"),
+    client: "A",
+    timestamp: NumberLong("1738942650446")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628baf26b0352b5206a6f"),
+    client: "A",
+    timestamp: NumberLong("1738942650446")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba9fbbc0230cad0c03"),
+    client: "B",
+    timestamp: NumberLong("1738942650478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba50944b33726a932a"),
+    client: "A",
+    timestamp: NumberLong("1738942650478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba5ce567060be7f01d"),
+    client: "A",
+    timestamp: NumberLong("1738942650478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba8b950e3fae99f9ee"),
+    client: "A",
+    timestamp: NumberLong("1738942650478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba0c4f7f682333dc62"),
+    client: "A",
+    timestamp: NumberLong("1738942650882")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba9fbee64200872324"),
+    client: "A",
+    timestamp: NumberLong("1738942650882")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ba462d9a35f51df6dd"),
+    client: "A",
+    timestamp: NumberLong("1738942650974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bbf26b0352b5206a70"),
+    client: "A",
+    timestamp: NumberLong("1738942651005")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb9fbbc0230cad0c04"),
+    client: "B",
+    timestamp: NumberLong("1738942651005")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb50944b33726a932b"),
+    client: "A",
+    timestamp: NumberLong("1738942651005")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb8b950e3fae99f9ef"),
+    client: "A",
+    timestamp: NumberLong("1738942651020")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb5ce567060be7f01e"),
+    client: "A",
+    timestamp: NumberLong("1738942651020")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb9fbee64200872325"),
+    client: "A",
+    timestamp: NumberLong("1738942651408")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb0c4f7f682333dc63"),
+    client: "A",
+    timestamp: NumberLong("1738942651423")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb462d9a35f51df6de"),
+    client: "A",
+    timestamp: NumberLong("1738942651516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bbf26b0352b5206a71"),
+    client: "A",
+    timestamp: NumberLong("1738942651531")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb50944b33726a932c"),
+    client: "A",
+    timestamp: NumberLong("1738942651531")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb9fbbc0230cad0c05"),
+    client: "B",
+    timestamp: NumberLong("1738942651547")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb8b950e3fae99f9f0"),
+    client: "A",
+    timestamp: NumberLong("1738942651562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb5ce567060be7f01f"),
+    client: "A",
+    timestamp: NumberLong("1738942651562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb9fbee64200872326"),
+    client: "A",
+    timestamp: NumberLong("1738942651934")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bb0c4f7f682333dc64"),
+    client: "A",
+    timestamp: NumberLong("1738942651965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc8b950e3fae99f9f1"),
+    client: "A",
+    timestamp: NumberLong("1738942652106")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc9fbbc0230cad0c06"),
+    client: "B",
+    timestamp: NumberLong("1738942652074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc5ce567060be7f020"),
+    client: "A",
+    timestamp: NumberLong("1738942652090")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bcf26b0352b5206a72"),
+    client: "A",
+    timestamp: NumberLong("1738942652059")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc462d9a35f51df6df"),
+    client: "A",
+    timestamp: NumberLong("1738942652059")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc50944b33726a932d"),
+    client: "A",
+    timestamp: NumberLong("1738942652059")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc9fbee64200872327"),
+    client: "A",
+    timestamp: NumberLong("1738942652450")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc462d9a35f51df6e0"),
+    client: "A",
+    timestamp: NumberLong("1738942652714")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bcf26b0352b5206a73"),
+    client: "A",
+    timestamp: NumberLong("1738942652714")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc0c4f7f682333dc65"),
+    client: "A",
+    timestamp: NumberLong("1738942652933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bc9fbee64200872328"),
+    client: "A",
+    timestamp: NumberLong("1738942652980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd5ce567060be7f021"),
+    client: "A",
+    timestamp: NumberLong("1738942653058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd9fbbc0230cad0c07"),
+    client: "B",
+    timestamp: NumberLong("1738942653058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd8b950e3fae99f9f2"),
+    client: "A",
+    timestamp: NumberLong("1738942653058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd50944b33726a932e"),
+    client: "A",
+    timestamp: NumberLong("1738942653058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd462d9a35f51df6e1"),
+    client: "A",
+    timestamp: NumberLong("1738942653261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bdf26b0352b5206a74"),
+    client: "A",
+    timestamp: NumberLong("1738942653261")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd9fbee64200872329"),
+    client: "A",
+    timestamp: NumberLong("1738942653528")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bd462d9a35f51df6e2"),
+    client: "A",
+    timestamp: NumberLong("1738942653918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bdf26b0352b5206a75"),
+    client: "A",
+    timestamp: NumberLong("1738942653918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be9fbee6420087232a"),
+    client: "A",
+    timestamp: NumberLong("1738942654246")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be0c4f7f682333dc66"),
+    client: "A",
+    timestamp: NumberLong("1738942654419")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be462d9a35f51df6e3"),
+    client: "A",
+    timestamp: NumberLong("1738942654512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bef26b0352b5206a76"),
+    client: "A",
+    timestamp: NumberLong("1738942654528")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be9fbee6420087232b"),
+    client: "A",
+    timestamp: NumberLong("1738942654793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be5ce567060be7f022"),
+    client: "A",
+    timestamp: NumberLong("1738942654838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be8b950e3fae99f9f3"),
+    client: "A",
+    timestamp: NumberLong("1738942654838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be9fbbc0230cad0c08"),
+    client: "B",
+    timestamp: NumberLong("1738942654838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628be50944b33726a932f"),
+    client: "A",
+    timestamp: NumberLong("1738942654838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf462d9a35f51df6e4"),
+    client: "A",
+    timestamp: NumberLong("1738942655070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bff26b0352b5206a77"),
+    client: "A",
+    timestamp: NumberLong("1738942655070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf0c4f7f682333dc67"),
+    client: "A",
+    timestamp: NumberLong("1738942655086")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf9fbee6420087232c"),
+    client: "A",
+    timestamp: NumberLong("1738942655337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf50944b33726a9330"),
+    client: "A",
+    timestamp: NumberLong("1738942655463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf5ce567060be7f023"),
+    client: "A",
+    timestamp: NumberLong("1738942655463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf8b950e3fae99f9f4"),
+    client: "A",
+    timestamp: NumberLong("1738942655463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf9fbbc0230cad0c09"),
+    client: "B",
+    timestamp: NumberLong("1738942655463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf462d9a35f51df6e5"),
+    client: "A",
+    timestamp: NumberLong("1738942655603")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bff26b0352b5206a78"),
+    client: "A",
+    timestamp: NumberLong("1738942655603")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf0c4f7f682333dc68"),
+    client: "A",
+    timestamp: NumberLong("1738942655696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf9fbee6420087232d"),
+    client: "A",
+    timestamp: NumberLong("1738942655901")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf5ce567060be7f024"),
+    client: "A",
+    timestamp: NumberLong("1738942655993")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf9fbbc0230cad0c0a"),
+    client: "B",
+    timestamp: NumberLong("1738942655993")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf8b950e3fae99f9f5"),
+    client: "A",
+    timestamp: NumberLong("1738942655993")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628bf50944b33726a9331"),
+    client: "A",
+    timestamp: NumberLong("1738942655993")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c0462d9a35f51df6e6"),
+    client: "A",
+    timestamp: NumberLong("1738942656133")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c0f26b0352b5206a79"),
+    client: "A",
+    timestamp: NumberLong("1738942656133")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c00c4f7f682333dc69"),
+    client: "A",
+    timestamp: NumberLong("1738942656228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c09fbee6420087232e"),
+    client: "A",
+    timestamp: NumberLong("1738942656427")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c05ce567060be7f025"),
+    client: "A",
+    timestamp: NumberLong("1738942656551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c050944b33726a9332"),
+    client: "A",
+    timestamp: NumberLong("1738942656551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c09fbbc0230cad0c0b"),
+    client: "B",
+    timestamp: NumberLong("1738942656551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c08b950e3fae99f9f6"),
+    client: "A",
+    timestamp: NumberLong("1738942656551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c0462d9a35f51df6e7"),
+    client: "A",
+    timestamp: NumberLong("1738942656676")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c0f26b0352b5206a7a"),
+    client: "A",
+    timestamp: NumberLong("1738942656676")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c00c4f7f682333dc6a"),
+    client: "A",
+    timestamp: NumberLong("1738942656768")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c09fbee6420087232f"),
+    client: "A",
+    timestamp: NumberLong("1738942656955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c18b950e3fae99f9f7"),
+    client: "A",
+    timestamp: NumberLong("1738942657080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c150944b33726a9333"),
+    client: "A",
+    timestamp: NumberLong("1738942657080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c19fbbc0230cad0c0c"),
+    client: "B",
+    timestamp: NumberLong("1738942657080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c15ce567060be7f026"),
+    client: "A",
+    timestamp: NumberLong("1738942657080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c1462d9a35f51df6e8"),
+    client: "A",
+    timestamp: NumberLong("1738942657206")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c1f26b0352b5206a7b"),
+    client: "A",
+    timestamp: NumberLong("1738942657206")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c10c4f7f682333dc6b"),
+    client: "A",
+    timestamp: NumberLong("1738942657364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c19fbee64200872330"),
+    client: "A",
+    timestamp: NumberLong("1738942657474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c18b950e3fae99f9f8"),
+    client: "A",
+    timestamp: NumberLong("1738942657615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c19fbbc0230cad0c0d"),
+    client: "B",
+    timestamp: NumberLong("1738942657631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c15ce567060be7f027"),
+    client: "A",
+    timestamp: NumberLong("1738942657631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c150944b33726a9334"),
+    client: "A",
+    timestamp: NumberLong("1738942657631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c1f26b0352b5206a7c"),
+    client: "A",
+    timestamp: NumberLong("1738942657726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c1462d9a35f51df6e9"),
+    client: "A",
+    timestamp: NumberLong("1738942657726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c10c4f7f682333dc6c"),
+    client: "A",
+    timestamp: NumberLong("1738942657914")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c29fbee64200872331"),
+    client: "A",
+    timestamp: NumberLong("1738942658009")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c28b950e3fae99f9f9"),
+    client: "A",
+    timestamp: NumberLong("1738942658213")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c25ce567060be7f028"),
+    client: "A",
+    timestamp: NumberLong("1738942658213")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c29fbbc0230cad0c0e"),
+    client: "B",
+    timestamp: NumberLong("1738942658213")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c250944b33726a9335"),
+    client: "A",
+    timestamp: NumberLong("1738942658213")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c2462d9a35f51df6ea"),
+    client: "A",
+    timestamp: NumberLong("1738942658306")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c20c4f7f682333dc6d"),
+    client: "A",
+    timestamp: NumberLong("1738942658433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c29fbee64200872332"),
+    client: "A",
+    timestamp: NumberLong("1738942658541")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c2f26b0352b5206a7d"),
+    client: "A",
+    timestamp: NumberLong("1738942658573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c29fbbc0230cad0c0f"),
+    client: "B",
+    timestamp: NumberLong("1738942658745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c25ce567060be7f029"),
+    client: "A",
+    timestamp: NumberLong("1738942658745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c28b950e3fae99f9fa"),
+    client: "A",
+    timestamp: NumberLong("1738942658776")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c250944b33726a9336"),
+    client: "A",
+    timestamp: NumberLong("1738942658776")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c2462d9a35f51df6eb"),
+    client: "A",
+    timestamp: NumberLong("1738942658837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c39fbee64200872333"),
+    client: "A",
+    timestamp: NumberLong("1738942659086")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c3f26b0352b5206a7e"),
+    client: "A",
+    timestamp: NumberLong("1738942659102")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c20c4f7f682333dc6e"),
+    client: "A",
+    timestamp: NumberLong("1738942658977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c39fbbc0230cad0c10"),
+    client: "B",
+    timestamp: NumberLong("1738942659274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c35ce567060be7f02a"),
+    client: "A",
+    timestamp: NumberLong("1738942659290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c350944b33726a9337"),
+    client: "A",
+    timestamp: NumberLong("1738942659321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c38b950e3fae99f9fb"),
+    client: "A",
+    timestamp: NumberLong("1738942659352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c3462d9a35f51df6ec"),
+    client: "A",
+    timestamp: NumberLong("1738942659414")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c39fbee64200872334"),
+    client: "A",
+    timestamp: NumberLong("1738942659618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c3f26b0352b5206a7f"),
+    client: "A",
+    timestamp: NumberLong("1738942659664")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c30c4f7f682333dc6f"),
+    client: "A",
+    timestamp: NumberLong("1738942659805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c39fbbc0230cad0c11"),
+    client: "B",
+    timestamp: NumberLong("1738942659837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c38b950e3fae99f9fc"),
+    client: "A",
+    timestamp: NumberLong("1738942659899")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c35ce567060be7f02b"),
+    client: "A",
+    timestamp: NumberLong("1738942659899")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c350944b33726a9338"),
+    client: "A",
+    timestamp: NumberLong("1738942659899")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c3462d9a35f51df6ed"),
+    client: "A",
+    timestamp: NumberLong("1738942659946")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c49fbee64200872335"),
+    client: "A",
+    timestamp: NumberLong("1738942660148")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c4f26b0352b5206a80"),
+    client: "A",
+    timestamp: NumberLong("1738942660195")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c40c4f7f682333dc70"),
+    client: "A",
+    timestamp: NumberLong("1738942660334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c49fbbc0230cad0c12"),
+    client: "B",
+    timestamp: NumberLong("1738942660366")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c45ce567060be7f02c"),
+    client: "A",
+    timestamp: NumberLong("1738942660491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c4462d9a35f51df6ee"),
+    client: "A",
+    timestamp: NumberLong("1738942660491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c48b950e3fae99f9fd"),
+    client: "A",
+    timestamp: NumberLong("1738942660491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c450944b33726a9339"),
+    client: "A",
+    timestamp: NumberLong("1738942660507")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c49fbee64200872336"),
+    client: "A",
+    timestamp: NumberLong("1738942660694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c4f26b0352b5206a81"),
+    client: "A",
+    timestamp: NumberLong("1738942660725")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c40c4f7f682333dc71"),
+    client: "A",
+    timestamp: NumberLong("1738942660896")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c49fbbc0230cad0c13"),
+    client: "B",
+    timestamp: NumberLong("1738942660928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c5462d9a35f51df6ef"),
+    client: "A",
+    timestamp: NumberLong("1738942661021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c55ce567060be7f02d"),
+    client: "A",
+    timestamp: NumberLong("1738942661021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c58b950e3fae99f9fe"),
+    client: "A",
+    timestamp: NumberLong("1738942661021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c550944b33726a933a"),
+    client: "A",
+    timestamp: NumberLong("1738942661037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c5f26b0352b5206a82"),
+    client: "A",
+    timestamp: NumberLong("1738942661240")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c50c4f7f682333dc72"),
+    client: "A",
+    timestamp: NumberLong("1738942661440")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c59fbbc0230cad0c14"),
+    client: "B",
+    timestamp: NumberLong("1738942661471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c59fbee64200872337"),
+    client: "A",
+    timestamp: NumberLong("1738942661518")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c58b950e3fae99f9ff"),
+    client: "A",
+    timestamp: NumberLong("1738942661581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c55ce567060be7f02e"),
+    client: "A",
+    timestamp: NumberLong("1738942661581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c5462d9a35f51df6f0"),
+    client: "A",
+    timestamp: NumberLong("1738942661581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c550944b33726a933b"),
+    client: "A",
+    timestamp: NumberLong("1738942661596")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c5f26b0352b5206a83"),
+    client: "A",
+    timestamp: NumberLong("1738942661765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c50c4f7f682333dc73"),
+    client: "A",
+    timestamp: NumberLong("1738942661996")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c69fbee64200872338"),
+    client: "A",
+    timestamp: NumberLong("1738942662042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c69fbbc0230cad0c15"),
+    client: "B",
+    timestamp: NumberLong("1738942662042")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c65ce567060be7f02f"),
+    client: "A",
+    timestamp: NumberLong("1738942662121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c6462d9a35f51df6f1"),
+    client: "A",
+    timestamp: NumberLong("1738942662121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c68b950e3fae99fa00"),
+    client: "A",
+    timestamp: NumberLong("1738942662136")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c650944b33726a933c"),
+    client: "A",
+    timestamp: NumberLong("1738942662136")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c6f26b0352b5206a84"),
+    client: "A",
+    timestamp: NumberLong("1738942662323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c60c4f7f682333dc74"),
+    client: "A",
+    timestamp: NumberLong("1738942662543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c69fbee64200872339"),
+    client: "A",
+    timestamp: NumberLong("1738942662574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c69fbbc0230cad0c16"),
+    client: "B",
+    timestamp: NumberLong("1738942662574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c6462d9a35f51df6f2"),
+    client: "A",
+    timestamp: NumberLong("1738942662682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c68b950e3fae99fa01"),
+    client: "A",
+    timestamp: NumberLong("1738942662682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c65ce567060be7f030"),
+    client: "A",
+    timestamp: NumberLong("1738942662682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c650944b33726a933d"),
+    client: "A",
+    timestamp: NumberLong("1738942662682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c6f26b0352b5206a85"),
+    client: "A",
+    timestamp: NumberLong("1738942662852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c79fbee6420087233a"),
+    client: "A",
+    timestamp: NumberLong("1738942663102")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c70c4f7f682333dc75"),
+    client: "A",
+    timestamp: NumberLong("1738942663149")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c79fbbc0230cad0c17"),
+    client: "B",
+    timestamp: NumberLong("1738942663149")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c7462d9a35f51df6f3"),
+    client: "A",
+    timestamp: NumberLong("1738942663243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c78b950e3fae99fa02"),
+    client: "A",
+    timestamp: NumberLong("1738942663259")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c75ce567060be7f031"),
+    client: "A",
+    timestamp: NumberLong("1738942663290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c750944b33726a933e"),
+    client: "A",
+    timestamp: NumberLong("1738942663290")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c7f26b0352b5206a86"),
+    client: "A",
+    timestamp: NumberLong("1738942663368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c79fbee6420087233b"),
+    client: "A",
+    timestamp: NumberLong("1738942663630")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c70c4f7f682333dc76"),
+    client: "A",
+    timestamp: NumberLong("1738942663694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c79fbbc0230cad0c18"),
+    client: "B",
+    timestamp: NumberLong("1738942663725")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c7462d9a35f51df6f4"),
+    client: "A",
+    timestamp: NumberLong("1738942663771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c78b950e3fae99fa03"),
+    client: "A",
+    timestamp: NumberLong("1738942663833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c75ce567060be7f032"),
+    client: "A",
+    timestamp: NumberLong("1738942663848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c750944b33726a933f"),
+    client: "A",
+    timestamp: NumberLong("1738942663848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c7f26b0352b5206a87"),
+    client: "A",
+    timestamp: NumberLong("1738942663895")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c89fbee6420087233c"),
+    client: "A",
+    timestamp: NumberLong("1738942664159")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c80c4f7f682333dc77"),
+    client: "A",
+    timestamp: NumberLong("1738942664236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c89fbbc0230cad0c19"),
+    client: "B",
+    timestamp: NumberLong("1738942664251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c8462d9a35f51df6f5"),
+    client: "A",
+    timestamp: NumberLong("1738942664297")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c88b950e3fae99fa04"),
+    client: "A",
+    timestamp: NumberLong("1738942664359")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c85ce567060be7f033"),
+    client: "A",
+    timestamp: NumberLong("1738942664375")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c850944b33726a9340"),
+    client: "A",
+    timestamp: NumberLong("1738942664375")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c8f26b0352b5206a88"),
+    client: "A",
+    timestamp: NumberLong("1738942664437")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c89fbee6420087233d"),
+    client: "A",
+    timestamp: NumberLong("1738942664687")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c80c4f7f682333dc78"),
+    client: "A",
+    timestamp: NumberLong("1738942664795")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c89fbbc0230cad0c1a"),
+    client: "B",
+    timestamp: NumberLong("1738942664811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c8462d9a35f51df6f6"),
+    client: "A",
+    timestamp: NumberLong("1738942664826")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c88b950e3fae99fa05"),
+    client: "A",
+    timestamp: NumberLong("1738942664904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c85ce567060be7f034"),
+    client: "A",
+    timestamp: NumberLong("1738942664935")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c850944b33726a9341"),
+    client: "A",
+    timestamp: NumberLong("1738942664966")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c8f26b0352b5206a89"),
+    client: "A",
+    timestamp: NumberLong("1738942664981")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c99fbee6420087233e"),
+    client: "A",
+    timestamp: NumberLong("1738942665216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c90c4f7f682333dc79"),
+    client: "A",
+    timestamp: NumberLong("1738942665341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c9462d9a35f51df6f7"),
+    client: "A",
+    timestamp: NumberLong("1738942665341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c99fbbc0230cad0c1b"),
+    client: "B",
+    timestamp: NumberLong("1738942665357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c98b950e3fae99fa06"),
+    client: "A",
+    timestamp: NumberLong("1738942665434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c95ce567060be7f035"),
+    client: "A",
+    timestamp: NumberLong("1738942665480")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c9f26b0352b5206a8a"),
+    client: "A",
+    timestamp: NumberLong("1738942665511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c950944b33726a9342"),
+    client: "A",
+    timestamp: NumberLong("1738942665544")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c99fbee6420087233f"),
+    client: "A",
+    timestamp: NumberLong("1738942665745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c90c4f7f682333dc7a"),
+    client: "A",
+    timestamp: NumberLong("1738942665870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c9462d9a35f51df6f8"),
+    client: "A",
+    timestamp: NumberLong("1738942665870")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c99fbbc0230cad0c1c"),
+    client: "B",
+    timestamp: NumberLong("1738942665902")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c98b950e3fae99fa07"),
+    client: "A",
+    timestamp: NumberLong("1738942665965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628c95ce567060be7f036"),
+    client: "A",
+    timestamp: NumberLong("1738942665996")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628caf26b0352b5206a8b"),
+    client: "A",
+    timestamp: NumberLong("1738942666026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca50944b33726a9343"),
+    client: "A",
+    timestamp: NumberLong("1738942666073")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca9fbee64200872340"),
+    client: "A",
+    timestamp: NumberLong("1738942666276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca0c4f7f682333dc7b"),
+    client: "A",
+    timestamp: NumberLong("1738942666386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca462d9a35f51df6f9"),
+    client: "A",
+    timestamp: NumberLong("1738942666386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca9fbbc0230cad0c1d"),
+    client: "B",
+    timestamp: NumberLong("1738942666431")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca8b950e3fae99fa08"),
+    client: "A",
+    timestamp: NumberLong("1738942666493")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca5ce567060be7f037"),
+    client: "A",
+    timestamp: NumberLong("1738942666524")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628caf26b0352b5206a8c"),
+    client: "A",
+    timestamp: NumberLong("1738942666540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca50944b33726a9344"),
+    client: "A",
+    timestamp: NumberLong("1738942666601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca9fbee64200872341"),
+    client: "A",
+    timestamp: NumberLong("1738942666805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca0c4f7f682333dc7c"),
+    client: "A",
+    timestamp: NumberLong("1738942666913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca462d9a35f51df6fa"),
+    client: "A",
+    timestamp: NumberLong("1738942666913")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ca9fbbc0230cad0c1e"),
+    client: "B",
+    timestamp: NumberLong("1738942666960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb8b950e3fae99fa09"),
+    client: "A",
+    timestamp: NumberLong("1738942667022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb5ce567060be7f038"),
+    client: "A",
+    timestamp: NumberLong("1738942667054")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cbf26b0352b5206a8d"),
+    client: "A",
+    timestamp: NumberLong("1738942667070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb50944b33726a9345"),
+    client: "A",
+    timestamp: NumberLong("1738942667116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb9fbee64200872342"),
+    client: "A",
+    timestamp: NumberLong("1738942667321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb0c4f7f682333dc7d"),
+    client: "A",
+    timestamp: NumberLong("1738942667430")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb462d9a35f51df6fb"),
+    client: "A",
+    timestamp: NumberLong("1738942667445")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb9fbbc0230cad0c1f"),
+    client: "B",
+    timestamp: NumberLong("1738942667476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb8b950e3fae99fa0a"),
+    client: "A",
+    timestamp: NumberLong("1738942667539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb5ce567060be7f039"),
+    client: "A",
+    timestamp: NumberLong("1738942667570")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cbf26b0352b5206a8e"),
+    client: "A",
+    timestamp: NumberLong("1738942667586")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb50944b33726a9346"),
+    client: "A",
+    timestamp: NumberLong("1738942667648")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb9fbee64200872343"),
+    client: "A",
+    timestamp: NumberLong("1738942667852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb0c4f7f682333dc7e"),
+    client: "A",
+    timestamp: NumberLong("1738942667945")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb462d9a35f51df6fc"),
+    client: "A",
+    timestamp: NumberLong("1738942667977")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cb9fbbc0230cad0c20"),
+    client: "B",
+    timestamp: NumberLong("1738942667992")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc8b950e3fae99fa0b"),
+    client: "A",
+    timestamp: NumberLong("1738942668054")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc5ce567060be7f03a"),
+    client: "A",
+    timestamp: NumberLong("1738942668084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ccf26b0352b5206a8f"),
+    client: "A",
+    timestamp: NumberLong("1738942668100")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc50944b33726a9347"),
+    client: "A",
+    timestamp: NumberLong("1738942668177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc9fbee64200872344"),
+    client: "A",
+    timestamp: NumberLong("1738942668381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc0c4f7f682333dc7f"),
+    client: "A",
+    timestamp: NumberLong("1738942668475")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc462d9a35f51df6fd"),
+    client: "A",
+    timestamp: NumberLong("1738942668491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc9fbbc0230cad0c21"),
+    client: "B",
+    timestamp: NumberLong("1738942668507")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc8b950e3fae99fa0c"),
+    client: "A",
+    timestamp: NumberLong("1738942668572")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc5ce567060be7f03b"),
+    client: "A",
+    timestamp: NumberLong("1738942668603")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ccf26b0352b5206a90"),
+    client: "A",
+    timestamp: NumberLong("1738942668619")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc50944b33726a9348"),
+    client: "A",
+    timestamp: NumberLong("1738942668696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc9fbee64200872345"),
+    client: "A",
+    timestamp: NumberLong("1738942668897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cc0c4f7f682333dc80"),
+    client: "A",
+    timestamp: NumberLong("1738942668991")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd462d9a35f51df6fe"),
+    client: "A",
+    timestamp: NumberLong("1738942669007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd9fbbc0230cad0c22"),
+    client: "B",
+    timestamp: NumberLong("1738942669022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd8b950e3fae99fa0d"),
+    client: "A",
+    timestamp: NumberLong("1738942669099")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd5ce567060be7f03c"),
+    client: "A",
+    timestamp: NumberLong("1738942669130")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cdf26b0352b5206a91"),
+    client: "A",
+    timestamp: NumberLong("1738942669146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd50944b33726a9349"),
+    client: "A",
+    timestamp: NumberLong("1738942669207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd9fbee64200872346"),
+    client: "A",
+    timestamp: NumberLong("1738942669412")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd0c4f7f682333dc81"),
+    client: "A",
+    timestamp: NumberLong("1738942669521")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd462d9a35f51df6ff"),
+    client: "A",
+    timestamp: NumberLong("1738942669536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd9fbbc0230cad0c23"),
+    client: "B",
+    timestamp: NumberLong("1738942669536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd8b950e3fae99fa0e"),
+    client: "A",
+    timestamp: NumberLong("1738942669631")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd5ce567060be7f03d"),
+    client: "A",
+    timestamp: NumberLong("1738942669647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cdf26b0352b5206a92"),
+    client: "A",
+    timestamp: NumberLong("1738942669663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd50944b33726a934a"),
+    client: "A",
+    timestamp: NumberLong("1738942669724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cd9fbee64200872347"),
+    client: "A",
+    timestamp: NumberLong("1738942669941")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce0c4f7f682333dc82"),
+    client: "A",
+    timestamp: NumberLong("1738942670033")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce462d9a35f51df700"),
+    client: "A",
+    timestamp: NumberLong("1738942670050")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce9fbbc0230cad0c24"),
+    client: "B",
+    timestamp: NumberLong("1738942670050")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce8b950e3fae99fa0f"),
+    client: "A",
+    timestamp: NumberLong("1738942670158")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce5ce567060be7f03e"),
+    client: "A",
+    timestamp: NumberLong("1738942670173")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cef26b0352b5206a93"),
+    client: "A",
+    timestamp: NumberLong("1738942670187")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce50944b33726a934b"),
+    client: "A",
+    timestamp: NumberLong("1738942670250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce9fbee64200872348"),
+    client: "A",
+    timestamp: NumberLong("1738942670469")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce0c4f7f682333dc83"),
+    client: "A",
+    timestamp: NumberLong("1738942670547")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce9fbbc0230cad0c25"),
+    client: "B",
+    timestamp: NumberLong("1738942670562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce462d9a35f51df701"),
+    client: "A",
+    timestamp: NumberLong("1738942670578")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce8b950e3fae99fa10"),
+    client: "A",
+    timestamp: NumberLong("1738942670687")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce5ce567060be7f03f"),
+    client: "A",
+    timestamp: NumberLong("1738942670687")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cef26b0352b5206a94"),
+    client: "A",
+    timestamp: NumberLong("1738942670718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ce50944b33726a934c"),
+    client: "A",
+    timestamp: NumberLong("1738942670766")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf9fbee64200872349"),
+    client: "A",
+    timestamp: NumberLong("1738942671000")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf0c4f7f682333dc84"),
+    client: "A",
+    timestamp: NumberLong("1738942671077")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf9fbbc0230cad0c26"),
+    client: "B",
+    timestamp: NumberLong("1738942671092")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf462d9a35f51df702"),
+    client: "A",
+    timestamp: NumberLong("1738942671107")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf8b950e3fae99fa11"),
+    client: "A",
+    timestamp: NumberLong("1738942671217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf5ce567060be7f040"),
+    client: "A",
+    timestamp: NumberLong("1738942671217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cff26b0352b5206a95"),
+    client: "A",
+    timestamp: NumberLong("1738942671247")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf50944b33726a934d"),
+    client: "A",
+    timestamp: NumberLong("1738942671295")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf9fbee6420087234a"),
+    client: "A",
+    timestamp: NumberLong("1738942671529")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf0c4f7f682333dc85"),
+    client: "A",
+    timestamp: NumberLong("1738942671592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf9fbbc0230cad0c27"),
+    client: "B",
+    timestamp: NumberLong("1738942671606")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf462d9a35f51df703"),
+    client: "A",
+    timestamp: NumberLong("1738942671638")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf8b950e3fae99fa12"),
+    client: "A",
+    timestamp: NumberLong("1738942671731")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf5ce567060be7f041"),
+    client: "A",
+    timestamp: NumberLong("1738942671747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cff26b0352b5206a96"),
+    client: "A",
+    timestamp: NumberLong("1738942671762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628cf50944b33726a934e"),
+    client: "A",
+    timestamp: NumberLong("1738942671824")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d09fbee6420087234b"),
+    client: "A",
+    timestamp: NumberLong("1738942672059")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d00c4f7f682333dc86"),
+    client: "A",
+    timestamp: NumberLong("1738942672121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d09fbbc0230cad0c28"),
+    client: "B",
+    timestamp: NumberLong("1738942672121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d0462d9a35f51df704"),
+    client: "A",
+    timestamp: NumberLong("1738942672167")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d08b950e3fae99fa13"),
+    client: "A",
+    timestamp: NumberLong("1738942672245")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d05ce567060be7f042"),
+    client: "A",
+    timestamp: NumberLong("1738942672276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d0f26b0352b5206a97"),
+    client: "A",
+    timestamp: NumberLong("1738942672292")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d050944b33726a934f"),
+    client: "A",
+    timestamp: NumberLong("1738942672339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d09fbee6420087234c"),
+    client: "A",
+    timestamp: NumberLong("1738942672573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d00c4f7f682333dc87"),
+    client: "A",
+    timestamp: NumberLong("1738942672651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d09fbbc0230cad0c29"),
+    client: "B",
+    timestamp: NumberLong("1738942672651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d0462d9a35f51df705"),
+    client: "A",
+    timestamp: NumberLong("1738942672683")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d08b950e3fae99fa14"),
+    client: "A",
+    timestamp: NumberLong("1738942672762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d05ce567060be7f043"),
+    client: "A",
+    timestamp: NumberLong("1738942672792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d0f26b0352b5206a98"),
+    client: "A",
+    timestamp: NumberLong("1738942672807")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d050944b33726a9350"),
+    client: "A",
+    timestamp: NumberLong("1738942672855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d19fbee6420087234d"),
+    client: "A",
+    timestamp: NumberLong("1738942673088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d10c4f7f682333dc88"),
+    client: "A",
+    timestamp: NumberLong("1738942673166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d19fbbc0230cad0c2a"),
+    client: "B",
+    timestamp: NumberLong("1738942673166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d1462d9a35f51df706"),
+    client: "A",
+    timestamp: NumberLong("1738942673197")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d18b950e3fae99fa15"),
+    client: "A",
+    timestamp: NumberLong("1738942673289")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d15ce567060be7f044"),
+    client: "A",
+    timestamp: NumberLong("1738942673320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d1f26b0352b5206a99"),
+    client: "A",
+    timestamp: NumberLong("1738942673335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d150944b33726a9351"),
+    client: "A",
+    timestamp: NumberLong("1738942673382")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d19fbee6420087234e"),
+    client: "A",
+    timestamp: NumberLong("1738942673616")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d10c4f7f682333dc89"),
+    client: "A",
+    timestamp: NumberLong("1738942673693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d19fbbc0230cad0c2b"),
+    client: "B",
+    timestamp: NumberLong("1738942673693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d1462d9a35f51df707"),
+    client: "A",
+    timestamp: NumberLong("1738942673725")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d18b950e3fae99fa16"),
+    client: "A",
+    timestamp: NumberLong("1738942673818")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d15ce567060be7f045"),
+    client: "A",
+    timestamp: NumberLong("1738942673849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d1f26b0352b5206a9a"),
+    client: "A",
+    timestamp: NumberLong("1738942673865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d150944b33726a9352"),
+    client: "A",
+    timestamp: NumberLong("1738942673897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d29fbee6420087234f"),
+    client: "A",
+    timestamp: NumberLong("1738942674146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d29fbbc0230cad0c2c"),
+    client: "B",
+    timestamp: NumberLong("1738942674208")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d20c4f7f682333dc8a"),
+    client: "A",
+    timestamp: NumberLong("1738942674208")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d2462d9a35f51df708"),
+    client: "A",
+    timestamp: NumberLong("1738942674239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d28b950e3fae99fa17"),
+    client: "A",
+    timestamp: NumberLong("1738942674331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d25ce567060be7f046"),
+    client: "A",
+    timestamp: NumberLong("1738942674363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d2f26b0352b5206a9b"),
+    client: "A",
+    timestamp: NumberLong("1738942674378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d250944b33726a9353"),
+    client: "A",
+    timestamp: NumberLong("1738942674410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d29fbee64200872350"),
+    client: "A",
+    timestamp: NumberLong("1738942674662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d20c4f7f682333dc8b"),
+    client: "A",
+    timestamp: NumberLong("1738942674739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d29fbbc0230cad0c2d"),
+    client: "B",
+    timestamp: NumberLong("1738942674739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d2462d9a35f51df709"),
+    client: "A",
+    timestamp: NumberLong("1738942674755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d28b950e3fae99fa18"),
+    client: "A",
+    timestamp: NumberLong("1738942674848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d25ce567060be7f047"),
+    client: "A",
+    timestamp: NumberLong("1738942674895")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d250944b33726a9354"),
+    client: "A",
+    timestamp: NumberLong("1738942674926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d3f26b0352b5206a9c"),
+    client: "A",
+    timestamp: NumberLong("1738942675173")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d39fbee64200872351"),
+    client: "A",
+    timestamp: NumberLong("1738942675189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d30c4f7f682333dc8c"),
+    client: "A",
+    timestamp: NumberLong("1738942675267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d39fbbc0230cad0c2e"),
+    client: "B",
+    timestamp: NumberLong("1738942675267")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d3462d9a35f51df70a"),
+    client: "A",
+    timestamp: NumberLong("1738942675282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d38b950e3fae99fa19"),
+    client: "A",
+    timestamp: NumberLong("1738942675375")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d35ce567060be7f048"),
+    client: "A",
+    timestamp: NumberLong("1738942675422")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d350944b33726a9355"),
+    client: "A",
+    timestamp: NumberLong("1738942675453")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d3f26b0352b5206a9d"),
+    client: "A",
+    timestamp: NumberLong("1738942675703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d39fbee64200872352"),
+    client: "A",
+    timestamp: NumberLong("1738942675719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d30c4f7f682333dc8d"),
+    client: "A",
+    timestamp: NumberLong("1738942675796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d3462d9a35f51df70b"),
+    client: "A",
+    timestamp: NumberLong("1738942675796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d39fbbc0230cad0c2f"),
+    client: "B",
+    timestamp: NumberLong("1738942675796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d38b950e3fae99fa1a"),
+    client: "A",
+    timestamp: NumberLong("1738942675905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d35ce567060be7f049"),
+    client: "A",
+    timestamp: NumberLong("1738942675951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d350944b33726a9356"),
+    client: "A",
+    timestamp: NumberLong("1738942675982")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d4f26b0352b5206a9e"),
+    client: "A",
+    timestamp: NumberLong("1738942676233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d49fbee64200872353"),
+    client: "A",
+    timestamp: NumberLong("1738942676249")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d40c4f7f682333dc8e"),
+    client: "A",
+    timestamp: NumberLong("1738942676325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d4462d9a35f51df70c"),
+    client: "A",
+    timestamp: NumberLong("1738942676325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d49fbbc0230cad0c30"),
+    client: "B",
+    timestamp: NumberLong("1738942676325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d48b950e3fae99fa1b"),
+    client: "A",
+    timestamp: NumberLong("1738942676420")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d45ce567060be7f04a"),
+    client: "A",
+    timestamp: NumberLong("1738942676466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d450944b33726a9357"),
+    client: "A",
+    timestamp: NumberLong("1738942676512")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d4f26b0352b5206a9f"),
+    client: "A",
+    timestamp: NumberLong("1738942676762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d49fbee64200872354"),
+    client: "A",
+    timestamp: NumberLong("1738942676777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d40c4f7f682333dc8f"),
+    client: "A",
+    timestamp: NumberLong("1738942676854")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d4462d9a35f51df70d"),
+    client: "A",
+    timestamp: NumberLong("1738942676854")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d49fbbc0230cad0c31"),
+    client: "B",
+    timestamp: NumberLong("1738942676854")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d48b950e3fae99fa1c"),
+    client: "A",
+    timestamp: NumberLong("1738942676947")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d45ce567060be7f04b"),
+    client: "A",
+    timestamp: NumberLong("1738942676993")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d550944b33726a9358"),
+    client: "A",
+    timestamp: NumberLong("1738942677039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d5f26b0352b5206aa0"),
+    client: "A",
+    timestamp: NumberLong("1738942677289")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d59fbee64200872355"),
+    client: "A",
+    timestamp: NumberLong("1738942677305")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d59fbbc0230cad0c32"),
+    client: "B",
+    timestamp: NumberLong("1738942677380")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d5462d9a35f51df70e"),
+    client: "A",
+    timestamp: NumberLong("1738942677380")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d50c4f7f682333dc90"),
+    client: "A",
+    timestamp: NumberLong("1738942677380")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d58b950e3fae99fa1d"),
+    client: "A",
+    timestamp: NumberLong("1738942677473")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d55ce567060be7f04c"),
+    client: "A",
+    timestamp: NumberLong("1738942677520")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d550944b33726a9359"),
+    client: "A",
+    timestamp: NumberLong("1738942677567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d5f26b0352b5206aa1"),
+    client: "A",
+    timestamp: NumberLong("1738942677815")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d59fbee64200872356"),
+    client: "A",
+    timestamp: NumberLong("1738942677831")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d59fbbc0230cad0c33"),
+    client: "B",
+    timestamp: NumberLong("1738942677908")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d5462d9a35f51df70f"),
+    client: "A",
+    timestamp: NumberLong("1738942677908")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d50c4f7f682333dc91"),
+    client: "A",
+    timestamp: NumberLong("1738942677908")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d58b950e3fae99fa1e"),
+    client: "A",
+    timestamp: NumberLong("1738942677985")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d65ce567060be7f04d"),
+    client: "A",
+    timestamp: NumberLong("1738942678032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d650944b33726a935a"),
+    client: "A",
+    timestamp: NumberLong("1738942678080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d69fbee64200872357"),
+    client: "A",
+    timestamp: NumberLong("1738942678346")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d6f26b0352b5206aa2"),
+    client: "A",
+    timestamp: NumberLong("1738942678346")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d6462d9a35f51df710"),
+    client: "A",
+    timestamp: NumberLong("1738942678438")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d60c4f7f682333dc92"),
+    client: "A",
+    timestamp: NumberLong("1738942678438")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d69fbbc0230cad0c34"),
+    client: "B",
+    timestamp: NumberLong("1738942678438")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d68b950e3fae99fa1f"),
+    client: "A",
+    timestamp: NumberLong("1738942678499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d65ce567060be7f04e"),
+    client: "A",
+    timestamp: NumberLong("1738942678547")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d650944b33726a935b"),
+    client: "A",
+    timestamp: NumberLong("1738942678594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d69fbee64200872358"),
+    client: "A",
+    timestamp: NumberLong("1738942678872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d6f26b0352b5206aa3"),
+    client: "A",
+    timestamp: NumberLong("1738942678872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d60c4f7f682333dc93"),
+    client: "A",
+    timestamp: NumberLong("1738942678964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d6462d9a35f51df711"),
+    client: "A",
+    timestamp: NumberLong("1738942678964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d69fbbc0230cad0c35"),
+    client: "B",
+    timestamp: NumberLong("1738942678964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d78b950e3fae99fa20"),
+    client: "A",
+    timestamp: NumberLong("1738942679026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d75ce567060be7f04f"),
+    client: "A",
+    timestamp: NumberLong("1738942679074")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d750944b33726a935c"),
+    client: "A",
+    timestamp: NumberLong("1738942679120")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d79fbee64200872359"),
+    client: "A",
+    timestamp: NumberLong("1738942679429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d7f26b0352b5206aa4"),
+    client: "A",
+    timestamp: NumberLong("1738942679429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d7462d9a35f51df712"),
+    client: "A",
+    timestamp: NumberLong("1738942679507")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d70c4f7f682333dc94"),
+    client: "A",
+    timestamp: NumberLong("1738942679522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d79fbbc0230cad0c36"),
+    client: "B",
+    timestamp: NumberLong("1738942679522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d78b950e3fae99fa21"),
+    client: "A",
+    timestamp: NumberLong("1738942679554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d75ce567060be7f050"),
+    client: "A",
+    timestamp: NumberLong("1738942679584")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d750944b33726a935d"),
+    client: "A",
+    timestamp: NumberLong("1738942679646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d79fbee6420087235a"),
+    client: "A",
+    timestamp: NumberLong("1738942679954")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d7f26b0352b5206aa5"),
+    client: "A",
+    timestamp: NumberLong("1738942679954")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d8462d9a35f51df713"),
+    client: "A",
+    timestamp: NumberLong("1738942680031")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d89fbbc0230cad0c37"),
+    client: "B",
+    timestamp: NumberLong("1738942680046")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d80c4f7f682333dc95"),
+    client: "A",
+    timestamp: NumberLong("1738942680046")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d88b950e3fae99fa22"),
+    client: "A",
+    timestamp: NumberLong("1738942680076")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d85ce567060be7f051"),
+    client: "A",
+    timestamp: NumberLong("1738942680106")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d850944b33726a935e"),
+    client: "A",
+    timestamp: NumberLong("1738942680166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d89fbee6420087235b"),
+    client: "A",
+    timestamp: NumberLong("1738942680486")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d8f26b0352b5206aa6"),
+    client: "A",
+    timestamp: NumberLong("1738942680486")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d8462d9a35f51df714"),
+    client: "A",
+    timestamp: NumberLong("1738942680563")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d80c4f7f682333dc96"),
+    client: "A",
+    timestamp: NumberLong("1738942680578")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d89fbbc0230cad0c38"),
+    client: "B",
+    timestamp: NumberLong("1738942680578")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d88b950e3fae99fa23"),
+    client: "A",
+    timestamp: NumberLong("1738942680594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d85ce567060be7f052"),
+    client: "A",
+    timestamp: NumberLong("1738942680625")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d850944b33726a935f"),
+    client: "A",
+    timestamp: NumberLong("1738942680687")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d99fbee6420087235c"),
+    client: "A",
+    timestamp: NumberLong("1738942681011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d9f26b0352b5206aa7"),
+    client: "A",
+    timestamp: NumberLong("1738942681011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d9462d9a35f51df715"),
+    client: "A",
+    timestamp: NumberLong("1738942681089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d90c4f7f682333dc97"),
+    client: "A",
+    timestamp: NumberLong("1738942681104")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d99fbbc0230cad0c39"),
+    client: "B",
+    timestamp: NumberLong("1738942681104")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d98b950e3fae99fa24"),
+    client: "A",
+    timestamp: NumberLong("1738942681120")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d95ce567060be7f053"),
+    client: "A",
+    timestamp: NumberLong("1738942681152")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d950944b33726a9360"),
+    client: "A",
+    timestamp: NumberLong("1738942681214")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d99fbee6420087235d"),
+    client: "A",
+    timestamp: NumberLong("1738942681525")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d9f26b0352b5206aa8"),
+    client: "A",
+    timestamp: NumberLong("1738942681540")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d9462d9a35f51df716"),
+    client: "A",
+    timestamp: NumberLong("1738942681618")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d90c4f7f682333dc98"),
+    client: "A",
+    timestamp: NumberLong("1738942681634")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d99fbbc0230cad0c3a"),
+    client: "B",
+    timestamp: NumberLong("1738942681634")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d98b950e3fae99fa25"),
+    client: "A",
+    timestamp: NumberLong("1738942681649")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d95ce567060be7f054"),
+    client: "A",
+    timestamp: NumberLong("1738942681665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628d950944b33726a9361"),
+    client: "A",
+    timestamp: NumberLong("1738942681741")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da9fbee6420087235e"),
+    client: "A",
+    timestamp: NumberLong("1738942682039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628daf26b0352b5206aa9"),
+    client: "A",
+    timestamp: NumberLong("1738942682054")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da462d9a35f51df717"),
+    client: "A",
+    timestamp: NumberLong("1738942682147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da0c4f7f682333dc99"),
+    client: "A",
+    timestamp: NumberLong("1738942682163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da9fbbc0230cad0c3b"),
+    client: "B",
+    timestamp: NumberLong("1738942682163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da8b950e3fae99fa26"),
+    client: "A",
+    timestamp: NumberLong("1738942682178")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da5ce567060be7f055"),
+    client: "A",
+    timestamp: NumberLong("1738942682194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da50944b33726a9362"),
+    client: "A",
+    timestamp: NumberLong("1738942682270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da9fbee6420087235f"),
+    client: "A",
+    timestamp: NumberLong("1738942682549")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628daf26b0352b5206aaa"),
+    client: "A",
+    timestamp: NumberLong("1738942682581")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da462d9a35f51df718"),
+    client: "A",
+    timestamp: NumberLong("1738942682674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da0c4f7f682333dc9a"),
+    client: "A",
+    timestamp: NumberLong("1738942682690")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da9fbbc0230cad0c3c"),
+    client: "B",
+    timestamp: NumberLong("1738942682690")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da5ce567060be7f056"),
+    client: "A",
+    timestamp: NumberLong("1738942682705")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da8b950e3fae99fa27"),
+    client: "A",
+    timestamp: NumberLong("1738942682705")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628da50944b33726a9363"),
+    client: "A",
+    timestamp: NumberLong("1738942682798")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db9fbee64200872360"),
+    client: "A",
+    timestamp: NumberLong("1738942683078")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dbf26b0352b5206aab"),
+    client: "A",
+    timestamp: NumberLong("1738942683110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db462d9a35f51df719"),
+    client: "A",
+    timestamp: NumberLong("1738942683201")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db9fbbc0230cad0c3d"),
+    client: "B",
+    timestamp: NumberLong("1738942683217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db0c4f7f682333dc9b"),
+    client: "A",
+    timestamp: NumberLong("1738942683217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db8b950e3fae99fa28"),
+    client: "A",
+    timestamp: NumberLong("1738942683233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db5ce567060be7f057"),
+    client: "A",
+    timestamp: NumberLong("1738942683233")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db50944b33726a9364"),
+    client: "A",
+    timestamp: NumberLong("1738942683325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db9fbee64200872361"),
+    client: "A",
+    timestamp: NumberLong("1738942683606")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dbf26b0352b5206aac"),
+    client: "A",
+    timestamp: NumberLong("1738942683622")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db462d9a35f51df71a"),
+    client: "A",
+    timestamp: NumberLong("1738942683713")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db0c4f7f682333dc9c"),
+    client: "A",
+    timestamp: NumberLong("1738942683745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db5ce567060be7f058"),
+    client: "A",
+    timestamp: NumberLong("1738942683745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db9fbbc0230cad0c3e"),
+    client: "B",
+    timestamp: NumberLong("1738942683745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db8b950e3fae99fa29"),
+    client: "A",
+    timestamp: NumberLong("1738942683745")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628db50944b33726a9365"),
+    client: "A",
+    timestamp: NumberLong("1738942683838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc9fbee64200872362"),
+    client: "A",
+    timestamp: NumberLong("1738942684132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dcf26b0352b5206aad"),
+    client: "A",
+    timestamp: NumberLong("1738942684132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc462d9a35f51df71b"),
+    client: "A",
+    timestamp: NumberLong("1738942684225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc0c4f7f682333dc9d"),
+    client: "A",
+    timestamp: NumberLong("1738942684256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc8b950e3fae99fa2a"),
+    client: "A",
+    timestamp: NumberLong("1738942684256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc5ce567060be7f059"),
+    client: "A",
+    timestamp: NumberLong("1738942684256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc9fbbc0230cad0c3f"),
+    client: "B",
+    timestamp: NumberLong("1738942684256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc50944b33726a9366"),
+    client: "A",
+    timestamp: NumberLong("1738942684363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc9fbee64200872363"),
+    client: "A",
+    timestamp: NumberLong("1738942684659")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dcf26b0352b5206aae"),
+    client: "A",
+    timestamp: NumberLong("1738942684659")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc462d9a35f51df71c"),
+    client: "A",
+    timestamp: NumberLong("1738942684736")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc9fbbc0230cad0c40"),
+    client: "B",
+    timestamp: NumberLong("1738942684767")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc5ce567060be7f05a"),
+    client: "A",
+    timestamp: NumberLong("1738942684767")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc0c4f7f682333dc9e"),
+    client: "A",
+    timestamp: NumberLong("1738942684767")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc8b950e3fae99fa2b"),
+    client: "A",
+    timestamp: NumberLong("1738942684783")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dc50944b33726a9367"),
+    client: "A",
+    timestamp: NumberLong("1738942684875")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd9fbee64200872364"),
+    client: "A",
+    timestamp: NumberLong("1738942685173")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ddf26b0352b5206aaf"),
+    client: "A",
+    timestamp: NumberLong("1738942685173")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd462d9a35f51df71d"),
+    client: "A",
+    timestamp: NumberLong("1738942685253")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd9fbbc0230cad0c41"),
+    client: "B",
+    timestamp: NumberLong("1738942685285")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd5ce567060be7f05b"),
+    client: "A",
+    timestamp: NumberLong("1738942685301")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd0c4f7f682333dc9f"),
+    client: "A",
+    timestamp: NumberLong("1738942685301")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd8b950e3fae99fa2c"),
+    client: "A",
+    timestamp: NumberLong("1738942685301")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd50944b33726a9368"),
+    client: "A",
+    timestamp: NumberLong("1738942685395")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd9fbee64200872365"),
+    client: "A",
+    timestamp: NumberLong("1738942685692")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ddf26b0352b5206ab0"),
+    client: "A",
+    timestamp: NumberLong("1738942685692")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd462d9a35f51df71e"),
+    client: "A",
+    timestamp: NumberLong("1738942685771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd9fbbc0230cad0c42"),
+    client: "B",
+    timestamp: NumberLong("1738942685803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd5ce567060be7f05c"),
+    client: "A",
+    timestamp: NumberLong("1738942685818")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd0c4f7f682333dca0"),
+    client: "A",
+    timestamp: NumberLong("1738942685818")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd8b950e3fae99fa2d"),
+    client: "A",
+    timestamp: NumberLong("1738942685818")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dd50944b33726a9369"),
+    client: "A",
+    timestamp: NumberLong("1738942685909")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de9fbee64200872366"),
+    client: "A",
+    timestamp: NumberLong("1738942686216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628def26b0352b5206ab1"),
+    client: "A",
+    timestamp: NumberLong("1738942686216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de462d9a35f51df71f"),
+    client: "A",
+    timestamp: NumberLong("1738942686294")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de9fbbc0230cad0c43"),
+    client: "B",
+    timestamp: NumberLong("1738942686325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de0c4f7f682333dca1"),
+    client: "A",
+    timestamp: NumberLong("1738942686341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de8b950e3fae99fa2e"),
+    client: "A",
+    timestamp: NumberLong("1738942686341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de5ce567060be7f05d"),
+    client: "A",
+    timestamp: NumberLong("1738942686341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de50944b33726a936a"),
+    client: "A",
+    timestamp: NumberLong("1738942686432")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de9fbee64200872367"),
+    client: "A",
+    timestamp: NumberLong("1738942686739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628def26b0352b5206ab2"),
+    client: "A",
+    timestamp: NumberLong("1738942686739")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de462d9a35f51df720"),
+    client: "A",
+    timestamp: NumberLong("1738942686817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de9fbbc0230cad0c44"),
+    client: "B",
+    timestamp: NumberLong("1738942686847")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de0c4f7f682333dca2"),
+    client: "A",
+    timestamp: NumberLong("1738942686863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de8b950e3fae99fa2f"),
+    client: "A",
+    timestamp: NumberLong("1738942686863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de5ce567060be7f05e"),
+    client: "A",
+    timestamp: NumberLong("1738942686863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628de50944b33726a936b"),
+    client: "A",
+    timestamp: NumberLong("1738942686955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df9fbee64200872368"),
+    client: "A",
+    timestamp: NumberLong("1738942687265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dff26b0352b5206ab3"),
+    client: "A",
+    timestamp: NumberLong("1738942687265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df462d9a35f51df721"),
+    client: "A",
+    timestamp: NumberLong("1738942687342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df9fbbc0230cad0c45"),
+    client: "B",
+    timestamp: NumberLong("1738942687372")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df0c4f7f682333dca3"),
+    client: "A",
+    timestamp: NumberLong("1738942687388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df8b950e3fae99fa30"),
+    client: "A",
+    timestamp: NumberLong("1738942687388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df5ce567060be7f05f"),
+    client: "A",
+    timestamp: NumberLong("1738942687388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df50944b33726a936c"),
+    client: "A",
+    timestamp: NumberLong("1738942687479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df9fbee64200872369"),
+    client: "A",
+    timestamp: NumberLong("1738942687777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628dff26b0352b5206ab4"),
+    client: "A",
+    timestamp: NumberLong("1738942687777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df462d9a35f51df722"),
+    client: "A",
+    timestamp: NumberLong("1738942687855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df9fbbc0230cad0c46"),
+    client: "B",
+    timestamp: NumberLong("1738942687887")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df0c4f7f682333dca4"),
+    client: "A",
+    timestamp: NumberLong("1738942687903")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df8b950e3fae99fa31"),
+    client: "A",
+    timestamp: NumberLong("1738942687903")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df5ce567060be7f060"),
+    client: "A",
+    timestamp: NumberLong("1738942687903")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628df50944b33726a936d"),
+    client: "A",
+    timestamp: NumberLong("1738942687995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e09fbee6420087236a"),
+    client: "A",
+    timestamp: NumberLong("1738942688303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e0f26b0352b5206ab5"),
+    client: "A",
+    timestamp: NumberLong("1738942688303")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e0462d9a35f51df723"),
+    client: "A",
+    timestamp: NumberLong("1738942688381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e09fbbc0230cad0c47"),
+    client: "B",
+    timestamp: NumberLong("1738942688412")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e00c4f7f682333dca5"),
+    client: "A",
+    timestamp: NumberLong("1738942688428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e08b950e3fae99fa32"),
+    client: "A",
+    timestamp: NumberLong("1738942688428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e05ce567060be7f061"),
+    client: "A",
+    timestamp: NumberLong("1738942688428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e050944b33726a936e"),
+    client: "A",
+    timestamp: NumberLong("1738942688520")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e09fbee6420087236b"),
+    client: "A",
+    timestamp: NumberLong("1738942688832")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e0f26b0352b5206ab6"),
+    client: "A",
+    timestamp: NumberLong("1738942688832")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e0462d9a35f51df724"),
+    client: "A",
+    timestamp: NumberLong("1738942688894")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e09fbbc0230cad0c48"),
+    client: "B",
+    timestamp: NumberLong("1738942688941")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e00c4f7f682333dca6"),
+    client: "A",
+    timestamp: NumberLong("1738942688956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e08b950e3fae99fa33"),
+    client: "A",
+    timestamp: NumberLong("1738942688956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e05ce567060be7f062"),
+    client: "A",
+    timestamp: NumberLong("1738942688956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e150944b33726a936f"),
+    client: "A",
+    timestamp: NumberLong("1738942689048")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e19fbee6420087236c"),
+    client: "A",
+    timestamp: NumberLong("1738942689357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e1f26b0352b5206ab7"),
+    client: "A",
+    timestamp: NumberLong("1738942689357")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e1462d9a35f51df725"),
+    client: "A",
+    timestamp: NumberLong("1738942689420")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e19fbbc0230cad0c49"),
+    client: "B",
+    timestamp: NumberLong("1738942689466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e15ce567060be7f063"),
+    client: "A",
+    timestamp: NumberLong("1738942689482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e18b950e3fae99fa34"),
+    client: "A",
+    timestamp: NumberLong("1738942689482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e10c4f7f682333dca7"),
+    client: "A",
+    timestamp: NumberLong("1738942689482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e150944b33726a9370"),
+    client: "A",
+    timestamp: NumberLong("1738942689575")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e19fbee6420087236d"),
+    client: "A",
+    timestamp: NumberLong("1738942689872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e1f26b0352b5206ab8"),
+    client: "A",
+    timestamp: NumberLong("1738942689872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e1462d9a35f51df726"),
+    client: "A",
+    timestamp: NumberLong("1738942689935")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e19fbbc0230cad0c4a"),
+    client: "B",
+    timestamp: NumberLong("1738942689980")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e18b950e3fae99fa35"),
+    client: "A",
+    timestamp: NumberLong("1738942689995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e15ce567060be7f064"),
+    client: "A",
+    timestamp: NumberLong("1738942689995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e10c4f7f682333dca8"),
+    client: "A",
+    timestamp: NumberLong("1738942689995")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e250944b33726a9371"),
+    client: "A",
+    timestamp: NumberLong("1738942690104")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e29fbee6420087236e"),
+    client: "A",
+    timestamp: NumberLong("1738942690394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e2f26b0352b5206ab9"),
+    client: "A",
+    timestamp: NumberLong("1738942690394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e2462d9a35f51df727"),
+    client: "A",
+    timestamp: NumberLong("1738942690457")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e29fbbc0230cad0c4b"),
+    client: "B",
+    timestamp: NumberLong("1738942690504")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e20c4f7f682333dca9"),
+    client: "A",
+    timestamp: NumberLong("1738942690519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e25ce567060be7f065"),
+    client: "A",
+    timestamp: NumberLong("1738942690519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e28b950e3fae99fa36"),
+    client: "A",
+    timestamp: NumberLong("1738942690519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e250944b33726a9372"),
+    client: "A",
+    timestamp: NumberLong("1738942690627")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e29fbee6420087236f"),
+    client: "A",
+    timestamp: NumberLong("1738942690920")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e2f26b0352b5206aba"),
+    client: "A",
+    timestamp: NumberLong("1738942690920")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e2462d9a35f51df728"),
+    client: "A",
+    timestamp: NumberLong("1738942690981")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e39fbbc0230cad0c4c"),
+    client: "B",
+    timestamp: NumberLong("1738942691027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e38b950e3fae99fa37"),
+    client: "A",
+    timestamp: NumberLong("1738942691043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e30c4f7f682333dcaa"),
+    client: "A",
+    timestamp: NumberLong("1738942691043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e35ce567060be7f066"),
+    client: "A",
+    timestamp: NumberLong("1738942691043")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e350944b33726a9373"),
+    client: "A",
+    timestamp: NumberLong("1738942691151")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e39fbee64200872370"),
+    client: "A",
+    timestamp: NumberLong("1738942691444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e3f26b0352b5206abb"),
+    client: "A",
+    timestamp: NumberLong("1738942691444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e3462d9a35f51df729"),
+    client: "A",
+    timestamp: NumberLong("1738942691506")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e39fbbc0230cad0c4d"),
+    client: "B",
+    timestamp: NumberLong("1738942691552")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e30c4f7f682333dcab"),
+    client: "A",
+    timestamp: NumberLong("1738942691568")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e38b950e3fae99fa38"),
+    client: "A",
+    timestamp: NumberLong("1738942691568")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e35ce567060be7f067"),
+    client: "A",
+    timestamp: NumberLong("1738942691568")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e350944b33726a9374"),
+    client: "A",
+    timestamp: NumberLong("1738942691677")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e39fbee64200872371"),
+    client: "A",
+    timestamp: NumberLong("1738942691973")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e3f26b0352b5206abc"),
+    client: "A",
+    timestamp: NumberLong("1738942691973")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e4462d9a35f51df72a"),
+    client: "A",
+    timestamp: NumberLong("1738942692035")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e48b950e3fae99fa39"),
+    client: "A",
+    timestamp: NumberLong("1738942692082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e40c4f7f682333dcac"),
+    client: "A",
+    timestamp: NumberLong("1738942692082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e49fbbc0230cad0c4e"),
+    client: "B",
+    timestamp: NumberLong("1738942692082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e45ce567060be7f068"),
+    client: "A",
+    timestamp: NumberLong("1738942692098")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e450944b33726a9375"),
+    client: "A",
+    timestamp: NumberLong("1738942692191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e49fbee64200872372"),
+    client: "A",
+    timestamp: NumberLong("1738942692501")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e4f26b0352b5206abd"),
+    client: "A",
+    timestamp: NumberLong("1738942692501")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e4462d9a35f51df72b"),
+    client: "A",
+    timestamp: NumberLong("1738942692548")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e40c4f7f682333dcad"),
+    client: "A",
+    timestamp: NumberLong("1738942692594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e48b950e3fae99fa3a"),
+    client: "A",
+    timestamp: NumberLong("1738942692594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e49fbbc0230cad0c4f"),
+    client: "B",
+    timestamp: NumberLong("1738942692610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e45ce567060be7f069"),
+    client: "A",
+    timestamp: NumberLong("1738942692610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e450944b33726a9376"),
+    client: "A",
+    timestamp: NumberLong("1738942692718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e59fbee64200872373"),
+    client: "A",
+    timestamp: NumberLong("1738942693031")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e5f26b0352b5206abe"),
+    client: "A",
+    timestamp: NumberLong("1738942693031")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e5462d9a35f51df72c"),
+    client: "A",
+    timestamp: NumberLong("1738942693063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e58b950e3fae99fa3b"),
+    client: "A",
+    timestamp: NumberLong("1738942693125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e55ce567060be7f06a"),
+    client: "A",
+    timestamp: NumberLong("1738942693125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e59fbbc0230cad0c50"),
+    client: "B",
+    timestamp: NumberLong("1738942693125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e50c4f7f682333dcae"),
+    client: "A",
+    timestamp: NumberLong("1738942693125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e550944b33726a9377"),
+    client: "A",
+    timestamp: NumberLong("1738942693234")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e59fbee64200872374"),
+    client: "A",
+    timestamp: NumberLong("1738942693543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e5f26b0352b5206abf"),
+    client: "A",
+    timestamp: NumberLong("1738942693543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e5462d9a35f51df72d"),
+    client: "A",
+    timestamp: NumberLong("1738942693574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e55ce567060be7f06b"),
+    client: "A",
+    timestamp: NumberLong("1738942693636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e58b950e3fae99fa3c"),
+    client: "A",
+    timestamp: NumberLong("1738942693636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e59fbbc0230cad0c51"),
+    client: "B",
+    timestamp: NumberLong("1738942693636")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e50c4f7f682333dcaf"),
+    client: "A",
+    timestamp: NumberLong("1738942693651")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e550944b33726a9378"),
+    client: "A",
+    timestamp: NumberLong("1738942693760")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e69fbee64200872375"),
+    client: "A",
+    timestamp: NumberLong("1738942694056")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e6f26b0352b5206ac0"),
+    client: "A",
+    timestamp: NumberLong("1738942694056")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e6462d9a35f51df72e"),
+    client: "A",
+    timestamp: NumberLong("1738942694087")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e68b950e3fae99fa3d"),
+    client: "A",
+    timestamp: NumberLong("1738942694164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e65ce567060be7f06c"),
+    client: "A",
+    timestamp: NumberLong("1738942694164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e69fbbc0230cad0c52"),
+    client: "B",
+    timestamp: NumberLong("1738942694164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e60c4f7f682333dcb0"),
+    client: "A",
+    timestamp: NumberLong("1738942694164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e650944b33726a9379"),
+    client: "A",
+    timestamp: NumberLong("1738942694274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e69fbee64200872376"),
+    client: "A",
+    timestamp: NumberLong("1738942694571")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e6f26b0352b5206ac1"),
+    client: "A",
+    timestamp: NumberLong("1738942694571")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e6462d9a35f51df72f"),
+    client: "A",
+    timestamp: NumberLong("1738942694601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e68b950e3fae99fa3e"),
+    client: "A",
+    timestamp: NumberLong("1738942694693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e69fbbc0230cad0c53"),
+    client: "B",
+    timestamp: NumberLong("1738942694693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e60c4f7f682333dcb1"),
+    client: "A",
+    timestamp: NumberLong("1738942694693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e65ce567060be7f06d"),
+    client: "A",
+    timestamp: NumberLong("1738942694693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e650944b33726a937a"),
+    client: "A",
+    timestamp: NumberLong("1738942694801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e79fbee64200872377"),
+    client: "A",
+    timestamp: NumberLong("1738942695097")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e7f26b0352b5206ac2"),
+    client: "A",
+    timestamp: NumberLong("1738942695097")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e7462d9a35f51df730"),
+    client: "A",
+    timestamp: NumberLong("1738942695113")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e78b950e3fae99fa3f"),
+    client: "A",
+    timestamp: NumberLong("1738942695221")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e75ce567060be7f06e"),
+    client: "A",
+    timestamp: NumberLong("1738942695221")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e79fbbc0230cad0c54"),
+    client: "B",
+    timestamp: NumberLong("1738942695221")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e70c4f7f682333dcb2"),
+    client: "A",
+    timestamp: NumberLong("1738942695221")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e750944b33726a937b"),
+    client: "A",
+    timestamp: NumberLong("1738942695329")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e79fbee64200872378"),
+    client: "A",
+    timestamp: NumberLong("1738942695609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e7f26b0352b5206ac3"),
+    client: "A",
+    timestamp: NumberLong("1738942695609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e7462d9a35f51df731"),
+    client: "A",
+    timestamp: NumberLong("1738942695624")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e75ce567060be7f06f"),
+    client: "A",
+    timestamp: NumberLong("1738942695751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e70c4f7f682333dcb3"),
+    client: "A",
+    timestamp: NumberLong("1738942695751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e78b950e3fae99fa40"),
+    client: "A",
+    timestamp: NumberLong("1738942695751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e79fbbc0230cad0c55"),
+    client: "B",
+    timestamp: NumberLong("1738942695751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e750944b33726a937c"),
+    client: "A",
+    timestamp: NumberLong("1738942695844")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e89fbee64200872379"),
+    client: "A",
+    timestamp: NumberLong("1738942696121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e8462d9a35f51df732"),
+    client: "A",
+    timestamp: NumberLong("1738942696137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e8f26b0352b5206ac4"),
+    client: "A",
+    timestamp: NumberLong("1738942696137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e88b950e3fae99fa41"),
+    client: "A",
+    timestamp: NumberLong("1738942696276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e85ce567060be7f070"),
+    client: "A",
+    timestamp: NumberLong("1738942696276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e80c4f7f682333dcb4"),
+    client: "A",
+    timestamp: NumberLong("1738942696276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e89fbbc0230cad0c56"),
+    client: "B",
+    timestamp: NumberLong("1738942696276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e850944b33726a937d"),
+    client: "A",
+    timestamp: NumberLong("1738942696368")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e89fbee6420087237a"),
+    client: "A",
+    timestamp: NumberLong("1738942696647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e8462d9a35f51df733"),
+    client: "A",
+    timestamp: NumberLong("1738942696663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e8f26b0352b5206ac5"),
+    client: "A",
+    timestamp: NumberLong("1738942696663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e88b950e3fae99fa42"),
+    client: "A",
+    timestamp: NumberLong("1738942696801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e85ce567060be7f071"),
+    client: "A",
+    timestamp: NumberLong("1738942696801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e89fbbc0230cad0c57"),
+    client: "B",
+    timestamp: NumberLong("1738942696801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e80c4f7f682333dcb5"),
+    client: "A",
+    timestamp: NumberLong("1738942696801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e850944b33726a937e"),
+    client: "A",
+    timestamp: NumberLong("1738942696893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e99fbee6420087237b"),
+    client: "A",
+    timestamp: NumberLong("1738942697171")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e9462d9a35f51df734"),
+    client: "A",
+    timestamp: NumberLong("1738942697186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e9f26b0352b5206ac6"),
+    client: "A",
+    timestamp: NumberLong("1738942697186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e95ce567060be7f072"),
+    client: "A",
+    timestamp: NumberLong("1738942697324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e90c4f7f682333dcb6"),
+    client: "A",
+    timestamp: NumberLong("1738942697324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e98b950e3fae99fa43"),
+    client: "A",
+    timestamp: NumberLong("1738942697324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e99fbbc0230cad0c58"),
+    client: "B",
+    timestamp: NumberLong("1738942697324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e950944b33726a937f"),
+    client: "A",
+    timestamp: NumberLong("1738942697418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e99fbee6420087237c"),
+    client: "A",
+    timestamp: NumberLong("1738942697697")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e9f26b0352b5206ac7"),
+    client: "A",
+    timestamp: NumberLong("1738942697712")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e9462d9a35f51df735"),
+    client: "A",
+    timestamp: NumberLong("1738942697712")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e95ce567060be7f073"),
+    client: "A",
+    timestamp: NumberLong("1738942697852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e90c4f7f682333dcb7"),
+    client: "A",
+    timestamp: NumberLong("1738942697852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e98b950e3fae99fa44"),
+    client: "A",
+    timestamp: NumberLong("1738942697852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e99fbbc0230cad0c59"),
+    client: "B",
+    timestamp: NumberLong("1738942697852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628e950944b33726a9380"),
+    client: "A",
+    timestamp: NumberLong("1738942697945")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea9fbee6420087237d"),
+    client: "A",
+    timestamp: NumberLong("1738942698224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea462d9a35f51df736"),
+    client: "A",
+    timestamp: NumberLong("1738942698239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eaf26b0352b5206ac8"),
+    client: "A",
+    timestamp: NumberLong("1738942698239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea0c4f7f682333dcb8"),
+    client: "A",
+    timestamp: NumberLong("1738942698377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea8b950e3fae99fa45"),
+    client: "A",
+    timestamp: NumberLong("1738942698377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea5ce567060be7f074"),
+    client: "A",
+    timestamp: NumberLong("1738942698377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea9fbbc0230cad0c5a"),
+    client: "B",
+    timestamp: NumberLong("1738942698377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea50944b33726a9381"),
+    client: "A",
+    timestamp: NumberLong("1738942698471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea9fbee6420087237e"),
+    client: "A",
+    timestamp: NumberLong("1738942698751")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea462d9a35f51df737"),
+    client: "A",
+    timestamp: NumberLong("1738942698767")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eaf26b0352b5206ac9"),
+    client: "A",
+    timestamp: NumberLong("1738942698767")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea0c4f7f682333dcb9"),
+    client: "A",
+    timestamp: NumberLong("1738942698905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea5ce567060be7f075"),
+    client: "A",
+    timestamp: NumberLong("1738942698905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea8b950e3fae99fa46"),
+    client: "A",
+    timestamp: NumberLong("1738942698905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea9fbbc0230cad0c5b"),
+    client: "B",
+    timestamp: NumberLong("1738942698905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ea50944b33726a9382"),
+    client: "A",
+    timestamp: NumberLong("1738942698997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb462d9a35f51df738"),
+    client: "A",
+    timestamp: NumberLong("1738942699277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb9fbee6420087237f"),
+    client: "A",
+    timestamp: NumberLong("1738942699277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ebf26b0352b5206aca"),
+    client: "A",
+    timestamp: NumberLong("1738942699277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb0c4f7f682333dcba"),
+    client: "A",
+    timestamp: NumberLong("1738942699433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb8b950e3fae99fa47"),
+    client: "A",
+    timestamp: NumberLong("1738942699433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb9fbbc0230cad0c5c"),
+    client: "B",
+    timestamp: NumberLong("1738942699433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb5ce567060be7f076"),
+    client: "A",
+    timestamp: NumberLong("1738942699433")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb50944b33726a9383"),
+    client: "A",
+    timestamp: NumberLong("1738942699525")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb9fbee64200872380"),
+    client: "A",
+    timestamp: NumberLong("1738942699803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb462d9a35f51df739"),
+    client: "A",
+    timestamp: NumberLong("1738942699803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ebf26b0352b5206acb"),
+    client: "A",
+    timestamp: NumberLong("1738942699803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb0c4f7f682333dcbb"),
+    client: "A",
+    timestamp: NumberLong("1738942699959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb8b950e3fae99fa48"),
+    client: "A",
+    timestamp: NumberLong("1738942699959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb9fbbc0230cad0c5d"),
+    client: "B",
+    timestamp: NumberLong("1738942699959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eb5ce567060be7f077"),
+    client: "A",
+    timestamp: NumberLong("1738942699959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec50944b33726a9384"),
+    client: "A",
+    timestamp: NumberLong("1738942700051")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec9fbee64200872381"),
+    client: "A",
+    timestamp: NumberLong("1738942700325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec462d9a35f51df73a"),
+    client: "A",
+    timestamp: NumberLong("1738942700325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ecf26b0352b5206acc"),
+    client: "A",
+    timestamp: NumberLong("1738942700325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec0c4f7f682333dcbc"),
+    client: "A",
+    timestamp: NumberLong("1738942700479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec5ce567060be7f078"),
+    client: "A",
+    timestamp: NumberLong("1738942700479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec9fbbc0230cad0c5e"),
+    client: "B",
+    timestamp: NumberLong("1738942700479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec8b950e3fae99fa49"),
+    client: "A",
+    timestamp: NumberLong("1738942700479")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec50944b33726a9385"),
+    client: "A",
+    timestamp: NumberLong("1738942700571")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec9fbee64200872382"),
+    client: "A",
+    timestamp: NumberLong("1738942700851")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ec462d9a35f51df73b"),
+    client: "A",
+    timestamp: NumberLong("1738942700851")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ecf26b0352b5206acd"),
+    client: "A",
+    timestamp: NumberLong("1738942700851")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed0c4f7f682333dcbd"),
+    client: "A",
+    timestamp: NumberLong("1738942701006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed8b950e3fae99fa4a"),
+    client: "A",
+    timestamp: NumberLong("1738942701006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed5ce567060be7f079"),
+    client: "A",
+    timestamp: NumberLong("1738942701006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed9fbbc0230cad0c5f"),
+    client: "B",
+    timestamp: NumberLong("1738942701006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed50944b33726a9386"),
+    client: "A",
+    timestamp: NumberLong("1738942701098")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed9fbee64200872383"),
+    client: "A",
+    timestamp: NumberLong("1738942701379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed462d9a35f51df73c"),
+    client: "A",
+    timestamp: NumberLong("1738942701379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628edf26b0352b5206ace"),
+    client: "A",
+    timestamp: NumberLong("1738942701379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed0c4f7f682333dcbe"),
+    client: "A",
+    timestamp: NumberLong("1738942701533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed8b950e3fae99fa4b"),
+    client: "A",
+    timestamp: NumberLong("1738942701533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed5ce567060be7f07a"),
+    client: "A",
+    timestamp: NumberLong("1738942701533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed9fbbc0230cad0c60"),
+    client: "B",
+    timestamp: NumberLong("1738942701533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed50944b33726a9387"),
+    client: "A",
+    timestamp: NumberLong("1738942701624")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed462d9a35f51df73d"),
+    client: "A",
+    timestamp: NumberLong("1738942701891")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ed9fbee64200872384"),
+    client: "A",
+    timestamp: NumberLong("1738942701891")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628edf26b0352b5206acf"),
+    client: "A",
+    timestamp: NumberLong("1738942701907")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee0c4f7f682333dcbf"),
+    client: "A",
+    timestamp: NumberLong("1738942702061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee9fbbc0230cad0c61"),
+    client: "B",
+    timestamp: NumberLong("1738942702061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee5ce567060be7f07b"),
+    client: "A",
+    timestamp: NumberLong("1738942702061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee8b950e3fae99fa4c"),
+    client: "A",
+    timestamp: NumberLong("1738942702061")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee50944b33726a9388"),
+    client: "A",
+    timestamp: NumberLong("1738942702155")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee462d9a35f51df73e"),
+    client: "A",
+    timestamp: NumberLong("1738942702418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee9fbee64200872385"),
+    client: "A",
+    timestamp: NumberLong("1738942702418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eef26b0352b5206ad0"),
+    client: "A",
+    timestamp: NumberLong("1738942702434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee0c4f7f682333dcc0"),
+    client: "A",
+    timestamp: NumberLong("1738942702574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee8b950e3fae99fa4d"),
+    client: "A",
+    timestamp: NumberLong("1738942702574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee9fbbc0230cad0c62"),
+    client: "B",
+    timestamp: NumberLong("1738942702574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee5ce567060be7f07c"),
+    client: "A",
+    timestamp: NumberLong("1738942702574")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee50944b33726a9389"),
+    client: "A",
+    timestamp: NumberLong("1738942702685")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee462d9a35f51df73f"),
+    client: "A",
+    timestamp: NumberLong("1738942702951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ee9fbee64200872386"),
+    client: "A",
+    timestamp: NumberLong("1738942702951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eef26b0352b5206ad1"),
+    client: "A",
+    timestamp: NumberLong("1738942702951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef0c4f7f682333dcc1"),
+    client: "A",
+    timestamp: NumberLong("1738942703088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef9fbbc0230cad0c63"),
+    client: "B",
+    timestamp: NumberLong("1738942703088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef8b950e3fae99fa4e"),
+    client: "A",
+    timestamp: NumberLong("1738942703088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef5ce567060be7f07d"),
+    client: "A",
+    timestamp: NumberLong("1738942703088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef50944b33726a938a"),
+    client: "A",
+    timestamp: NumberLong("1738942703211")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628eff26b0352b5206ad2"),
+    client: "A",
+    timestamp: NumberLong("1738942703476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef9fbee64200872387"),
+    client: "A",
+    timestamp: NumberLong("1738942703476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef462d9a35f51df740"),
+    client: "A",
+    timestamp: NumberLong("1738942703476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef9fbbc0230cad0c64"),
+    client: "B",
+    timestamp: NumberLong("1738942703601")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef0c4f7f682333dcc2"),
+    client: "A",
+    timestamp: NumberLong("1738942703617")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef8b950e3fae99fa4f"),
+    client: "A",
+    timestamp: NumberLong("1738942703617")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef5ce567060be7f07e"),
+    client: "A",
+    timestamp: NumberLong("1738942703617")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ef50944b33726a938b"),
+    client: "A",
+    timestamp: NumberLong("1738942703742")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f09fbee64200872388"),
+    client: "A",
+    timestamp: NumberLong("1738942704006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f0462d9a35f51df741"),
+    client: "A",
+    timestamp: NumberLong("1738942704006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f0f26b0352b5206ad3"),
+    client: "A",
+    timestamp: NumberLong("1738942704006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f09fbbc0230cad0c65"),
+    client: "B",
+    timestamp: NumberLong("1738942704131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f08b950e3fae99fa50"),
+    client: "A",
+    timestamp: NumberLong("1738942704147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f00c4f7f682333dcc3"),
+    client: "A",
+    timestamp: NumberLong("1738942704147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f05ce567060be7f07f"),
+    client: "A",
+    timestamp: NumberLong("1738942704147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f050944b33726a938c"),
+    client: "A",
+    timestamp: NumberLong("1738942704255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f0462d9a35f51df742"),
+    client: "A",
+    timestamp: NumberLong("1738942704519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f09fbee64200872389"),
+    client: "A",
+    timestamp: NumberLong("1738942704519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f0f26b0352b5206ad4"),
+    client: "A",
+    timestamp: NumberLong("1738942704519")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f09fbbc0230cad0c66"),
+    client: "B",
+    timestamp: NumberLong("1738942704643")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f08b950e3fae99fa51"),
+    client: "A",
+    timestamp: NumberLong("1738942704673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f00c4f7f682333dcc4"),
+    client: "A",
+    timestamp: NumberLong("1738942704673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f05ce567060be7f080"),
+    client: "A",
+    timestamp: NumberLong("1738942704673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f050944b33726a938d"),
+    client: "A",
+    timestamp: NumberLong("1738942704780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f1462d9a35f51df743"),
+    client: "A",
+    timestamp: NumberLong("1738942705044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f19fbee6420087238a"),
+    client: "A",
+    timestamp: NumberLong("1738942705044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f1f26b0352b5206ad5"),
+    client: "A",
+    timestamp: NumberLong("1738942705044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f19fbbc0230cad0c67"),
+    client: "B",
+    timestamp: NumberLong("1738942705156")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f15ce567060be7f081"),
+    client: "A",
+    timestamp: NumberLong("1738942705188")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f10c4f7f682333dcc5"),
+    client: "A",
+    timestamp: NumberLong("1738942705188")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f18b950e3fae99fa52"),
+    client: "A",
+    timestamp: NumberLong("1738942705188")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f150944b33726a938e"),
+    client: "A",
+    timestamp: NumberLong("1738942705297")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f1462d9a35f51df744"),
+    client: "A",
+    timestamp: NumberLong("1738942705562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f19fbee6420087238b"),
+    client: "A",
+    timestamp: NumberLong("1738942705562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f1f26b0352b5206ad6"),
+    client: "A",
+    timestamp: NumberLong("1738942705562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f19fbbc0230cad0c68"),
+    client: "B",
+    timestamp: NumberLong("1738942705685")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f10c4f7f682333dcc6"),
+    client: "A",
+    timestamp: NumberLong("1738942705701")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f15ce567060be7f082"),
+    client: "A",
+    timestamp: NumberLong("1738942705701")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f18b950e3fae99fa53"),
+    client: "A",
+    timestamp: NumberLong("1738942705701")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f150944b33726a938f"),
+    client: "A",
+    timestamp: NumberLong("1738942705825")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f2462d9a35f51df745"),
+    client: "A",
+    timestamp: NumberLong("1738942706091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f29fbee6420087238c"),
+    client: "A",
+    timestamp: NumberLong("1738942706091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f2f26b0352b5206ad7"),
+    client: "A",
+    timestamp: NumberLong("1738942706091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f29fbbc0230cad0c69"),
+    client: "B",
+    timestamp: NumberLong("1738942706214")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f28b950e3fae99fa54"),
+    client: "A",
+    timestamp: NumberLong("1738942706230")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f20c4f7f682333dcc7"),
+    client: "A",
+    timestamp: NumberLong("1738942706230")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f25ce567060be7f083"),
+    client: "A",
+    timestamp: NumberLong("1738942706230")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f250944b33726a9390"),
+    client: "A",
+    timestamp: NumberLong("1738942706352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f29fbee6420087238d"),
+    client: "A",
+    timestamp: NumberLong("1738942706615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f2f26b0352b5206ad8"),
+    client: "A",
+    timestamp: NumberLong("1738942706615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f2462d9a35f51df746"),
+    client: "A",
+    timestamp: NumberLong("1738942706615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f29fbbc0230cad0c6a"),
+    client: "B",
+    timestamp: NumberLong("1738942706741")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f25ce567060be7f084"),
+    client: "A",
+    timestamp: NumberLong("1738942706756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f28b950e3fae99fa55"),
+    client: "A",
+    timestamp: NumberLong("1738942706756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f20c4f7f682333dcc8"),
+    client: "A",
+    timestamp: NumberLong("1738942706756")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f250944b33726a9391"),
+    client: "A",
+    timestamp: NumberLong("1738942706880")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f39fbee6420087238e"),
+    client: "A",
+    timestamp: NumberLong("1738942707131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f3f26b0352b5206ad9"),
+    client: "A",
+    timestamp: NumberLong("1738942707131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f3462d9a35f51df747"),
+    client: "A",
+    timestamp: NumberLong("1738942707146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f39fbbc0230cad0c6b"),
+    client: "B",
+    timestamp: NumberLong("1738942707268")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f30c4f7f682333dcc9"),
+    client: "A",
+    timestamp: NumberLong("1738942707284")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f38b950e3fae99fa56"),
+    client: "A",
+    timestamp: NumberLong("1738942707284")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f35ce567060be7f085"),
+    client: "A",
+    timestamp: NumberLong("1738942707284")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f350944b33726a9392"),
+    client: "A",
+    timestamp: NumberLong("1738942707406")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f39fbee6420087238f"),
+    client: "A",
+    timestamp: NumberLong("1738942707657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f3f26b0352b5206ada"),
+    client: "A",
+    timestamp: NumberLong("1738942707657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f3462d9a35f51df748"),
+    client: "A",
+    timestamp: NumberLong("1738942707671")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f39fbbc0230cad0c6c"),
+    client: "B",
+    timestamp: NumberLong("1738942707795")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f30c4f7f682333dcca"),
+    client: "A",
+    timestamp: NumberLong("1738942707810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f35ce567060be7f086"),
+    client: "A",
+    timestamp: NumberLong("1738942707810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f38b950e3fae99fa57"),
+    client: "A",
+    timestamp: NumberLong("1738942707810")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f350944b33726a9393"),
+    client: "A",
+    timestamp: NumberLong("1738942707919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f4462d9a35f51df749"),
+    client: "A",
+    timestamp: NumberLong("1738942708186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f49fbee64200872390"),
+    client: "A",
+    timestamp: NumberLong("1738942708186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f4f26b0352b5206adb"),
+    client: "A",
+    timestamp: NumberLong("1738942708186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f49fbbc0230cad0c6d"),
+    client: "B",
+    timestamp: NumberLong("1738942708325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f40c4f7f682333dccb"),
+    client: "A",
+    timestamp: NumberLong("1738942708340")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f45ce567060be7f087"),
+    client: "A",
+    timestamp: NumberLong("1738942708340")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f48b950e3fae99fa58"),
+    client: "A",
+    timestamp: NumberLong("1738942708340")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f450944b33726a9394"),
+    client: "A",
+    timestamp: NumberLong("1738942708448")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f49fbee64200872391"),
+    client: "A",
+    timestamp: NumberLong("1738942708711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f4462d9a35f51df74a"),
+    client: "A",
+    timestamp: NumberLong("1738942708711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f4f26b0352b5206adc"),
+    client: "A",
+    timestamp: NumberLong("1738942708711")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f49fbbc0230cad0c6e"),
+    client: "B",
+    timestamp: NumberLong("1738942708849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f40c4f7f682333dccc"),
+    client: "A",
+    timestamp: NumberLong("1738942708865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f45ce567060be7f088"),
+    client: "A",
+    timestamp: NumberLong("1738942708865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f48b950e3fae99fa59"),
+    client: "A",
+    timestamp: NumberLong("1738942708865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f450944b33726a9395"),
+    client: "A",
+    timestamp: NumberLong("1738942708973")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f5462d9a35f51df74b"),
+    client: "A",
+    timestamp: NumberLong("1738942709236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f59fbee64200872392"),
+    client: "A",
+    timestamp: NumberLong("1738942709236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f5f26b0352b5206add"),
+    client: "A",
+    timestamp: NumberLong("1738942709236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f59fbbc0230cad0c6f"),
+    client: "B",
+    timestamp: NumberLong("1738942709361")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f55ce567060be7f089"),
+    client: "A",
+    timestamp: NumberLong("1738942709376")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f58b950e3fae99fa5a"),
+    client: "A",
+    timestamp: NumberLong("1738942709376")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f50c4f7f682333dccd"),
+    client: "A",
+    timestamp: NumberLong("1738942709376")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f550944b33726a9396"),
+    client: "A",
+    timestamp: NumberLong("1738942709500")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f59fbee64200872393"),
+    client: "A",
+    timestamp: NumberLong("1738942709762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f5462d9a35f51df74c"),
+    client: "A",
+    timestamp: NumberLong("1738942709762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f5f26b0352b5206ade"),
+    client: "A",
+    timestamp: NumberLong("1738942709762")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f59fbbc0230cad0c70"),
+    client: "B",
+    timestamp: NumberLong("1738942709888")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f58b950e3fae99fa5b"),
+    client: "A",
+    timestamp: NumberLong("1738942709904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f50c4f7f682333dcce"),
+    client: "A",
+    timestamp: NumberLong("1738942709904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f55ce567060be7f08a"),
+    client: "A",
+    timestamp: NumberLong("1738942709904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f650944b33726a9397"),
+    client: "A",
+    timestamp: NumberLong("1738942710028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f69fbee64200872394"),
+    client: "A",
+    timestamp: NumberLong("1738942710291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f6f26b0352b5206adf"),
+    client: "A",
+    timestamp: NumberLong("1738942710291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f6462d9a35f51df74d"),
+    client: "A",
+    timestamp: NumberLong("1738942710291")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f69fbbc0230cad0c71"),
+    client: "B",
+    timestamp: NumberLong("1738942710414")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f68b950e3fae99fa5c"),
+    client: "A",
+    timestamp: NumberLong("1738942710429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f60c4f7f682333dccf"),
+    client: "A",
+    timestamp: NumberLong("1738942710429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f65ce567060be7f08b"),
+    client: "A",
+    timestamp: NumberLong("1738942710429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f650944b33726a9398"),
+    client: "A",
+    timestamp: NumberLong("1738942710553")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f6462d9a35f51df74e"),
+    client: "A",
+    timestamp: NumberLong("1738942710817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f69fbee64200872395"),
+    client: "A",
+    timestamp: NumberLong("1738942710817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f6f26b0352b5206ae0"),
+    client: "A",
+    timestamp: NumberLong("1738942710817")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f69fbbc0230cad0c72"),
+    client: "B",
+    timestamp: NumberLong("1738942710940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f60c4f7f682333dcd0"),
+    client: "A",
+    timestamp: NumberLong("1738942710955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f68b950e3fae99fa5d"),
+    client: "A",
+    timestamp: NumberLong("1738942710955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f65ce567060be7f08c"),
+    client: "A",
+    timestamp: NumberLong("1738942710955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f750944b33726a9399"),
+    client: "A",
+    timestamp: NumberLong("1738942711079")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f7462d9a35f51df74f"),
+    client: "A",
+    timestamp: NumberLong("1738942711328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f79fbee64200872396"),
+    client: "A",
+    timestamp: NumberLong("1738942711328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f7f26b0352b5206ae1"),
+    client: "A",
+    timestamp: NumberLong("1738942711343")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f79fbbc0230cad0c73"),
+    client: "B",
+    timestamp: NumberLong("1738942711467")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f75ce567060be7f08d"),
+    client: "A",
+    timestamp: NumberLong("1738942711482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f78b950e3fae99fa5e"),
+    client: "A",
+    timestamp: NumberLong("1738942711482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f70c4f7f682333dcd1"),
+    client: "A",
+    timestamp: NumberLong("1738942711482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f750944b33726a939a"),
+    client: "A",
+    timestamp: NumberLong("1738942711605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f7462d9a35f51df750"),
+    client: "A",
+    timestamp: NumberLong("1738942711849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f79fbee64200872397"),
+    client: "A",
+    timestamp: NumberLong("1738942711849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f7f26b0352b5206ae2"),
+    client: "A",
+    timestamp: NumberLong("1738942711865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f79fbbc0230cad0c74"),
+    client: "B",
+    timestamp: NumberLong("1738942711989")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f80c4f7f682333dcd2"),
+    client: "A",
+    timestamp: NumberLong("1738942712004")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f88b950e3fae99fa5f"),
+    client: "A",
+    timestamp: NumberLong("1738942712004")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f85ce567060be7f08e"),
+    client: "A",
+    timestamp: NumberLong("1738942712004")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f850944b33726a939b"),
+    client: "A",
+    timestamp: NumberLong("1738942712128")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f8462d9a35f51df751"),
+    client: "A",
+    timestamp: NumberLong("1738942712362")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f89fbee64200872398"),
+    client: "A",
+    timestamp: NumberLong("1738942712378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f8f26b0352b5206ae3"),
+    client: "A",
+    timestamp: NumberLong("1738942712378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f89fbbc0230cad0c75"),
+    client: "B",
+    timestamp: NumberLong("1738942712500")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f80c4f7f682333dcd3"),
+    client: "A",
+    timestamp: NumberLong("1738942712516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f88b950e3fae99fa60"),
+    client: "A",
+    timestamp: NumberLong("1738942712516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f85ce567060be7f08f"),
+    client: "A",
+    timestamp: NumberLong("1738942712516")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f850944b33726a939c"),
+    client: "A",
+    timestamp: NumberLong("1738942712639")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f8462d9a35f51df752"),
+    client: "A",
+    timestamp: NumberLong("1738942712885")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f8f26b0352b5206ae4"),
+    client: "A",
+    timestamp: NumberLong("1738942712900")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f89fbee64200872399"),
+    client: "A",
+    timestamp: NumberLong("1738942712900")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f99fbbc0230cad0c76"),
+    client: "B",
+    timestamp: NumberLong("1738942713026")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f95ce567060be7f090"),
+    client: "A",
+    timestamp: NumberLong("1738942713037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f90c4f7f682333dcd4"),
+    client: "A",
+    timestamp: NumberLong("1738942713037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f98b950e3fae99fa61"),
+    client: "A",
+    timestamp: NumberLong("1738942713037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f950944b33726a939d"),
+    client: "A",
+    timestamp: NumberLong("1738942713163")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f9462d9a35f51df753"),
+    client: "A",
+    timestamp: NumberLong("1738942713398")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f99fbee6420087239a"),
+    client: "A",
+    timestamp: NumberLong("1738942713414")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f9f26b0352b5206ae5"),
+    client: "A",
+    timestamp: NumberLong("1738942713414")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f99fbbc0230cad0c77"),
+    client: "B",
+    timestamp: NumberLong("1738942713539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f90c4f7f682333dcd5"),
+    client: "A",
+    timestamp: NumberLong("1738942713554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f95ce567060be7f091"),
+    client: "A",
+    timestamp: NumberLong("1738942713554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f98b950e3fae99fa62"),
+    client: "A",
+    timestamp: NumberLong("1738942713554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f950944b33726a939e"),
+    client: "A",
+    timestamp: NumberLong("1738942713681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f99fbee6420087239b"),
+    client: "A",
+    timestamp: NumberLong("1738942713928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f9462d9a35f51df754"),
+    client: "A",
+    timestamp: NumberLong("1738942713928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628f9f26b0352b5206ae6"),
+    client: "A",
+    timestamp: NumberLong("1738942713928")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa9fbbc0230cad0c78"),
+    client: "B",
+    timestamp: NumberLong("1738942714053")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa0c4f7f682333dcd6"),
+    client: "A",
+    timestamp: NumberLong("1738942714069")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa5ce567060be7f092"),
+    client: "A",
+    timestamp: NumberLong("1738942714069")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa8b950e3fae99fa63"),
+    client: "A",
+    timestamp: NumberLong("1738942714069")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa50944b33726a939f"),
+    client: "A",
+    timestamp: NumberLong("1738942714195")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa9fbee6420087239c"),
+    client: "A",
+    timestamp: NumberLong("1738942714444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa462d9a35f51df755"),
+    client: "A",
+    timestamp: NumberLong("1738942714444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628faf26b0352b5206ae7"),
+    client: "A",
+    timestamp: NumberLong("1738942714444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa9fbbc0230cad0c79"),
+    client: "B",
+    timestamp: NumberLong("1738942714567")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa5ce567060be7f093"),
+    client: "A",
+    timestamp: NumberLong("1738942714583")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa0c4f7f682333dcd7"),
+    client: "A",
+    timestamp: NumberLong("1738942714583")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa8b950e3fae99fa64"),
+    client: "A",
+    timestamp: NumberLong("1738942714583")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa50944b33726a93a0"),
+    client: "A",
+    timestamp: NumberLong("1738942714735")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa462d9a35f51df756"),
+    client: "A",
+    timestamp: NumberLong("1738942714970")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fa9fbee6420087239d"),
+    client: "A",
+    timestamp: NumberLong("1738942714970")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628faf26b0352b5206ae8"),
+    client: "A",
+    timestamp: NumberLong("1738942714970")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb9fbbc0230cad0c7a"),
+    client: "B",
+    timestamp: NumberLong("1738942715081")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb5ce567060be7f094"),
+    client: "A",
+    timestamp: NumberLong("1738942715096")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb0c4f7f682333dcd8"),
+    client: "A",
+    timestamp: NumberLong("1738942715096")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb8b950e3fae99fa65"),
+    client: "A",
+    timestamp: NumberLong("1738942715096")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb50944b33726a93a1"),
+    client: "A",
+    timestamp: NumberLong("1738942715264")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb462d9a35f51df757"),
+    client: "A",
+    timestamp: NumberLong("1738942715501")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb9fbee6420087239e"),
+    client: "A",
+    timestamp: NumberLong("1738942715501")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fbf26b0352b5206ae9"),
+    client: "A",
+    timestamp: NumberLong("1738942715501")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb9fbbc0230cad0c7b"),
+    client: "B",
+    timestamp: NumberLong("1738942715593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb0c4f7f682333dcd9"),
+    client: "A",
+    timestamp: NumberLong("1738942715607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb8b950e3fae99fa66"),
+    client: "A",
+    timestamp: NumberLong("1738942715607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb5ce567060be7f095"),
+    client: "A",
+    timestamp: NumberLong("1738942715607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fb50944b33726a93a2"),
+    client: "A",
+    timestamp: NumberLong("1738942715809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc9fbee6420087239f"),
+    client: "A",
+    timestamp: NumberLong("1738942716027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc462d9a35f51df758"),
+    client: "A",
+    timestamp: NumberLong("1738942716027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fcf26b0352b5206aea"),
+    client: "A",
+    timestamp: NumberLong("1738942716027")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc8b950e3fae99fa67"),
+    client: "A",
+    timestamp: NumberLong("1738942716119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc0c4f7f682333dcda"),
+    client: "A",
+    timestamp: NumberLong("1738942716119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc5ce567060be7f096"),
+    client: "A",
+    timestamp: NumberLong("1738942716135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc9fbbc0230cad0c7c"),
+    client: "B",
+    timestamp: NumberLong("1738942716119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc50944b33726a93a3"),
+    client: "A",
+    timestamp: NumberLong("1738942716321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc9fbee642008723a0"),
+    client: "A",
+    timestamp: NumberLong("1738942716539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc462d9a35f51df759"),
+    client: "A",
+    timestamp: NumberLong("1738942716539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fcf26b0352b5206aeb"),
+    client: "A",
+    timestamp: NumberLong("1738942716539")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc0c4f7f682333dcdb"),
+    client: "A",
+    timestamp: NumberLong("1738942716679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc5ce567060be7f097"),
+    client: "A",
+    timestamp: NumberLong("1738942716679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc8b950e3fae99fa68"),
+    client: "A",
+    timestamp: NumberLong("1738942716679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc9fbbc0230cad0c7d"),
+    client: "B",
+    timestamp: NumberLong("1738942716679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fc50944b33726a93a4"),
+    client: "A",
+    timestamp: NumberLong("1738942716833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd9fbee642008723a1"),
+    client: "A",
+    timestamp: NumberLong("1738942717080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd462d9a35f51df75a"),
+    client: "A",
+    timestamp: NumberLong("1738942717080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fdf26b0352b5206aec"),
+    client: "A",
+    timestamp: NumberLong("1738942717080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd8b950e3fae99fa69"),
+    client: "A",
+    timestamp: NumberLong("1738942717219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd5ce567060be7f098"),
+    client: "A",
+    timestamp: NumberLong("1738942717219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd0c4f7f682333dcdc"),
+    client: "A",
+    timestamp: NumberLong("1738942717219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd9fbbc0230cad0c7e"),
+    client: "B",
+    timestamp: NumberLong("1738942717219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd50944b33726a93a5"),
+    client: "A",
+    timestamp: NumberLong("1738942717378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd9fbee642008723a2"),
+    client: "A",
+    timestamp: NumberLong("1738942717593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd462d9a35f51df75b"),
+    client: "A",
+    timestamp: NumberLong("1738942717593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fdf26b0352b5206aed"),
+    client: "A",
+    timestamp: NumberLong("1738942717593")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd8b950e3fae99fa6a"),
+    client: "A",
+    timestamp: NumberLong("1738942717732")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd5ce567060be7f099"),
+    client: "A",
+    timestamp: NumberLong("1738942717732")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd0c4f7f682333dcdd"),
+    client: "A",
+    timestamp: NumberLong("1738942717732")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd9fbbc0230cad0c7f"),
+    client: "B",
+    timestamp: NumberLong("1738942717732")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fd50944b33726a93a6"),
+    client: "A",
+    timestamp: NumberLong("1738942717905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe462d9a35f51df75c"),
+    client: "A",
+    timestamp: NumberLong("1738942718110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe9fbee642008723a3"),
+    client: "A",
+    timestamp: NumberLong("1738942718110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fef26b0352b5206aee"),
+    client: "A",
+    timestamp: NumberLong("1738942718110")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe8b950e3fae99fa6b"),
+    client: "A",
+    timestamp: NumberLong("1738942718265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe5ce567060be7f09a"),
+    client: "A",
+    timestamp: NumberLong("1738942718265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe0c4f7f682333dcde"),
+    client: "A",
+    timestamp: NumberLong("1738942718265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe9fbbc0230cad0c80"),
+    client: "B",
+    timestamp: NumberLong("1738942718265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe50944b33726a93a7"),
+    client: "A",
+    timestamp: NumberLong("1738942718467")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe462d9a35f51df75d"),
+    client: "A",
+    timestamp: NumberLong("1738942718623")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe9fbee642008723a4"),
+    client: "A",
+    timestamp: NumberLong("1738942718643")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fef26b0352b5206aef"),
+    client: "A",
+    timestamp: NumberLong("1738942718644")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe0c4f7f682333dcdf"),
+    client: "A",
+    timestamp: NumberLong("1738942718809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe8b950e3fae99fa6c"),
+    client: "A",
+    timestamp: NumberLong("1738942718809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe5ce567060be7f09b"),
+    client: "A",
+    timestamp: NumberLong("1738942718809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe9fbbc0230cad0c81"),
+    client: "B",
+    timestamp: NumberLong("1738942718809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fe50944b33726a93a8"),
+    client: "A",
+    timestamp: NumberLong("1738942718979")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff9fbee642008723a5"),
+    client: "A",
+    timestamp: NumberLong("1738942719164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff462d9a35f51df75e"),
+    client: "A",
+    timestamp: NumberLong("1738942719148")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fff26b0352b5206af0"),
+    client: "A",
+    timestamp: NumberLong("1738942719164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff5ce567060be7f09c"),
+    client: "A",
+    timestamp: NumberLong("1738942719335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff8b950e3fae99fa6d"),
+    client: "A",
+    timestamp: NumberLong("1738942719335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff0c4f7f682333dce0"),
+    client: "A",
+    timestamp: NumberLong("1738942719335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff9fbbc0230cad0c82"),
+    client: "B",
+    timestamp: NumberLong("1738942719335")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff50944b33726a93a9"),
+    client: "A",
+    timestamp: NumberLong("1738942719506")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff9fbee642008723a6"),
+    client: "A",
+    timestamp: NumberLong("1738942719695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff462d9a35f51df75f"),
+    client: "A",
+    timestamp: NumberLong("1738942719695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628fff26b0352b5206af1"),
+    client: "A",
+    timestamp: NumberLong("1738942719695")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff0c4f7f682333dce1"),
+    client: "A",
+    timestamp: NumberLong("1738942719881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff8b950e3fae99fa6e"),
+    client: "A",
+    timestamp: NumberLong("1738942719881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff5ce567060be7f09d"),
+    client: "A",
+    timestamp: NumberLong("1738942719881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a628ff9fbbc0230cad0c83"),
+    client: "B",
+    timestamp: NumberLong("1738942719881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290050944b33726a93aa"),
+    client: "A",
+    timestamp: NumberLong("1738942720019")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629009fbee642008723a7"),
+    client: "A",
+    timestamp: NumberLong("1738942720216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62900462d9a35f51df760"),
+    client: "A",
+    timestamp: NumberLong("1738942720217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62900f26b0352b5206af2"),
+    client: "A",
+    timestamp: NumberLong("1738942720220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629005ce567060be7f09e"),
+    client: "A",
+    timestamp: NumberLong("1738942720404")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629000c4f7f682333dce2"),
+    client: "A",
+    timestamp: NumberLong("1738942720404")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629009fbbc0230cad0c84"),
+    client: "B",
+    timestamp: NumberLong("1738942720404")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629008b950e3fae99fa6f"),
+    client: "A",
+    timestamp: NumberLong("1738942720404")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290050944b33726a93ab"),
+    client: "A",
+    timestamp: NumberLong("1738942720543")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629009fbee642008723a8"),
+    client: "A",
+    timestamp: NumberLong("1738942720743")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62900462d9a35f51df761"),
+    client: "A",
+    timestamp: NumberLong("1738942720743")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62900f26b0352b5206af3"),
+    client: "A",
+    timestamp: NumberLong("1738942720743")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629008b950e3fae99fa70"),
+    client: "A",
+    timestamp: NumberLong("1738942720931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629000c4f7f682333dce3"),
+    client: "A",
+    timestamp: NumberLong("1738942720931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629009fbbc0230cad0c85"),
+    client: "B",
+    timestamp: NumberLong("1738942720931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629005ce567060be7f09f"),
+    client: "A",
+    timestamp: NumberLong("1738942720931")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290150944b33726a93ac"),
+    client: "A",
+    timestamp: NumberLong("1738942721089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629019fbee642008723a9"),
+    client: "A",
+    timestamp: NumberLong("1738942721270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62901f26b0352b5206af4"),
+    client: "A",
+    timestamp: NumberLong("1738942721270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62901462d9a35f51df762"),
+    client: "A",
+    timestamp: NumberLong("1738942721548")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629019fbbc0230cad0c86"),
+    client: "B",
+    timestamp: NumberLong("1738942721564")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629010c4f7f682333dce4"),
+    client: "A",
+    timestamp: NumberLong("1738942721564")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629015ce567060be7f0a0"),
+    client: "A",
+    timestamp: NumberLong("1738942721564")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629018b950e3fae99fa71"),
+    client: "A",
+    timestamp: NumberLong("1738942721564")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290150944b33726a93ad"),
+    client: "A",
+    timestamp: NumberLong("1738942721610")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629019fbee642008723aa"),
+    client: "A",
+    timestamp: NumberLong("1738942721926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62901f26b0352b5206af5"),
+    client: "A",
+    timestamp: NumberLong("1738942721926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62902462d9a35f51df763"),
+    client: "A",
+    timestamp: NumberLong("1738942722082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629025ce567060be7f0a1"),
+    client: "A",
+    timestamp: NumberLong("1738942722161")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629029fbbc0230cad0c87"),
+    client: "B",
+    timestamp: NumberLong("1738942722161")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629020c4f7f682333dce5"),
+    client: "A",
+    timestamp: NumberLong("1738942722199")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629028b950e3fae99fa72"),
+    client: "A",
+    timestamp: NumberLong("1738942722200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290250944b33726a93ae"),
+    client: "A",
+    timestamp: NumberLong("1738942722198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629029fbee642008723ab"),
+    client: "A",
+    timestamp: NumberLong("1738942722502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62902f26b0352b5206af6"),
+    client: "A",
+    timestamp: NumberLong("1738942722502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62902462d9a35f51df764"),
+    client: "A",
+    timestamp: NumberLong("1738942722614")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629025ce567060be7f0a2"),
+    client: "A",
+    timestamp: NumberLong("1738942722675")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629029fbbc0230cad0c88"),
+    client: "B",
+    timestamp: NumberLong("1738942722675")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629020c4f7f682333dce6"),
+    client: "A",
+    timestamp: NumberLong("1738942722768")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629028b950e3fae99fa73"),
+    client: "A",
+    timestamp: NumberLong("1738942722768")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290250944b33726a93af"),
+    client: "A",
+    timestamp: NumberLong("1738942722784")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629039fbee642008723ac"),
+    client: "A",
+    timestamp: NumberLong("1738942723017")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62903f26b0352b5206af7"),
+    client: "A",
+    timestamp: NumberLong("1738942723017")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62903462d9a35f51df765"),
+    client: "A",
+    timestamp: NumberLong("1738942723141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629035ce567060be7f0a3"),
+    client: "A",
+    timestamp: NumberLong("1738942723189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629039fbbc0230cad0c89"),
+    client: "B",
+    timestamp: NumberLong("1738942723189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629030c4f7f682333dce7"),
+    client: "A",
+    timestamp: NumberLong("1738942723282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629038b950e3fae99fa74"),
+    client: "A",
+    timestamp: NumberLong("1738942723282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290350944b33726a93b0"),
+    client: "A",
+    timestamp: NumberLong("1738942723298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629039fbee642008723ad"),
+    client: "A",
+    timestamp: NumberLong("1738942723547")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62903f26b0352b5206af8"),
+    client: "A",
+    timestamp: NumberLong("1738942723547")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62903462d9a35f51df766"),
+    client: "A",
+    timestamp: NumberLong("1738942723703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629035ce567060be7f0a4"),
+    client: "A",
+    timestamp: NumberLong("1738942723718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629039fbbc0230cad0c8a"),
+    client: "B",
+    timestamp: NumberLong("1738942723718")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629038b950e3fae99fa75"),
+    client: "A",
+    timestamp: NumberLong("1738942723796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629030c4f7f682333dce8"),
+    client: "A",
+    timestamp: NumberLong("1738942723796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290350944b33726a93b1"),
+    client: "A",
+    timestamp: NumberLong("1738942723812")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629049fbee642008723ae"),
+    client: "A",
+    timestamp: NumberLong("1738942724063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62904f26b0352b5206af9"),
+    client: "A",
+    timestamp: NumberLong("1738942724063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62904462d9a35f51df767"),
+    client: "A",
+    timestamp: NumberLong("1738942724220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629045ce567060be7f0a5"),
+    client: "A",
+    timestamp: NumberLong("1738942724235")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629049fbbc0230cad0c8b"),
+    client: "B",
+    timestamp: NumberLong("1738942724235")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629040c4f7f682333dce9"),
+    client: "A",
+    timestamp: NumberLong("1738942724327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629048b950e3fae99fa76"),
+    client: "A",
+    timestamp: NumberLong("1738942724327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290450944b33726a93b2"),
+    client: "A",
+    timestamp: NumberLong("1738942724327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629049fbee642008723af"),
+    client: "A",
+    timestamp: NumberLong("1738942724608")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62904f26b0352b5206afa"),
+    client: "A",
+    timestamp: NumberLong("1738942724608")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629049fbbc0230cad0c8c"),
+    client: "B",
+    timestamp: NumberLong("1738942724778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62904462d9a35f51df768"),
+    client: "A",
+    timestamp: NumberLong("1738942724778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629045ce567060be7f0a6"),
+    client: "A",
+    timestamp: NumberLong("1738942724778")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629040c4f7f682333dcea"),
+    client: "A",
+    timestamp: NumberLong("1738942724839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629048b950e3fae99fa77"),
+    client: "A",
+    timestamp: NumberLong("1738942724839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290450944b33726a93b3"),
+    client: "A",
+    timestamp: NumberLong("1738942724839")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629059fbee642008723b0"),
+    client: "A",
+    timestamp: NumberLong("1738942725134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62905f26b0352b5206afb"),
+    client: "A",
+    timestamp: NumberLong("1738942725134")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62905462d9a35f51df769"),
+    client: "A",
+    timestamp: NumberLong("1738942725307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629059fbbc0230cad0c8d"),
+    client: "B",
+    timestamp: NumberLong("1738942725307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629055ce567060be7f0a7"),
+    client: "A",
+    timestamp: NumberLong("1738942725307")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629050c4f7f682333dceb"),
+    client: "A",
+    timestamp: NumberLong("1738942725402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629058b950e3fae99fa78"),
+    client: "A",
+    timestamp: NumberLong("1738942725402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290550944b33726a93b4"),
+    client: "A",
+    timestamp: NumberLong("1738942725402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629059fbee642008723b1"),
+    client: "A",
+    timestamp: NumberLong("1738942725665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62905f26b0352b5206afc"),
+    client: "A",
+    timestamp: NumberLong("1738942725665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62905462d9a35f51df76a"),
+    client: "A",
+    timestamp: NumberLong("1738942725852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629055ce567060be7f0a8"),
+    client: "A",
+    timestamp: NumberLong("1738942725852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629059fbbc0230cad0c8e"),
+    client: "B",
+    timestamp: NumberLong("1738942725852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629050c4f7f682333dcec"),
+    client: "A",
+    timestamp: NumberLong("1738942725914")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629058b950e3fae99fa79"),
+    client: "A",
+    timestamp: NumberLong("1738942725929")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290550944b33726a93b5"),
+    client: "A",
+    timestamp: NumberLong("1738942725929")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629069fbee642008723b2"),
+    client: "A",
+    timestamp: NumberLong("1738942726181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62906f26b0352b5206afd"),
+    client: "A",
+    timestamp: NumberLong("1738942726181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629069fbbc0230cad0c8f"),
+    client: "B",
+    timestamp: NumberLong("1738942726374")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629065ce567060be7f0a9"),
+    client: "A",
+    timestamp: NumberLong("1738942726375")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62906462d9a35f51df76b"),
+    client: "A",
+    timestamp: NumberLong("1738942726376")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629068b950e3fae99fa7a"),
+    client: "A",
+    timestamp: NumberLong("1738942726462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629060c4f7f682333dced"),
+    client: "A",
+    timestamp: NumberLong("1738942726462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290650944b33726a93b6"),
+    client: "A",
+    timestamp: NumberLong("1738942726462")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629069fbee642008723b3"),
+    client: "A",
+    timestamp: NumberLong("1738942726694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62906f26b0352b5206afe"),
+    client: "A",
+    timestamp: NumberLong("1738942726694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629065ce567060be7f0aa"),
+    client: "A",
+    timestamp: NumberLong("1738942726894")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62906462d9a35f51df76c"),
+    client: "A",
+    timestamp: NumberLong("1738942726894")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629069fbbc0230cad0c90"),
+    client: "B",
+    timestamp: NumberLong("1738942726894")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629060c4f7f682333dcee"),
+    client: "A",
+    timestamp: NumberLong("1738942726988")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290650944b33726a93b7"),
+    client: "A",
+    timestamp: NumberLong("1738942726988")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629068b950e3fae99fa7b"),
+    client: "A",
+    timestamp: NumberLong("1738942726988")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629079fbee642008723b4"),
+    client: "A",
+    timestamp: NumberLong("1738942727251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62907f26b0352b5206aff"),
+    client: "A",
+    timestamp: NumberLong("1738942727251")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62907462d9a35f51df76d"),
+    client: "A",
+    timestamp: NumberLong("1738942727421")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629075ce567060be7f0ab"),
+    client: "A",
+    timestamp: NumberLong("1738942727421")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629079fbbc0230cad0c91"),
+    client: "B",
+    timestamp: NumberLong("1738942727421")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629070c4f7f682333dcef"),
+    client: "A",
+    timestamp: NumberLong("1738942727515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629078b950e3fae99fa7c"),
+    client: "A",
+    timestamp: NumberLong("1738942727515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290750944b33726a93b8"),
+    client: "A",
+    timestamp: NumberLong("1738942727515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629079fbee642008723b5"),
+    client: "A",
+    timestamp: NumberLong("1738942727768")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62907f26b0352b5206b00"),
+    client: "A",
+    timestamp: NumberLong("1738942727768")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62907462d9a35f51df76e"),
+    client: "A",
+    timestamp: NumberLong("1738942727940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629079fbbc0230cad0c92"),
+    client: "B",
+    timestamp: NumberLong("1738942727940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629075ce567060be7f0ac"),
+    client: "A",
+    timestamp: NumberLong("1738942727940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629080c4f7f682333dcf0"),
+    client: "A",
+    timestamp: NumberLong("1738942728032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629088b950e3fae99fa7d"),
+    client: "A",
+    timestamp: NumberLong("1738942728032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290850944b33726a93b9"),
+    client: "A",
+    timestamp: NumberLong("1738942728032")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629089fbee642008723b6"),
+    client: "A",
+    timestamp: NumberLong("1738942728295")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62908f26b0352b5206b01"),
+    client: "A",
+    timestamp: NumberLong("1738942728295")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62908462d9a35f51df76f"),
+    client: "A",
+    timestamp: NumberLong("1738942728465")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629085ce567060be7f0ad"),
+    client: "A",
+    timestamp: NumberLong("1738942728465")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629089fbbc0230cad0c93"),
+    client: "B",
+    timestamp: NumberLong("1738942728465")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629080c4f7f682333dcf1"),
+    client: "A",
+    timestamp: NumberLong("1738942728559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629088b950e3fae99fa7e"),
+    client: "A",
+    timestamp: NumberLong("1738942728559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290850944b33726a93ba"),
+    client: "A",
+    timestamp: NumberLong("1738942728559")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629089fbee642008723b7"),
+    client: "A",
+    timestamp: NumberLong("1738942728823")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62908f26b0352b5206b02"),
+    client: "A",
+    timestamp: NumberLong("1738942728823")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629085ce567060be7f0ae"),
+    client: "A",
+    timestamp: NumberLong("1738942728991")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62908462d9a35f51df770"),
+    client: "A",
+    timestamp: NumberLong("1738942728991")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629089fbbc0230cad0c94"),
+    client: "B",
+    timestamp: NumberLong("1738942728991")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629098b950e3fae99fa7f"),
+    client: "A",
+    timestamp: NumberLong("1738942729084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629090c4f7f682333dcf2"),
+    client: "A",
+    timestamp: NumberLong("1738942729084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290950944b33726a93bb"),
+    client: "A",
+    timestamp: NumberLong("1738942729084")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629099fbee642008723b8"),
+    client: "A",
+    timestamp: NumberLong("1738942729334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62909f26b0352b5206b03"),
+    client: "A",
+    timestamp: NumberLong("1738942729349")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62909462d9a35f51df771"),
+    client: "A",
+    timestamp: NumberLong("1738942729535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629095ce567060be7f0af"),
+    client: "A",
+    timestamp: NumberLong("1738942729535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629099fbbc0230cad0c95"),
+    client: "B",
+    timestamp: NumberLong("1738942729535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629090c4f7f682333dcf3"),
+    client: "A",
+    timestamp: NumberLong("1738942729612")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629098b950e3fae99fa80"),
+    client: "A",
+    timestamp: NumberLong("1738942729612")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290950944b33726a93bc"),
+    client: "A",
+    timestamp: NumberLong("1738942729612")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629099fbee642008723b9"),
+    client: "A",
+    timestamp: NumberLong("1738942729863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62909f26b0352b5206b04"),
+    client: "A",
+    timestamp: NumberLong("1738942729878")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a462d9a35f51df772"),
+    client: "A",
+    timestamp: NumberLong("1738942730065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a5ce567060be7f0b0"),
+    client: "A",
+    timestamp: NumberLong("1738942730065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a9fbbc0230cad0c96"),
+    client: "B",
+    timestamp: NumberLong("1738942730065")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a0c4f7f682333dcf4"),
+    client: "A",
+    timestamp: NumberLong("1738942730141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a8b950e3fae99fa81"),
+    client: "A",
+    timestamp: NumberLong("1738942730141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a50944b33726a93bd"),
+    client: "A",
+    timestamp: NumberLong("1738942730141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a9fbee642008723ba"),
+    client: "A",
+    timestamp: NumberLong("1738942730389")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290af26b0352b5206b05"),
+    client: "A",
+    timestamp: NumberLong("1738942730405")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a462d9a35f51df773"),
+    client: "A",
+    timestamp: NumberLong("1738942730592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a5ce567060be7f0b1"),
+    client: "A",
+    timestamp: NumberLong("1738942730592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a9fbbc0230cad0c97"),
+    client: "B",
+    timestamp: NumberLong("1738942730592")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a8b950e3fae99fa82"),
+    client: "A",
+    timestamp: NumberLong("1738942730655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a0c4f7f682333dcf5"),
+    client: "A",
+    timestamp: NumberLong("1738942730655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a50944b33726a93be"),
+    client: "A",
+    timestamp: NumberLong("1738942730655")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290a9fbee642008723bb"),
+    client: "A",
+    timestamp: NumberLong("1738942730921")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290af26b0352b5206b06"),
+    client: "A",
+    timestamp: NumberLong("1738942730921")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b462d9a35f51df774"),
+    client: "A",
+    timestamp: NumberLong("1738942731124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b9fbbc0230cad0c98"),
+    client: "B",
+    timestamp: NumberLong("1738942731124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b5ce567060be7f0b2"),
+    client: "A",
+    timestamp: NumberLong("1738942731124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b0c4f7f682333dcf6"),
+    client: "A",
+    timestamp: NumberLong("1738942731170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b8b950e3fae99fa83"),
+    client: "A",
+    timestamp: NumberLong("1738942731170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b50944b33726a93bf"),
+    client: "A",
+    timestamp: NumberLong("1738942731170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b9fbee642008723bc"),
+    client: "A",
+    timestamp: NumberLong("1738942731449")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290bf26b0352b5206b07"),
+    client: "A",
+    timestamp: NumberLong("1738942731449")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b5ce567060be7f0b3"),
+    client: "A",
+    timestamp: NumberLong("1738942731700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b9fbbc0230cad0c99"),
+    client: "B",
+    timestamp: NumberLong("1738942731700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b8b950e3fae99fa84"),
+    client: "A",
+    timestamp: NumberLong("1738942731700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b462d9a35f51df775"),
+    client: "A",
+    timestamp: NumberLong("1738942731700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b50944b33726a93c0"),
+    client: "A",
+    timestamp: NumberLong("1738942731700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b0c4f7f682333dcf7"),
+    client: "A",
+    timestamp: NumberLong("1738942731700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290b9fbee642008723bd"),
+    client: "A",
+    timestamp: NumberLong("1738942731978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290bf26b0352b5206b08"),
+    client: "A",
+    timestamp: NumberLong("1738942731978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c0c4f7f682333dcf8"),
+    client: "A",
+    timestamp: NumberLong("1738942732227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c5ce567060be7f0b4"),
+    client: "A",
+    timestamp: NumberLong("1738942732227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c462d9a35f51df776"),
+    client: "A",
+    timestamp: NumberLong("1738942732227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c8b950e3fae99fa85"),
+    client: "A",
+    timestamp: NumberLong("1738942732227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c9fbbc0230cad0c9a"),
+    client: "B",
+    timestamp: NumberLong("1738942732227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c50944b33726a93c1"),
+    client: "A",
+    timestamp: NumberLong("1738942732227")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c9fbee642008723be"),
+    client: "A",
+    timestamp: NumberLong("1738942732505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290cf26b0352b5206b09"),
+    client: "A",
+    timestamp: NumberLong("1738942732505")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c462d9a35f51df777"),
+    client: "A",
+    timestamp: NumberLong("1738942732755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c5ce567060be7f0b5"),
+    client: "A",
+    timestamp: NumberLong("1738942732755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c0c4f7f682333dcf9"),
+    client: "A",
+    timestamp: NumberLong("1738942732755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c8b950e3fae99fa86"),
+    client: "A",
+    timestamp: NumberLong("1738942732771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c9fbbc0230cad0c9b"),
+    client: "B",
+    timestamp: NumberLong("1738942732771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290c50944b33726a93c2"),
+    client: "A",
+    timestamp: NumberLong("1738942732771")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d9fbee642008723bf"),
+    client: "A",
+    timestamp: NumberLong("1738942733035")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290df26b0352b5206b0a"),
+    client: "A",
+    timestamp: NumberLong("1738942733035")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d462d9a35f51df778"),
+    client: "A",
+    timestamp: NumberLong("1738942733282")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d5ce567060be7f0b6"),
+    client: "A",
+    timestamp: NumberLong("1738942733298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d0c4f7f682333dcfa"),
+    client: "A",
+    timestamp: NumberLong("1738942733298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d8b950e3fae99fa87"),
+    client: "A",
+    timestamp: NumberLong("1738942733298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d9fbbc0230cad0c9c"),
+    client: "B",
+    timestamp: NumberLong("1738942733298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d50944b33726a93c3"),
+    client: "A",
+    timestamp: NumberLong("1738942733298")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d9fbee642008723c0"),
+    client: "A",
+    timestamp: NumberLong("1738942733562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290df26b0352b5206b0b"),
+    client: "A",
+    timestamp: NumberLong("1738942733562")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d0c4f7f682333dcfb"),
+    client: "A",
+    timestamp: NumberLong("1738942733811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d5ce567060be7f0b7"),
+    client: "A",
+    timestamp: NumberLong("1738942733811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d462d9a35f51df779"),
+    client: "A",
+    timestamp: NumberLong("1738942733811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d9fbbc0230cad0c9d"),
+    client: "B",
+    timestamp: NumberLong("1738942733811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d50944b33726a93c4"),
+    client: "A",
+    timestamp: NumberLong("1738942733811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290d8b950e3fae99fa88"),
+    client: "A",
+    timestamp: NumberLong("1738942733811")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e9fbee642008723c1"),
+    client: "A",
+    timestamp: NumberLong("1738942734076")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290ef26b0352b5206b0c"),
+    client: "A",
+    timestamp: NumberLong("1738942734076")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e462d9a35f51df77a"),
+    client: "A",
+    timestamp: NumberLong("1738942734327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e9fbbc0230cad0c9e"),
+    client: "B",
+    timestamp: NumberLong("1738942734327")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e0c4f7f682333dcfc"),
+    client: "A",
+    timestamp: NumberLong("1738942734342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e8b950e3fae99fa89"),
+    client: "A",
+    timestamp: NumberLong("1738942734342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e5ce567060be7f0b8"),
+    client: "A",
+    timestamp: NumberLong("1738942734342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e50944b33726a93c5"),
+    client: "A",
+    timestamp: NumberLong("1738942734342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e9fbee642008723c2"),
+    client: "A",
+    timestamp: NumberLong("1738942734607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290ef26b0352b5206b0d"),
+    client: "A",
+    timestamp: NumberLong("1738942734607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e9fbbc0230cad0c9f"),
+    client: "B",
+    timestamp: NumberLong("1738942734857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e462d9a35f51df77b"),
+    client: "A",
+    timestamp: NumberLong("1738942734857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e0c4f7f682333dcfd"),
+    client: "A",
+    timestamp: NumberLong("1738942734872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e5ce567060be7f0b9"),
+    client: "A",
+    timestamp: NumberLong("1738942734872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e8b950e3fae99fa8a"),
+    client: "A",
+    timestamp: NumberLong("1738942734872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290e50944b33726a93c6"),
+    client: "A",
+    timestamp: NumberLong("1738942734872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f9fbee642008723c3"),
+    client: "A",
+    timestamp: NumberLong("1738942735135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290ff26b0352b5206b0e"),
+    client: "A",
+    timestamp: NumberLong("1738942735135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f462d9a35f51df77c"),
+    client: "A",
+    timestamp: NumberLong("1738942735386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f9fbbc0230cad0ca0"),
+    client: "B",
+    timestamp: NumberLong("1738942735386")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f5ce567060be7f0ba"),
+    client: "A",
+    timestamp: NumberLong("1738942735401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f50944b33726a93c7"),
+    client: "A",
+    timestamp: NumberLong("1738942735401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f0c4f7f682333dcfe"),
+    client: "A",
+    timestamp: NumberLong("1738942735401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f8b950e3fae99fa8b"),
+    client: "A",
+    timestamp: NumberLong("1738942735401")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f9fbee642008723c4"),
+    client: "A",
+    timestamp: NumberLong("1738942735652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290ff26b0352b5206b0f"),
+    client: "A",
+    timestamp: NumberLong("1738942735652")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f462d9a35f51df77d"),
+    client: "A",
+    timestamp: NumberLong("1738942735918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f9fbbc0230cad0ca1"),
+    client: "B",
+    timestamp: NumberLong("1738942735918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f5ce567060be7f0bb"),
+    client: "A",
+    timestamp: NumberLong("1738942735918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f50944b33726a93c8"),
+    client: "A",
+    timestamp: NumberLong("1738942735918")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f0c4f7f682333dcff"),
+    client: "A",
+    timestamp: NumberLong("1738942735933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6290f8b950e3fae99fa8c"),
+    client: "A",
+    timestamp: NumberLong("1738942735933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629109fbee642008723c5"),
+    client: "A",
+    timestamp: NumberLong("1738942736181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62910f26b0352b5206b10"),
+    client: "A",
+    timestamp: NumberLong("1738942736181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629105ce567060be7f0bc"),
+    client: "A",
+    timestamp: NumberLong("1738942736445")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629109fbbc0230cad0ca2"),
+    client: "B",
+    timestamp: NumberLong("1738942736445")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291050944b33726a93c9"),
+    client: "A",
+    timestamp: NumberLong("1738942736445")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62910462d9a35f51df77e"),
+    client: "A",
+    timestamp: NumberLong("1738942736445")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629108b950e3fae99fa8d"),
+    client: "A",
+    timestamp: NumberLong("1738942736461")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629100c4f7f682333dd00"),
+    client: "A",
+    timestamp: NumberLong("1738942736461")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62910f26b0352b5206b11"),
+    client: "A",
+    timestamp: NumberLong("1738942736694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629109fbee642008723c6"),
+    client: "A",
+    timestamp: NumberLong("1738942736694")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62910462d9a35f51df77f"),
+    client: "A",
+    timestamp: NumberLong("1738942736974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629109fbbc0230cad0ca3"),
+    client: "B",
+    timestamp: NumberLong("1738942736974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629105ce567060be7f0bd"),
+    client: "A",
+    timestamp: NumberLong("1738942736974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291050944b33726a93ca"),
+    client: "A",
+    timestamp: NumberLong("1738942736974")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629108b950e3fae99fa8e"),
+    client: "A",
+    timestamp: NumberLong("1738942736989")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629100c4f7f682333dd01"),
+    client: "A",
+    timestamp: NumberLong("1738942736989")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629119fbee642008723c7"),
+    client: "A",
+    timestamp: NumberLong("1738942737220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62911f26b0352b5206b12"),
+    client: "A",
+    timestamp: NumberLong("1738942737220")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629115ce567060be7f0be"),
+    client: "A",
+    timestamp: NumberLong("1738942737499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62911462d9a35f51df780"),
+    client: "A",
+    timestamp: NumberLong("1738942737499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629119fbbc0230cad0ca4"),
+    client: "B",
+    timestamp: NumberLong("1738942737499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291150944b33726a93cb"),
+    client: "A",
+    timestamp: NumberLong("1738942737499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629110c4f7f682333dd02"),
+    client: "A",
+    timestamp: NumberLong("1738942737515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629118b950e3fae99fa8f"),
+    client: "A",
+    timestamp: NumberLong("1738942737515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629119fbee642008723c8"),
+    client: "A",
+    timestamp: NumberLong("1738942737750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62911f26b0352b5206b13"),
+    client: "A",
+    timestamp: NumberLong("1738942737750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629125ce567060be7f0bf"),
+    client: "A",
+    timestamp: NumberLong("1738942738029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62912462d9a35f51df781"),
+    client: "A",
+    timestamp: NumberLong("1738942738029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629129fbbc0230cad0ca5"),
+    client: "B",
+    timestamp: NumberLong("1738942738029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291250944b33726a93cc"),
+    client: "A",
+    timestamp: NumberLong("1738942738029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629128b950e3fae99fa90"),
+    client: "A",
+    timestamp: NumberLong("1738942738044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629120c4f7f682333dd03"),
+    client: "A",
+    timestamp: NumberLong("1738942738044")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629129fbee642008723c9"),
+    client: "A",
+    timestamp: NumberLong("1738942738277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62912f26b0352b5206b14"),
+    client: "A",
+    timestamp: NumberLong("1738942738277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629120c4f7f682333dd04"),
+    client: "A",
+    timestamp: NumberLong("1738942738558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62912462d9a35f51df782"),
+    client: "A",
+    timestamp: NumberLong("1738942738558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629129fbbc0230cad0ca6"),
+    client: "B",
+    timestamp: NumberLong("1738942738558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629128b950e3fae99fa91"),
+    client: "A",
+    timestamp: NumberLong("1738942738558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629125ce567060be7f0c0"),
+    client: "A",
+    timestamp: NumberLong("1738942738558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291250944b33726a93cd"),
+    client: "A",
+    timestamp: NumberLong("1738942738558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629129fbee642008723ca"),
+    client: "A",
+    timestamp: NumberLong("1738942738805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62912f26b0352b5206b15"),
+    client: "A",
+    timestamp: NumberLong("1738942738805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62913462d9a35f51df783"),
+    client: "A",
+    timestamp: NumberLong("1738942739082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629138b950e3fae99fa92"),
+    client: "A",
+    timestamp: NumberLong("1738942739082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629139fbbc0230cad0ca7"),
+    client: "B",
+    timestamp: NumberLong("1738942739082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629130c4f7f682333dd05"),
+    client: "A",
+    timestamp: NumberLong("1738942739082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291350944b33726a93ce"),
+    client: "A",
+    timestamp: NumberLong("1738942739082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629135ce567060be7f0c1"),
+    client: "A",
+    timestamp: NumberLong("1738942739082")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629139fbee642008723cb"),
+    client: "A",
+    timestamp: NumberLong("1738942739331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62913f26b0352b5206b16"),
+    client: "A",
+    timestamp: NumberLong("1738942739331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629135ce567060be7f0c2"),
+    client: "A",
+    timestamp: NumberLong("1738942739611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629138b950e3fae99fa93"),
+    client: "A",
+    timestamp: NumberLong("1738942739611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291350944b33726a93cf"),
+    client: "A",
+    timestamp: NumberLong("1738942739611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629130c4f7f682333dd06"),
+    client: "A",
+    timestamp: NumberLong("1738942739611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629139fbbc0230cad0ca8"),
+    client: "B",
+    timestamp: NumberLong("1738942739611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62913462d9a35f51df784"),
+    client: "A",
+    timestamp: NumberLong("1738942739611")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629139fbee642008723cc"),
+    client: "A",
+    timestamp: NumberLong("1738942739859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62913f26b0352b5206b17"),
+    client: "A",
+    timestamp: NumberLong("1738942739859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62914462d9a35f51df785"),
+    client: "A",
+    timestamp: NumberLong("1738942740137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629140c4f7f682333dd07"),
+    client: "A",
+    timestamp: NumberLong("1738942740137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629148b950e3fae99fa94"),
+    client: "A",
+    timestamp: NumberLong("1738942740137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629145ce567060be7f0c3"),
+    client: "A",
+    timestamp: NumberLong("1738942740137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291450944b33726a93d0"),
+    client: "A",
+    timestamp: NumberLong("1738942740137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629149fbbc0230cad0ca9"),
+    client: "B",
+    timestamp: NumberLong("1738942740137")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629149fbee642008723cd"),
+    client: "A",
+    timestamp: NumberLong("1738942740382")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62914f26b0352b5206b18"),
+    client: "A",
+    timestamp: NumberLong("1738942740382")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629149fbbc0230cad0caa"),
+    client: "B",
+    timestamp: NumberLong("1738942740662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629140c4f7f682333dd08"),
+    client: "A",
+    timestamp: NumberLong("1738942740662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629145ce567060be7f0c4"),
+    client: "A",
+    timestamp: NumberLong("1738942740662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291450944b33726a93d1"),
+    client: "A",
+    timestamp: NumberLong("1738942740662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629148b950e3fae99fa95"),
+    client: "A",
+    timestamp: NumberLong("1738942740662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62914462d9a35f51df786"),
+    client: "A",
+    timestamp: NumberLong("1738942740662")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629149fbee642008723ce"),
+    client: "A",
+    timestamp: NumberLong("1738942740897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62914f26b0352b5206b19"),
+    client: "A",
+    timestamp: NumberLong("1738942740897")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629150c4f7f682333dd09"),
+    client: "A",
+    timestamp: NumberLong("1738942741194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62915462d9a35f51df787"),
+    client: "A",
+    timestamp: NumberLong("1738942741194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629158b950e3fae99fa96"),
+    client: "A",
+    timestamp: NumberLong("1738942741194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6291550944b33726a93d2"),
+    client: "A",
+    timestamp: NumberLong("1738942741194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629159fbbc0230cad0cab"),
+    client: "B",
+    timestamp: NumberLong("1738942741194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629155ce567060be7f0c5"),
+    client: "A",
+    timestamp: NumberLong("1738942741194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629159fbee642008723cf"),
+    client: "A",
+    timestamp: NumberLong("1738942741427")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62915f26b0352b5206b1a"),
+    client: "A",
+    timestamp: NumberLong("1738942741427")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629159fbbc0230cad0cac"),
+    client: "B",
+    timestamp: NumberLong("1738942741719")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295172d24a143bc5f043"),
+    client: "A",
+    timestamp: NumberLong("1738942801080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295272d24a143bc5f044"),
+    client: "A",
+    timestamp: NumberLong("1738942802424")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295272d24a143bc5f045"),
+    client: "A",
+    timestamp: NumberLong("1738942802967")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295372d24a143bc5f046"),
+    client: "A",
+    timestamp: NumberLong("1738942803495")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295472d24a143bc5f047"),
+    client: "A",
+    timestamp: NumberLong("1738942804040")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295472d24a143bc5f048"),
+    client: "A",
+    timestamp: NumberLong("1738942804588")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295572d24a143bc5f049"),
+    client: "A",
+    timestamp: NumberLong("1738942805118")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295572d24a143bc5f04a"),
+    client: "A",
+    timestamp: NumberLong("1738942805649")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295672d24a143bc5f04b"),
+    client: "A",
+    timestamp: NumberLong("1738942806177")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295672d24a143bc5f04c"),
+    client: "A",
+    timestamp: NumberLong("1738942806724")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295772d24a143bc5f04d"),
+    client: "A",
+    timestamp: NumberLong("1738942807281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295772d24a143bc5f04e"),
+    client: "A",
+    timestamp: NumberLong("1738942807855")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295972d24a143bc5f04f"),
+    client: "A",
+    timestamp: NumberLong("1738942809337")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295b72d24a143bc5f050"),
+    client: "A",
+    timestamp: NumberLong("1738942811142")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a6295c72d24a143bc5f051"),
+    client: "A",
+    timestamp: NumberLong("1738942812107")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629ef0ec17f7afc3d8bf8"),
+    client: "B",
+    timestamp: NumberLong("1738942959477")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f1da33fd5fe9fa5443"),
+    client: "A",
+    timestamp: NumberLong("1738942961609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f19163350befe678b5"),
+    client: "A",
+    timestamp: NumberLong("1738942961597")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f204d2bb503d4f3ef7"),
+    client: "A",
+    timestamp: NumberLong("1738942961573")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f02725df19d595b162"),
+    client: "B",
+    timestamp: NumberLong("1738942960554")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629ed205672285fdd18a6"),
+    client: "B",
+    timestamp: NumberLong("1738942957209")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f20ec17f7afc3d8bf9"),
+    client: "B",
+    timestamp: NumberLong("1738942962670")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f2da33fd5fe9fa5444"),
+    client: "A",
+    timestamp: NumberLong("1738942962700")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f29163350befe678b6"),
+    client: "A",
+    timestamp: NumberLong("1738942962900")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f204d2bb503d4f3ef8"),
+    client: "A",
+    timestamp: NumberLong("1738942962915")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f22725df19d595b163"),
+    client: "B",
+    timestamp: NumberLong("1738942962961")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f3205672285fdd18a7"),
+    client: "B",
+    timestamp: NumberLong("1738942963069")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f30ec17f7afc3d8bfa"),
+    client: "B",
+    timestamp: NumberLong("1738942963194")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f3da33fd5fe9fa5445"),
+    client: "A",
+    timestamp: NumberLong("1738942963224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f39163350befe678b7"),
+    client: "A",
+    timestamp: NumberLong("1738942963425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f304d2bb503d4f3ef9"),
+    client: "A",
+    timestamp: NumberLong("1738942963441")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f32725df19d595b164"),
+    client: "B",
+    timestamp: NumberLong("1738942963486")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f3205672285fdd18a8"),
+    client: "B",
+    timestamp: NumberLong("1738942963594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f30ec17f7afc3d8bfb"),
+    client: "B",
+    timestamp: NumberLong("1738942963717")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f3da33fd5fe9fa5446"),
+    client: "A",
+    timestamp: NumberLong("1738942963749")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f39163350befe678b8"),
+    client: "A",
+    timestamp: NumberLong("1738942963948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f304d2bb503d4f3efa"),
+    client: "A",
+    timestamp: NumberLong("1738942963964")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f42725df19d595b165"),
+    client: "B",
+    timestamp: NumberLong("1738942964010")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f4205672285fdd18a9"),
+    client: "B",
+    timestamp: NumberLong("1738942964119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f40ec17f7afc3d8bfc"),
+    client: "B",
+    timestamp: NumberLong("1738942964241")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f4da33fd5fe9fa5447"),
+    client: "A",
+    timestamp: NumberLong("1738942964272")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f49163350befe678b9"),
+    client: "A",
+    timestamp: NumberLong("1738942964474")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f404d2bb503d4f3efb"),
+    client: "A",
+    timestamp: NumberLong("1738942964490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f42725df19d595b166"),
+    client: "B",
+    timestamp: NumberLong("1738942964536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f4205672285fdd18aa"),
+    client: "B",
+    timestamp: NumberLong("1738942964647")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f40ec17f7afc3d8bfd"),
+    client: "B",
+    timestamp: NumberLong("1738942964772")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f4da33fd5fe9fa5448"),
+    client: "A",
+    timestamp: NumberLong("1738942964803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f504d2bb503d4f3efc"),
+    client: "A",
+    timestamp: NumberLong("1738942965022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f59163350befe678ba"),
+    client: "A",
+    timestamp: NumberLong("1738942965022")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f52725df19d595b167"),
+    client: "B",
+    timestamp: NumberLong("1738942965069")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f5205672285fdd18ab"),
+    client: "B",
+    timestamp: NumberLong("1738942965179")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f50ec17f7afc3d8bfe"),
+    client: "B",
+    timestamp: NumberLong("1738942965289")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f5da33fd5fe9fa5449"),
+    client: "A",
+    timestamp: NumberLong("1738942965334")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f59163350befe678bb"),
+    client: "A",
+    timestamp: NumberLong("1738942965549")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f504d2bb503d4f3efd"),
+    client: "A",
+    timestamp: NumberLong("1738942965549")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f52725df19d595b168"),
+    client: "B",
+    timestamp: NumberLong("1738942965596")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f5205672285fdd18ac"),
+    client: "B",
+    timestamp: NumberLong("1738942965703")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f50ec17f7afc3d8bff"),
+    client: "B",
+    timestamp: NumberLong("1738942965813")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f5da33fd5fe9fa544a"),
+    client: "A",
+    timestamp: NumberLong("1738942965860")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f604d2bb503d4f3efe"),
+    client: "A",
+    timestamp: NumberLong("1738942966080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f69163350befe678bc"),
+    client: "A",
+    timestamp: NumberLong("1738942966080")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f62725df19d595b169"),
+    client: "B",
+    timestamp: NumberLong("1738942966125")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f6205672285fdd18ad"),
+    client: "B",
+    timestamp: NumberLong("1738942966234")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f60ec17f7afc3d8c00"),
+    client: "B",
+    timestamp: NumberLong("1738942966328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f6da33fd5fe9fa544b"),
+    client: "A",
+    timestamp: NumberLong("1738942966389")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f69163350befe678bd"),
+    client: "A",
+    timestamp: NumberLong("1738942966607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f604d2bb503d4f3eff"),
+    client: "A",
+    timestamp: NumberLong("1738942966607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f62725df19d595b16a"),
+    client: "B",
+    timestamp: NumberLong("1738942966639")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f6205672285fdd18ae"),
+    client: "B",
+    timestamp: NumberLong("1738942966750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f60ec17f7afc3d8c01"),
+    client: "B",
+    timestamp: NumberLong("1738942966859")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f6da33fd5fe9fa544c"),
+    client: "A",
+    timestamp: NumberLong("1738942966922")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f79163350befe678be"),
+    client: "A",
+    timestamp: NumberLong("1738942967141")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f704d2bb503d4f3f00"),
+    client: "A",
+    timestamp: NumberLong("1738942967156")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f72725df19d595b16b"),
+    client: "B",
+    timestamp: NumberLong("1738942967171")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f7205672285fdd18af"),
+    client: "B",
+    timestamp: NumberLong("1738942967279")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f70ec17f7afc3d8c02"),
+    client: "B",
+    timestamp: NumberLong("1738942967388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f7da33fd5fe9fa544d"),
+    client: "A",
+    timestamp: NumberLong("1738942967451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f79163350befe678bf"),
+    client: "A",
+    timestamp: NumberLong("1738942967666")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f704d2bb503d4f3f01"),
+    client: "A",
+    timestamp: NumberLong("1738942967682")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f72725df19d595b16c"),
+    client: "B",
+    timestamp: NumberLong("1738942967698")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f7205672285fdd18b0"),
+    client: "B",
+    timestamp: NumberLong("1738942967805")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f70ec17f7afc3d8c03"),
+    client: "B",
+    timestamp: NumberLong("1738942967910")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f7da33fd5fe9fa544e"),
+    client: "A",
+    timestamp: NumberLong("1738942967971")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f89163350befe678c0"),
+    client: "A",
+    timestamp: NumberLong("1738942968186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f804d2bb503d4f3f02"),
+    client: "A",
+    timestamp: NumberLong("1738942968201")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f82725df19d595b16d"),
+    client: "B",
+    timestamp: NumberLong("1738942968216")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f8205672285fdd18b1"),
+    client: "B",
+    timestamp: NumberLong("1738942968324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f80ec17f7afc3d8c04"),
+    client: "B",
+    timestamp: NumberLong("1738942968431")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f8da33fd5fe9fa544f"),
+    client: "A",
+    timestamp: NumberLong("1738942968495")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f89163350befe678c1"),
+    client: "A",
+    timestamp: NumberLong("1738942968714")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f804d2bb503d4f3f03"),
+    client: "A",
+    timestamp: NumberLong("1738942968730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f82725df19d595b16e"),
+    client: "B",
+    timestamp: NumberLong("1738942968746")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f8205672285fdd18b2"),
+    client: "B",
+    timestamp: NumberLong("1738942968837")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f80ec17f7afc3d8c05"),
+    client: "B",
+    timestamp: NumberLong("1738942968948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f9da33fd5fe9fa5450"),
+    client: "A",
+    timestamp: NumberLong("1738942969011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f99163350befe678c2"),
+    client: "A",
+    timestamp: NumberLong("1738942969229")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f904d2bb503d4f3f04"),
+    client: "A",
+    timestamp: NumberLong("1738942969260")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f92725df19d595b16f"),
+    client: "B",
+    timestamp: NumberLong("1738942969260")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a629f9205672285fdd18b3"),
+    client: "B",
+    timestamp: NumberLong("1738942969352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a96a514181118bf6823"),
+    client: "A",
+    timestamp: NumberLong("1738943126123")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a97a514181118bf6824"),
+    client: "A",
+    timestamp: NumberLong("1738943127331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a97a514181118bf6825"),
+    client: "A",
+    timestamp: NumberLong("1738943127873")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a98a514181118bf6826"),
+    client: "A",
+    timestamp: NumberLong("1738943128408")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a98a514181118bf6827"),
+    client: "A",
+    timestamp: NumberLong("1738943128949")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a99a514181118bf6828"),
+    client: "A",
+    timestamp: NumberLong("1738943129491")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9aa514181118bf6829"),
+    client: "A",
+    timestamp: NumberLong("1738943130124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9aa514181118bf682a"),
+    client: "A",
+    timestamp: NumberLong("1738943130653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9ba514181118bf682b"),
+    client: "A",
+    timestamp: NumberLong("1738943131200")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9ba514181118bf682c"),
+    client: "A",
+    timestamp: NumberLong("1738943131747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9ca514181118bf682d"),
+    client: "A",
+    timestamp: NumberLong("1738943132277")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9ca514181118bf682e"),
+    client: "A",
+    timestamp: NumberLong("1738943132836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9da514181118bf682f"),
+    client: "A",
+    timestamp: NumberLong("1738943133381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9ea514181118bf6830"),
+    client: "A",
+    timestamp: NumberLong("1738943134365")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9ea514181118bf6831"),
+    client: "A",
+    timestamp: NumberLong("1738943134929")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62a9fa514181118bf6832"),
+    client: "A",
+    timestamp: NumberLong("1738943135471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa0a514181118bf6833"),
+    client: "A",
+    timestamp: NumberLong("1738943136019")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa0a514181118bf6834"),
+    client: "A",
+    timestamp: NumberLong("1738943136627")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa1a514181118bf6835"),
+    client: "A",
+    timestamp: NumberLong("1738943137171")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa1a514181118bf6836"),
+    client: "A",
+    timestamp: NumberLong("1738943137716")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa2a514181118bf6837"),
+    client: "A",
+    timestamp: NumberLong("1738943138246")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa2a514181118bf6838"),
+    client: "A",
+    timestamp: NumberLong("1738943138791")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa3a514181118bf6839"),
+    client: "A",
+    timestamp: NumberLong("1738943139323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa3a514181118bf683a"),
+    client: "A",
+    timestamp: NumberLong("1738943139865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa4a514181118bf683b"),
+    client: "A",
+    timestamp: NumberLong("1738943140406")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa4a514181118bf683c"),
+    client: "A",
+    timestamp: NumberLong("1738943140951")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa5a514181118bf683d"),
+    client: "A",
+    timestamp: NumberLong("1738943141480")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa6a514181118bf683e"),
+    client: "A",
+    timestamp: NumberLong("1738943142007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa6a514181118bf683f"),
+    client: "A",
+    timestamp: NumberLong("1738943142536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa7a514181118bf6840"),
+    client: "A",
+    timestamp: NumberLong("1738943143076")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa7a514181118bf6841"),
+    client: "A",
+    timestamp: NumberLong("1738943143620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa8a514181118bf6842"),
+    client: "A",
+    timestamp: NumberLong("1738943144166")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa8a514181118bf6843"),
+    client: "A",
+    timestamp: NumberLong("1738943144696")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa9a514181118bf6844"),
+    client: "A",
+    timestamp: NumberLong("1738943145225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aa9a514181118bf6845"),
+    client: "A",
+    timestamp: NumberLong("1738943145770")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaaa514181118bf6846"),
+    client: "A",
+    timestamp: NumberLong("1738943146317")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaaa514181118bf6847"),
+    client: "A",
+    timestamp: NumberLong("1738943146861")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaba514181118bf6848"),
+    client: "A",
+    timestamp: NumberLong("1738943147408")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaba514181118bf6849"),
+    client: "A",
+    timestamp: NumberLong("1738943147954")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaca514181118bf684a"),
+    client: "A",
+    timestamp: NumberLong("1738943148483")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aada514181118bf684b"),
+    client: "A",
+    timestamp: NumberLong("1738943149028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aada514181118bf684c"),
+    client: "A",
+    timestamp: NumberLong("1738943149556")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaea514181118bf684d"),
+    client: "A",
+    timestamp: NumberLong("1738943150085")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aaea514181118bf684e"),
+    client: "A",
+    timestamp: NumberLong("1738943150600")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aafa514181118bf684f"),
+    client: "A",
+    timestamp: NumberLong("1738943151117")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aafa514181118bf6850"),
+    client: "A",
+    timestamp: NumberLong("1738943151646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aae91a6cf60e5a6e078"),
+    client: "B",
+    timestamp: NumberLong("1738943150925")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab0a514181118bf6851"),
+    client: "A",
+    timestamp: NumberLong("1738943152188")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab091a6cf60e5a6e079"),
+    client: "B",
+    timestamp: NumberLong("1738943152375")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab0a514181118bf6852"),
+    client: "A",
+    timestamp: NumberLong("1738943152731")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab091a6cf60e5a6e07a"),
+    client: "B",
+    timestamp: NumberLong("1738943152919")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab1a514181118bf6853"),
+    client: "A",
+    timestamp: NumberLong("1738943153258")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab191a6cf60e5a6e07b"),
+    client: "B",
+    timestamp: NumberLong("1738943153459")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab1a514181118bf6854"),
+    client: "A",
+    timestamp: NumberLong("1738943153798")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab291a6cf60e5a6e07c"),
+    client: "B",
+    timestamp: NumberLong("1738943154003")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab2a514181118bf6855"),
+    client: "A",
+    timestamp: NumberLong("1738943154341")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab291a6cf60e5a6e07d"),
+    client: "B",
+    timestamp: NumberLong("1738943154542")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab2a514181118bf6856"),
+    client: "A",
+    timestamp: NumberLong("1738943154881")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab391a6cf60e5a6e07e"),
+    client: "B",
+    timestamp: NumberLong("1738943155083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab3a514181118bf6857"),
+    client: "A",
+    timestamp: NumberLong("1738943155423")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab391a6cf60e5a6e07f"),
+    client: "B",
+    timestamp: NumberLong("1738943155626")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab3a514181118bf6858"),
+    client: "A",
+    timestamp: NumberLong("1738943155952")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab491a6cf60e5a6e080"),
+    client: "B",
+    timestamp: NumberLong("1738943156171")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab4a514181118bf6859"),
+    client: "A",
+    timestamp: NumberLong("1738943156495")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab491a6cf60e5a6e081"),
+    client: "B",
+    timestamp: NumberLong("1738943156714")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab5a514181118bf685a"),
+    client: "A",
+    timestamp: NumberLong("1738943157040")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab591a6cf60e5a6e082"),
+    client: "B",
+    timestamp: NumberLong("1738943157243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab5a514181118bf685b"),
+    client: "A",
+    timestamp: NumberLong("1738943157570")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab591a6cf60e5a6e083"),
+    client: "B",
+    timestamp: NumberLong("1738943157789")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab6a514181118bf685c"),
+    client: "A",
+    timestamp: NumberLong("1738943158116")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab691a6cf60e5a6e084"),
+    client: "B",
+    timestamp: NumberLong("1738943158320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab6a514181118bf685d"),
+    client: "A",
+    timestamp: NumberLong("1738943158648")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab691a6cf60e5a6e085"),
+    client: "B",
+    timestamp: NumberLong("1738943158848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab7a514181118bf685e"),
+    client: "A",
+    timestamp: NumberLong("1738943159175")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab791a6cf60e5a6e086"),
+    client: "B",
+    timestamp: NumberLong("1738943159380")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab7a514181118bf685f"),
+    client: "A",
+    timestamp: NumberLong("1738943159720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab791a6cf60e5a6e087"),
+    client: "B",
+    timestamp: NumberLong("1738943159936")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab8a514181118bf6860"),
+    client: "A",
+    timestamp: NumberLong("1738943160265")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab891a6cf60e5a6e088"),
+    client: "B",
+    timestamp: NumberLong("1738943160482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab8a514181118bf6861"),
+    client: "A",
+    timestamp: NumberLong("1738943160809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab991a6cf60e5a6e089"),
+    client: "B",
+    timestamp: NumberLong("1738943161025")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab9a514181118bf6862"),
+    client: "A",
+    timestamp: NumberLong("1738943161336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab991a6cf60e5a6e08a"),
+    client: "B",
+    timestamp: NumberLong("1738943161568")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ab9a514181118bf6863"),
+    client: "A",
+    timestamp: NumberLong("1738943161877")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aba91a6cf60e5a6e08b"),
+    client: "B",
+    timestamp: NumberLong("1738943162109")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abaa514181118bf6864"),
+    client: "A",
+    timestamp: NumberLong("1738943162418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aba91a6cf60e5a6e08c"),
+    client: "B",
+    timestamp: NumberLong("1738943162653")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abaa514181118bf6865"),
+    client: "A",
+    timestamp: NumberLong("1738943162950")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abb91a6cf60e5a6e08d"),
+    client: "B",
+    timestamp: NumberLong("1738943163198")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abba514181118bf6866"),
+    client: "A",
+    timestamp: NumberLong("1738943163494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abb91a6cf60e5a6e08e"),
+    client: "B",
+    timestamp: NumberLong("1738943163727")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abca514181118bf6867"),
+    client: "A",
+    timestamp: NumberLong("1738943164038")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abc91a6cf60e5a6e08f"),
+    client: "B",
+    timestamp: NumberLong("1738943164270")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abca514181118bf6868"),
+    client: "A",
+    timestamp: NumberLong("1738943164564")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abc91a6cf60e5a6e090"),
+    client: "B",
+    timestamp: NumberLong("1738943164796")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abda514181118bf6869"),
+    client: "A",
+    timestamp: NumberLong("1738943165090")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abd91a6cf60e5a6e091"),
+    client: "B",
+    timestamp: NumberLong("1738943165325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abda514181118bf686a"),
+    client: "A",
+    timestamp: NumberLong("1738943165620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abd91a6cf60e5a6e092"),
+    client: "B",
+    timestamp: NumberLong("1738943165852")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abea514181118bf686b"),
+    client: "A",
+    timestamp: NumberLong("1738943166147")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abe91a6cf60e5a6e093"),
+    client: "B",
+    timestamp: NumberLong("1738943166377")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abea514181118bf686c"),
+    client: "A",
+    timestamp: NumberLong("1738943166672")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abe91a6cf60e5a6e094"),
+    client: "B",
+    timestamp: NumberLong("1738943166904")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abfa514181118bf686d"),
+    client: "A",
+    timestamp: NumberLong("1738943167201")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abf91a6cf60e5a6e095"),
+    client: "B",
+    timestamp: NumberLong("1738943167434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abfa514181118bf686e"),
+    client: "A",
+    timestamp: NumberLong("1738943167733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62abf91a6cf60e5a6e096"),
+    client: "B",
+    timestamp: NumberLong("1738943167968")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac0a514181118bf686f"),
+    client: "A",
+    timestamp: NumberLong("1738943168250")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac091a6cf60e5a6e097"),
+    client: "B",
+    timestamp: NumberLong("1738943168500")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac0a514181118bf6870"),
+    client: "A",
+    timestamp: NumberLong("1738943168782")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac191a6cf60e5a6e098"),
+    client: "B",
+    timestamp: NumberLong("1738943169046")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac1a514181118bf6871"),
+    client: "A",
+    timestamp: NumberLong("1738943169311")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac191a6cf60e5a6e099"),
+    client: "B",
+    timestamp: NumberLong("1738943169578")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac1a514181118bf6872"),
+    client: "A",
+    timestamp: NumberLong("1738943169856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac291a6cf60e5a6e09a"),
+    client: "B",
+    timestamp: NumberLong("1738943170108")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac2a514181118bf6873"),
+    client: "A",
+    timestamp: NumberLong("1738943170400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac291a6cf60e5a6e09b"),
+    client: "B",
+    timestamp: NumberLong("1738943170650")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac2a514181118bf6874"),
+    client: "A",
+    timestamp: NumberLong("1738943170935")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac391a6cf60e5a6e09c"),
+    client: "B",
+    timestamp: NumberLong("1738943171186")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac3a514181118bf6875"),
+    client: "A",
+    timestamp: NumberLong("1738943171466")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac391a6cf60e5a6e09d"),
+    client: "B",
+    timestamp: NumberLong("1738943171730")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac3a514181118bf6876"),
+    client: "A",
+    timestamp: NumberLong("1738943171991")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac491a6cf60e5a6e09e"),
+    client: "B",
+    timestamp: NumberLong("1738943172252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac4a514181118bf6877"),
+    client: "A",
+    timestamp: NumberLong("1738943172530")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac491a6cf60e5a6e09f"),
+    client: "B",
+    timestamp: NumberLong("1738943172793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac5a514181118bf6878"),
+    client: "A",
+    timestamp: NumberLong("1738943173073")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac591a6cf60e5a6e0a0"),
+    client: "B",
+    timestamp: NumberLong("1738943173324")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac5a514181118bf6879"),
+    client: "A",
+    timestamp: NumberLong("1738943173607")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac591a6cf60e5a6e0a1"),
+    client: "B",
+    timestamp: NumberLong("1738943173858")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac6a514181118bf687a"),
+    client: "A",
+    timestamp: NumberLong("1738943174150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac691a6cf60e5a6e0a2"),
+    client: "B",
+    timestamp: NumberLong("1738943174400")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac6a514181118bf687b"),
+    client: "A",
+    timestamp: NumberLong("1738943174667")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac691a6cf60e5a6e0a3"),
+    client: "B",
+    timestamp: NumberLong("1738943174932")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac7a514181118bf687c"),
+    client: "A",
+    timestamp: NumberLong("1738943175196")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac791a6cf60e5a6e0a4"),
+    client: "B",
+    timestamp: NumberLong("1738943175463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac7a514181118bf687d"),
+    client: "A",
+    timestamp: NumberLong("1738943175727")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac891a6cf60e5a6e0a5"),
+    client: "B",
+    timestamp: NumberLong("1738943176006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac8a514181118bf687e"),
+    client: "A",
+    timestamp: NumberLong("1738943176269")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac891a6cf60e5a6e0a6"),
+    client: "B",
+    timestamp: NumberLong("1738943176533")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac8a514181118bf687f"),
+    client: "A",
+    timestamp: NumberLong("1738943176797")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac991a6cf60e5a6e0a7"),
+    client: "B",
+    timestamp: NumberLong("1738943177075")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac9a514181118bf6880"),
+    client: "A",
+    timestamp: NumberLong("1738943177340")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac991a6cf60e5a6e0a8"),
+    client: "B",
+    timestamp: NumberLong("1738943177604")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ac9a514181118bf6881"),
+    client: "A",
+    timestamp: NumberLong("1738943177869")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aca91a6cf60e5a6e0a9"),
+    client: "B",
+    timestamp: NumberLong("1738943178149")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acaa514181118bf6882"),
+    client: "A",
+    timestamp: NumberLong("1738943178397")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aca91a6cf60e5a6e0aa"),
+    client: "B",
+    timestamp: NumberLong("1738943178692")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acaa514181118bf6883"),
+    client: "A",
+    timestamp: NumberLong("1738943178927")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acb91a6cf60e5a6e0ab"),
+    client: "B",
+    timestamp: NumberLong("1738943179236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acba514181118bf6884"),
+    client: "A",
+    timestamp: NumberLong("1738943179468")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acb91a6cf60e5a6e0ac"),
+    client: "B",
+    timestamp: NumberLong("1738943179779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acca514181118bf6885"),
+    client: "A",
+    timestamp: NumberLong("1738943180010")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acc91a6cf60e5a6e0ad"),
+    client: "B",
+    timestamp: NumberLong("1738943180320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acca514181118bf6886"),
+    client: "A",
+    timestamp: NumberLong("1738943180537")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acc91a6cf60e5a6e0ae"),
+    client: "B",
+    timestamp: NumberLong("1738943180862")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acda514181118bf6887"),
+    client: "A",
+    timestamp: NumberLong("1738943181079")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acd91a6cf60e5a6e0af"),
+    client: "B",
+    timestamp: NumberLong("1738943181389")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acda514181118bf6888"),
+    client: "A",
+    timestamp: NumberLong("1738943181620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acd91a6cf60e5a6e0b0"),
+    client: "B",
+    timestamp: NumberLong("1738943181927")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acea514181118bf6889"),
+    client: "A",
+    timestamp: NumberLong("1738943182144")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ace91a6cf60e5a6e0b1"),
+    client: "B",
+    timestamp: NumberLong("1738943182456")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acea514181118bf688a"),
+    client: "A",
+    timestamp: NumberLong("1738943182673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ace91a6cf60e5a6e0b2"),
+    client: "B",
+    timestamp: NumberLong("1738943182986")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acfa514181118bf688b"),
+    client: "A",
+    timestamp: NumberLong("1738943183203")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acf91a6cf60e5a6e0b3"),
+    client: "B",
+    timestamp: NumberLong("1738943183515")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62acfa514181118bf688c"),
+    client: "A",
+    timestamp: NumberLong("1738943183734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad091a6cf60e5a6e0b4"),
+    client: "B",
+    timestamp: NumberLong("1738943184058")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad0a514181118bf688d"),
+    client: "A",
+    timestamp: NumberLong("1738943184276")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad091a6cf60e5a6e0b5"),
+    client: "B",
+    timestamp: NumberLong("1738943184586")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad0a514181118bf688e"),
+    client: "A",
+    timestamp: NumberLong("1738943184801")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad191a6cf60e5a6e0b6"),
+    client: "B",
+    timestamp: NumberLong("1738943185114")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad1a514181118bf688f"),
+    client: "A",
+    timestamp: NumberLong("1738943185328")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad191a6cf60e5a6e0b7"),
+    client: "B",
+    timestamp: NumberLong("1738943185640")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad1a514181118bf6890"),
+    client: "A",
+    timestamp: NumberLong("1738943185856")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad291a6cf60e5a6e0b8"),
+    client: "B",
+    timestamp: NumberLong("1738943186184")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad2a514181118bf6891"),
+    client: "A",
+    timestamp: NumberLong("1738943186402")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad291a6cf60e5a6e0b9"),
+    client: "B",
+    timestamp: NumberLong("1738943186729")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad2a514181118bf6892"),
+    client: "A",
+    timestamp: NumberLong("1738943186962")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad391a6cf60e5a6e0ba"),
+    client: "B",
+    timestamp: NumberLong("1738943187275")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad3a514181118bf6893"),
+    client: "A",
+    timestamp: NumberLong("1738943187509")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad391a6cf60e5a6e0bb"),
+    client: "B",
+    timestamp: NumberLong("1738943187833")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad4a514181118bf6894"),
+    client: "A",
+    timestamp: NumberLong("1738943188038")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad491a6cf60e5a6e0bc"),
+    client: "B",
+    timestamp: NumberLong("1738943188353")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad4a514181118bf6895"),
+    client: "A",
+    timestamp: NumberLong("1738943188572")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad491a6cf60e5a6e0bd"),
+    client: "B",
+    timestamp: NumberLong("1738943188882")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad5a514181118bf6896"),
+    client: "A",
+    timestamp: NumberLong("1738943189102")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad591a6cf60e5a6e0be"),
+    client: "B",
+    timestamp: NumberLong("1738943189414")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad5a514181118bf6897"),
+    client: "A",
+    timestamp: NumberLong("1738943189646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad591a6cf60e5a6e0bf"),
+    client: "B",
+    timestamp: NumberLong("1738943189958")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad6a514181118bf6898"),
+    client: "A",
+    timestamp: NumberLong("1738943190191")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad691a6cf60e5a6e0c0"),
+    client: "B",
+    timestamp: NumberLong("1738943190504")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad6a514181118bf6899"),
+    client: "A",
+    timestamp: NumberLong("1738943190723")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad791a6cf60e5a6e0c1"),
+    client: "B",
+    timestamp: NumberLong("1738943191049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad7a514181118bf689a"),
+    client: "A",
+    timestamp: NumberLong("1738943191266")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad791a6cf60e5a6e0c2"),
+    client: "B",
+    timestamp: NumberLong("1738943191577")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad7a514181118bf689b"),
+    client: "A",
+    timestamp: NumberLong("1738943191809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad891a6cf60e5a6e0c3"),
+    client: "B",
+    timestamp: NumberLong("1738943192103")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad8a514181118bf689c"),
+    client: "A",
+    timestamp: NumberLong("1738943192351")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad891a6cf60e5a6e0c4"),
+    client: "B",
+    timestamp: NumberLong("1738943192632")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad8a514181118bf689d"),
+    client: "A",
+    timestamp: NumberLong("1738943192896")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad991a6cf60e5a6e0c5"),
+    client: "B",
+    timestamp: NumberLong("1738943193174")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad9a514181118bf689e"),
+    client: "A",
+    timestamp: NumberLong("1738943193425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad991a6cf60e5a6e0c6"),
+    client: "B",
+    timestamp: NumberLong("1738943193707")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ad9a514181118bf689f"),
+    client: "A",
+    timestamp: NumberLong("1738943193955")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ada91a6cf60e5a6e0c7"),
+    client: "B",
+    timestamp: NumberLong("1738943194236")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adaa514181118bf68a0"),
+    client: "A",
+    timestamp: NumberLong("1738943194499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ada91a6cf60e5a6e0c8"),
+    client: "B",
+    timestamp: NumberLong("1738943194765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adba514181118bf68a1"),
+    client: "A",
+    timestamp: NumberLong("1738943195031")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adb91a6cf60e5a6e0c9"),
+    client: "B",
+    timestamp: NumberLong("1738943195310")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adba514181118bf68a2"),
+    client: "A",
+    timestamp: NumberLong("1738943195575")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adb91a6cf60e5a6e0ca"),
+    client: "B",
+    timestamp: NumberLong("1738943195838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adca514181118bf68a3"),
+    client: "A",
+    timestamp: NumberLong("1738943196101")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adc91a6cf60e5a6e0cb"),
+    client: "B",
+    timestamp: NumberLong("1738943196365")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adca514181118bf68a4"),
+    client: "A",
+    timestamp: NumberLong("1738943196630")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62add91a6cf60e5a6e0cc"),
+    client: "B",
+    timestamp: NumberLong("1738943197157")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adda514181118bf68a5"),
+    client: "A",
+    timestamp: NumberLong("1738943197157")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62add91a6cf60e5a6e0cd"),
+    client: "B",
+    timestamp: NumberLong("1738943197688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adda514181118bf68a6"),
+    client: "A",
+    timestamp: NumberLong("1738943197688")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ade91a6cf60e5a6e0ce"),
+    client: "B",
+    timestamp: NumberLong("1738943198214")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adea514181118bf68a7"),
+    client: "A",
+    timestamp: NumberLong("1738943198214")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ade91a6cf60e5a6e0cf"),
+    client: "B",
+    timestamp: NumberLong("1738943198740")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adea514181118bf68a8"),
+    client: "A",
+    timestamp: NumberLong("1738943198755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adf91a6cf60e5a6e0d0"),
+    client: "B",
+    timestamp: NumberLong("1738943199278")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adfa514181118bf68a9"),
+    client: "A",
+    timestamp: NumberLong("1738943199293")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adf91a6cf60e5a6e0d1"),
+    client: "B",
+    timestamp: NumberLong("1738943199848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62adfa514181118bf68aa"),
+    client: "A",
+    timestamp: NumberLong("1738943199848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae091a6cf60e5a6e0d2"),
+    client: "B",
+    timestamp: NumberLong("1738943200440")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae0a514181118bf68ab"),
+    client: "A",
+    timestamp: NumberLong("1738943200488")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae091a6cf60e5a6e0d3"),
+    client: "B",
+    timestamp: NumberLong("1738943200984")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae1a514181118bf68ac"),
+    client: "A",
+    timestamp: NumberLong("1738943201060")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae191a6cf60e5a6e0d4"),
+    client: "B",
+    timestamp: NumberLong("1738943201528")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae1a514181118bf68ad"),
+    client: "A",
+    timestamp: NumberLong("1738943201606")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae291a6cf60e5a6e0d5"),
+    client: "B",
+    timestamp: NumberLong("1738943202089")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae2a514181118bf68ae"),
+    client: "A",
+    timestamp: NumberLong("1738943202150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae291a6cf60e5a6e0d6"),
+    client: "B",
+    timestamp: NumberLong("1738943202619")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae2a514181118bf68af"),
+    client: "A",
+    timestamp: NumberLong("1738943202681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae391a6cf60e5a6e0d7"),
+    client: "B",
+    timestamp: NumberLong("1738943203160")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae3a514181118bf68b0"),
+    client: "A",
+    timestamp: NumberLong("1738943203222")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae391a6cf60e5a6e0d8"),
+    client: "B",
+    timestamp: NumberLong("1738943203693")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae3a514181118bf68b1"),
+    client: "A",
+    timestamp: NumberLong("1738943203754")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae491a6cf60e5a6e0d9"),
+    client: "B",
+    timestamp: NumberLong("1738943204224")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae4a514181118bf68b2"),
+    client: "A",
+    timestamp: NumberLong("1738943204287")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae491a6cf60e5a6e0da"),
+    client: "B",
+    timestamp: NumberLong("1738943204765")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae4a514181118bf68b3"),
+    client: "A",
+    timestamp: NumberLong("1738943204827")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae591a6cf60e5a6e0db"),
+    client: "B",
+    timestamp: NumberLong("1738943205306")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae5a514181118bf68b4"),
+    client: "A",
+    timestamp: NumberLong("1738943205354")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae591a6cf60e5a6e0dc"),
+    client: "B",
+    timestamp: NumberLong("1738943205838")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae5a514181118bf68b5"),
+    client: "A",
+    timestamp: NumberLong("1738943205884")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae691a6cf60e5a6e0dd"),
+    client: "B",
+    timestamp: NumberLong("1738943206363")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae6a514181118bf68b6"),
+    client: "A",
+    timestamp: NumberLong("1738943206410")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae691a6cf60e5a6e0de"),
+    client: "B",
+    timestamp: NumberLong("1738943206888")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae6a514181118bf68b7"),
+    client: "A",
+    timestamp: NumberLong("1738943206935")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae791a6cf60e5a6e0df"),
+    client: "B",
+    timestamp: NumberLong("1738943207418")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae7a514181118bf68b8"),
+    client: "A",
+    timestamp: NumberLong("1738943207463")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae791a6cf60e5a6e0e0"),
+    client: "B",
+    timestamp: NumberLong("1738943207944")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae8a514181118bf68b9"),
+    client: "A",
+    timestamp: NumberLong("1738943208006")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae891a6cf60e5a6e0e1"),
+    client: "B",
+    timestamp: NumberLong("1738943208470")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae8a514181118bf68ba"),
+    client: "A",
+    timestamp: NumberLong("1738943208531")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae991a6cf60e5a6e0e2"),
+    client: "B",
+    timestamp: NumberLong("1738943209011")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae9a514181118bf68bb"),
+    client: "A",
+    timestamp: NumberLong("1738943209057")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae991a6cf60e5a6e0e3"),
+    client: "B",
+    timestamp: NumberLong("1738943209541")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62ae9a514181118bf68bc"),
+    client: "A",
+    timestamp: NumberLong("1738943209605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aea91a6cf60e5a6e0e4"),
+    client: "B",
+    timestamp: NumberLong("1738943210073")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeaa514181118bf68bd"),
+    client: "A",
+    timestamp: NumberLong("1738943210135")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aea91a6cf60e5a6e0e5"),
+    client: "B",
+    timestamp: NumberLong("1738943210602")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeaa514181118bf68be"),
+    client: "A",
+    timestamp: NumberLong("1738943210649")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeb91a6cf60e5a6e0e6"),
+    client: "B",
+    timestamp: NumberLong("1738943211132")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeba514181118bf68bf"),
+    client: "A",
+    timestamp: NumberLong("1738943211179")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeb91a6cf60e5a6e0e7"),
+    client: "B",
+    timestamp: NumberLong("1738943211659")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeba514181118bf68c0"),
+    client: "A",
+    timestamp: NumberLong("1738943211704")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aec91a6cf60e5a6e0e8"),
+    client: "B",
+    timestamp: NumberLong("1738943212189")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeca514181118bf68c1"),
+    client: "A",
+    timestamp: NumberLong("1738943212234")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aec91a6cf60e5a6e0e9"),
+    client: "B",
+    timestamp: NumberLong("1738943212713")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeca514181118bf68c2"),
+    client: "A",
+    timestamp: NumberLong("1738943212759")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aed91a6cf60e5a6e0ea"),
+    client: "B",
+    timestamp: NumberLong("1738943213243")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeda514181118bf68c3"),
+    client: "A",
+    timestamp: NumberLong("1738943213274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aed91a6cf60e5a6e0eb"),
+    client: "B",
+    timestamp: NumberLong("1738943213804")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeda514181118bf68c4"),
+    client: "A",
+    timestamp: NumberLong("1738943213835")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aee91a6cf60e5a6e0ec"),
+    client: "B",
+    timestamp: NumberLong("1738943214348")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aeea514181118bf68c5"),
+    client: "A",
+    timestamp: NumberLong("1738943214551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aee91a6cf60e5a6e0ed"),
+    client: "B",
+    timestamp: NumberLong("1738943214972")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aefa514181118bf68c6"),
+    client: "A",
+    timestamp: NumberLong("1738943215490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aef91a6cf60e5a6e0ee"),
+    client: "B",
+    timestamp: NumberLong("1738943215521")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af091a6cf60e5a6e0ef"),
+    client: "B",
+    timestamp: NumberLong("1738943216176")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af0a514181118bf68c7"),
+    client: "A",
+    timestamp: NumberLong("1738943216239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af091a6cf60e5a6e0f0"),
+    client: "B",
+    timestamp: NumberLong("1738943216848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af0a514181118bf68c8"),
+    client: "A",
+    timestamp: NumberLong("1738943216848")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af191a6cf60e5a6e0f1"),
+    client: "B",
+    timestamp: NumberLong("1738943217441")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af291a6cf60e5a6e0f2"),
+    client: "B",
+    timestamp: NumberLong("1738943218017")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af2a514181118bf68c9"),
+    client: "A",
+    timestamp: NumberLong("1738943218217")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af291a6cf60e5a6e0f3"),
+    client: "B",
+    timestamp: NumberLong("1738943218557")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af3a514181118bf68ca"),
+    client: "A",
+    timestamp: NumberLong("1738943219083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af391a6cf60e5a6e0f4"),
+    client: "B",
+    timestamp: NumberLong("1738943219114")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af391a6cf60e5a6e0f5"),
+    client: "B",
+    timestamp: NumberLong("1738943219663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af3a514181118bf68cb"),
+    client: "A",
+    timestamp: NumberLong("1738943219663")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af491a6cf60e5a6e0f6"),
+    client: "B",
+    timestamp: NumberLong("1738943220256")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af4a514181118bf68cc"),
+    client: "A",
+    timestamp: NumberLong("1738943220536")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af491a6cf60e5a6e0f7"),
+    client: "B",
+    timestamp: NumberLong("1738943220880")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af5a514181118bf68cd"),
+    client: "A",
+    timestamp: NumberLong("1738943221429")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af591a6cf60e5a6e0f8"),
+    client: "B",
+    timestamp: NumberLong("1738943221506")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af691a6cf60e5a6e0f9"),
+    client: "B",
+    timestamp: NumberLong("1738943222085")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af6a514181118bf68ce"),
+    client: "A",
+    timestamp: NumberLong("1738943222274")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af691a6cf60e5a6e0fa"),
+    client: "B",
+    timestamp: NumberLong("1738943222632")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af6a514181118bf68cf"),
+    client: "A",
+    timestamp: NumberLong("1738943222940")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af791a6cf60e5a6e0fb"),
+    client: "B",
+    timestamp: NumberLong("1738943223221")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af791a6cf60e5a6e0fc"),
+    client: "B",
+    timestamp: NumberLong("1738943223764")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af7a514181118bf68d0"),
+    client: "A",
+    timestamp: NumberLong("1738943223780")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af891a6cf60e5a6e0fd"),
+    client: "B",
+    timestamp: NumberLong("1738943224310")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af8a514181118bf68d1"),
+    client: "A",
+    timestamp: NumberLong("1738943224326")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af891a6cf60e5a6e0fe"),
+    client: "B",
+    timestamp: NumberLong("1738943224842")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af8a514181118bf68d2"),
+    client: "A",
+    timestamp: NumberLong("1738943224857")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af991a6cf60e5a6e0ff"),
+    client: "B",
+    timestamp: NumberLong("1738943225387")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af9a514181118bf68d3"),
+    client: "A",
+    timestamp: NumberLong("1738943225494")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62af991a6cf60e5a6e100"),
+    client: "B",
+    timestamp: NumberLong("1738943225962")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afaa514181118bf68d4"),
+    client: "A",
+    timestamp: NumberLong("1738943226070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afa91a6cf60e5a6e101"),
+    client: "B",
+    timestamp: NumberLong("1738943226551")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afaa514181118bf68d5"),
+    client: "A",
+    timestamp: NumberLong("1738943226627")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afb91a6cf60e5a6e102"),
+    client: "B",
+    timestamp: NumberLong("1738943227124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afba514181118bf68d6"),
+    client: "A",
+    timestamp: NumberLong("1738943227170")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afb91a6cf60e5a6e103"),
+    client: "B",
+    timestamp: NumberLong("1738943227686")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afba514181118bf68d7"),
+    client: "A",
+    timestamp: NumberLong("1738943227733")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afc91a6cf60e5a6e104"),
+    client: "B",
+    timestamp: NumberLong("1738943228228")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afca514181118bf68d8"),
+    client: "A",
+    timestamp: NumberLong("1738943228320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afc91a6cf60e5a6e105"),
+    client: "B",
+    timestamp: NumberLong("1738943228772")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afda514181118bf68d9"),
+    client: "A",
+    timestamp: NumberLong("1738943229087")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afd91a6cf60e5a6e106"),
+    client: "B",
+    timestamp: NumberLong("1738943229302")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afda514181118bf68da"),
+    client: "A",
+    timestamp: NumberLong("1738943229609")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afd91a6cf60e5a6e107"),
+    client: "B",
+    timestamp: NumberLong("1738943229828")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afea514181118bf68db"),
+    client: "A",
+    timestamp: NumberLong("1738943230138")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afe91a6cf60e5a6e108"),
+    client: "B",
+    timestamp: NumberLong("1738943230417")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afea514181118bf68dc"),
+    client: "A",
+    timestamp: NumberLong("1738943230715")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62afe91a6cf60e5a6e109"),
+    client: "B",
+    timestamp: NumberLong("1738943230965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62affa514181118bf68dd"),
+    client: "A",
+    timestamp: NumberLong("1738943231450")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62aff91a6cf60e5a6e10a"),
+    client: "B",
+    timestamp: NumberLong("1738943231514")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62affa514181118bf68de"),
+    client: "A",
+    timestamp: NumberLong("1738943231979")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0091a6cf60e5a6e10b"),
+    client: "B",
+    timestamp: NumberLong("1738943232041")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b00a514181118bf68df"),
+    client: "A",
+    timestamp: NumberLong("1738943232525")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0091a6cf60e5a6e10c"),
+    client: "B",
+    timestamp: NumberLong("1738943232586")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b01a514181118bf68e0"),
+    client: "A",
+    timestamp: NumberLong("1738943233083")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0191a6cf60e5a6e10d"),
+    client: "B",
+    timestamp: NumberLong("1738943233131")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b01a514181118bf68e1"),
+    client: "A",
+    timestamp: NumberLong("1738943233638")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0191a6cf60e5a6e10e"),
+    client: "B",
+    timestamp: NumberLong("1738943233669")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b02a514181118bf68e2"),
+    client: "A",
+    timestamp: NumberLong("1738943234185")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0291a6cf60e5a6e10f"),
+    client: "B",
+    timestamp: NumberLong("1738943234231")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b02a514181118bf68e3"),
+    client: "A",
+    timestamp: NumberLong("1738943234716")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0291a6cf60e5a6e110"),
+    client: "B",
+    timestamp: NumberLong("1738943234763")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b03a514181118bf68e4"),
+    client: "A",
+    timestamp: NumberLong("1738943235247")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0391a6cf60e5a6e111"),
+    client: "B",
+    timestamp: NumberLong("1738943235279")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b03a514181118bf68e5"),
+    client: "A",
+    timestamp: NumberLong("1738943235779")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0391a6cf60e5a6e112"),
+    client: "B",
+    timestamp: NumberLong("1738943235809")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b04a514181118bf68e6"),
+    client: "A",
+    timestamp: NumberLong("1738943236320")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0491a6cf60e5a6e113"),
+    client: "B",
+    timestamp: NumberLong("1738943236336")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b04a514181118bf68e7"),
+    client: "A",
+    timestamp: NumberLong("1738943236862")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0491a6cf60e5a6e114"),
+    client: "B",
+    timestamp: NumberLong("1738943236877")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b05a514181118bf68e8"),
+    client: "A",
+    timestamp: NumberLong("1738943237403")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0591a6cf60e5a6e115"),
+    client: "B",
+    timestamp: NumberLong("1738943237419")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b05a514181118bf68e9"),
+    client: "A",
+    timestamp: NumberLong("1738943237933")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0591a6cf60e5a6e116"),
+    client: "B",
+    timestamp: NumberLong("1738943237948")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b06a514181118bf68ea"),
+    client: "A",
+    timestamp: NumberLong("1738943238460")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0691a6cf60e5a6e117"),
+    client: "B",
+    timestamp: NumberLong("1738943238476")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b06a514181118bf68eb"),
+    client: "A",
+    timestamp: NumberLong("1738943238992")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0791a6cf60e5a6e118"),
+    client: "B",
+    timestamp: NumberLong("1738943239007")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0791a6cf60e5a6e119"),
+    client: "B",
+    timestamp: NumberLong("1738943239535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b07a514181118bf68ec"),
+    client: "A",
+    timestamp: NumberLong("1738943239535")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0891a6cf60e5a6e11a"),
+    client: "B",
+    timestamp: NumberLong("1738943240063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b08a514181118bf68ed"),
+    client: "A",
+    timestamp: NumberLong("1738943240063")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b08a514181118bf68ee"),
+    client: "A",
+    timestamp: NumberLong("1738943240589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0891a6cf60e5a6e11b"),
+    client: "B",
+    timestamp: NumberLong("1738943240589")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b09a514181118bf68ef"),
+    client: "A",
+    timestamp: NumberLong("1738943241119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0991a6cf60e5a6e11c"),
+    client: "B",
+    timestamp: NumberLong("1738943241119")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b09a514181118bf68f0"),
+    client: "A",
+    timestamp: NumberLong("1738943241646")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0991a6cf60e5a6e11d"),
+    client: "B",
+    timestamp: NumberLong("1738943241675")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0aa514181118bf68f1"),
+    client: "A",
+    timestamp: NumberLong("1738943242169")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0a91a6cf60e5a6e11e"),
+    client: "B",
+    timestamp: NumberLong("1738943242215")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0aa514181118bf68f2"),
+    client: "A",
+    timestamp: NumberLong("1738943242709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0a91a6cf60e5a6e11f"),
+    client: "B",
+    timestamp: NumberLong("1738943242740")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0ba514181118bf68f3"),
+    client: "A",
+    timestamp: NumberLong("1738943243237")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0b91a6cf60e5a6e120"),
+    client: "B",
+    timestamp: NumberLong("1738943243269")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0ba514181118bf68f4"),
+    client: "A",
+    timestamp: NumberLong("1738943243764")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0b91a6cf60e5a6e121"),
+    client: "B",
+    timestamp: NumberLong("1738943243795")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0ca514181118bf68f5"),
+    client: "A",
+    timestamp: NumberLong("1738943244293")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0c91a6cf60e5a6e122"),
+    client: "B",
+    timestamp: NumberLong("1738943244323")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0ca514181118bf68f6"),
+    client: "A",
+    timestamp: NumberLong("1738943244836")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0c91a6cf60e5a6e123"),
+    client: "B",
+    timestamp: NumberLong("1738943244851")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0da514181118bf68f7"),
+    client: "A",
+    timestamp: NumberLong("1738943245366")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0d91a6cf60e5a6e124"),
+    client: "B",
+    timestamp: NumberLong("1738943245381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0d91a6cf60e5a6e125"),
+    client: "B",
+    timestamp: NumberLong("1738943245898")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0e91a6cf60e5a6e126"),
+    client: "B",
+    timestamp: NumberLong("1738943246428")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0e91a6cf60e5a6e127"),
+    client: "B",
+    timestamp: NumberLong("1738943246960")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b0f91a6cf60e5a6e128"),
+    client: "B",
+    timestamp: NumberLong("1738943247490")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1091a6cf60e5a6e129"),
+    client: "B",
+    timestamp: NumberLong("1738943248034")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1091a6cf60e5a6e12a"),
+    client: "B",
+    timestamp: NumberLong("1738943248565")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1191a6cf60e5a6e12b"),
+    client: "B",
+    timestamp: NumberLong("1738943249091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1191a6cf60e5a6e12c"),
+    client: "B",
+    timestamp: NumberLong("1738943249622")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1291a6cf60e5a6e12d"),
+    client: "B",
+    timestamp: NumberLong("1738943250151")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1291a6cf60e5a6e12e"),
+    client: "B",
+    timestamp: NumberLong("1738943250679")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1391a6cf60e5a6e12f"),
+    client: "B",
+    timestamp: NumberLong("1738943251225")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1391a6cf60e5a6e130"),
+    client: "B",
+    timestamp: NumberLong("1738943251755")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1491a6cf60e5a6e131"),
+    client: "B",
+    timestamp: NumberLong("1738943252284")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1491a6cf60e5a6e132"),
+    client: "B",
+    timestamp: NumberLong("1738943252824")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1591a6cf60e5a6e133"),
+    client: "B",
+    timestamp: NumberLong("1738943253339")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1591a6cf60e5a6e134"),
+    client: "B",
+    timestamp: NumberLong("1738943253865")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1691a6cf60e5a6e135"),
+    client: "B",
+    timestamp: NumberLong("1738943254384")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1691a6cf60e5a6e136"),
+    client: "B",
+    timestamp: NumberLong("1738943254909")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b16740d2b22ff45b9cc"),
+    client: "A",
+    timestamp: NumberLong("1738943254258")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1791a6cf60e5a6e137"),
+    client: "B",
+    timestamp: NumberLong("1738943255425")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b17740d2b22ff45b9cd"),
+    client: "A",
+    timestamp: NumberLong("1738943255471")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1791a6cf60e5a6e138"),
+    client: "B",
+    timestamp: NumberLong("1738943255957")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b18740d2b22ff45b9ce"),
+    client: "A",
+    timestamp: NumberLong("1738943256019")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1891a6cf60e5a6e139"),
+    client: "B",
+    timestamp: NumberLong("1738943256482")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b18740d2b22ff45b9cf"),
+    client: "A",
+    timestamp: NumberLong("1738943256560")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1991a6cf60e5a6e13a"),
+    client: "B",
+    timestamp: NumberLong("1738943257028")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b19740d2b22ff45b9d0"),
+    client: "A",
+    timestamp: NumberLong("1738943257090")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1991a6cf60e5a6e13b"),
+    client: "B",
+    timestamp: NumberLong("1738943257558")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b19740d2b22ff45b9d1"),
+    client: "A",
+    timestamp: NumberLong("1738943257621")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1a91a6cf60e5a6e13c"),
+    client: "B",
+    timestamp: NumberLong("1738943258088")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1a740d2b22ff45b9d2"),
+    client: "A",
+    timestamp: NumberLong("1738943258164")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1a91a6cf60e5a6e13d"),
+    client: "B",
+    timestamp: NumberLong("1738943258616")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1a740d2b22ff45b9d3"),
+    client: "A",
+    timestamp: NumberLong("1738943258709")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1b91a6cf60e5a6e13e"),
+    client: "B",
+    timestamp: NumberLong("1738943259146")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1b740d2b22ff45b9d4"),
+    client: "A",
+    timestamp: NumberLong("1738943259255")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1b91a6cf60e5a6e13f"),
+    client: "B",
+    timestamp: NumberLong("1738943259673")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1b740d2b22ff45b9d5"),
+    client: "A",
+    timestamp: NumberLong("1738943259799")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1c91a6cf60e5a6e140"),
+    client: "B",
+    timestamp: NumberLong("1738943260219")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1c740d2b22ff45b9d6"),
+    client: "A",
+    timestamp: NumberLong("1738943260342")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1c91a6cf60e5a6e141"),
+    client: "B",
+    timestamp: NumberLong("1738943260747")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1c740d2b22ff45b9d7"),
+    client: "A",
+    timestamp: NumberLong("1738943260871")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1d91a6cf60e5a6e142"),
+    client: "B",
+    timestamp: NumberLong("1738943261275")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1d740d2b22ff45b9d8"),
+    client: "A",
+    timestamp: NumberLong("1738943261415")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1d91a6cf60e5a6e143"),
+    client: "B",
+    timestamp: NumberLong("1738943261803")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1d740d2b22ff45b9d9"),
+    client: "A",
+    timestamp: NumberLong("1738943261959")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1e91a6cf60e5a6e144"),
+    client: "B",
+    timestamp: NumberLong("1738943262331")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1e740d2b22ff45b9da"),
+    client: "A",
+    timestamp: NumberLong("1738943262502")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1e91a6cf60e5a6e145"),
+    client: "B",
+    timestamp: NumberLong("1738943262861")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1f740d2b22ff45b9db"),
+    client: "A",
+    timestamp: NumberLong("1738943263049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1f91a6cf60e5a6e146"),
+    client: "B",
+    timestamp: NumberLong("1738943263388")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1f740d2b22ff45b9dc"),
+    client: "A",
+    timestamp: NumberLong("1738943263576")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b1f91a6cf60e5a6e147"),
+    client: "B",
+    timestamp: NumberLong("1738943263917")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b20740d2b22ff45b9dd"),
+    client: "A",
+    timestamp: NumberLong("1738943264117")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2091a6cf60e5a6e148"),
+    client: "B",
+    timestamp: NumberLong("1738943264457")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b20740d2b22ff45b9de"),
+    client: "A",
+    timestamp: NumberLong("1738943264657")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2091a6cf60e5a6e149"),
+    client: "B",
+    timestamp: NumberLong("1738943264997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b21740d2b22ff45b9df"),
+    client: "A",
+    timestamp: NumberLong("1738943265202")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2191a6cf60e5a6e14a"),
+    client: "B",
+    timestamp: NumberLong("1738943265511")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2291a6cf60e5a6e14b"),
+    client: "B",
+    timestamp: NumberLong("1738943266039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b22740d2b22ff45b9e0"),
+    client: "A",
+    timestamp: NumberLong("1738943266070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2291a6cf60e5a6e14c"),
+    client: "B",
+    timestamp: NumberLong("1738943266582")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b22740d2b22ff45b9e1"),
+    client: "A",
+    timestamp: NumberLong("1738943266597")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b23740d2b22ff45b9e2"),
+    client: "A",
+    timestamp: NumberLong("1738943267124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2391a6cf60e5a6e14d"),
+    client: "B",
+    timestamp: NumberLong("1738943267124")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2391a6cf60e5a6e14e"),
+    client: "B",
+    timestamp: NumberLong("1738943267658")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b23740d2b22ff45b9e3"),
+    client: "A",
+    timestamp: NumberLong("1738943267674")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2491a6cf60e5a6e14f"),
+    client: "B",
+    timestamp: NumberLong("1738943268451")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b24740d2b22ff45b9e4"),
+    client: "A",
+    timestamp: NumberLong("1738943268499")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2591a6cf60e5a6e150"),
+    client: "B",
+    timestamp: NumberLong("1738943269091")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b25740d2b22ff45b9e5"),
+    client: "A",
+    timestamp: NumberLong("1738943269152")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2591a6cf60e5a6e151"),
+    client: "B",
+    timestamp: NumberLong("1738943269681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b25740d2b22ff45b9e6"),
+    client: "A",
+    timestamp: NumberLong("1738943269681")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2691a6cf60e5a6e152"),
+    client: "B",
+    timestamp: NumberLong("1738943270508")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b26740d2b22ff45b9e7"),
+    client: "A",
+    timestamp: NumberLong("1738943270508")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2791a6cf60e5a6e153"),
+    client: "B",
+    timestamp: NumberLong("1738943271039")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b27740d2b22ff45b9e8"),
+    client: "A",
+    timestamp: NumberLong("1738943271070")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2791a6cf60e5a6e154"),
+    client: "B",
+    timestamp: NumberLong("1738943271568")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b28740d2b22ff45b9e9"),
+    client: "A",
+    timestamp: NumberLong("1738943272079")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2891a6cf60e5a6e155"),
+    client: "B",
+    timestamp: NumberLong("1738943272095")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2891a6cf60e5a6e156"),
+    client: "B",
+    timestamp: NumberLong("1738943272621")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b28740d2b22ff45b9ea"),
+    client: "A",
+    timestamp: NumberLong("1738943272605")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2991a6cf60e5a6e157"),
+    client: "B",
+    timestamp: NumberLong("1738943273150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b29740d2b22ff45b9eb"),
+    client: "A",
+    timestamp: NumberLong("1738943273150")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2991a6cf60e5a6e158"),
+    client: "B",
+    timestamp: NumberLong("1738943273677")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b29740d2b22ff45b9ec"),
+    client: "A",
+    timestamp: NumberLong("1738943273677")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2a91a6cf60e5a6e159"),
+    client: "B",
+    timestamp: NumberLong("1738943274203")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2a740d2b22ff45b9ed"),
+    client: "A",
+    timestamp: NumberLong("1738943274203")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2a91a6cf60e5a6e15a"),
+    client: "B",
+    timestamp: NumberLong("1738943274734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2a740d2b22ff45b9ee"),
+    client: "A",
+    timestamp: NumberLong("1738943274734")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2b91a6cf60e5a6e15b"),
+    client: "B",
+    timestamp: NumberLong("1738943275266")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2b740d2b22ff45b9ef"),
+    client: "A",
+    timestamp: NumberLong("1738943275281")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2b91a6cf60e5a6e15c"),
+    client: "B",
+    timestamp: NumberLong("1738943275792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2b740d2b22ff45b9f0"),
+    client: "A",
+    timestamp: NumberLong("1738943275823")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2c91a6cf60e5a6e15d"),
+    client: "B",
+    timestamp: NumberLong("1738943276321")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2c740d2b22ff45b9f1"),
+    client: "A",
+    timestamp: NumberLong("1738943276385")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2c91a6cf60e5a6e15e"),
+    client: "B",
+    timestamp: NumberLong("1738943276849")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2c740d2b22ff45b9f2"),
+    client: "A",
+    timestamp: NumberLong("1738943276926")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2d91a6cf60e5a6e15f"),
+    client: "B",
+    timestamp: NumberLong("1738943277379")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2d740d2b22ff45b9f3"),
+    client: "A",
+    timestamp: NumberLong("1738943277487")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2d91a6cf60e5a6e160"),
+    client: "B",
+    timestamp: NumberLong("1738943277905")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2e740d2b22ff45b9f4"),
+    client: "A",
+    timestamp: NumberLong("1738943278029")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2e91a6cf60e5a6e161"),
+    client: "B",
+    timestamp: NumberLong("1738943278435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2e740d2b22ff45b9f5"),
+    client: "A",
+    timestamp: NumberLong("1738943278575")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2e91a6cf60e5a6e162"),
+    client: "B",
+    timestamp: NumberLong("1738943278965")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2f740d2b22ff45b9f6"),
+    client: "A",
+    timestamp: NumberLong("1738943279121")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2f91a6cf60e5a6e163"),
+    client: "B",
+    timestamp: NumberLong("1738943279510")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b2f740d2b22ff45b9f7"),
+    client: "A",
+    timestamp: NumberLong("1738943279665")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3091a6cf60e5a6e164"),
+    client: "B",
+    timestamp: NumberLong("1738943280037")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b30740d2b22ff45b9f8"),
+    client: "A",
+    timestamp: NumberLong("1738943280207")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3091a6cf60e5a6e165"),
+    client: "B",
+    timestamp: NumberLong("1738943280578")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b30740d2b22ff45b9f9"),
+    client: "A",
+    timestamp: NumberLong("1738943280748")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3191a6cf60e5a6e166"),
+    client: "B",
+    timestamp: NumberLong("1738943281108")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b31740d2b22ff45b9fa"),
+    client: "A",
+    timestamp: NumberLong("1738943281279")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3191a6cf60e5a6e167"),
+    client: "B",
+    timestamp: NumberLong("1738943281638")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b31740d2b22ff45b9fb"),
+    client: "A",
+    timestamp: NumberLong("1738943281824")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3291a6cf60e5a6e168"),
+    client: "B",
+    timestamp: NumberLong("1738943282180")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b32740d2b22ff45b9fc"),
+    client: "A",
+    timestamp: NumberLong("1738943282364")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3291a6cf60e5a6e169"),
+    client: "B",
+    timestamp: NumberLong("1738943282720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b32740d2b22ff45b9fd"),
+    client: "A",
+    timestamp: NumberLong("1738943282906")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3391a6cf60e5a6e16a"),
+    client: "B",
+    timestamp: NumberLong("1738943283263")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b33740d2b22ff45b9fe"),
+    client: "A",
+    timestamp: NumberLong("1738943283434")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3391a6cf60e5a6e16b"),
+    client: "B",
+    timestamp: NumberLong("1738943283793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b33740d2b22ff45b9ff"),
+    client: "A",
+    timestamp: NumberLong("1738943283978")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3491a6cf60e5a6e16c"),
+    client: "B",
+    timestamp: NumberLong("1738943284332")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b34740d2b22ff45ba00"),
+    client: "A",
+    timestamp: NumberLong("1738943284522")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3491a6cf60e5a6e16d"),
+    client: "B",
+    timestamp: NumberLong("1738943284863")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b35740d2b22ff45ba01"),
+    client: "A",
+    timestamp: NumberLong("1738943285049")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3591a6cf60e5a6e16e"),
+    client: "B",
+    timestamp: NumberLong("1738943285378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b35740d2b22ff45ba02"),
+    client: "A",
+    timestamp: NumberLong("1738943285578")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3591a6cf60e5a6e16f"),
+    client: "B",
+    timestamp: NumberLong("1738943285907")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b36740d2b22ff45ba03"),
+    client: "A",
+    timestamp: NumberLong("1738943286109")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3691a6cf60e5a6e170"),
+    client: "B",
+    timestamp: NumberLong("1738943286435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b36740d2b22ff45ba04"),
+    client: "A",
+    timestamp: NumberLong("1738943286793")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3691a6cf60e5a6e171"),
+    client: "B",
+    timestamp: NumberLong("1738943286963")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b37740d2b22ff45ba05"),
+    client: "A",
+    timestamp: NumberLong("1738943287325")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3791a6cf60e5a6e172"),
+    client: "B",
+    timestamp: NumberLong("1738943287513")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b37740d2b22ff45ba06"),
+    client: "A",
+    timestamp: NumberLong("1738943287869")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3891a6cf60e5a6e173"),
+    client: "B",
+    timestamp: NumberLong("1738943288040")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b38740d2b22ff45ba07"),
+    client: "A",
+    timestamp: NumberLong("1738943288444")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3891a6cf60e5a6e174"),
+    client: "B",
+    timestamp: NumberLong("1738943288615")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b39740d2b22ff45ba08"),
+    client: "A",
+    timestamp: NumberLong("1738943289008")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3991a6cf60e5a6e175"),
+    client: "B",
+    timestamp: NumberLong("1738943289239")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b39740d2b22ff45ba09"),
+    client: "A",
+    timestamp: NumberLong("1738943289534")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3991a6cf60e5a6e176"),
+    client: "B",
+    timestamp: NumberLong("1738943289783")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3a740d2b22ff45ba0a"),
+    client: "A",
+    timestamp: NumberLong("1738943290172")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3a91a6cf60e5a6e177"),
+    client: "B",
+    timestamp: NumberLong("1738943290374")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3a740d2b22ff45ba0b"),
+    client: "A",
+    timestamp: NumberLong("1738943290729")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3a91a6cf60e5a6e178"),
+    client: "B",
+    timestamp: NumberLong("1738943290915")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3b740d2b22ff45ba0c"),
+    client: "A",
+    timestamp: NumberLong("1738943291352")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3b91a6cf60e5a6e179"),
+    client: "B",
+    timestamp: NumberLong("1738943291478")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3c91a6cf60e5a6e17a"),
+    client: "B",
+    timestamp: NumberLong("1738943292021")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3b740d2b22ff45ba0d"),
+    client: "A",
+    timestamp: NumberLong("1738943291912")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3c91a6cf60e5a6e17b"),
+    client: "B",
+    timestamp: NumberLong("1738943292644")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3c740d2b22ff45ba0e"),
+    client: "A",
+    timestamp: NumberLong("1738943292997")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3d91a6cf60e5a6e17c"),
+    client: "B",
+    timestamp: NumberLong("1738943293199")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3d740d2b22ff45ba0f"),
+    client: "A",
+    timestamp: NumberLong("1738943293557")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3d91a6cf60e5a6e17d"),
+    client: "B",
+    timestamp: NumberLong("1738943293726")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3e740d2b22ff45ba10"),
+    client: "A",
+    timestamp: NumberLong("1738943294253")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3e91a6cf60e5a6e17e"),
+    client: "B",
+    timestamp: NumberLong("1738943294268")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3e91a6cf60e5a6e17f"),
+    client: "B",
+    timestamp: NumberLong("1738943294844")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3e740d2b22ff45ba11"),
+    client: "A",
+    timestamp: NumberLong("1738943294844")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3f740d2b22ff45ba12"),
+    client: "A",
+    timestamp: NumberLong("1738943295394")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b3f91a6cf60e5a6e180"),
+    client: "B",
+    timestamp: NumberLong("1738943295378")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4091a6cf60e5a6e181"),
+    client: "B",
+    timestamp: NumberLong("1738943296014")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b40740d2b22ff45ba13"),
+    client: "A",
+    timestamp: NumberLong("1738943296030")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4091a6cf60e5a6e182"),
+    client: "B",
+    timestamp: NumberLong("1738943296792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b40740d2b22ff45ba14"),
+    client: "A",
+    timestamp: NumberLong("1738943296792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4191a6cf60e5a6e183"),
+    client: "B",
+    timestamp: NumberLong("1738943297381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b41740d2b22ff45ba15"),
+    client: "A",
+    timestamp: NumberLong("1738943297381")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b41740d2b22ff45ba16"),
+    client: "A",
+    timestamp: NumberLong("1738943297956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4191a6cf60e5a6e184"),
+    client: "B",
+    timestamp: NumberLong("1738943297956")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4291a6cf60e5a6e185"),
+    client: "B",
+    timestamp: NumberLong("1738943298720")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b42740d2b22ff45ba17"),
+    client: "A",
+    timestamp: NumberLong("1738943298750")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b43740d2b22ff45ba18"),
+    client: "A",
+    timestamp: NumberLong("1738943299299")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4391a6cf60e5a6e186"),
+    client: "B",
+    timestamp: NumberLong("1738943299252")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4391a6cf60e5a6e187"),
+    client: "B",
+    timestamp: NumberLong("1738943299872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b43740d2b22ff45ba19"),
+    client: "A",
+    timestamp: NumberLong("1738943299872")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4491a6cf60e5a6e188"),
+    client: "B",
+    timestamp: NumberLong("1738943300412")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b44740d2b22ff45ba1a"),
+    client: "A",
+    timestamp: NumberLong("1738943300412")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4491a6cf60e5a6e189"),
+    client: "B",
+    timestamp: NumberLong("1738943300943")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b44740d2b22ff45ba1b"),
+    client: "A",
+    timestamp: NumberLong("1738943300943")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4591a6cf60e5a6e18a"),
+    client: "B",
+    timestamp: NumberLong("1738943301508")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b45740d2b22ff45ba1c"),
+    client: "A",
+    timestamp: NumberLong("1738943301523")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4691a6cf60e5a6e18b"),
+    client: "B",
+    timestamp: NumberLong("1738943302051")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b46740d2b22ff45ba1d"),
+    client: "A",
+    timestamp: NumberLong("1738943302097")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4691a6cf60e5a6e18c"),
+    client: "B",
+    timestamp: NumberLong("1738943302594")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b46740d2b22ff45ba1e"),
+    client: "A",
+    timestamp: NumberLong("1738943302640")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4791a6cf60e5a6e18d"),
+    client: "B",
+    timestamp: NumberLong("1738943303181")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b47740d2b22ff45ba1f"),
+    client: "A",
+    timestamp: NumberLong("1738943303197")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4791a6cf60e5a6e18e"),
+    client: "B",
+    timestamp: NumberLong("1738943303819")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b47740d2b22ff45ba20"),
+    client: "A",
+    timestamp: NumberLong("1738943303835")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b48740d2b22ff45ba21"),
+    client: "A",
+    timestamp: NumberLong("1738943304426")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4891a6cf60e5a6e18f"),
+    client: "B",
+    timestamp: NumberLong("1738943304426")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4991a6cf60e5a6e190"),
+    client: "B",
+    timestamp: NumberLong("1738943305033")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b49740d2b22ff45ba22"),
+    client: "A",
+    timestamp: NumberLong("1738943305033")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b49740d2b22ff45ba23"),
+    client: "A",
+    timestamp: NumberLong("1738943305620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4991a6cf60e5a6e191"),
+    client: "B",
+    timestamp: NumberLong("1738943305620")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4a91a6cf60e5a6e192"),
+    client: "B",
+    timestamp: NumberLong("1738943306165")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4a740d2b22ff45ba24"),
+    client: "A",
+    timestamp: NumberLong("1738943306165")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4a740d2b22ff45ba25"),
+    client: "A",
+    timestamp: NumberLong("1738943306707")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4a91a6cf60e5a6e193"),
+    client: "B",
+    timestamp: NumberLong("1738943306707")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4b740d2b22ff45ba26"),
+    client: "A",
+    timestamp: NumberLong("1738943307249")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4b91a6cf60e5a6e194"),
+    client: "B",
+    timestamp: NumberLong("1738943307249")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4b91a6cf60e5a6e195"),
+    client: "B",
+    timestamp: NumberLong("1738943307792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4b740d2b22ff45ba27"),
+    client: "A",
+    timestamp: NumberLong("1738943307792")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4c91a6cf60e5a6e196"),
+    client: "B",
+    timestamp: NumberLong("1738943308367")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4c740d2b22ff45ba28"),
+    client: "A",
+    timestamp: NumberLong("1738943308660")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4c91a6cf60e5a6e197"),
+    client: "B",
+    timestamp: NumberLong("1738943308893")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4d740d2b22ff45ba29"),
+    client: "A",
+    timestamp: NumberLong("1738943309234")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4d91a6cf60e5a6e198"),
+    client: "B",
+    timestamp: NumberLong("1738943309435")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4d740d2b22ff45ba2a"),
+    client: "A",
+    timestamp: NumberLong("1738943309777")
+} ]);
+db.getCollection("myTestDrCollection").insert([ {
+    _id: ObjectId("67a62b4e740d2b22ff45ba2b"),
+    client: "A",
+    timestamp: NumberLong("1738943310322")
+} ]);

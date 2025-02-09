@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="LOG_DIR" value="logs" />
+
+    <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %highlight(%-5level) %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk menyimpan semua log tanpa rolling -->
+    <appender name="FILE_LOG" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/application.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk ClientA -->
+    <appender name="FILE_CLIENT_A" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/client_a.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk ClientB -->
+    <appender name="FILE_CLIENT_B" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/client_b.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk Ping -->
+    <appender name="FILE_PING" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/ping.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk Compare -->
+    <appender name="FILE_COMPARE" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/compare.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk VerVal -->
+    <appender name="FILE_VERVAL" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/verval.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender untuk Visual Query -->
+    <appender name="FILE_VISUAL_QUERY" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/visualquery.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logger untuk ClientA -->
+    <logger name="ClientA" level="TRACE" additivity="false">
+        <appender-ref ref="FILE_CLIENT_A"/>
+        <appender-ref ref="FILE_LOG"/> <!-- Simpan juga ke log utama -->
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Logger untuk ClientB -->
+    <logger name="ClientB" level="TRACE" additivity="false">
+        <appender-ref ref="FILE_CLIENT_B"/>
+        <appender-ref ref="FILE_LOG"/> <!-- Simpan juga ke log utama -->
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Logger untuk Ping -->
+    <logger name="Ping" level="TRACE" additivity="false">
+        <appender-ref ref="FILE_PING"/>
+        <appender-ref ref="FILE_LOG"/> <!-- Simpan juga ke log utama -->
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Logger untuk MongoDB Driver -->
+    <logger name="org.mongodb.driver" level="TRACE">
+        <appender-ref ref="FILE_LOG"/> <!-- Simpan semua log MongoDB ke log utama -->
+    </logger>
+
+    <!-- Logger untuk MongoDBComparator -->
+    <logger name="MongoDBComparator" level="TRACE" additivity="false">
+        <appender-ref ref="FILE_COMPARE"/> <!-- Simpan ke file compare.log -->
+        <appender-ref ref="FILE_LOG"/> <!-- Simpan juga ke log utama -->
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Logger untuk VerValMigrasi_Proses -->
+    <logger name="VerValMigrasi_Proses" level="TRACE" additivity="false">
+        <appender-ref ref="FILE_VERVAL"/>
+        <appender-ref ref="FILE_LOG"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Logger untuk VisualQuery -->
+    <logger name="VisualQuery" level="TRACE" additivity="false">
+        <appender-ref ref="FILE_VISUAL_QUERY"/>
+        <appender-ref ref="FILE_LOG"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <!-- Root Logger -->
+    <root level="TRACE">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE_LOG"/>
+    </root>
+
+</configuration>
