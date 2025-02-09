@@ -1,8 +1,0 @@
-2025-02-08 21:10:53.225 [main] INFO  MongoDBComparator - Memulai komparasi koleksi MongoDB
-2025-02-08 21:10:53.226 [main] INFO  MongoDBComparator - Database: myTestDrDb, Koleksi: myTestDrCollection
-2025-02-08 21:10:53.233 [main] INFO  MongoDBComparator - URI 1: mongodb://localhost:27017
-2025-02-08 21:10:53.234 [main] INFO  MongoDBComparator - URI 2: mongodb://arvino:Merdeka170845!@cluster-free-shard-00-00.w75zq.mongodb.net:27017,cluster-free-shard-00-01.w75zq.mongodb.net:27017,cluster-free-shard-00-02.w75zq.mongodb.net:27017/?ssl=true&replicaSet=atlas-cgj4jr-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster-free
-2025-02-08 21:10:53.236 [main] INFO  MongoDBComparator - Dokumen yang hanya ada di koleksi pertama (1 dokumen):
-2025-02-08 21:10:53.237 [main] INFO  MongoDBComparator - Document ID: 67a62b4e740d2b22ff45ba2b, Data: {"_id": {"$oid": "67a62b4e740d2b22ff45ba2b"}, "client": "Aaaaa", "timestamp": 1738943310322}
-2025-02-08 21:10:53.237 [main] INFO  MongoDBComparator - Dokumen yang hanya ada di koleksi kedua (1 dokumen):
-2025-02-08 21:10:53.238 [main] INFO  MongoDBComparator - Document ID: 67a62b4e740d2b22ff45ba2b, Data: {"_id": {"$oid": "67a62b4e740d2b22ff45ba2b"}, "client": "A", "timestamp": 1738943310322}
