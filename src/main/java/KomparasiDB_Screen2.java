@@ -31,6 +31,7 @@ public class KomparasiDB_Screen2 {
         JPanel buttonPanel = new JPanel();
         JButton btnBack = new JButton("Kembali");
         JButton btnStop = new JButton("Stop Proses");
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
 
         btnBack.addActionListener(e -> {
             frame.dispose();
@@ -44,8 +45,14 @@ public class KomparasiDB_Screen2 {
             }
         });
 
+        btnMainMenu.addActionListener(e -> {
+            frame.dispose();
+            MainMenu.showMenu();
+        });
+
         buttonPanel.add(btnBack);
         buttonPanel.add(btnStop);
+        buttonPanel.add(btnMainMenu);
 
         // Tambahkan footer
         JLabel footer = new JLabel("Develop By Arvino - Selamat Mencoba", SwingConstants.CENTER);
@@ -78,7 +85,9 @@ public class KomparasiDB_Screen2 {
                                 bw.write(finalLine + "\n");
                                 bw.flush();
                             } catch (IOException e) {
-                                logger.error("Error writing to log file", e);
+                                if (e instanceof IOException ioException) {
+                                    logger.error("Error writing to log file", ioException);
+                                }
                             }
                         });
                     }

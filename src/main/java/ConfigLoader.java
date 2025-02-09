@@ -6,27 +6,27 @@ import java.util.Properties;
 import java.io.File;
 
 public class ConfigLoader {
-    private static final String CONFIG_FILE = "mongodb_config.properties";  // Configuration file path
+    private static final String CONFIG_DIR = "config/";
     private static Properties properties = new Properties();
 
-    // Static block to load properties file when class is loaded
-    static {
-        try (FileInputStream fis = new FileInputStream(CONFIG_FILE)) {
+    public static void loadConfig(String moduleName) {
+        String configFile = CONFIG_DIR + moduleName + ".properties";
+        try (FileInputStream fis = new FileInputStream(configFile)) {
             properties.load(fis);
         } catch (IOException e) {
             System.err.println("Error loading configuration file: " + e.getMessage());
         }
     }
 
-    // Get a property by key
+    // Method get tetap sama, tapi sekarang akan membaca dari file yang sesuai
     public static String get(String key) {
-        return properties.getProperty(key, ""); // Default to an empty string if key doesn't exist
+        return properties.getProperty(key, "");
     }
 
     // Save a property key-value pair to the properties file
     public static void set(String key, String value) {
         properties.setProperty(key, value);
-        try (OutputStream output = new FileOutputStream(CONFIG_FILE)) {
+        try (OutputStream output = new FileOutputStream(CONFIG_DIR + key + ".properties")) {
             properties.store(output, null);
         } catch (IOException e) {
             System.err.println("Error saving configuration file: " + e.getMessage());
@@ -71,6 +71,25 @@ public class ConfigLoader {
         File logsDir = new File("logs");
         if (!logsDir.exists()) {
             logsDir.mkdirs();
+        }
+    }
+
+    public record MongoDBConfig(String uri, String dbName, String collection) {
+        public static MongoDBConfig load() {
+            return new MongoDBConfig(
+                properties.getProperty("URI"),
+                properties.getProperty("DB_NAME"),
+                properties.getProperty("COLLECTION")
+            );
+        }
+    }
+
+    public static void saveConfig(String moduleName, Properties properties) {
+        String configFile = CONFIG_DIR + moduleName + ".properties";
+        try (OutputStream output = new FileOutputStream(configFile)) {
+            properties.store(output, "Konfigurasi untuk " + moduleName);
+        } catch (IOException e) {
+            System.err.println("Error saving configuration file: " + e.getMessage());
         }
     }
 }

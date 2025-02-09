@@ -30,6 +30,7 @@ public class KomparasiDB_Screen1 {
 
         JButton btnSimpan = new JButton("Simpan Konfigurasi");
         JButton btnRunning = new JButton("Running Komparasi");
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
 
         panel.add(lblURI1);
         panel.add(txtURI1);
@@ -42,27 +43,23 @@ public class KomparasiDB_Screen1 {
         panel.add(lblCollection);
         panel.add(txtCollection);
         panel.add(btnSimpan);
+        panel.add(Box.createVerticalStrut(10));
         panel.add(btnRunning);
+        panel.add(Box.createVerticalStrut(10));
+        panel.add(btnMainMenu);
 
         btnSimpan.addActionListener((ActionEvent e) -> {
-            Properties properties = new Properties();
-            properties.setProperty("URI_DATABASE1", txtURI1.getText());
-            properties.setProperty("URI_DATABASE2", txtURI2.getText());
-            properties.setProperty("DB_NAME1", txtDBName1.getText());
-            properties.setProperty("DB_NAME2", txtDBName2.getText());
-            properties.setProperty("COLLECTION_NAME", txtCollection.getText());
-
-            try (FileOutputStream fos = new FileOutputStream("mongodb_config.properties")) {
-                properties.store(fos, "Konfigurasi Komparasi MongoDB");
-                JOptionPane.showMessageDialog(null, "Konfigurasi tersimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-            } catch (Exception ex) {
-                JOptionPane.showMessageDialog(null, "Gagal menyimpan konfigurasi!", "Error", JOptionPane.ERROR_MESSAGE);
-            }
+            saveProperties(txtURI1.getText(), txtURI2.getText(), txtDBName1.getText(), txtDBName2.getText(), txtCollection.getText());
         });
 
         btnRunning.addActionListener((ActionEvent e) -> {
             frame.dispose();
             KomparasiDB_Screen2.showScreen();
+        });
+
+        btnMainMenu.addActionListener(e -> {
+            frame.dispose();
+            MainMenu.showMenu();
         });
 
         // Tambahkan footer
@@ -73,5 +70,18 @@ public class KomparasiDB_Screen1 {
         frame.add(footer, BorderLayout.SOUTH);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+    }
+
+    private static void saveProperties(String uri1, String uri2, String dbName1, 
+                                      String dbName2, String collection) {
+        Properties properties = new Properties();
+        properties.setProperty("URI_DATABASE1", uri1);
+        properties.setProperty("URI_DATABASE2", uri2);
+        properties.setProperty("DB_NAME1", dbName1);
+        properties.setProperty("DB_NAME2", dbName2);
+        properties.setProperty("COLLECTION_NAME", collection);
+
+        ConfigLoader.saveConfig("komparasidb", properties);
+        JOptionPane.showMessageDialog(null, "Konfigurasi tersimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
     }
 } 

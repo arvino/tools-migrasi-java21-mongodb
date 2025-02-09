@@ -23,6 +23,7 @@ public class VerValMigrasi_Screen2 {
         JPanel buttonPanel = new JPanel();
         JButton btnBack = new JButton("Kembali");
         JButton btnStop = new JButton("Stop Proses");
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
 
         btnBack.addActionListener(e -> {
             frame.dispose();
@@ -36,8 +37,14 @@ public class VerValMigrasi_Screen2 {
             }
         });
 
+        btnMainMenu.addActionListener(e -> {
+            frame.dispose();
+            MainMenu.showMenu();
+        });
+
         buttonPanel.add(btnBack);
         buttonPanel.add(btnStop);
+        buttonPanel.add(btnMainMenu);
 
         // Tambahkan footer
         JLabel footer = new JLabel("Develop By Arvino - Selamat Mencoba", SwingConstants.CENTER);

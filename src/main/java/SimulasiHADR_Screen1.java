@@ -118,6 +118,7 @@ public class SimulasiHADR_Screen1 {
         gbc.gridx = 0;
         gbc.gridy++;
         gbc.gridwidth = 2;
+        panel.add(Box.createVerticalStrut(10), gbc);
         panel.add(saveButton, gbc);
 
         // Area untuk menampilkan isi file properties
@@ -137,12 +138,28 @@ public class SimulasiHADR_Screen1 {
 
         // Tombol Running Scenario
         JButton runButton = new JButton("Running Scenario HA/DR");
+        gbc.gridx = 0;
         gbc.gridy++;
+        gbc.gridwidth = 2;
+        panel.add(Box.createVerticalStrut(10), gbc);
         panel.add(runButton, gbc);
 
         runButton.addActionListener(e -> {
             frame.dispose();
             SimulasiHADR_Screen2.showLogScreen();
+        });
+
+        // Tombol Kembali ke Menu Utama
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
+        gbc.gridx = 0;
+        gbc.gridy++;
+        gbc.gridwidth = 2;
+        panel.add(Box.createVerticalStrut(10), gbc);
+        panel.add(btnMainMenu, gbc);
+
+        btnMainMenu.addActionListener(e -> {
+            frame.dispose();
+            MainMenu.showMenu();
         });
 
         // Footer
@@ -170,12 +187,8 @@ public class SimulasiHADR_Screen1 {
         properties.setProperty("KONEKSI_URI_PING", uriPing);
         properties.setProperty("INTERVAL_THREAD_SLEEP", interval);
 
-        try (FileOutputStream fos = new FileOutputStream("mongodb_config.properties")) {
-            properties.store(fos, "Konfigurasi Koneksi MongoDB Atlas");
-            JOptionPane.showMessageDialog(null, "Konfigurasi tersimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-        } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Gagal menyimpan konfigurasi!", "Error", JOptionPane.ERROR_MESSAGE);
-        }
+        ConfigLoader.saveConfig("simulasihadr", properties);
+        JOptionPane.showMessageDialog(null, "Konfigurasi tersimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
     }
 
     private static void loadProperties() {

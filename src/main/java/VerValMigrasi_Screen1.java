@@ -28,6 +28,7 @@ public class VerValMigrasi_Screen1 {
 
         JButton btnSimpan = new JButton("Simpan Konfigurasi");
         JButton btnRunning = new JButton("Running Verifikasi dan Validasi");
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
 
         panel.add(lblURI1);
         panel.add(txtURI1);
@@ -40,27 +41,23 @@ public class VerValMigrasi_Screen1 {
         panel.add(lblCollection);
         panel.add(txtCollection);
         panel.add(btnSimpan);
+        panel.add(Box.createVerticalStrut(10));
         panel.add(btnRunning);
+        panel.add(Box.createVerticalStrut(10));
+        panel.add(btnMainMenu);
 
         btnSimpan.addActionListener((ActionEvent e) -> {
-            Properties properties = new Properties();
-            properties.setProperty("URI_VERVAL_DATABASE1", txtURI1.getText());
-            properties.setProperty("URI_VERVAL_DATABASE2", txtURI2.getText());
-            properties.setProperty("VERVAL_DBNAME1", txtDBName1.getText());
-            properties.setProperty("VERVAL_DBNAME2", txtDBName2.getText());
-            properties.setProperty("VERVAL_COLLECTION", txtCollection.getText());
-
-            try (FileOutputStream fos = new FileOutputStream("mongodb_config.properties")) {
-                properties.store(fos, "Konfigurasi Verifikasi dan Validasi Migrasi MongoDB");
-                JOptionPane.showMessageDialog(null, "Konfigurasi tersimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-            } catch (Exception ex) {
-                JOptionPane.showMessageDialog(null, "Gagal menyimpan konfigurasi!", "Error", JOptionPane.ERROR_MESSAGE);
-            }
+            saveProperties(txtURI1.getText(), txtURI2.getText(), txtDBName1.getText(), txtDBName2.getText(), txtCollection.getText());
         });
 
         btnRunning.addActionListener((ActionEvent e) -> {
             frame.dispose();
             VerValMigrasi_Screen2.showScreen();
+        });
+
+        btnMainMenu.addActionListener((ActionEvent e) -> {
+            frame.dispose();
+            MainMenu.showMenu();
         });
 
         // Tambahkan footer
@@ -71,5 +68,18 @@ public class VerValMigrasi_Screen1 {
         frame.add(footer, BorderLayout.SOUTH);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+    }
+
+    private static void saveProperties(String uri1, String uri2, String dbName1, 
+                                      String dbName2, String collection) {
+        Properties properties = new Properties();
+        properties.setProperty("URI_VERVAL_DATABASE1", uri1);
+        properties.setProperty("URI_VERVAL_DATABASE2", uri2);
+        properties.setProperty("VERVAL_DBNAME1", dbName1);
+        properties.setProperty("VERVAL_DBNAME2", dbName2);
+        properties.setProperty("VERVAL_COLLECTION", collection);
+
+        ConfigLoader.saveConfig("vervalmigrasi", properties);
+        JOptionPane.showMessageDialog(null, "Konfigurasi tersimpan!", "Sukses", JOptionPane.INFORMATION_MESSAGE);
     }
 } 

@@ -82,6 +82,16 @@ public class SimulasiHADR_Screen2 {
         runScenarioButton.addActionListener(e -> startProcesses());
         bottomPanel.add(runScenarioButton, BorderLayout.WEST);
 
+        // Di dalam method showLogScreen(), tambahkan tombol baru
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
+        btnMainMenu.addActionListener(e -> {
+            frame.dispose();
+            MainMenu.showMenu();
+        });
+
+        // Tambahkan tombol ke buttonPanel
+        bottomPanel.add(btnMainMenu, BorderLayout.WEST);
+
         frame.setVisible(true);
     }
 

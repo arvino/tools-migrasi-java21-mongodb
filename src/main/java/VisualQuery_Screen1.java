@@ -21,18 +21,40 @@ public class VisualQuery_Screen1 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(3, 2));
+        JPanel panel = new JPanel(new GridBagLayout());
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.insets = new Insets(5, 5, 5, 5);
+        gbc.fill = GridBagConstraints.HORIZONTAL;
 
         JLabel uriLabel = new JLabel("MongoDB URI:");
-        uriField = new JTextField();
+        uriField = new JTextField(20);
+
         saveButton = new JButton("Save URI");
         verifyButton = new JButton("Running Verifikasi dan Validasi");
 
-        panel.add(uriLabel);
-        panel.add(uriField);
-        panel.add(saveButton);
-        panel.add(verifyButton);
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        panel.add(uriLabel, gbc);
+
+        gbc.gridy++;
+        panel.add(uriField, gbc);
+
+        gbc.gridy++;
+        panel.add(saveButton, gbc);
+
+        gbc.gridy++;
+        panel.add(verifyButton, gbc);
+
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
+        btnMainMenu.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose(); // Tutup frame saat ini
+                MainMenu.showMenu(); // Tampilkan menu utama
+            }
+        });
+        gbc.gridy++;
+        panel.add(btnMainMenu, gbc);
 
         add(panel);
 
@@ -58,16 +80,11 @@ public class VisualQuery_Screen1 extends JFrame {
             return;
         }
 
-        // Save the URI in mongodb_config.properties file
         Properties properties = new Properties();
-        try (OutputStream output = new FileOutputStream("mongodb_config.properties")) {
-            properties.setProperty("URI_visualquery", uri);
-            properties.store(output, null);
-            JOptionPane.showMessageDialog(this, "URI saved successfully!");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Error saving URI", "Error", JOptionPane.ERROR_MESSAGE);
-        }
+        properties.setProperty("URI_VISUALQUERY", uri);
+        
+        ConfigLoader.saveConfig("visualquery", properties);
+        JOptionPane.showMessageDialog(this, "URI saved successfully!");
     }
 
     private void openVisualQueryScreen2() {

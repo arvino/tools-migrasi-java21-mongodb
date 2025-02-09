@@ -53,9 +53,9 @@ Tools ini telah terintegrasi dengan fitur-fitur unggulan MongoDB Atlas seperti:
 Sebelum menjalankan aplikasi, pastikan sistem Anda memenuhi persyaratan berikut:
 
 ### **1. Java Development Kit (JDK)**
-- Versi minimal: **JDK 8 (1.8)**
-- Versi yang direkomendasikan: **Java SE 8u401**
-- Unduh JDK dari [situs resmi Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) atau [OpenJDK](https://openjdk.org/).
+- Versi minimal: **JDK 21**
+- Versi yang direkomendasikan: **Java SE 21 LTS**
+- Unduh dari [situs resmi Oracle](https://www.oracle.com/java/technologies/downloads/#java21)
 
 ### **2. Apache Maven**
 - Versi minimal: **Maven 3.3.1** atau lebih baru.
@@ -150,7 +150,7 @@ cd repository-name
 ### **2. Build Proyek**
 Jalankan perintah berikut untuk membangun proyek:
 ```bash
-mvn clean install
+mvn clean install -Djava.version=21
 ```
 
 ### **3. Menjalankan Aplikasi**
@@ -192,7 +192,7 @@ mvn clean install
 
 3. **Error Maven build**:
    - Pastikan Maven dan JDK sudah terinstal dengan benar.
-   - Jalankan perintah `mvn clean install` untuk membersihkan dan membangun ulang proyek.
+   - Jalankan perintah `mvn clean install -Djava.version=21` untuk membersihkan dan membangun ulang proyek.
 
 ---
 

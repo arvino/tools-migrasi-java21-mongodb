@@ -28,9 +28,16 @@ public class VisualQuery_Screen2 extends JFrame {
         resultArea.setEditable(false);
         JScrollPane resultScrollPane = new JScrollPane(resultArea);
 
+        JButton btnMainMenu = new JButton("Kembali ke Menu Utama");
+        btnMainMenu.addActionListener(e -> {
+            this.dispose();
+            MainMenu.showMenu();
+        });
+
         panel.add(queryScrollPane, BorderLayout.NORTH);
         panel.add(runQueryButton, BorderLayout.CENTER);
         panel.add(resultScrollPane, BorderLayout.SOUTH);
+        panel.add(btnMainMenu);
 
         add(panel);
 

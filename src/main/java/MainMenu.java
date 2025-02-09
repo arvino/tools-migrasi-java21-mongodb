@@ -7,7 +7,7 @@ public class MainMenu {
         SwingUtilities.invokeLater(MainMenu::showMenu);
     }
 
-    private static void showMenu() {
+    public static void showMenu() {
         JFrame frame = new JFrame("Main Menu");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 300);
@@ -20,21 +20,25 @@ public class MainMenu {
         JButton btnVisualQuery = new JButton("Visual Query Builder MongoDB Atlas");
 
         btnVerValMigrasi.addActionListener((ActionEvent e) -> {
+            ConfigLoader.loadConfig("vervalmigrasi");
             frame.dispose();
             VerValMigrasi_Screen1.showScreen();
         });
 
         btnSimulasiHADR.addActionListener((ActionEvent e) -> {
+            ConfigLoader.loadConfig("simulasihadr");
             frame.dispose();
             SimulasiHADR_Screen1.showScreen();
         });
 
         btnKomparasiMongoDB.addActionListener((ActionEvent e) -> {
+            ConfigLoader.loadConfig("komparasidb");
             frame.dispose();
             KomparasiDB_Screen1.showScreen();
         });
 
         btnVisualQuery.addActionListener((ActionEvent e) -> {
+            ConfigLoader.loadConfig("visualquery");
             frame.dispose();
             VisualQuery_Screen1.main(new String[]{});
         });
