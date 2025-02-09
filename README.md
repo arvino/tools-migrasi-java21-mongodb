@@ -41,13 +41,25 @@
 java -jar target/simulasi.jar
 ```
 
-## **Struktur Log**
+## **Struktur Log File**
+
 Aplikasi akan membuat folder `logs` otomatis dan menyimpan log dalam format berikut:
-- **Client Logs**: `client_a.log`, `client_b.log`
-- **Monitoring**: `ping.log`, `application.log`
-- **Komparasi**: `compare.log`
-- **Verifikasi**: `verval.log`
-- **Visual Query**: `visualquery.log`
+
+```
+logs/
+├── client_a.log        # Log untuk SimulasiHADR_ClientA
+├── client_b.log        # Log untuk SimulasiHADR_ClientB
+├── ping.log            # Log untuk SimulasiHADR_Ping
+├── application.log     # Log aplikasi utama
+├── compare.log         # Log untuk modul Komparasi DB
+├── verval.log          # Log untuk modul Verifikasi dan Validasi
+└── visualquery.log      # Log untuk modul Visual Query
+```
+
+**Catatan:**
+- Folder `logs` akan dibuat otomatis saat pertama kali aplikasi dijalankan
+- Setiap modul memiliki file log terpisah
+- Log disimpan dalam format tanggal, waktu, level, dan pesan
 
 ## **Troubleshooting**
 - **Log tidak terbentuk**: Pastikan folder `logs` memiliki hak akses write

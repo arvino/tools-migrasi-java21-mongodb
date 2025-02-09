@@ -8,6 +8,9 @@ public class MainMenu {
     }
 
     public static void showMenu() {
+        // Pastikan folder logs sudah dibuat
+        ConfigLoader.createLogsDirectory();
+        
         JFrame frame = new JFrame("Main Menu");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 300);
